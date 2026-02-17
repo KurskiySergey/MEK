@@ -1,5 +1,6 @@
 from handlers.server_handlers import sv_on_recieve_raw
 from main import configure_client_server
+import json
 
 if __name__ == "__main__":
     # start settings
@@ -18,5 +19,11 @@ if __name__ == "__main__":
     print("START SERVER")
     server.start()
     print("SERVER RUNNING...")
+    # save test file
+
+    test_json = [1 for _ in range(10)]
+    str_res = json.dumps(test_json)
+    server.save_data("test_2.json", file_data=str_res.encode("utf-8"))
+
     while True:
         ...

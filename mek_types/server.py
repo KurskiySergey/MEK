@@ -1,5 +1,6 @@
-from config import PROTOCOL_CONFIG
+from config import PROTOCOL_CONFIG, SERVER_DIR
 import c104
+import os
 import typing
 
 class MEKServer(c104.Server):
@@ -8,6 +9,14 @@ class MEKServer(c104.Server):
         self.__set_protocol_config()
         self.stations_batch = None
         self.meta_stations = None
+
+    def save_data(self, filename, file_data: bytes):
+        file_path = os.path.join(SERVER_DIR, filename)
+        if not os.path.exists(file_path):
+            with open(file_path, 'wb') as w_file:
+                w_file.write(file_data)
+        else:
+            print("filename already exists")
 
     def __set_protocol_config(self):
         self.protocol_parameters.message_timeout = PROTOCOL_CONFIG.message_timeout
