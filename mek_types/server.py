@@ -7,6 +7,7 @@ class MEKServer(c104.Server):
         super().__init__(ip=ip, port=port, max_connections=max_connections)
         self.__set_protocol_config()
         self.stations_batch = None
+        self.meta_stations = None
 
     def __set_protocol_config(self):
         self.protocol_parameters.message_timeout = PROTOCOL_CONFIG.message_timeout
@@ -15,6 +16,20 @@ class MEKServer(c104.Server):
         self.protocol_parameters.confirm_interval = PROTOCOL_CONFIG.confirm_interval
         # self.protocol_parameters.send_window_size = 1
         # self.protocol_parameters.receive_window_size = 1
+
+    def get_point(self, io_address):
+        sv_point = None
+        find_point = False
+        for station in self.stations:
+            for point in station.points:
+                if point.io_address == io_address:
+                    sv_point = point
+                    find_point = True
+                    break
+            if find_point:
+                break
+
+        return sv_point
 
     def __str__(self):
         res = super().__str__()

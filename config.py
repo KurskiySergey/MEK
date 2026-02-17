@@ -1,4 +1,5 @@
 from collections import namedtuple
+import os
 
 protocol_fieldnames = (
     "connection_timeout",
@@ -16,5 +17,15 @@ PROTOCOL_CONFIG.keep_alive_interval = 20
 
 
 SERVERS = [
-    ("127.0.0.1", 2404, 10) # ip , port, max_connections
+    ("10.10.17.105", 2404, 10) # ip , port, max_connections
 ]
+
+BASE_DIR = os.path.abspath(os.path.dirname(__file__))
+
+FILES_FOLDER = "files"
+SERVER_FOLDER = "server_side"
+CLIENT_FOLDER = "client_side"
+FILES_DIR = os.path.join(BASE_DIR, FILES_FOLDER)
+SERVER_DIR = os.path.join(FILES_DIR, SERVER_FOLDER)
+CLIENT_DIR = os.path.join(FILES_DIR, CLIENT_FOLDER)
+

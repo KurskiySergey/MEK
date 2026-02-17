@@ -2,6 +2,7 @@ from config import PROTOCOL_CONFIG
 from mek_types.batch import MEKBatch, StationsBatch
 import c104
 import time
+import socket
 
 
 class MEKClient(c104.Client):
@@ -10,6 +11,7 @@ class MEKClient(c104.Client):
         super().__init__()
         self.originator_address = client_address
         self.batches = StationsBatch()
+        self.meta_stations = None
 
     def set_protocol_config(self):
         for connection in self.connections:

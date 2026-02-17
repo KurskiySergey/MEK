@@ -5,9 +5,10 @@ from mek_types.batch import StationsBatch
 
 
 class DataVisualize:
-    def __init__(self, batch_size = 10):
+    def __init__(self, batch_size = 10, figsize = (12, 8)):
         self.cl_connection = None
         self.batch_size = batch_size
+        self.figsize = figsize
         self.batch_data = None
         self.info = np.zeros(shape=self.batch_size)
 
@@ -32,7 +33,8 @@ class DataVisualize:
 
 
     def update_data(self):
-        data_points = np.asarray([point.value for point in self.batch_data.points])
+        data_points = np.asarray([[point.value for point in batch.points] for batch in self.batch_data.batches])
+        # data_points = np.asarray([point.value for point in self.batch_data.points])
         self.info = data_points
         # if batch_count < self.batch_count:
         #     info_slice_shape = self.info[batch_count*self.batch_size:(batch_count + 1) * self.batch_size].shape[0]
@@ -51,7 +53,7 @@ class DataVisualize:
         plt.ion()  # Turn on interactive mode
 
         # Use a deque to maintain a fixed-size window of data
-        fig, ax = plt.subplots()
+        fig, ax = plt.subplots(figsize = self.figsize)
         line, = ax.plot(list(range(self.batch_size)), self.info)
         ax.set_ylim(-100, 100)  # Set y-axis limit
 

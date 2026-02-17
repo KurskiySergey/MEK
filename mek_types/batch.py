@@ -102,8 +102,11 @@ class StationsBatch:
             batch.transmit(on_respond=on_respond)
 
     def set_values(self, values):
+        func_count = 0
+        values_len = len(values)
         for batch in self.mek_batches:
-            batch.set_values(values)
+            batch.set_values(values[func_count % values_len])
+            func_count += 1
 
     def add_receive_handler(self, handler):
         for batch in self.mek_batches:
