@@ -1,13 +1,16 @@
+from utils.functions import bytes_to_int_list
+
 class InformationSize:
     IOA_SIZE = 3
     NOF_SIZE = 2
     NOS_SIZE = 1
     SCQ_SIZE = 1
+    AFQ_SIZE = 1
 
 
-hex_data = {f'{i}': i for i in range(10)}
-for i, ch in enumerate(['a', 'b', 'c', 'd', 'e', 'f']):
-    hex_data[ch] = 10 + i
+# hex_data = {f'{i}': i for i in range(10)}
+# for i, ch in enumerate(['a', 'b', 'c', 'd', 'e', 'f']):
+#     hex_data[ch] = 10 + i
 
 class Flag:
 
@@ -33,7 +36,7 @@ class Flag:
 
     
     def _getRValue(self, value):
-        return value & 0xf0
+        return (value & 0xf0) >> 4
 
     
     def _getLValue(self, value):
@@ -281,6 +284,9 @@ class LSQ(Flag):
         return self._value
 
 class AFQ(Flag):
+    # def __init__(self, value = 0):
+    #     super().__init__(value)
+    #     print(self._getRValue(value))
 
     def setFilePositive(self):
         self._value = self._setLeftValue(self._value, 1)
@@ -343,9 +349,81 @@ class AFQ(Flag):
         return self._checkRightValue(self._value, 5)
 
 class CHS:
-    def __init__(self, file_size):
-        self._value = file_size % 256
+    def __init__(self, data: list = None):
+
+        self._value = 0
+        if data is not None:
+            self._value = sum(data) % 256
+
+
+    @classmethod
+    def from_chs(cls, chs):
+        return cls([chs])
 
     @property
     def chs(self):
         return self._value
+
+    def __add__(self, other):
+        return CHS.from_chs(self.chs + other.chs)
+
+
+class FileTransferInfo:
+    def __init__(self, file=None, file_size = 0, section_id = 0, section = None, max_sections = 0, file_chs = CHS(), section_size = 5000):
+        self.file_stream = file
+        self.file_size_info = file_size
+        self.section_id = section_id
+        self.current_section = section
+        self.section_data = None
+        self.max_sections = max_sections
+        self.file_check_sum = file_chs
+        self.section_check_sum = CHS()
+        self.section_size = section_size
+        
+    def prepare_section(self):
+        result = True
+        try:
+            self.file_stream.seek(self.section_size * self.section_id)
+            self.current_section = self.file_stream.read(self.section_size)
+            self.section_data = bytes_to_int_list(self.current_section)
+            self.section_check_sum = CHS(self.section_data)
+        except Exception as e:
+            print(f"ERROR IN PREPEARING {e}")
+            result = False
+
+        return result
+
+
+    @property
+    def file_size(self):
+        return self.file_size_info
+
+    @property
+    def section_len(self):
+        return len(self.section)
+
+    @property
+    def file(self):
+        return self.file_stream
+
+    @property
+    def section(self):
+        return self.section_data
+
+    def update_file_chs(self):
+        self.file_check_sum += self.section_check_sum
+        self.section_check_sum = CHS()
+
+    def get_full_chs(self):
+        return (self.file_check_sum + self.section_check_sum).chs
+
+    @property
+    def file_chs(self):
+        return self.file_check_sum.chs
+
+    @property
+    def section_chs(self):
+        return self.section_check_sum.chs
+
+    def next_section(self):
+        self.section_id += 1

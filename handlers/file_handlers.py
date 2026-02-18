@@ -1,8 +1,9 @@
+import datetime
 import c104
-from utils.parsers import call_directory_decode
-from utils.functions import get_file_id
-from mek_types.enums import SOF, SCQ, LSQ, CHS
-from config import SERVER_DIR
+from utils.parsers import call_directory_decode, ack_file_decode
+from utils.functions import get_file_id, bytes_to_int_list, delete_ft, get_server_ft, get_file_info
+from mek_types.enums import SOF, SCQ, LSQ, CHS, AFQ, FileTransferInfo
+from config import SERVER_DIR, SEGMENT_SIZE, SECTION_SIZE
 import os
 
 def server_file_receive_handler(server, type, data_dict: dict):
@@ -14,12 +15,14 @@ def server_file_receive_handler(server, type, data_dict: dict):
         zero_point = station.add_point(io_address=0, type=c104.Type.F_AF_NA_1)
     elements = data_dict.get("elements")
     print(type, data_dict)
+    # call directory handle here
     if type == c104.Type.F_SC_NA_1:
         print("CALL DIRECTORY")
         # directory call here
         # get main info
         ioa, nof, nos, scq = call_directory_decode(elements)
         scq = SCQ(scq)
+        # confirm file ready
         if scq.isSelectFile():
             # file call here
             if cot == c104.Cot.REQUEST:
@@ -45,12 +48,13 @@ def server_file_receive_handler(server, type, data_dict: dict):
 
     elif type == c104.Type.F_AF_NA_1:
         print("CONFIRM FILE/SECTION")
-        zero_point.type = c104.Type.F_AF_NA_1
+        ioa, nof, nos, afq = ack_file_decode(elements)
+        afq = AFQ(afq)
+        sv_confirm_handler(zero_point, ioa, nof, nos, afq)
         # file or section acknowledgement
         ...
     else:
         print("Unexpected type")
-
 
 def server_file_send_handler():
     pass
@@ -60,26 +64,43 @@ def sv_call_section_handler(zero_point, ioa, nof, nos):
         # main dir here
         ## send segments here
         zero_point.type = c104.Type.F_SG_NA_1
-        test_data = [1 for i in range(250)]
-        split_size = 10
-        segment_count = 0
-        while segment_count*split_size < 250:
-            segment_data = test_data[segment_count*split_size: (segment_count + 1)*split_size]
-            segment_info = c104.FileSegmentCall(nof = c104.Int16(nof), nos=c104.Uint8(nos), los=c104.Uint8(split_size), data=segment_data)
-            zero_point.info = segment_info
-            zero_point.transmit(c104.Cot.FILE_TRANSFER)
-            segment_count += 1
+        file_info = get_file_info(zero_point, nof)
+        if file_info:
+            # file ready for transmition
+            if file_info.section_id + 1 == nos:
+                # correct selected section
+                print(f"TRANSFERING {nos} / {file_info.max_sections} SECTION ...")
+                segment_count = 0
+                data_list = file_info.section
+                print(len(data_list), file_info.section_chs)
+                while segment_count*SEGMENT_SIZE < file_info.section_len:
+                    segment_data = data_list[segment_count*SEGMENT_SIZE: (segment_count + 1)*SEGMENT_SIZE]
+                    segment_info = c104.FileSegmentCall(nof = c104.Int16(nof), nos=c104.Uint8(nos), los=c104.Uint8(len(segment_data)), data=segment_data)
+                    zero_point.info = segment_info
+                    zero_point.transmit(c104.Cot.FILE_TRANSFER)
+                    segment_count += 1
 
+                ## if last segment call last segment call
+                ## or if last segment/section of file call last file call
+                zero_point.type = c104.Type.F_LS_NA_1
+                print("SEND LAST SECTION CALL")
+                lsq = LSQ()
+                # if last section => last file
+                if nos == file_info.max_sections:
+                    #last section of file
+                    print("last section of file")
+                    lsq.setLastFile()
+                    chs = file_info.get_full_chs()
+                else:
+                    print("will be next section")
+                    lsq.setLastSection()
+                    chs = file_info.section_chs
 
-        ## if last segment call last segment call
-        ## or if last segment/section of file call last file call
-        zero_point.type = c104.Type.F_LS_NA_1
-        lsq = LSQ()
-        lsq.setLastFile()
-        chs = CHS(sum(test_data))
-        last_segment_info = c104.FileLastSegmentOrSectionCall(nof=c104.Int16(nof), nos=c104.Uint8(nos), lsq=c104.Uint8(lsq.lsq), chs=c104.Uint8(chs.chs))
-        zero_point.info = last_segment_info
-        zero_point.transmit(c104.Cot.FILE_TRANSFER)
+                # print(chs.chs, sum(data_list) % 256 )
+                last_segment_info = c104.FileLastSegmentOrSectionCall(nof=c104.Int16(nof), nos=c104.Uint8(nos), lsq=c104.Uint8(lsq.lsq), chs=c104.Uint8(chs))
+                zero_point.info = last_segment_info
+                zero_point.transmit(c104.Cot.FILE_TRANSFER)
+                print("TRANSMITING DONE")
 
 def sv_select_file_handler(zero_point, ioa, nof, nos):
     if ioa == 0:
@@ -94,6 +115,20 @@ def sv_select_file_handler(zero_point, ioa, nof, nos):
                 # file is found
                 file_is_found = True
                 file_size = os.path.getsize(os.path.join(SERVER_DIR, filename))
+                # check activation here and create new file_transfer
+                server_ft = get_server_ft(zero_point)
+                file_info = server_ft.get(file_id)
+                if file_info:
+                    # already opened ( error )
+                    file_is_found = False
+                else:
+                    print(f"OPEN FILE {file_id} FOR TRANSFER")
+                    file_bytes = open(os.path.join(SERVER_DIR, filename), "rb")
+                    sections = file_size // SECTION_SIZE
+                    if sections * SECTION_SIZE < file_size:
+                        sections += 1
+                    file_info = FileTransferInfo(file = file_bytes, file_size = file_size, max_sections = sections, section_size=SECTION_SIZE)
+                    server_ft[file_id] = file_info
                 break
         # file ready ack
         zero_point.type = c104.Type.F_FR_NA_1
@@ -109,42 +144,90 @@ def sv_select_section_handler(zero_point, ioa, nof, nos):
         # get nof data
         # get nos
         ## slice data from nof
-        ...
-        # transmit section ready
-        zero_point.type = c104.Type.F_SR_NA_1
-        section_ready_info = c104.FileSectionReadyCall(nof=c104.Int16(nof), nos=c104.Uint8(nos), lof=c104.Uint32(250), notReady=False)
-        zero_point.info = section_ready_info
-        zero_point.transmit(cause = c104.Cot.FILE_TRANSFER)
+        file_info = get_file_info(zero_point, nof)
+        if file_info:
+            # transmit section ready
+            section_id = nos - 1 # in prot from 1 in real from zero
+            if SECTION_SIZE * section_id >= file_info.file_size:
+                print("no such section")
+            else:
+                notReady = False
+                result = file_info.prepare_section()
+                if not result:
+                    notReady = True
+                zero_point.type = c104.Type.F_SR_NA_1
+                section_ready_info = c104.FileSectionReadyCall(nof=c104.Int16(nof), nos=c104.Uint8(nos), lof=c104.Uint32(file_info.section_len), notReady=notReady)
+                zero_point.info = section_ready_info
+                zero_point.transmit(cause = c104.Cot.FILE_TRANSFER)
+        else:
+            print("File not selected error")
 
+def sv_confirm_handler(zero_point, ioa, nof, nos, afq:AFQ):
+    if afq.isFilePositive():
+        print("FILE TRANSMITING SUCCESS")
+        # remove file from file transfer section
+        delete_ft(zero_point, nof)
 
+    elif afq.isSectionPositive():
+        print("SECTION TRANSMITING SUCCESS")
+        # update section
+        # update file_chs
+        file_info = get_file_info(zero_point, nof)
+        file_info.update_file_chs()
+        file_info.next_section()
+        sv_select_section_handler(zero_point, ioa, nof, nos+1)
+
+    else:
+        print(afq._value)
+        if afq.isCHSError():
+            if afq.isFileNegative():
+                print("FILE CHS ERROR")
+            elif afq.isSectionNegative():
+                print("SECTION CHS ERROR")
+        else:
+            print("TRANSMITING ERROR")
 
 def sv_dir_read_handler(zero_point, ioa, nof, nos):
 
     if ioa == 0:
         # main dir here
         file_names = os.listdir(SERVER_DIR)
+        # prepare response for client
         scq = SCQ()
-        scq.setCallFile()
-        zero_point.type = c104.Type.F_SC_NA_1
+        scq.setSelectFile() # confirm select file
+
+        # transmit confirmation ( if necessary )
+        zero_point.type = c104.Type.F_SC_NA_1 # confirm zero type
         directory = c104.DirectoryCall(nof=c104.Int16(nof), nos=c104.UInt7(nos), scq=c104.UInt7(scq.scq))
         zero_point.info = directory
         zero_point.transmit(cause=c104.Cot.ACTIVATION_CON)
 
+
+        # start transmiting file list
         zero_point.type = c104.Type.F_DR_TA_1
         for filename in file_names:
             # transmit files
             file_path = os.path.join(SERVER_DIR, filename)
             file_id = get_file_id(filename)
             file_size = os.path.getsize(file_path)
-
+            file_ctime = os.path.getctime(file_path)
+            file_mtime = os.path.getmtime(file_path)
             sof = SOF(0)
             if filename == file_names[-1]:
                 sof.setIsLast()
             if os.path.isdir(filename):
                 sof.setIsDirectory()
 
+            try:
+                with open(file_path, "rb") as r_file:
+                    ...
+            except (PermissionError, OSError):
+                # file already opend
+                sof.setFileIsActive()
+            print("TIME INFO")
+            print(datetime.datetime.fromtimestamp(file_ctime), datetime.datetime.fromtimestamp(file_mtime))
             file_dir = c104.FileDirectoryCall(nof=c104.Int16(file_id), lof=c104.Uint32(file_size),
-                                              sof=c104.Uint8(sof.sof))
+                                              sof=c104.Uint8(sof.sof), creationTime=datetime.datetime.fromtimestamp(file_ctime))
             zero_point.info = file_dir
             zero_point.transmit(cause=c104.Cot.REQUEST)
 

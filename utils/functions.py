@@ -1,5 +1,4 @@
 import numpy as np
-from mek_types.enums import hex_data
 
 def signal_function(size, mean, ampl = 50, std = 20, T = 1000):
     x = np.linspace(start=0, stop=size, num=size)
@@ -53,14 +52,32 @@ def array_to_int(data):
 
 def get_file_id(filename):
     file_enc = int.from_bytes(filename.encode("utf-8"), byteorder="big")
-    file_id = file_enc % 256
+    file_len = len(filename)
+    enc_id = ((file_enc // file_len) % 2**16) % file_len
+    file_id = enc_id + file_len
     return file_id
 
-def parse_scq(data):
-    scq = data[0]
-    left_v = scq[:1]
-    right_v = scq[1:]
-    scq_status = array_to_int(left_v)
-    scq_value = array_to_int(right_v)
-    return scq_status, scq_value
+def get_elements_data(elements:str):
+    return elements.split(" ")[:-1]
+
+def bytes_to_int_list(data: bytes):
+    # print(type(data), data)
+    # print(data[0])
+    dt = [byte for byte in data]
+    return dt
+
+def delete_ft(zero_point, nof):
+
+    server_ft = get_server_ft(zero_point)
+    file_info = server_ft.pop(nof)
+    file = file_info.file
+    file.close()  # close filestream
+    del file_info
+
+def get_server_ft(zero_point):
+    return zero_point.station.server.files_transfer
+
+def get_file_info(zero_point, nof):
+    server_ft = get_server_ft(zero_point)
+    return server_ft.get(nof)
 

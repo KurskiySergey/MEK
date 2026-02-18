@@ -9,6 +9,10 @@ class MEKServer(c104.Server):
         self.__set_protocol_config()
         self.stations_batch = None
         self.meta_stations = None
+        self.files_transfer = {}
+        # files transfer
+        # file_id: open file,  selected section data, if exists then file is transmiting and active
+        # on close need ro be removed
 
     def save_data(self, filename, file_data: bytes):
         file_path = os.path.join(SERVER_DIR, filename)
