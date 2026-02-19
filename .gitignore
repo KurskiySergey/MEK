@@ -1,3 +1,10 @@
 .venv
 __pycache__/
 .idea/
+bootstrap.py
+release_config.py
+setup.py
+to_release.py
+build_ext.sh
+build_whl.sh
+.gitignore

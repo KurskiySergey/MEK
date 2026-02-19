@@ -10,39 +10,40 @@ def server_file_receive_handler(server, type, data_dict: dict):
     common_address = data_dict.get("commonAddress")
     cot = data_dict.get('cot')
     station = server.get_station(common_address=common_address)
-    zero_point = station.get_point(io_address=0)
-    if zero_point is None:
-        zero_point = station.add_point(io_address=0, type=c104.Type.F_AF_NA_1)
-    elements = data_dict.get("elements")
-    print(type, data_dict)
-    # call directory handle here
-    if type == c104.Type.F_SC_NA_1:
-        print("CALL DIRECTORY")
-        # directory call here
-        # get main info
-        ioa, nof, nos, scq = call_directory_decode(elements)
-        scq = SCQ(scq)
-        # confirm file ready
-        if scq.isSelectFile():
-            # file call here
-            if cot == c104.Cot.REQUEST:
-                # directory list
-                sv_dir_read_handler(zero_point, ioa, nof, nos)
-            elif cot == c104.Cot.FILE_TRANSFER:
-                # file select here
-                sv_select_file_handler(zero_point, ioa, nof, nos)
-        elif scq.isCallFile():
-            if cot == c104.Cot.FILE_TRANSFER:
-                sv_call_file_handler(zero_point, ioa, nof, nos)
+    if station:
+        zero_point = station.get_point(io_address=0)
+        if zero_point is None:
+            zero_point = station.add_point(io_address=0, type=c104.Type.F_AF_NA_1)
+        elements = data_dict.get("elements")
+        print(type, data_dict)
+        # call directory handle here
+        if type == c104.Type.F_SC_NA_1:
+            print("CALL DIRECTORY")
+            # directory call here
+            # get main info
+            ioa, nof, nos, scq = call_directory_decode(elements)
+            scq = SCQ(scq)
+            # confirm file ready
+            if scq.isSelectFile():
+                # file call here
+                if cot == c104.Cot.REQUEST:
+                    # directory list
+                    sv_dir_read_handler(zero_point, ioa, nof, nos)
+                elif cot == c104.Cot.FILE_TRANSFER:
+                    # file select here
+                    sv_select_file_handler(zero_point, ioa, nof, nos)
+            elif scq.isCallFile():
+                if cot == c104.Cot.FILE_TRANSFER:
+                    sv_call_file_handler(zero_point, ioa, nof, nos)
 
-        elif scq.isCallSection():
-            if cot == c104.Cot.FILE_TRANSFER:
-                sv_call_section_handler(zero_point, ioa, nof, nos)
+            elif scq.isCallSection():
+                if cot == c104.Cot.FILE_TRANSFER:
+                    sv_call_section_handler(zero_point, ioa, nof, nos)
 
-        elif scq.isSelectSection():
-            if cot == c104.Cot.FILE_TRANSFER:
-                # file section select here
-                sv_select_section_handler(zero_point, ioa, nof, nos)
+            elif scq.isSelectSection():
+                if cot == c104.Cot.FILE_TRANSFER:
+                    # file section select here
+                    sv_select_section_handler(zero_point, ioa, nof, nos)
 
 
 

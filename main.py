@@ -11,12 +11,14 @@ import numpy as np
 import c104
 import time
 from utils.functions import signal_function, triangle_signal, rect_signal, sin_function
+from typing import get_type_hints
 import json
 import os
 
 def configure_client_server(stations = 1, start_client_address=123, start_station_address=255, server_id = 0):
     # create client and server
     client = MEKClient(client_address=start_client_address)
+    print(SERVERS)
     server = MEKServer(*SERVERS[server_id])
 
     # add stations at server side
@@ -31,6 +33,25 @@ def configure_client_server(stations = 1, start_client_address=123, start_statio
     server.on_connect(callable=sv_on_connect)
 
     return client, server
+
+def configure_client_server_id(stations = 1, start_client_address=123, start_station_address=255, server_id: tuple = ("127.0.0.1", 2404, 10)):
+    # create client and server
+    client = MEKClient(client_address=start_client_address)
+    server = MEKServer(*server_id)
+
+    # add stations at server side
+    for i in range(stations):
+        server.add_station(common_address=start_station_address + i)
+    # add connections
+    client.add_connection(server.ip, server.port, init=c104.Init.ALL)
+    # set protocols
+    client.set_protocol_config()
+
+    # add handlers if necessary
+    server.on_connect(callable=sv_on_connect)
+
+    return client, server
+
 
 def run_update_circle(station_batch: StationsBatch, visualizer, delay_time, batch_count, circle_count,
                       velocity, use_patches = False, no_transmit = False, meta_use = False,
@@ -277,6 +298,14 @@ def only_one_station_transmit_test(client, server, use_point_config = True):
 
     return client, server
 
+def sv_points_report_test(server, points_number, start_point_ioa = 2, report_ms = None):
+    sv_stations = server.stations
+    sv_batches = [MEKBatch(station=sv_station, cause=c104.Cot.PERIODIC, batch_type=c104.Type.M_ME_NC_1,
+                           batch_count=points_number,
+                           start_address=start_point_ioa,
+                           delay_transmit=0,
+                           report_ms=report_ms) for sv_station in sv_stations]
+
 
 def file_transfer_test(client, server):
     # generate test file for optodata on server side
@@ -351,3 +380,5 @@ if __name__ == "__main__":
     file_transfer_test(client, server)
     server.stop()
     client.stop()
+
+hints = get_type_hints(configure_client_server)

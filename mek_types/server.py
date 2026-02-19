@@ -1,4 +1,4 @@
-from config import PROTOCOL_CONFIG, SERVER_DIR
+from config import PROTOCOL_CONFIG, SERVER_DIR, FILES_DIR
 import c104
 import os
 import typing
@@ -16,6 +16,14 @@ class MEKServer(c104.Server):
 
     def save_data(self, filename, file_data: bytes):
         file_path = os.path.join(SERVER_DIR, filename)
+        if not os.path.exists(SERVER_DIR):
+            try:
+                print("creating base directory")
+                os.mkdir(FILES_DIR)
+            except (FileExistsError, FileNotFoundError):
+                print("Base directory already exists")
+            print("creating server folder")
+            os.mkdir(SERVER_DIR)
         if not os.path.exists(file_path):
             with open(file_path, 'wb') as w_file:
                 w_file.write(file_data)
