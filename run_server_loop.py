@@ -1,6 +1,7 @@
 from handlers.server_handlers import sv_on_recieve_raw
 from main import configure_client_server
 import json
+import time
 
 if __name__ == "__main__":
     # start settings
@@ -16,6 +17,7 @@ if __name__ == "__main__":
 
     station = server.get_station(common_address=start_station_address)
     server.on_receive_raw(callable=sv_on_recieve_raw)
+    server.set_files_timeout(ms=10000) # set timeout for file transfer / 10 s
     print("START SERVER")
     server.start()
     print("SERVER RUNNING...")
@@ -25,5 +27,13 @@ if __name__ == "__main__":
     str_res = json.dumps(test_json)
     server.save_data("test_2.json", file_data=str_res.encode("utf-8"))
 
+    file_init = False
     while True:
-        ...
+        time.sleep(10)
+        if not file_init:
+            # send file from server without request example
+            print("Initialize file transfer")
+            server.send_file(filename="test_2.json", station_id=255)
+            # client can not accept file and file will be always open
+            # timeout will close buffer for file if there was no response for a long time
+            file_init = True

@@ -2,10 +2,10 @@ import datetime
 import time
 
 import c104
-from utils.parsers import call_directory_decode, ack_file_decode
-from utils.functions import get_file_id, bytes_to_int_list, delete_ft, get_server_ft, get_file_info, get_zero_point, get_server
-from mek_types.enums import SOF, SCQ, LSQ, CHS, AFQ, FileTransferInfo
-from config import SERVER_DIR, SEGMENT_SIZE, SECTION_SIZE
+from c104f.utils.parsers import call_directory_decode, ack_file_decode
+from c104f.utils.functions import get_file_id, bytes_to_int_list, delete_ft, get_server_ft, get_file_info, get_zero_point, get_server
+from c104f.mek_types.enums import SOF, SCQ, LSQ, CHS, AFQ, FileTransferInfo
+from c104f.config import SERVER_DIR, SEGMENT_SIZE, SECTION_SIZE
 import os
 
 def server_file_receive_handler(server, type, data_dict: dict):

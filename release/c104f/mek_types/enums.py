@@ -1,6 +1,6 @@
 import time
 
-from utils.functions import bytes_to_int_list
+from c104f.utils.functions import bytes_to_int_list
 
 class InformationSize:
     IOA_SIZE = 3

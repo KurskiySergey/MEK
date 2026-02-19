@@ -1,11 +1,11 @@
 import time
 
-from config import PROTOCOL_CONFIG, SERVER_DIR, FILES_DIR
-from handlers.server_handlers import server_file_send_handler
+from c104f.config import PROTOCOL_CONFIG, SERVER_DIR, FILES_DIR
+from c104f.handlers.server_handlers import server_file_send_handler
 import c104
 import os
 import typing
-from utils.functions import delete_ft
+from c104f.utils.functions import delete_ft
 import asyncio
 import threading
 
