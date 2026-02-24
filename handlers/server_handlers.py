@@ -33,7 +33,6 @@ def sv_on_send_raw(server: c104.Server, data: bytes)->None:
 def sv_on_recieve_raw(server:c104.Server,data:bytes)->None:
     explain_dict = c104.explain_bytes_dict(data)
     type = explain_dict.get("type")
-
     if isinstance(type, c104.Type):
         if c104.Type.F_FR_NA_1.value <= type.value <= c104.Type.F_DR_TA_1.value:
             print(data)

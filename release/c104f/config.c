@@ -1961,7 +1961,7 @@ typedef struct {
   PyObject *__pyx_empty_bytes;
   PyObject *__pyx_empty_unicode;
   PyObject *__pyx_tuple[2];
-  PyObject *__pyx_string_tab[40];
+  PyObject *__pyx_string_tab[41];
   PyObject *__pyx_number_tab[5];
 /* #### Code section: module_state_contents ### */
 /* CodeObjectCache.module_state_decls */
@@ -2000,38 +2000,39 @@ static __pyx_mstatetype * const __pyx_mstate_global = &__pyx_mstate_global_stati
 #define __pyx_n_u_CLIENT_FOLDER __pyx_string_tab[5]
 #define __pyx_n_u_FILES_DIR __pyx_string_tab[6]
 #define __pyx_n_u_FILES_FOLDER __pyx_string_tab[7]
-#define __pyx_n_u_PROTOCOL_CONFIG __pyx_string_tab[8]
-#define __pyx_n_u_SECTION_SIZE __pyx_string_tab[9]
-#define __pyx_n_u_SEGMENT_SIZE __pyx_string_tab[10]
-#define __pyx_n_u_SERVERS __pyx_string_tab[11]
-#define __pyx_n_u_SERVER_DIR __pyx_string_tab[12]
-#define __pyx_n_u_SERVER_FOLDER __pyx_string_tab[13]
-#define __pyx_n_u_abspath __pyx_string_tab[14]
-#define __pyx_n_u_client_side __pyx_string_tab[15]
-#define __pyx_n_u_cline_in_traceback __pyx_string_tab[16]
-#define __pyx_n_u_collections __pyx_string_tab[17]
-#define __pyx_n_u_confirm_interval __pyx_string_tab[18]
-#define __pyx_n_u_connection_timeout __pyx_string_tab[19]
-#define __pyx_n_u_dirname __pyx_string_tab[20]
-#define __pyx_n_u_field_names __pyx_string_tab[21]
-#define __pyx_n_u_file __pyx_string_tab[22]
-#define __pyx_n_u_files __pyx_string_tab[23]
-#define __pyx_n_u_join __pyx_string_tab[24]
-#define __pyx_n_u_keep_alive_interval __pyx_string_tab[25]
-#define __pyx_n_u_main __pyx_string_tab[26]
-#define __pyx_n_u_message_timeout __pyx_string_tab[27]
-#define __pyx_n_u_module __pyx_string_tab[28]
-#define __pyx_n_u_name __pyx_string_tab[29]
-#define __pyx_n_u_namedtuple __pyx_string_tab[30]
-#define __pyx_n_u_os __pyx_string_tab[31]
-#define __pyx_n_u_path __pyx_string_tab[32]
-#define __pyx_n_u_protocol_config __pyx_string_tab[33]
-#define __pyx_n_u_protocol_fieldnames __pyx_string_tab[34]
-#define __pyx_n_u_qualname __pyx_string_tab[35]
-#define __pyx_n_u_server_side __pyx_string_tab[36]
-#define __pyx_n_u_setdefault __pyx_string_tab[37]
-#define __pyx_n_u_test __pyx_string_tab[38]
-#define __pyx_n_u_typename __pyx_string_tab[39]
+#define __pyx_n_u_MAX_FILES_ROTATION __pyx_string_tab[8]
+#define __pyx_n_u_PROTOCOL_CONFIG __pyx_string_tab[9]
+#define __pyx_n_u_SECTION_SIZE __pyx_string_tab[10]
+#define __pyx_n_u_SEGMENT_SIZE __pyx_string_tab[11]
+#define __pyx_n_u_SERVERS __pyx_string_tab[12]
+#define __pyx_n_u_SERVER_DIR __pyx_string_tab[13]
+#define __pyx_n_u_SERVER_FOLDER __pyx_string_tab[14]
+#define __pyx_n_u_abspath __pyx_string_tab[15]
+#define __pyx_n_u_client_side __pyx_string_tab[16]
+#define __pyx_n_u_cline_in_traceback __pyx_string_tab[17]
+#define __pyx_n_u_collections __pyx_string_tab[18]
+#define __pyx_n_u_confirm_interval __pyx_string_tab[19]
+#define __pyx_n_u_connection_timeout __pyx_string_tab[20]
+#define __pyx_n_u_dirname __pyx_string_tab[21]
+#define __pyx_n_u_field_names __pyx_string_tab[22]
+#define __pyx_n_u_file __pyx_string_tab[23]
+#define __pyx_n_u_files __pyx_string_tab[24]
+#define __pyx_n_u_join __pyx_string_tab[25]
+#define __pyx_n_u_keep_alive_interval __pyx_string_tab[26]
+#define __pyx_n_u_main __pyx_string_tab[27]
+#define __pyx_n_u_message_timeout __pyx_string_tab[28]
+#define __pyx_n_u_module __pyx_string_tab[29]
+#define __pyx_n_u_name __pyx_string_tab[30]
+#define __pyx_n_u_namedtuple __pyx_string_tab[31]
+#define __pyx_n_u_os __pyx_string_tab[32]
+#define __pyx_n_u_path __pyx_string_tab[33]
+#define __pyx_n_u_protocol_config __pyx_string_tab[34]
+#define __pyx_n_u_protocol_fieldnames __pyx_string_tab[35]
+#define __pyx_n_u_qualname __pyx_string_tab[36]
+#define __pyx_n_u_server_side __pyx_string_tab[37]
+#define __pyx_n_u_setdefault __pyx_string_tab[38]
+#define __pyx_n_u_test __pyx_string_tab[39]
+#define __pyx_n_u_typename __pyx_string_tab[40]
 #define __pyx_int_10 __pyx_number_tab[0]
 #define __pyx_int_20 __pyx_number_tab[1]
 #define __pyx_int_230 __pyx_number_tab[2]
@@ -2052,7 +2053,7 @@ static CYTHON_SMALL_CODE int __pyx_m_clear(PyObject *m) {
   __Pyx_State_RemoveModule(NULL);
   #endif
   for (int i=0; i<2; ++i) { Py_CLEAR(clear_module_state->__pyx_tuple[i]); }
-  for (int i=0; i<40; ++i) { Py_CLEAR(clear_module_state->__pyx_string_tab[i]); }
+  for (int i=0; i<41; ++i) { Py_CLEAR(clear_module_state->__pyx_string_tab[i]); }
   for (int i=0; i<5; ++i) { Py_CLEAR(clear_module_state->__pyx_number_tab[i]); }
 /* #### Code section: module_state_clear_contents ### */
 /* #### Code section: module_state_clear_end ### */
@@ -2071,7 +2072,7 @@ static CYTHON_SMALL_CODE int __pyx_m_traverse(PyObject *m, visitproc visit, void
   __Pyx_VISIT_CONST(traverse_module_state->__pyx_empty_bytes);
   __Pyx_VISIT_CONST(traverse_module_state->__pyx_empty_unicode);
   for (int i=0; i<2; ++i) { __Pyx_VISIT_CONST(traverse_module_state->__pyx_tuple[i]); }
-  for (int i=0; i<40; ++i) { __Pyx_VISIT_CONST(traverse_module_state->__pyx_string_tab[i]); }
+  for (int i=0; i<41; ++i) { __Pyx_VISIT_CONST(traverse_module_state->__pyx_string_tab[i]); }
   for (int i=0; i<5; ++i) { __Pyx_VISIT_CONST(traverse_module_state->__pyx_number_tab[i]); }
 /* #### Code section: module_state_traverse_contents ### */
 /* #### Code section: module_state_traverse_end ### */
@@ -2479,126 +2480,126 @@ __Pyx_RefNannySetupContext("PyInit_config", 0);
 */
   if (PyDict_SetItem(__pyx_mstate_global->__pyx_d, __pyx_mstate_global->__pyx_n_u_protocol_fieldnames, __pyx_mstate_global->__pyx_tuple[0]) < (0)) __PYX_ERR(0, 4, __pyx_L1_error)
 
-  /* "c104f/config.py":10
- *     "keep_alive_interval",
+  /* "c104f/config.py":14
+ *     # self.protocol_parameters.receive_window_size = 1
  * )
  * PROTOCOL_CONFIG = namedtuple(typename="protocol_config",             # <<<<<<<<<<<<<<
  *                              field_names=protocol_fieldnames)
  * 
 */
   __pyx_t_4 = NULL;
-  __Pyx_GetModuleGlobalName(__pyx_t_5, __pyx_mstate_global->__pyx_n_u_namedtuple); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 10, __pyx_L1_error)
+  __Pyx_GetModuleGlobalName(__pyx_t_5, __pyx_mstate_global->__pyx_n_u_namedtuple); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 14, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_5);
 
-  /* "c104f/config.py":11
+  /* "c104f/config.py":15
  * )
  * PROTOCOL_CONFIG = namedtuple(typename="protocol_config",
  *                              field_names=protocol_fieldnames)             # <<<<<<<<<<<<<<
  * 
  * PROTOCOL_CONFIG.connection_timeout = 20
 */
-  __Pyx_GetModuleGlobalName(__pyx_t_6, __pyx_mstate_global->__pyx_n_u_protocol_fieldnames); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 11, __pyx_L1_error)
+  __Pyx_GetModuleGlobalName(__pyx_t_6, __pyx_mstate_global->__pyx_n_u_protocol_fieldnames); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 15, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_6);
   __pyx_t_7 = 1;
   {
     PyObject *__pyx_callargs[2 + ((CYTHON_VECTORCALL) ? 2 : 0)] = {__pyx_t_4, NULL};
-    __pyx_t_8 = __Pyx_MakeVectorcallBuilderKwds(2); if (unlikely(!__pyx_t_8)) __PYX_ERR(0, 10, __pyx_L1_error)
+    __pyx_t_8 = __Pyx_MakeVectorcallBuilderKwds(2); if (unlikely(!__pyx_t_8)) __PYX_ERR(0, 14, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_8);
-    if (__Pyx_VectorcallBuilder_AddArg(__pyx_mstate_global->__pyx_n_u_typename, __pyx_mstate_global->__pyx_n_u_protocol_config, __pyx_t_8, __pyx_callargs+1, 0) < (0)) __PYX_ERR(0, 10, __pyx_L1_error)
-    if (__Pyx_VectorcallBuilder_AddArg(__pyx_mstate_global->__pyx_n_u_field_names, __pyx_t_6, __pyx_t_8, __pyx_callargs+1, 1) < (0)) __PYX_ERR(0, 10, __pyx_L1_error)
+    if (__Pyx_VectorcallBuilder_AddArg(__pyx_mstate_global->__pyx_n_u_typename, __pyx_mstate_global->__pyx_n_u_protocol_config, __pyx_t_8, __pyx_callargs+1, 0) < (0)) __PYX_ERR(0, 14, __pyx_L1_error)
+    if (__Pyx_VectorcallBuilder_AddArg(__pyx_mstate_global->__pyx_n_u_field_names, __pyx_t_6, __pyx_t_8, __pyx_callargs+1, 1) < (0)) __PYX_ERR(0, 14, __pyx_L1_error)
     __pyx_t_2 = __Pyx_Object_Vectorcall_CallFromBuilder((PyObject*)__pyx_t_5, __pyx_callargs+__pyx_t_7, (1-__pyx_t_7) | (__pyx_t_7*__Pyx_PY_VECTORCALL_ARGUMENTS_OFFSET), __pyx_t_8);
     __Pyx_XDECREF(__pyx_t_4); __pyx_t_4 = 0;
     __Pyx_DECREF(__pyx_t_6); __pyx_t_6 = 0;
     __Pyx_DECREF(__pyx_t_8); __pyx_t_8 = 0;
     __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
-    if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 10, __pyx_L1_error)
+    if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 14, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_2);
   }
-  if (PyDict_SetItem(__pyx_mstate_global->__pyx_d, __pyx_mstate_global->__pyx_n_u_PROTOCOL_CONFIG, __pyx_t_2) < (0)) __PYX_ERR(0, 10, __pyx_L1_error)
+  if (PyDict_SetItem(__pyx_mstate_global->__pyx_d, __pyx_mstate_global->__pyx_n_u_PROTOCOL_CONFIG, __pyx_t_2) < (0)) __PYX_ERR(0, 14, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
 
-  /* "c104f/config.py":13
+  /* "c104f/config.py":17
  *                              field_names=protocol_fieldnames)
  * 
  * PROTOCOL_CONFIG.connection_timeout = 20             # <<<<<<<<<<<<<<
  * PROTOCOL_CONFIG.message_timeout = 20
  * PROTOCOL_CONFIG.confirm_interval = 10
 */
-  __Pyx_GetModuleGlobalName(__pyx_t_2, __pyx_mstate_global->__pyx_n_u_PROTOCOL_CONFIG); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 13, __pyx_L1_error)
+  __Pyx_GetModuleGlobalName(__pyx_t_2, __pyx_mstate_global->__pyx_n_u_PROTOCOL_CONFIG); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 17, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_2);
-  if (__Pyx_PyObject_SetAttrStr(__pyx_t_2, __pyx_mstate_global->__pyx_n_u_connection_timeout, __pyx_mstate_global->__pyx_int_20) < (0)) __PYX_ERR(0, 13, __pyx_L1_error)
+  if (__Pyx_PyObject_SetAttrStr(__pyx_t_2, __pyx_mstate_global->__pyx_n_u_connection_timeout, __pyx_mstate_global->__pyx_int_20) < (0)) __PYX_ERR(0, 17, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
 
-  /* "c104f/config.py":14
+  /* "c104f/config.py":18
  * 
  * PROTOCOL_CONFIG.connection_timeout = 20
  * PROTOCOL_CONFIG.message_timeout = 20             # <<<<<<<<<<<<<<
  * PROTOCOL_CONFIG.confirm_interval = 10
  * PROTOCOL_CONFIG.keep_alive_interval = 20
 */
-  __Pyx_GetModuleGlobalName(__pyx_t_2, __pyx_mstate_global->__pyx_n_u_PROTOCOL_CONFIG); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 14, __pyx_L1_error)
+  __Pyx_GetModuleGlobalName(__pyx_t_2, __pyx_mstate_global->__pyx_n_u_PROTOCOL_CONFIG); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 18, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_2);
-  if (__Pyx_PyObject_SetAttrStr(__pyx_t_2, __pyx_mstate_global->__pyx_n_u_message_timeout, __pyx_mstate_global->__pyx_int_20) < (0)) __PYX_ERR(0, 14, __pyx_L1_error)
+  if (__Pyx_PyObject_SetAttrStr(__pyx_t_2, __pyx_mstate_global->__pyx_n_u_message_timeout, __pyx_mstate_global->__pyx_int_20) < (0)) __PYX_ERR(0, 18, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
 
-  /* "c104f/config.py":15
+  /* "c104f/config.py":19
  * PROTOCOL_CONFIG.connection_timeout = 20
  * PROTOCOL_CONFIG.message_timeout = 20
  * PROTOCOL_CONFIG.confirm_interval = 10             # <<<<<<<<<<<<<<
  * PROTOCOL_CONFIG.keep_alive_interval = 20
  * 
 */
-  __Pyx_GetModuleGlobalName(__pyx_t_2, __pyx_mstate_global->__pyx_n_u_PROTOCOL_CONFIG); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 15, __pyx_L1_error)
+  __Pyx_GetModuleGlobalName(__pyx_t_2, __pyx_mstate_global->__pyx_n_u_PROTOCOL_CONFIG); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 19, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_2);
-  if (__Pyx_PyObject_SetAttrStr(__pyx_t_2, __pyx_mstate_global->__pyx_n_u_confirm_interval, __pyx_mstate_global->__pyx_int_10) < (0)) __PYX_ERR(0, 15, __pyx_L1_error)
+  if (__Pyx_PyObject_SetAttrStr(__pyx_t_2, __pyx_mstate_global->__pyx_n_u_confirm_interval, __pyx_mstate_global->__pyx_int_10) < (0)) __PYX_ERR(0, 19, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
 
-  /* "c104f/config.py":16
+  /* "c104f/config.py":20
  * PROTOCOL_CONFIG.message_timeout = 20
  * PROTOCOL_CONFIG.confirm_interval = 10
  * PROTOCOL_CONFIG.keep_alive_interval = 20             # <<<<<<<<<<<<<<
  * 
  * 
 */
-  __Pyx_GetModuleGlobalName(__pyx_t_2, __pyx_mstate_global->__pyx_n_u_PROTOCOL_CONFIG); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 16, __pyx_L1_error)
+  __Pyx_GetModuleGlobalName(__pyx_t_2, __pyx_mstate_global->__pyx_n_u_PROTOCOL_CONFIG); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 20, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_2);
-  if (__Pyx_PyObject_SetAttrStr(__pyx_t_2, __pyx_mstate_global->__pyx_n_u_keep_alive_interval, __pyx_mstate_global->__pyx_int_20) < (0)) __PYX_ERR(0, 16, __pyx_L1_error)
+  if (__Pyx_PyObject_SetAttrStr(__pyx_t_2, __pyx_mstate_global->__pyx_n_u_keep_alive_interval, __pyx_mstate_global->__pyx_int_20) < (0)) __PYX_ERR(0, 20, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
 
-  /* "c104f/config.py":19
+  /* "c104f/config.py":24
  * 
- * 
+ * # need custom config or by user only
  * SERVERS = [             # <<<<<<<<<<<<<<
  *     ("10.10.17.105", 2404, 10) # ip , port, max_connections
  * ]
 */
-  __pyx_t_2 = __Pyx_PyList_Pack(1, __pyx_mstate_global->__pyx_tuple[1]); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 19, __pyx_L1_error)
+  __pyx_t_2 = __Pyx_PyList_Pack(1, __pyx_mstate_global->__pyx_tuple[1]); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 24, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_2);
-  if (PyDict_SetItem(__pyx_mstate_global->__pyx_d, __pyx_mstate_global->__pyx_n_u_SERVERS, __pyx_t_2) < (0)) __PYX_ERR(0, 19, __pyx_L1_error)
+  if (PyDict_SetItem(__pyx_mstate_global->__pyx_d, __pyx_mstate_global->__pyx_n_u_SERVERS, __pyx_t_2) < (0)) __PYX_ERR(0, 24, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
 
-  /* "c104f/config.py":23
+  /* "c104f/config.py":28
  * ]
  * 
  * BASE_DIR = os.path.abspath(os.path.dirname(__file__))             # <<<<<<<<<<<<<<
  * 
- * FILES_FOLDER = "files"
+ * # better add user only
 */
-  __Pyx_GetModuleGlobalName(__pyx_t_8, __pyx_mstate_global->__pyx_n_u_os); if (unlikely(!__pyx_t_8)) __PYX_ERR(0, 23, __pyx_L1_error)
+  __Pyx_GetModuleGlobalName(__pyx_t_8, __pyx_mstate_global->__pyx_n_u_os); if (unlikely(!__pyx_t_8)) __PYX_ERR(0, 28, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_8);
-  __pyx_t_6 = __Pyx_PyObject_GetAttrStr(__pyx_t_8, __pyx_mstate_global->__pyx_n_u_path); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 23, __pyx_L1_error)
+  __pyx_t_6 = __Pyx_PyObject_GetAttrStr(__pyx_t_8, __pyx_mstate_global->__pyx_n_u_path); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 28, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_6);
   __Pyx_DECREF(__pyx_t_8); __pyx_t_8 = 0;
   __pyx_t_5 = __pyx_t_6;
   __Pyx_INCREF(__pyx_t_5);
-  __Pyx_GetModuleGlobalName(__pyx_t_9, __pyx_mstate_global->__pyx_n_u_os); if (unlikely(!__pyx_t_9)) __PYX_ERR(0, 23, __pyx_L1_error)
+  __Pyx_GetModuleGlobalName(__pyx_t_9, __pyx_mstate_global->__pyx_n_u_os); if (unlikely(!__pyx_t_9)) __PYX_ERR(0, 28, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_9);
-  __pyx_t_10 = __Pyx_PyObject_GetAttrStr(__pyx_t_9, __pyx_mstate_global->__pyx_n_u_path); if (unlikely(!__pyx_t_10)) __PYX_ERR(0, 23, __pyx_L1_error)
+  __pyx_t_10 = __Pyx_PyObject_GetAttrStr(__pyx_t_9, __pyx_mstate_global->__pyx_n_u_path); if (unlikely(!__pyx_t_10)) __PYX_ERR(0, 28, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_10);
   __Pyx_DECREF(__pyx_t_9); __pyx_t_9 = 0;
   __pyx_t_4 = __pyx_t_10;
   __Pyx_INCREF(__pyx_t_4);
-  __Pyx_GetModuleGlobalName(__pyx_t_9, __pyx_mstate_global->__pyx_n_u_file); if (unlikely(!__pyx_t_9)) __PYX_ERR(0, 23, __pyx_L1_error)
+  __Pyx_GetModuleGlobalName(__pyx_t_9, __pyx_mstate_global->__pyx_n_u_file); if (unlikely(!__pyx_t_9)) __PYX_ERR(0, 28, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_9);
   __pyx_t_7 = 0;
   {
@@ -2607,7 +2608,7 @@ __Pyx_RefNannySetupContext("PyInit_config", 0);
     __Pyx_XDECREF(__pyx_t_4); __pyx_t_4 = 0;
     __Pyx_DECREF(__pyx_t_9); __pyx_t_9 = 0;
     __Pyx_DECREF(__pyx_t_10); __pyx_t_10 = 0;
-    if (unlikely(!__pyx_t_8)) __PYX_ERR(0, 23, __pyx_L1_error)
+    if (unlikely(!__pyx_t_8)) __PYX_ERR(0, 28, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_8);
   }
   __pyx_t_7 = 0;
@@ -2617,56 +2618,56 @@ __Pyx_RefNannySetupContext("PyInit_config", 0);
     __Pyx_XDECREF(__pyx_t_5); __pyx_t_5 = 0;
     __Pyx_DECREF(__pyx_t_8); __pyx_t_8 = 0;
     __Pyx_DECREF(__pyx_t_6); __pyx_t_6 = 0;
-    if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 23, __pyx_L1_error)
+    if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 28, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_2);
   }
-  if (PyDict_SetItem(__pyx_mstate_global->__pyx_d, __pyx_mstate_global->__pyx_n_u_BASE_DIR, __pyx_t_2) < (0)) __PYX_ERR(0, 23, __pyx_L1_error)
+  if (PyDict_SetItem(__pyx_mstate_global->__pyx_d, __pyx_mstate_global->__pyx_n_u_BASE_DIR, __pyx_t_2) < (0)) __PYX_ERR(0, 28, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
 
-  /* "c104f/config.py":25
- * BASE_DIR = os.path.abspath(os.path.dirname(__file__))
+  /* "c104f/config.py":31
  * 
+ * # better add user only
  * FILES_FOLDER = "files"             # <<<<<<<<<<<<<<
  * SERVER_FOLDER = "server_side"
  * CLIENT_FOLDER = "client_side"
 */
-  if (PyDict_SetItem(__pyx_mstate_global->__pyx_d, __pyx_mstate_global->__pyx_n_u_FILES_FOLDER, __pyx_mstate_global->__pyx_n_u_files) < (0)) __PYX_ERR(0, 25, __pyx_L1_error)
+  if (PyDict_SetItem(__pyx_mstate_global->__pyx_d, __pyx_mstate_global->__pyx_n_u_FILES_FOLDER, __pyx_mstate_global->__pyx_n_u_files) < (0)) __PYX_ERR(0, 31, __pyx_L1_error)
 
-  /* "c104f/config.py":26
- * 
+  /* "c104f/config.py":32
+ * # better add user only
  * FILES_FOLDER = "files"
  * SERVER_FOLDER = "server_side"             # <<<<<<<<<<<<<<
  * CLIENT_FOLDER = "client_side"
  * FILES_DIR = os.path.join(BASE_DIR, FILES_FOLDER)
 */
-  if (PyDict_SetItem(__pyx_mstate_global->__pyx_d, __pyx_mstate_global->__pyx_n_u_SERVER_FOLDER, __pyx_mstate_global->__pyx_n_u_server_side) < (0)) __PYX_ERR(0, 26, __pyx_L1_error)
+  if (PyDict_SetItem(__pyx_mstate_global->__pyx_d, __pyx_mstate_global->__pyx_n_u_SERVER_FOLDER, __pyx_mstate_global->__pyx_n_u_server_side) < (0)) __PYX_ERR(0, 32, __pyx_L1_error)
 
-  /* "c104f/config.py":27
+  /* "c104f/config.py":33
  * FILES_FOLDER = "files"
  * SERVER_FOLDER = "server_side"
  * CLIENT_FOLDER = "client_side"             # <<<<<<<<<<<<<<
  * FILES_DIR = os.path.join(BASE_DIR, FILES_FOLDER)
  * SERVER_DIR = os.path.join(FILES_DIR, SERVER_FOLDER)
 */
-  if (PyDict_SetItem(__pyx_mstate_global->__pyx_d, __pyx_mstate_global->__pyx_n_u_CLIENT_FOLDER, __pyx_mstate_global->__pyx_n_u_client_side) < (0)) __PYX_ERR(0, 27, __pyx_L1_error)
+  if (PyDict_SetItem(__pyx_mstate_global->__pyx_d, __pyx_mstate_global->__pyx_n_u_CLIENT_FOLDER, __pyx_mstate_global->__pyx_n_u_client_side) < (0)) __PYX_ERR(0, 33, __pyx_L1_error)
 
-  /* "c104f/config.py":28
+  /* "c104f/config.py":34
  * SERVER_FOLDER = "server_side"
  * CLIENT_FOLDER = "client_side"
  * FILES_DIR = os.path.join(BASE_DIR, FILES_FOLDER)             # <<<<<<<<<<<<<<
  * SERVER_DIR = os.path.join(FILES_DIR, SERVER_FOLDER)
  * CLIENT_DIR = os.path.join(FILES_DIR, CLIENT_FOLDER)
 */
-  __Pyx_GetModuleGlobalName(__pyx_t_8, __pyx_mstate_global->__pyx_n_u_os); if (unlikely(!__pyx_t_8)) __PYX_ERR(0, 28, __pyx_L1_error)
+  __Pyx_GetModuleGlobalName(__pyx_t_8, __pyx_mstate_global->__pyx_n_u_os); if (unlikely(!__pyx_t_8)) __PYX_ERR(0, 34, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_8);
-  __pyx_t_5 = __Pyx_PyObject_GetAttrStr(__pyx_t_8, __pyx_mstate_global->__pyx_n_u_path); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 28, __pyx_L1_error)
+  __pyx_t_5 = __Pyx_PyObject_GetAttrStr(__pyx_t_8, __pyx_mstate_global->__pyx_n_u_path); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 34, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_5);
   __Pyx_DECREF(__pyx_t_8); __pyx_t_8 = 0;
   __pyx_t_6 = __pyx_t_5;
   __Pyx_INCREF(__pyx_t_6);
-  __Pyx_GetModuleGlobalName(__pyx_t_8, __pyx_mstate_global->__pyx_n_u_BASE_DIR); if (unlikely(!__pyx_t_8)) __PYX_ERR(0, 28, __pyx_L1_error)
+  __Pyx_GetModuleGlobalName(__pyx_t_8, __pyx_mstate_global->__pyx_n_u_BASE_DIR); if (unlikely(!__pyx_t_8)) __PYX_ERR(0, 34, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_8);
-  __Pyx_GetModuleGlobalName(__pyx_t_10, __pyx_mstate_global->__pyx_n_u_FILES_FOLDER); if (unlikely(!__pyx_t_10)) __PYX_ERR(0, 28, __pyx_L1_error)
+  __Pyx_GetModuleGlobalName(__pyx_t_10, __pyx_mstate_global->__pyx_n_u_FILES_FOLDER); if (unlikely(!__pyx_t_10)) __PYX_ERR(0, 34, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_10);
   __pyx_t_7 = 0;
   {
@@ -2676,29 +2677,29 @@ __Pyx_RefNannySetupContext("PyInit_config", 0);
     __Pyx_DECREF(__pyx_t_8); __pyx_t_8 = 0;
     __Pyx_DECREF(__pyx_t_10); __pyx_t_10 = 0;
     __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
-    if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 28, __pyx_L1_error)
+    if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 34, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_2);
   }
-  if (PyDict_SetItem(__pyx_mstate_global->__pyx_d, __pyx_mstate_global->__pyx_n_u_FILES_DIR, __pyx_t_2) < (0)) __PYX_ERR(0, 28, __pyx_L1_error)
+  if (PyDict_SetItem(__pyx_mstate_global->__pyx_d, __pyx_mstate_global->__pyx_n_u_FILES_DIR, __pyx_t_2) < (0)) __PYX_ERR(0, 34, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
 
-  /* "c104f/config.py":29
+  /* "c104f/config.py":35
  * CLIENT_FOLDER = "client_side"
  * FILES_DIR = os.path.join(BASE_DIR, FILES_FOLDER)
  * SERVER_DIR = os.path.join(FILES_DIR, SERVER_FOLDER)             # <<<<<<<<<<<<<<
  * CLIENT_DIR = os.path.join(FILES_DIR, CLIENT_FOLDER)
  * 
 */
-  __Pyx_GetModuleGlobalName(__pyx_t_10, __pyx_mstate_global->__pyx_n_u_os); if (unlikely(!__pyx_t_10)) __PYX_ERR(0, 29, __pyx_L1_error)
+  __Pyx_GetModuleGlobalName(__pyx_t_10, __pyx_mstate_global->__pyx_n_u_os); if (unlikely(!__pyx_t_10)) __PYX_ERR(0, 35, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_10);
-  __pyx_t_8 = __Pyx_PyObject_GetAttrStr(__pyx_t_10, __pyx_mstate_global->__pyx_n_u_path); if (unlikely(!__pyx_t_8)) __PYX_ERR(0, 29, __pyx_L1_error)
+  __pyx_t_8 = __Pyx_PyObject_GetAttrStr(__pyx_t_10, __pyx_mstate_global->__pyx_n_u_path); if (unlikely(!__pyx_t_8)) __PYX_ERR(0, 35, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_8);
   __Pyx_DECREF(__pyx_t_10); __pyx_t_10 = 0;
   __pyx_t_5 = __pyx_t_8;
   __Pyx_INCREF(__pyx_t_5);
-  __Pyx_GetModuleGlobalName(__pyx_t_10, __pyx_mstate_global->__pyx_n_u_FILES_DIR); if (unlikely(!__pyx_t_10)) __PYX_ERR(0, 29, __pyx_L1_error)
+  __Pyx_GetModuleGlobalName(__pyx_t_10, __pyx_mstate_global->__pyx_n_u_FILES_DIR); if (unlikely(!__pyx_t_10)) __PYX_ERR(0, 35, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_10);
-  __Pyx_GetModuleGlobalName(__pyx_t_6, __pyx_mstate_global->__pyx_n_u_SERVER_FOLDER); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 29, __pyx_L1_error)
+  __Pyx_GetModuleGlobalName(__pyx_t_6, __pyx_mstate_global->__pyx_n_u_SERVER_FOLDER); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 35, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_6);
   __pyx_t_7 = 0;
   {
@@ -2708,29 +2709,29 @@ __Pyx_RefNannySetupContext("PyInit_config", 0);
     __Pyx_DECREF(__pyx_t_10); __pyx_t_10 = 0;
     __Pyx_DECREF(__pyx_t_6); __pyx_t_6 = 0;
     __Pyx_DECREF(__pyx_t_8); __pyx_t_8 = 0;
-    if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 29, __pyx_L1_error)
+    if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 35, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_2);
   }
-  if (PyDict_SetItem(__pyx_mstate_global->__pyx_d, __pyx_mstate_global->__pyx_n_u_SERVER_DIR, __pyx_t_2) < (0)) __PYX_ERR(0, 29, __pyx_L1_error)
+  if (PyDict_SetItem(__pyx_mstate_global->__pyx_d, __pyx_mstate_global->__pyx_n_u_SERVER_DIR, __pyx_t_2) < (0)) __PYX_ERR(0, 35, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
 
-  /* "c104f/config.py":30
+  /* "c104f/config.py":36
  * FILES_DIR = os.path.join(BASE_DIR, FILES_FOLDER)
  * SERVER_DIR = os.path.join(FILES_DIR, SERVER_FOLDER)
  * CLIENT_DIR = os.path.join(FILES_DIR, CLIENT_FOLDER)             # <<<<<<<<<<<<<<
  * 
  * SEGMENT_SIZE = 230
 */
-  __Pyx_GetModuleGlobalName(__pyx_t_6, __pyx_mstate_global->__pyx_n_u_os); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 30, __pyx_L1_error)
+  __Pyx_GetModuleGlobalName(__pyx_t_6, __pyx_mstate_global->__pyx_n_u_os); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 36, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_6);
-  __pyx_t_10 = __Pyx_PyObject_GetAttrStr(__pyx_t_6, __pyx_mstate_global->__pyx_n_u_path); if (unlikely(!__pyx_t_10)) __PYX_ERR(0, 30, __pyx_L1_error)
+  __pyx_t_10 = __Pyx_PyObject_GetAttrStr(__pyx_t_6, __pyx_mstate_global->__pyx_n_u_path); if (unlikely(!__pyx_t_10)) __PYX_ERR(0, 36, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_10);
   __Pyx_DECREF(__pyx_t_6); __pyx_t_6 = 0;
   __pyx_t_8 = __pyx_t_10;
   __Pyx_INCREF(__pyx_t_8);
-  __Pyx_GetModuleGlobalName(__pyx_t_6, __pyx_mstate_global->__pyx_n_u_FILES_DIR); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 30, __pyx_L1_error)
+  __Pyx_GetModuleGlobalName(__pyx_t_6, __pyx_mstate_global->__pyx_n_u_FILES_DIR); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 36, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_6);
-  __Pyx_GetModuleGlobalName(__pyx_t_5, __pyx_mstate_global->__pyx_n_u_CLIENT_FOLDER); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 30, __pyx_L1_error)
+  __Pyx_GetModuleGlobalName(__pyx_t_5, __pyx_mstate_global->__pyx_n_u_CLIENT_FOLDER); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 36, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_5);
   __pyx_t_7 = 0;
   {
@@ -2740,28 +2741,37 @@ __Pyx_RefNannySetupContext("PyInit_config", 0);
     __Pyx_DECREF(__pyx_t_6); __pyx_t_6 = 0;
     __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
     __Pyx_DECREF(__pyx_t_10); __pyx_t_10 = 0;
-    if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 30, __pyx_L1_error)
+    if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 36, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_2);
   }
-  if (PyDict_SetItem(__pyx_mstate_global->__pyx_d, __pyx_mstate_global->__pyx_n_u_CLIENT_DIR, __pyx_t_2) < (0)) __PYX_ERR(0, 30, __pyx_L1_error)
+  if (PyDict_SetItem(__pyx_mstate_global->__pyx_d, __pyx_mstate_global->__pyx_n_u_CLIENT_DIR, __pyx_t_2) < (0)) __PYX_ERR(0, 36, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
 
-  /* "c104f/config.py":32
+  /* "c104f/config.py":38
  * CLIENT_DIR = os.path.join(FILES_DIR, CLIENT_FOLDER)
  * 
  * SEGMENT_SIZE = 230             # <<<<<<<<<<<<<<
  * SECTION_SIZE = 10000
- * 
+ * MAX_FILES_ROTATION = 10
 */
-  if (PyDict_SetItem(__pyx_mstate_global->__pyx_d, __pyx_mstate_global->__pyx_n_u_SEGMENT_SIZE, __pyx_mstate_global->__pyx_int_230) < (0)) __PYX_ERR(0, 32, __pyx_L1_error)
+  if (PyDict_SetItem(__pyx_mstate_global->__pyx_d, __pyx_mstate_global->__pyx_n_u_SEGMENT_SIZE, __pyx_mstate_global->__pyx_int_230) < (0)) __PYX_ERR(0, 38, __pyx_L1_error)
 
-  /* "c104f/config.py":33
+  /* "c104f/config.py":39
  * 
  * SEGMENT_SIZE = 230
  * SECTION_SIZE = 10000             # <<<<<<<<<<<<<<
+ * MAX_FILES_ROTATION = 10
  * 
 */
-  if (PyDict_SetItem(__pyx_mstate_global->__pyx_d, __pyx_mstate_global->__pyx_n_u_SECTION_SIZE, __pyx_mstate_global->__pyx_int_10000) < (0)) __PYX_ERR(0, 33, __pyx_L1_error)
+  if (PyDict_SetItem(__pyx_mstate_global->__pyx_d, __pyx_mstate_global->__pyx_n_u_SECTION_SIZE, __pyx_mstate_global->__pyx_int_10000) < (0)) __PYX_ERR(0, 39, __pyx_L1_error)
+
+  /* "c104f/config.py":40
+ * SEGMENT_SIZE = 230
+ * SECTION_SIZE = 10000
+ * MAX_FILES_ROTATION = 10             # <<<<<<<<<<<<<<
+ * 
+*/
+  if (PyDict_SetItem(__pyx_mstate_global->__pyx_d, __pyx_mstate_global->__pyx_n_u_MAX_FILES_ROTATION, __pyx_mstate_global->__pyx_int_10) < (0)) __PYX_ERR(0, 40, __pyx_L1_error)
 
   /* "c104f/config.py":1
  * from collections import namedtuple             # <<<<<<<<<<<<<<
@@ -2835,14 +2845,14 @@ static int __Pyx_InitCachedConstants(__pyx_mstatetype *__pyx_mstate) {
   __Pyx_GOTREF(__pyx_mstate_global->__pyx_tuple[0]);
   __Pyx_GIVEREF(__pyx_mstate_global->__pyx_tuple[0]);
 
-  /* "c104f/config.py":20
- * 
+  /* "c104f/config.py":25
+ * # need custom config or by user only
  * SERVERS = [
  *     ("10.10.17.105", 2404, 10) # ip , port, max_connections             # <<<<<<<<<<<<<<
  * ]
  * 
 */
-  __pyx_mstate_global->__pyx_tuple[1] = PyTuple_Pack(3, __pyx_mstate_global->__pyx_kp_u_10_10_17_105, __pyx_mstate_global->__pyx_int_2404, __pyx_mstate_global->__pyx_int_10); if (unlikely(!__pyx_mstate_global->__pyx_tuple[1])) __PYX_ERR(0, 20, __pyx_L1_error)
+  __pyx_mstate_global->__pyx_tuple[1] = PyTuple_Pack(3, __pyx_mstate_global->__pyx_kp_u_10_10_17_105, __pyx_mstate_global->__pyx_int_2404, __pyx_mstate_global->__pyx_int_10); if (unlikely(!__pyx_mstate_global->__pyx_tuple[1])) __PYX_ERR(0, 25, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_mstate_global->__pyx_tuple[1]);
   __Pyx_GIVEREF(__pyx_mstate_global->__pyx_tuple[1]);
   #if CYTHON_IMMORTAL_CONSTANTS
@@ -2875,31 +2885,31 @@ static int __Pyx_InitCachedConstants(__pyx_mstatetype *__pyx_mstate) {
 static int __Pyx_InitConstants(__pyx_mstatetype *__pyx_mstate) {
   CYTHON_UNUSED_VAR(__pyx_mstate);
   {
-    const struct { const unsigned int length: 5; } index[] = {{1},{12},{1},{8},{10},{13},{9},{12},{15},{12},{12},{7},{10},{13},{7},{11},{18},{11},{16},{18},{7},{11},{8},{5},{4},{19},{8},{15},{10},{8},{10},{2},{4},{15},{19},{12},{11},{10},{8},{8}};
-    #if (CYTHON_COMPRESS_STRINGS) == 2 /* compression: bz2 (306 bytes) */
-const char* const cstring = "BZh91AY&SY\346\032P#\000\000\000\337\200@\000\000\001b\200\277\247\335\020\277\377\377 0\001\r\264\320\320\246\231O\321\023\324d\365\r\r\000\000\364@\225O&\232\004h\232\232\014\215\000\000\365\000\323J6\251\344M<\240dz\215\000\000\005\333\330\343i4\004G=t\211>6\222\001\250h\022\264\\\3020\233\003\2035\300)=\354.I\324\004\005\210\303@]&\010p=\034\032\260C\031\252\224G\221\007N\300\264\223\265\360l(=\345\225]Ue\0078}\247\257\276\320dS\352#\214|\250y\240\373-*\022\246u\202\342\033\216B*\307\230x/i\200\301j\262\220s\260\315(th\006+\214\347&w\311\226\306\344\214\013W\023&&\352\314\345\354\202iW\034\334Q0\201\0316\2121\033FY\326\224\022\306\270\3175\230\362G\337x`8\202\213\024\246\325\214\223'\306aHz\210\211|\304\224\224.\250\024\220\375+m\213a\200\312(A\010\265\004\033\244\242\275e&e%\274CBb\363'\362\306\36153H\177\213\271\"\234(Hs\r(\021\200";
-    PyObject *data = __Pyx_DecompressString(cstring, 306, 2);
+    const struct { const unsigned int length: 5; } index[] = {{1},{12},{1},{8},{10},{13},{9},{12},{18},{15},{12},{12},{7},{10},{13},{7},{11},{18},{11},{16},{18},{7},{11},{8},{5},{4},{19},{8},{15},{10},{8},{10},{2},{4},{15},{19},{12},{11},{10},{8},{8}};
+    #if (CYTHON_COMPRESS_STRINGS) == 2 /* compression: bz2 (310 bytes) */
+const char* const cstring = "BZh91AY&SY#\321<\325\000\000\000\337\200@\000\000\001b\200\277\247\335P\277\377\377 0\001\tJ\032\025<\t\222d\310\3652\000\032\006\214@\320&F\220\"hi\352\000\000\036\2401\220\310h4\0324\001\240\001\241\2338\251\246\302`\010\215\232\312\341\254J:5\022\001`\220v\221j\210\302m\r%[\000\360&\\q\003! XbN\\BOB\t#\255\211\304\010\030 \203<5U\"\223\027\215`#\026\r)%Bk\010\312\270\314t\252\251\331`k\366~\276\373+\032\017\252\006\005\013\320\013\2143\004[\302N\253\240\374\2032q\024\343\324<\225\351\210\305\361\251`\360\250\315\0263Pc\034\366\333\225\235\361d\270\334tQy\300b\302\256\214\3162\271\203\322\\8\334,d\242\220\332 aK\3223\233X\035\306\374+\232T<\033\360\311H80\201\026o\302e\264\347d\\\020\303\220P)\3079(\310\32702\244~\246R\241\221x\254)\013f\352`\371\364A}\361\014\310#\2001\240\250NC\376JeA\274fk\376.\344\212p\241 G\242y\252";
+    PyObject *data = __Pyx_DecompressString(cstring, 310, 2);
     if (unlikely(!data)) __PYX_ERR(0, 1, __pyx_L1_error)
     const char* const bytes = __Pyx_PyBytes_AsString(data);
     #if !CYTHON_ASSUME_SAFE_MACROS
     if (likely(bytes)); else { Py_DECREF(data); __PYX_ERR(0, 1, __pyx_L1_error) }
     #endif
-    #elif (CYTHON_COMPRESS_STRINGS) != 0 /* compression: zlib (255 bytes) */
-const char* const cstring = "x\332MOMO\304 \020\375G\033=\030\217F\273tCR\213)\215\007/\023\026\246\353\270\024*\320M\374\367BY7&\344\361\346\353\275\231\335\375\335\256\274\307\214\017O/\317\222\301\236\017M\307Y?\376c\255\350\366lhy\307d\311VR\223o\203\030E#:hD\337\362\203d\315\310E\017\222\1770\311\016\257e\272\362\341\235\r\262~E\343\312\252\210:\306E\245Om\t]\202H\0063u\010\344 \005\245\361\250\364Y{kQ'\362.j\357&\ns.'\014\027es\354j\t\022\315\350\327d(85\343Dh\r\024\026\001&\262X1~yrg\304\005\224\245\013\336t\000f\225-!\267Gu\302?\261\234\360f-\303\260iU4i],\372m\361%\370\344\363\202\260mv\272\205\233\377\325\376{U\266N\307l\206a;3b28\251\325f\223\204\261\340\317\202\245\355\027)\320\230\213";
-    PyObject *data = __Pyx_DecompressString(cstring, 255, 1);
+    #elif (CYTHON_COMPRESS_STRINGS) != 0 /* compression: zlib (264 bytes) */
+const char* const cstring = "x\332MOak\303 \020\375Ge\373P\366qd\251)B\032K\014c\354\313a\365\322\272\032\315\324\024\366\357\247\261+\003y\276{\336\275wn\236\2376\371\274$\334\276\276U\234\300\216\366uKI7\374c\rkw\244ohKxV\013)\342\241\372\200R\367l\250\006\312\272c\"\254f-\324\254k\350\236\223:\253\300\351'\341d\177\310~\205\367\357\244\347\345\312\256wVl\305)\314\"^\244\321h#\004\2550Q\213\240-D/$\236\204\274Jg\014\312\250\235\r\322\331Q\373)=G\3647aRm\313\023D=\241[\242\322\336\212\tG\215FAf\001`\324\006\013\206/\247\355\025q\006a\364\r\037>\000\223H\221\220\332\2038\343\237Y\022\234Z\3620\254^\005U\\f\203n]|\366.\272\264 \254\233\235\037\345\232\177\217\377^\204)\323!\205\241_\277\0310*\034\305bRH\304\220\361g\306\334\366\013\022\373\236\022";
+    PyObject *data = __Pyx_DecompressString(cstring, 264, 1);
     if (unlikely(!data)) __PYX_ERR(0, 1, __pyx_L1_error)
     const char* const bytes = __Pyx_PyBytes_AsString(data);
     #if !CYTHON_ASSUME_SAFE_MACROS
     if (likely(bytes)); else { Py_DECREF(data); __PYX_ERR(0, 1, __pyx_L1_error) }
     #endif
-    #else /* compression: none (410 bytes) */
-const char* const bytes = ".10.10.17.105?BASE_DIRCLIENT_DIRCLIENT_FOLDERFILES_DIRFILES_FOLDERPROTOCOL_CONFIGSECTION_SIZESEGMENT_SIZESERVERSSERVER_DIRSERVER_FOLDERabspathclient_sidecline_in_tracebackcollectionsconfirm_intervalconnection_timeoutdirnamefield_names__file__filesjoinkeep_alive_interval__main__message_timeout__module____name__namedtupleospathprotocol_configprotocol_fieldnames__qualname__server_sidesetdefault__test__typename";
+    #else /* compression: none (428 bytes) */
+const char* const bytes = ".10.10.17.105?BASE_DIRCLIENT_DIRCLIENT_FOLDERFILES_DIRFILES_FOLDERMAX_FILES_ROTATIONPROTOCOL_CONFIGSECTION_SIZESEGMENT_SIZESERVERSSERVER_DIRSERVER_FOLDERabspathclient_sidecline_in_tracebackcollectionsconfirm_intervalconnection_timeoutdirnamefield_names__file__filesjoinkeep_alive_interval__main__message_timeout__module____name__namedtupleospathprotocol_configprotocol_fieldnames__qualname__server_sidesetdefault__test__typename";
     PyObject *data = NULL;
     CYTHON_UNUSED_VAR(__Pyx_DecompressString);
     #endif
     PyObject **stringtab = __pyx_mstate->__pyx_string_tab;
     Py_ssize_t pos = 0;
-    for (int i = 0; i < 40; i++) {
+    for (int i = 0; i < 41; i++) {
       Py_ssize_t bytes_length = index[i].length;
       PyObject *string = PyUnicode_DecodeUTF8(bytes + pos, bytes_length, NULL);
       if (likely(string) && i >= 3) PyUnicode_InternInPlace(&string);
@@ -2911,7 +2921,7 @@ const char* const bytes = ".10.10.17.105?BASE_DIRCLIENT_DIRCLIENT_FOLDERFILES_DI
       pos += bytes_length;
     }
     Py_XDECREF(data);
-    for (Py_ssize_t i = 0; i < 40; i++) {
+    for (Py_ssize_t i = 0; i < 41; i++) {
       if (unlikely(PyObject_Hash(stringtab[i]) == -1)) {
         __PYX_ERR(0, 1, __pyx_L1_error)
       }

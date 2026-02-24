@@ -2428,7 +2428,7 @@ typedef struct {
   __Pyx_CachedCFunction __pyx_umethod_PyDict_Type_values;
   PyObject *__pyx_tuple[2];
   PyObject *__pyx_codeobj_tab[8];
-  PyObject *__pyx_string_tab[206];
+  PyObject *__pyx_string_tab[207];
   PyObject *__pyx_number_tab[2];
 /* #### Code section: module_state_contents ### */
 /* CommonTypesMetaclass.module_state_decls */
@@ -2591,91 +2591,92 @@ static __pyx_mstatetype * const __pyx_mstate_global = &__pyx_mstate_global_stati
 #define __pyx_n_u_isCHSError __pyx_string_tab[118]
 #define __pyx_n_u_isCallFile __pyx_string_tab[119]
 #define __pyx_n_u_isCallSection __pyx_string_tab[120]
-#define __pyx_n_u_isFileNegative __pyx_string_tab[121]
-#define __pyx_n_u_isFilePositive __pyx_string_tab[122]
-#define __pyx_n_u_isSectionNegative __pyx_string_tab[123]
-#define __pyx_n_u_isSectionPositive __pyx_string_tab[124]
-#define __pyx_n_u_isSelectFile __pyx_string_tab[125]
-#define __pyx_n_u_isSelectSection __pyx_string_tab[126]
-#define __pyx_n_u_is_coroutine __pyx_string_tab[127]
-#define __pyx_n_u_isdir __pyx_string_tab[128]
-#define __pyx_n_u_items __pyx_string_tab[129]
-#define __pyx_n_u_join __pyx_string_tab[130]
-#define __pyx_n_u_last_segment_info __pyx_string_tab[131]
-#define __pyx_n_u_listdir __pyx_string_tab[132]
-#define __pyx_n_u_lof __pyx_string_tab[133]
-#define __pyx_n_u_los __pyx_string_tab[134]
-#define __pyx_n_u_lsq __pyx_string_tab[135]
-#define __pyx_n_u_main __pyx_string_tab[136]
-#define __pyx_n_u_max_sections __pyx_string_tab[137]
-#define __pyx_n_u_module __pyx_string_tab[138]
-#define __pyx_n_u_ms __pyx_string_tab[139]
-#define __pyx_n_u_name __pyx_string_tab[140]
-#define __pyx_n_u_next_section __pyx_string_tab[141]
-#define __pyx_n_u_nof __pyx_string_tab[142]
-#define __pyx_n_u_nos __pyx_string_tab[143]
-#define __pyx_n_u_notReady __pyx_string_tab[144]
-#define __pyx_n_u_open __pyx_string_tab[145]
-#define __pyx_n_u_os __pyx_string_tab[146]
-#define __pyx_n_u_path __pyx_string_tab[147]
-#define __pyx_n_u_pop __pyx_string_tab[148]
-#define __pyx_n_u_positive __pyx_string_tab[149]
-#define __pyx_n_u_prepare_section __pyx_string_tab[150]
-#define __pyx_n_u_print __pyx_string_tab[151]
-#define __pyx_n_u_qualname __pyx_string_tab[152]
-#define __pyx_n_u_r_file __pyx_string_tab[153]
-#define __pyx_n_u_rb __pyx_string_tab[154]
-#define __pyx_n_u_result __pyx_string_tab[155]
-#define __pyx_n_u_scq __pyx_string_tab[156]
-#define __pyx_n_u_section __pyx_string_tab[157]
-#define __pyx_n_u_section_chs __pyx_string_tab[158]
-#define __pyx_n_u_section_id __pyx_string_tab[159]
-#define __pyx_n_u_section_len __pyx_string_tab[160]
-#define __pyx_n_u_section_ready_info __pyx_string_tab[161]
-#define __pyx_n_u_section_size __pyx_string_tab[162]
-#define __pyx_n_u_sections __pyx_string_tab[163]
-#define __pyx_n_u_segment_count __pyx_string_tab[164]
-#define __pyx_n_u_segment_data __pyx_string_tab[165]
-#define __pyx_n_u_segment_info __pyx_string_tab[166]
-#define __pyx_n_u_server __pyx_string_tab[167]
-#define __pyx_n_u_server_file_receive_handler __pyx_string_tab[168]
-#define __pyx_n_u_server_file_send_handler __pyx_string_tab[169]
-#define __pyx_n_u_server_ft __pyx_string_tab[170]
-#define __pyx_n_u_setFileIsActive __pyx_string_tab[171]
-#define __pyx_n_u_setIsDirectory __pyx_string_tab[172]
-#define __pyx_n_u_setIsLast __pyx_string_tab[173]
-#define __pyx_n_u_setLastFile __pyx_string_tab[174]
-#define __pyx_n_u_setLastSection __pyx_string_tab[175]
-#define __pyx_n_u_setSelectFile __pyx_string_tab[176]
-#define __pyx_n_u_set_name __pyx_string_tab[177]
-#define __pyx_n_u_setdefault __pyx_string_tab[178]
-#define __pyx_n_u_sof __pyx_string_tab[179]
-#define __pyx_n_u_station __pyx_string_tab[180]
-#define __pyx_n_u_station_id __pyx_string_tab[181]
-#define __pyx_n_u_sv_call_file_handler __pyx_string_tab[182]
-#define __pyx_n_u_sv_call_section_handler __pyx_string_tab[183]
-#define __pyx_n_u_sv_confirm_handler __pyx_string_tab[184]
-#define __pyx_n_u_sv_dir_read_handler __pyx_string_tab[185]
-#define __pyx_n_u_sv_select_file_handler __pyx_string_tab[186]
-#define __pyx_n_u_sv_select_section_handler __pyx_string_tab[187]
-#define __pyx_n_u_test __pyx_string_tab[188]
-#define __pyx_n_u_time __pyx_string_tab[189]
-#define __pyx_n_u_tr_type __pyx_string_tab[190]
-#define __pyx_n_u_transmit __pyx_string_tab[191]
-#define __pyx_n_u_type __pyx_string_tab[192]
-#define __pyx_n_u_update_file_chs __pyx_string_tab[193]
-#define __pyx_n_u_update_time __pyx_string_tab[194]
-#define __pyx_n_u_value __pyx_string_tab[195]
-#define __pyx_n_u_values __pyx_string_tab[196]
-#define __pyx_n_u_zero_point __pyx_string_tab[197]
-#define __pyx_kp_b_iso88591_6a_s_Qa_a_a_Qa_M_a_E_a_e5_1A_Qc __pyx_string_tab[198]
-#define __pyx_kp_b_iso88591_6a_t3a_Rxq_A_L_k_1_xs_Be81Be5_Q __pyx_string_tab[199]
-#define __pyx_kp_b_iso88591_9_Yd_1_4q_fL_q_1A_9D_QfA_5_4uA __pyx_string_tab[200]
-#define __pyx_kp_b_iso88591_fL_q_Qa_t4q_a_1A_a_3iuJa __pyx_string_tab[201]
-#define __pyx_kp_b_iso88591_t3a_M_a_E_1_Rq_Bk_IQ_Qa_1_2_4q __pyx_string_tab[202]
-#define __pyx_kp_b_iso88591_t3a_Rxq_c_e1_D_at4vQfD_F_6QUUYY __pyx_string_tab[203]
-#define __pyx_kp_b_iso88591_t3a_e1_M_a_1_y_Bb_1_QnAWAYa_IQ __pyx_string_tab[204]
-#define __pyx_kp_b_iso88591_t3a_e5 __pyx_string_tab[205]
+#define __pyx_n_u_isDeleteFile __pyx_string_tab[121]
+#define __pyx_n_u_isFileNegative __pyx_string_tab[122]
+#define __pyx_n_u_isFilePositive __pyx_string_tab[123]
+#define __pyx_n_u_isSectionNegative __pyx_string_tab[124]
+#define __pyx_n_u_isSectionPositive __pyx_string_tab[125]
+#define __pyx_n_u_isSelectFile __pyx_string_tab[126]
+#define __pyx_n_u_isSelectSection __pyx_string_tab[127]
+#define __pyx_n_u_is_coroutine __pyx_string_tab[128]
+#define __pyx_n_u_isdir __pyx_string_tab[129]
+#define __pyx_n_u_items __pyx_string_tab[130]
+#define __pyx_n_u_join __pyx_string_tab[131]
+#define __pyx_n_u_last_segment_info __pyx_string_tab[132]
+#define __pyx_n_u_listdir __pyx_string_tab[133]
+#define __pyx_n_u_lof __pyx_string_tab[134]
+#define __pyx_n_u_los __pyx_string_tab[135]
+#define __pyx_n_u_lsq __pyx_string_tab[136]
+#define __pyx_n_u_main __pyx_string_tab[137]
+#define __pyx_n_u_max_sections __pyx_string_tab[138]
+#define __pyx_n_u_module __pyx_string_tab[139]
+#define __pyx_n_u_ms __pyx_string_tab[140]
+#define __pyx_n_u_name __pyx_string_tab[141]
+#define __pyx_n_u_next_section __pyx_string_tab[142]
+#define __pyx_n_u_nof __pyx_string_tab[143]
+#define __pyx_n_u_nos __pyx_string_tab[144]
+#define __pyx_n_u_notReady __pyx_string_tab[145]
+#define __pyx_n_u_open __pyx_string_tab[146]
+#define __pyx_n_u_os __pyx_string_tab[147]
+#define __pyx_n_u_path __pyx_string_tab[148]
+#define __pyx_n_u_pop __pyx_string_tab[149]
+#define __pyx_n_u_positive __pyx_string_tab[150]
+#define __pyx_n_u_prepare_section __pyx_string_tab[151]
+#define __pyx_n_u_print __pyx_string_tab[152]
+#define __pyx_n_u_qualname __pyx_string_tab[153]
+#define __pyx_n_u_r_file __pyx_string_tab[154]
+#define __pyx_n_u_rb __pyx_string_tab[155]
+#define __pyx_n_u_result __pyx_string_tab[156]
+#define __pyx_n_u_scq __pyx_string_tab[157]
+#define __pyx_n_u_section __pyx_string_tab[158]
+#define __pyx_n_u_section_chs __pyx_string_tab[159]
+#define __pyx_n_u_section_id __pyx_string_tab[160]
+#define __pyx_n_u_section_len __pyx_string_tab[161]
+#define __pyx_n_u_section_ready_info __pyx_string_tab[162]
+#define __pyx_n_u_section_size __pyx_string_tab[163]
+#define __pyx_n_u_sections __pyx_string_tab[164]
+#define __pyx_n_u_segment_count __pyx_string_tab[165]
+#define __pyx_n_u_segment_data __pyx_string_tab[166]
+#define __pyx_n_u_segment_info __pyx_string_tab[167]
+#define __pyx_n_u_server __pyx_string_tab[168]
+#define __pyx_n_u_server_file_receive_handler __pyx_string_tab[169]
+#define __pyx_n_u_server_file_send_handler __pyx_string_tab[170]
+#define __pyx_n_u_server_ft __pyx_string_tab[171]
+#define __pyx_n_u_setFileIsActive __pyx_string_tab[172]
+#define __pyx_n_u_setIsDirectory __pyx_string_tab[173]
+#define __pyx_n_u_setIsLast __pyx_string_tab[174]
+#define __pyx_n_u_setLastFile __pyx_string_tab[175]
+#define __pyx_n_u_setLastSection __pyx_string_tab[176]
+#define __pyx_n_u_setSelectFile __pyx_string_tab[177]
+#define __pyx_n_u_set_name __pyx_string_tab[178]
+#define __pyx_n_u_setdefault __pyx_string_tab[179]
+#define __pyx_n_u_sof __pyx_string_tab[180]
+#define __pyx_n_u_station __pyx_string_tab[181]
+#define __pyx_n_u_station_id __pyx_string_tab[182]
+#define __pyx_n_u_sv_call_file_handler __pyx_string_tab[183]
+#define __pyx_n_u_sv_call_section_handler __pyx_string_tab[184]
+#define __pyx_n_u_sv_confirm_handler __pyx_string_tab[185]
+#define __pyx_n_u_sv_dir_read_handler __pyx_string_tab[186]
+#define __pyx_n_u_sv_select_file_handler __pyx_string_tab[187]
+#define __pyx_n_u_sv_select_section_handler __pyx_string_tab[188]
+#define __pyx_n_u_test __pyx_string_tab[189]
+#define __pyx_n_u_time __pyx_string_tab[190]
+#define __pyx_n_u_tr_type __pyx_string_tab[191]
+#define __pyx_n_u_transmit __pyx_string_tab[192]
+#define __pyx_n_u_type __pyx_string_tab[193]
+#define __pyx_n_u_update_file_chs __pyx_string_tab[194]
+#define __pyx_n_u_update_time __pyx_string_tab[195]
+#define __pyx_n_u_value __pyx_string_tab[196]
+#define __pyx_n_u_values __pyx_string_tab[197]
+#define __pyx_n_u_zero_point __pyx_string_tab[198]
+#define __pyx_kp_b_iso88591_6a_s_Qa_a_a_Qa_M_a_E_a_e5_1A_Qc __pyx_string_tab[199]
+#define __pyx_kp_b_iso88591_6a_t3a_Rxq_A_L_k_1_xs_Be81Be5_Q __pyx_string_tab[200]
+#define __pyx_kp_b_iso88591_9_Yd_1_4q_fL_q_1A_9D_QfA_5_4uA __pyx_string_tab[201]
+#define __pyx_kp_b_iso88591_fL_q_Qa_t4q_a_1A_a_3iuJa __pyx_string_tab[202]
+#define __pyx_kp_b_iso88591_t3a_M_a_E_1_Rq_Bk_IQ_Qa_1_2_4q __pyx_string_tab[203]
+#define __pyx_kp_b_iso88591_t3a_Rxq_c_e1_D_at4vQfD_F_6QUUYY __pyx_string_tab[204]
+#define __pyx_kp_b_iso88591_t3a_e1_M_a_1_y_Bb_1_QnAWAYa_IQ __pyx_string_tab[205]
+#define __pyx_kp_b_iso88591_t3a_e5 __pyx_string_tab[206]
 #define __pyx_int_0 __pyx_number_tab[0]
 #define __pyx_int_1 __pyx_number_tab[1]
 /* #### Code section: module_state_clear ### */
@@ -2694,7 +2695,7 @@ static CYTHON_SMALL_CODE int __pyx_m_clear(PyObject *m) {
   #endif
   for (int i=0; i<2; ++i) { Py_CLEAR(clear_module_state->__pyx_tuple[i]); }
   for (int i=0; i<8; ++i) { Py_CLEAR(clear_module_state->__pyx_codeobj_tab[i]); }
-  for (int i=0; i<206; ++i) { Py_CLEAR(clear_module_state->__pyx_string_tab[i]); }
+  for (int i=0; i<207; ++i) { Py_CLEAR(clear_module_state->__pyx_string_tab[i]); }
   for (int i=0; i<2; ++i) { Py_CLEAR(clear_module_state->__pyx_number_tab[i]); }
 /* #### Code section: module_state_clear_contents ### */
 /* CommonTypesMetaclass.module_state_clear */
@@ -2720,7 +2721,7 @@ static CYTHON_SMALL_CODE int __pyx_m_traverse(PyObject *m, visitproc visit, void
   __Pyx_VISIT_CONST(traverse_module_state->__pyx_empty_unicode);
   for (int i=0; i<2; ++i) { __Pyx_VISIT_CONST(traverse_module_state->__pyx_tuple[i]); }
   for (int i=0; i<8; ++i) { __Pyx_VISIT_CONST(traverse_module_state->__pyx_codeobj_tab[i]); }
-  for (int i=0; i<206; ++i) { __Pyx_VISIT_CONST(traverse_module_state->__pyx_string_tab[i]); }
+  for (int i=0; i<207; ++i) { __Pyx_VISIT_CONST(traverse_module_state->__pyx_string_tab[i]); }
   for (int i=0; i<2; ++i) { __Pyx_VISIT_CONST(traverse_module_state->__pyx_number_tab[i]); }
 /* #### Code section: module_state_traverse_contents ### */
 /* CommonTypesMetaclass.module_state_traverse */
@@ -3583,8 +3584,8 @@ static PyObject *__pyx_pf_5c104f_8handlers_13file_handlers_server_file_receive_h
  *                 if cot == c104.Cot.FILE_TRANSFER:
  *                     # file section select here
  *                     sv_select_section_handler(zero_point, ioa, nof, nos)             # <<<<<<<<<<<<<<
- * 
- * 
+ *             elif scq.isDeleteFile():
+ *                 pass
 */
           __pyx_t_6 = NULL;
           __Pyx_GetModuleGlobalName(__pyx_t_2, __pyx_mstate_global->__pyx_n_u_sv_select_section_handler); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 46, __pyx_L1_error)
@@ -3627,6 +3628,29 @@ static PyObject *__pyx_pf_5c104f_8handlers_13file_handlers_server_file_receive_h
  *                 if cot == c104.Cot.FILE_TRANSFER:
  *                     # file section select here
 */
+        goto __pyx_L7;
+      }
+
+      /* "c104f/handlers/file_handlers.py":47
+ *                     # file section select here
+ *                     sv_select_section_handler(zero_point, ioa, nof, nos)
+ *             elif scq.isDeleteFile():             # <<<<<<<<<<<<<<
+ *                 pass
+ * 
+*/
+      __pyx_t_2 = __pyx_v_scq;
+      __Pyx_INCREF(__pyx_t_2);
+      __pyx_t_3 = 0;
+      {
+        PyObject *__pyx_callargs[2] = {__pyx_t_2, NULL};
+        __pyx_t_7 = __Pyx_PyObject_FastCallMethod((PyObject*)__pyx_mstate_global->__pyx_n_u_isDeleteFile, __pyx_callargs+__pyx_t_3, (1-__pyx_t_3) | (1*__Pyx_PY_VECTORCALL_ARGUMENTS_OFFSET));
+        __Pyx_XDECREF(__pyx_t_2); __pyx_t_2 = 0;
+        if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 47, __pyx_L1_error)
+        __Pyx_GOTREF(__pyx_t_7);
+      }
+      __pyx_t_5 = __Pyx_PyObject_IsTrue(__pyx_t_7); if (unlikely((__pyx_t_5 < 0))) __PYX_ERR(0, 47, __pyx_L1_error)
+      __Pyx_DECREF(__pyx_t_7); __pyx_t_7 = 0;
+      if (__pyx_t_5) {
       }
       __pyx_L7:;
 
@@ -3640,28 +3664,28 @@ static PyObject *__pyx_pf_5c104f_8handlers_13file_handlers_server_file_receive_h
       goto __pyx_L4;
     }
 
-    /* "c104f/handlers/file_handlers.py":50
+    /* "c104f/handlers/file_handlers.py":52
  * 
  * 
  *         elif type == c104.Type.F_AF_NA_1:             # <<<<<<<<<<<<<<
  *             print("CONFIRM FILE/SECTION")
  *             ioa, nof, nos, afq = ack_file_decode(elements)
 */
-    __Pyx_GetModuleGlobalName(__pyx_t_7, __pyx_mstate_global->__pyx_n_u_c104); if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 50, __pyx_L1_error)
+    __Pyx_GetModuleGlobalName(__pyx_t_7, __pyx_mstate_global->__pyx_n_u_c104); if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 52, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_7);
-    __pyx_t_2 = __Pyx_PyObject_GetAttrStr(__pyx_t_7, __pyx_mstate_global->__pyx_n_u_Type); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 50, __pyx_L1_error)
+    __pyx_t_2 = __Pyx_PyObject_GetAttrStr(__pyx_t_7, __pyx_mstate_global->__pyx_n_u_Type); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 52, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_2);
     __Pyx_DECREF(__pyx_t_7); __pyx_t_7 = 0;
-    __pyx_t_7 = __Pyx_PyObject_GetAttrStr(__pyx_t_2, __pyx_mstate_global->__pyx_n_u_F_AF_NA_1); if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 50, __pyx_L1_error)
+    __pyx_t_7 = __Pyx_PyObject_GetAttrStr(__pyx_t_2, __pyx_mstate_global->__pyx_n_u_F_AF_NA_1); if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 52, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_7);
     __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
-    __pyx_t_2 = PyObject_RichCompare(__pyx_v_type, __pyx_t_7, Py_EQ); __Pyx_XGOTREF(__pyx_t_2); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 50, __pyx_L1_error)
+    __pyx_t_2 = PyObject_RichCompare(__pyx_v_type, __pyx_t_7, Py_EQ); __Pyx_XGOTREF(__pyx_t_2); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 52, __pyx_L1_error)
     __Pyx_DECREF(__pyx_t_7); __pyx_t_7 = 0;
-    __pyx_t_5 = __Pyx_PyObject_IsTrue(__pyx_t_2); if (unlikely((__pyx_t_5 < 0))) __PYX_ERR(0, 50, __pyx_L1_error)
+    __pyx_t_5 = __Pyx_PyObject_IsTrue(__pyx_t_2); if (unlikely((__pyx_t_5 < 0))) __PYX_ERR(0, 52, __pyx_L1_error)
     __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
     if (__pyx_t_5) {
 
-      /* "c104f/handlers/file_handlers.py":51
+      /* "c104f/handlers/file_handlers.py":53
  * 
  *         elif type == c104.Type.F_AF_NA_1:
  *             print("CONFIRM FILE/SECTION")             # <<<<<<<<<<<<<<
@@ -3674,12 +3698,12 @@ static PyObject *__pyx_pf_5c104f_8handlers_13file_handlers_server_file_receive_h
         PyObject *__pyx_callargs[2] = {__pyx_t_7, __pyx_mstate_global->__pyx_kp_u_CONFIRM_FILE_SECTION};
         __pyx_t_2 = __Pyx_PyObject_FastCall((PyObject*)__pyx_builtin_print, __pyx_callargs+__pyx_t_3, (2-__pyx_t_3) | (__pyx_t_3*__Pyx_PY_VECTORCALL_ARGUMENTS_OFFSET));
         __Pyx_XDECREF(__pyx_t_7); __pyx_t_7 = 0;
-        if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 51, __pyx_L1_error)
+        if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 53, __pyx_L1_error)
         __Pyx_GOTREF(__pyx_t_2);
       }
       __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
 
-      /* "c104f/handlers/file_handlers.py":52
+      /* "c104f/handlers/file_handlers.py":54
  *         elif type == c104.Type.F_AF_NA_1:
  *             print("CONFIRM FILE/SECTION")
  *             ioa, nof, nos, afq = ack_file_decode(elements)             # <<<<<<<<<<<<<<
@@ -3687,7 +3711,7 @@ static PyObject *__pyx_pf_5c104f_8handlers_13file_handlers_server_file_receive_h
  *             sv_confirm_handler(zero_point, ioa, nof, nos, afq)
 */
       __pyx_t_7 = NULL;
-      __Pyx_GetModuleGlobalName(__pyx_t_6, __pyx_mstate_global->__pyx_n_u_ack_file_decode); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 52, __pyx_L1_error)
+      __Pyx_GetModuleGlobalName(__pyx_t_6, __pyx_mstate_global->__pyx_n_u_ack_file_decode); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 54, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_6);
       __pyx_t_3 = 1;
       #if CYTHON_UNPACK_METHODS
@@ -3706,7 +3730,7 @@ static PyObject *__pyx_pf_5c104f_8handlers_13file_handlers_server_file_receive_h
         __pyx_t_2 = __Pyx_PyObject_FastCall((PyObject*)__pyx_t_6, __pyx_callargs+__pyx_t_3, (2-__pyx_t_3) | (__pyx_t_3*__Pyx_PY_VECTORCALL_ARGUMENTS_OFFSET));
         __Pyx_XDECREF(__pyx_t_7); __pyx_t_7 = 0;
         __Pyx_DECREF(__pyx_t_6); __pyx_t_6 = 0;
-        if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 52, __pyx_L1_error)
+        if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 54, __pyx_L1_error)
         __Pyx_GOTREF(__pyx_t_2);
       }
       if ((likely(PyTuple_CheckExact(__pyx_t_2))) || (PyList_CheckExact(__pyx_t_2))) {
@@ -3715,7 +3739,7 @@ static PyObject *__pyx_pf_5c104f_8handlers_13file_handlers_server_file_receive_h
         if (unlikely(size != 4)) {
           if (size > 4) __Pyx_RaiseTooManyValuesError(4);
           else if (size >= 0) __Pyx_RaiseNeedMoreValuesError(size);
-          __PYX_ERR(0, 52, __pyx_L1_error)
+          __PYX_ERR(0, 54, __pyx_L1_error)
         }
         #if CYTHON_ASSUME_SAFE_MACROS && !CYTHON_AVOID_BORROWED_REFS
         if (likely(PyTuple_CheckExact(sequence))) {
@@ -3729,16 +3753,16 @@ static PyObject *__pyx_pf_5c104f_8handlers_13file_handlers_server_file_receive_h
           __Pyx_INCREF(__pyx_t_4);
         } else {
           __pyx_t_6 = __Pyx_PyList_GetItemRefFast(sequence, 0, __Pyx_ReferenceSharing_SharedReference);
-          if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 52, __pyx_L1_error)
+          if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 54, __pyx_L1_error)
           __Pyx_XGOTREF(__pyx_t_6);
           __pyx_t_7 = __Pyx_PyList_GetItemRefFast(sequence, 1, __Pyx_ReferenceSharing_SharedReference);
-          if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 52, __pyx_L1_error)
+          if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 54, __pyx_L1_error)
           __Pyx_XGOTREF(__pyx_t_7);
           __pyx_t_1 = __Pyx_PyList_GetItemRefFast(sequence, 2, __Pyx_ReferenceSharing_SharedReference);
-          if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 52, __pyx_L1_error)
+          if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 54, __pyx_L1_error)
           __Pyx_XGOTREF(__pyx_t_1);
           __pyx_t_4 = __Pyx_PyList_GetItemRefFast(sequence, 3, __Pyx_ReferenceSharing_SharedReference);
-          if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 52, __pyx_L1_error)
+          if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 54, __pyx_L1_error)
           __Pyx_XGOTREF(__pyx_t_4);
         }
         #else
@@ -3746,7 +3770,7 @@ static PyObject *__pyx_pf_5c104f_8handlers_13file_handlers_server_file_receive_h
           Py_ssize_t i;
           PyObject** temps[4] = {&__pyx_t_6,&__pyx_t_7,&__pyx_t_1,&__pyx_t_4};
           for (i=0; i < 4; i++) {
-            PyObject* item = __Pyx_PySequence_ITEM(sequence, i); if (unlikely(!item)) __PYX_ERR(0, 52, __pyx_L1_error)
+            PyObject* item = __Pyx_PySequence_ITEM(sequence, i); if (unlikely(!item)) __PYX_ERR(0, 54, __pyx_L1_error)
             __Pyx_GOTREF(item);
             *(temps[i]) = item;
           }
@@ -3756,7 +3780,7 @@ static PyObject *__pyx_pf_5c104f_8handlers_13file_handlers_server_file_receive_h
       } else {
         Py_ssize_t index = -1;
         PyObject** temps[4] = {&__pyx_t_6,&__pyx_t_7,&__pyx_t_1,&__pyx_t_4};
-        __pyx_t_8 = PyObject_GetIter(__pyx_t_2); if (unlikely(!__pyx_t_8)) __PYX_ERR(0, 52, __pyx_L1_error)
+        __pyx_t_8 = PyObject_GetIter(__pyx_t_2); if (unlikely(!__pyx_t_8)) __PYX_ERR(0, 54, __pyx_L1_error)
         __Pyx_GOTREF(__pyx_t_8);
         __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
         __pyx_t_9 = (CYTHON_COMPILING_IN_LIMITED_API) ? PyIter_Next : __Pyx_PyObject_GetIterNextFunc(__pyx_t_8);
@@ -3765,7 +3789,7 @@ static PyObject *__pyx_pf_5c104f_8handlers_13file_handlers_server_file_receive_h
           __Pyx_GOTREF(item);
           *(temps[index]) = item;
         }
-        if (__Pyx_IternextUnpackEndCheck(__pyx_t_9(__pyx_t_8), 4) < (0)) __PYX_ERR(0, 52, __pyx_L1_error)
+        if (__Pyx_IternextUnpackEndCheck(__pyx_t_9(__pyx_t_8), 4) < (0)) __PYX_ERR(0, 54, __pyx_L1_error)
         __pyx_t_9 = NULL;
         __Pyx_DECREF(__pyx_t_8); __pyx_t_8 = 0;
         goto __pyx_L13_unpacking_done;
@@ -3773,7 +3797,7 @@ static PyObject *__pyx_pf_5c104f_8handlers_13file_handlers_server_file_receive_h
         __Pyx_DECREF(__pyx_t_8); __pyx_t_8 = 0;
         __pyx_t_9 = NULL;
         if (__Pyx_IterFinish() == 0) __Pyx_RaiseNeedMoreValuesError(index);
-        __PYX_ERR(0, 52, __pyx_L1_error)
+        __PYX_ERR(0, 54, __pyx_L1_error)
         __pyx_L13_unpacking_done:;
       }
       __pyx_v_ioa = __pyx_t_6;
@@ -3785,7 +3809,7 @@ static PyObject *__pyx_pf_5c104f_8handlers_13file_handlers_server_file_receive_h
       __pyx_v_afq = __pyx_t_4;
       __pyx_t_4 = 0;
 
-      /* "c104f/handlers/file_handlers.py":53
+      /* "c104f/handlers/file_handlers.py":55
  *             print("CONFIRM FILE/SECTION")
  *             ioa, nof, nos, afq = ack_file_decode(elements)
  *             afq = AFQ(afq)             # <<<<<<<<<<<<<<
@@ -3793,7 +3817,7 @@ static PyObject *__pyx_pf_5c104f_8handlers_13file_handlers_server_file_receive_h
  *             # file or section acknowledgement
 */
       __pyx_t_4 = NULL;
-      __Pyx_GetModuleGlobalName(__pyx_t_1, __pyx_mstate_global->__pyx_n_u_AFQ); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 53, __pyx_L1_error)
+      __Pyx_GetModuleGlobalName(__pyx_t_1, __pyx_mstate_global->__pyx_n_u_AFQ); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 55, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_1);
       __pyx_t_3 = 1;
       #if CYTHON_UNPACK_METHODS
@@ -3812,13 +3836,13 @@ static PyObject *__pyx_pf_5c104f_8handlers_13file_handlers_server_file_receive_h
         __pyx_t_2 = __Pyx_PyObject_FastCall((PyObject*)__pyx_t_1, __pyx_callargs+__pyx_t_3, (2-__pyx_t_3) | (__pyx_t_3*__Pyx_PY_VECTORCALL_ARGUMENTS_OFFSET));
         __Pyx_XDECREF(__pyx_t_4); __pyx_t_4 = 0;
         __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
-        if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 53, __pyx_L1_error)
+        if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 55, __pyx_L1_error)
         __Pyx_GOTREF(__pyx_t_2);
       }
       __Pyx_DECREF_SET(__pyx_v_afq, __pyx_t_2);
       __pyx_t_2 = 0;
 
-      /* "c104f/handlers/file_handlers.py":54
+      /* "c104f/handlers/file_handlers.py":56
  *             ioa, nof, nos, afq = ack_file_decode(elements)
  *             afq = AFQ(afq)
  *             sv_confirm_handler(zero_point, ioa, nof, nos, afq)             # <<<<<<<<<<<<<<
@@ -3826,7 +3850,7 @@ static PyObject *__pyx_pf_5c104f_8handlers_13file_handlers_server_file_receive_h
  *             ...
 */
       __pyx_t_1 = NULL;
-      __Pyx_GetModuleGlobalName(__pyx_t_4, __pyx_mstate_global->__pyx_n_u_sv_confirm_handler); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 54, __pyx_L1_error)
+      __Pyx_GetModuleGlobalName(__pyx_t_4, __pyx_mstate_global->__pyx_n_u_sv_confirm_handler); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 56, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_4);
       __pyx_t_3 = 1;
       #if CYTHON_UNPACK_METHODS
@@ -3845,12 +3869,12 @@ static PyObject *__pyx_pf_5c104f_8handlers_13file_handlers_server_file_receive_h
         __pyx_t_2 = __Pyx_PyObject_FastCall((PyObject*)__pyx_t_4, __pyx_callargs+__pyx_t_3, (6-__pyx_t_3) | (__pyx_t_3*__Pyx_PY_VECTORCALL_ARGUMENTS_OFFSET));
         __Pyx_XDECREF(__pyx_t_1); __pyx_t_1 = 0;
         __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
-        if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 54, __pyx_L1_error)
+        if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 56, __pyx_L1_error)
         __Pyx_GOTREF(__pyx_t_2);
       }
       __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
 
-      /* "c104f/handlers/file_handlers.py":50
+      /* "c104f/handlers/file_handlers.py":52
  * 
  * 
  *         elif type == c104.Type.F_AF_NA_1:             # <<<<<<<<<<<<<<
@@ -3860,7 +3884,7 @@ static PyObject *__pyx_pf_5c104f_8handlers_13file_handlers_server_file_receive_h
       goto __pyx_L4;
     }
 
-    /* "c104f/handlers/file_handlers.py":58
+    /* "c104f/handlers/file_handlers.py":60
  *             ...
  *         else:
  *             print("Unexpected type")             # <<<<<<<<<<<<<<
@@ -3874,7 +3898,7 @@ static PyObject *__pyx_pf_5c104f_8handlers_13file_handlers_server_file_receive_h
         PyObject *__pyx_callargs[2] = {__pyx_t_4, __pyx_mstate_global->__pyx_kp_u_Unexpected_type};
         __pyx_t_2 = __Pyx_PyObject_FastCall((PyObject*)__pyx_builtin_print, __pyx_callargs+__pyx_t_3, (2-__pyx_t_3) | (__pyx_t_3*__Pyx_PY_VECTORCALL_ARGUMENTS_OFFSET));
         __Pyx_XDECREF(__pyx_t_4); __pyx_t_4 = 0;
-        if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 58, __pyx_L1_error)
+        if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 60, __pyx_L1_error)
         __Pyx_GOTREF(__pyx_t_2);
       }
       __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
@@ -3926,7 +3950,7 @@ static PyObject *__pyx_pf_5c104f_8handlers_13file_handlers_server_file_receive_h
   return __pyx_r;
 }
 
-/* "c104f/handlers/file_handlers.py":60
+/* "c104f/handlers/file_handlers.py":62
  *             print("Unexpected type")
  * 
  * def server_file_send_handler(server, filename, station_id):             # <<<<<<<<<<<<<<
@@ -3975,38 +3999,38 @@ PyObject *__pyx_args, PyObject *__pyx_kwds
   {
     PyObject ** const __pyx_pyargnames[] = {&__pyx_mstate_global->__pyx_n_u_server,&__pyx_mstate_global->__pyx_n_u_filename,&__pyx_mstate_global->__pyx_n_u_station_id,0};
     const Py_ssize_t __pyx_kwds_len = (__pyx_kwds) ? __Pyx_NumKwargs_FASTCALL(__pyx_kwds) : 0;
-    if (unlikely(__pyx_kwds_len) < 0) __PYX_ERR(0, 60, __pyx_L3_error)
+    if (unlikely(__pyx_kwds_len) < 0) __PYX_ERR(0, 62, __pyx_L3_error)
     if (__pyx_kwds_len > 0) {
       switch (__pyx_nargs) {
         case  3:
         values[2] = __Pyx_ArgRef_FASTCALL(__pyx_args, 2);
-        if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[2])) __PYX_ERR(0, 60, __pyx_L3_error)
+        if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[2])) __PYX_ERR(0, 62, __pyx_L3_error)
         CYTHON_FALLTHROUGH;
         case  2:
         values[1] = __Pyx_ArgRef_FASTCALL(__pyx_args, 1);
-        if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[1])) __PYX_ERR(0, 60, __pyx_L3_error)
+        if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[1])) __PYX_ERR(0, 62, __pyx_L3_error)
         CYTHON_FALLTHROUGH;
         case  1:
         values[0] = __Pyx_ArgRef_FASTCALL(__pyx_args, 0);
-        if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[0])) __PYX_ERR(0, 60, __pyx_L3_error)
+        if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[0])) __PYX_ERR(0, 62, __pyx_L3_error)
         CYTHON_FALLTHROUGH;
         case  0: break;
         default: goto __pyx_L5_argtuple_error;
       }
       const Py_ssize_t kwd_pos_args = __pyx_nargs;
-      if (__Pyx_ParseKeywords(__pyx_kwds, __pyx_kwvalues, __pyx_pyargnames, 0, values, kwd_pos_args, __pyx_kwds_len, "server_file_send_handler", 0) < (0)) __PYX_ERR(0, 60, __pyx_L3_error)
+      if (__Pyx_ParseKeywords(__pyx_kwds, __pyx_kwvalues, __pyx_pyargnames, 0, values, kwd_pos_args, __pyx_kwds_len, "server_file_send_handler", 0) < (0)) __PYX_ERR(0, 62, __pyx_L3_error)
       for (Py_ssize_t i = __pyx_nargs; i < 3; i++) {
-        if (unlikely(!values[i])) { __Pyx_RaiseArgtupleInvalid("server_file_send_handler", 1, 3, 3, i); __PYX_ERR(0, 60, __pyx_L3_error) }
+        if (unlikely(!values[i])) { __Pyx_RaiseArgtupleInvalid("server_file_send_handler", 1, 3, 3, i); __PYX_ERR(0, 62, __pyx_L3_error) }
       }
     } else if (unlikely(__pyx_nargs != 3)) {
       goto __pyx_L5_argtuple_error;
     } else {
       values[0] = __Pyx_ArgRef_FASTCALL(__pyx_args, 0);
-      if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[0])) __PYX_ERR(0, 60, __pyx_L3_error)
+      if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[0])) __PYX_ERR(0, 62, __pyx_L3_error)
       values[1] = __Pyx_ArgRef_FASTCALL(__pyx_args, 1);
-      if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[1])) __PYX_ERR(0, 60, __pyx_L3_error)
+      if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[1])) __PYX_ERR(0, 62, __pyx_L3_error)
       values[2] = __Pyx_ArgRef_FASTCALL(__pyx_args, 2);
-      if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[2])) __PYX_ERR(0, 60, __pyx_L3_error)
+      if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[2])) __PYX_ERR(0, 62, __pyx_L3_error)
     }
     __pyx_v_server = values[0];
     __pyx_v_filename = values[1];
@@ -4014,7 +4038,7 @@ PyObject *__pyx_args, PyObject *__pyx_kwds
   }
   goto __pyx_L6_skip;
   __pyx_L5_argtuple_error:;
-  __Pyx_RaiseArgtupleInvalid("server_file_send_handler", 1, 3, 3, __pyx_nargs); __PYX_ERR(0, 60, __pyx_L3_error)
+  __Pyx_RaiseArgtupleInvalid("server_file_send_handler", 1, 3, 3, __pyx_nargs); __PYX_ERR(0, 62, __pyx_L3_error)
   __pyx_L6_skip:;
   goto __pyx_L4_argument_unpacking_done;
   __pyx_L3_error:;
@@ -4055,7 +4079,7 @@ static PyObject *__pyx_pf_5c104f_8handlers_13file_handlers_2server_file_send_han
   int __pyx_clineno = 0;
   __Pyx_RefNannySetupContext("server_file_send_handler", 0);
 
-  /* "c104f/handlers/file_handlers.py":61
+  /* "c104f/handlers/file_handlers.py":63
  * 
  * def server_file_send_handler(server, filename, station_id):
  *     station = server.get_station(station_id)             # <<<<<<<<<<<<<<
@@ -4069,23 +4093,23 @@ static PyObject *__pyx_pf_5c104f_8handlers_13file_handlers_2server_file_send_han
     PyObject *__pyx_callargs[2] = {__pyx_t_2, __pyx_v_station_id};
     __pyx_t_1 = __Pyx_PyObject_FastCallMethod((PyObject*)__pyx_mstate_global->__pyx_n_u_get_station, __pyx_callargs+__pyx_t_3, (2-__pyx_t_3) | (1*__Pyx_PY_VECTORCALL_ARGUMENTS_OFFSET));
     __Pyx_XDECREF(__pyx_t_2); __pyx_t_2 = 0;
-    if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 61, __pyx_L1_error)
+    if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 63, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_1);
   }
   __pyx_v_station = __pyx_t_1;
   __pyx_t_1 = 0;
 
-  /* "c104f/handlers/file_handlers.py":62
+  /* "c104f/handlers/file_handlers.py":64
  * def server_file_send_handler(server, filename, station_id):
  *     station = server.get_station(station_id)
  *     if station:             # <<<<<<<<<<<<<<
  *         file_id = get_file_id(filename)
  *         type = c104.Cot.SPONTANEOUS
 */
-  __pyx_t_4 = __Pyx_PyObject_IsTrue(__pyx_v_station); if (unlikely((__pyx_t_4 < 0))) __PYX_ERR(0, 62, __pyx_L1_error)
+  __pyx_t_4 = __Pyx_PyObject_IsTrue(__pyx_v_station); if (unlikely((__pyx_t_4 < 0))) __PYX_ERR(0, 64, __pyx_L1_error)
   if (__pyx_t_4) {
 
-    /* "c104f/handlers/file_handlers.py":63
+    /* "c104f/handlers/file_handlers.py":65
  *     station = server.get_station(station_id)
  *     if station:
  *         file_id = get_file_id(filename)             # <<<<<<<<<<<<<<
@@ -4093,7 +4117,7 @@ static PyObject *__pyx_pf_5c104f_8handlers_13file_handlers_2server_file_send_han
  *         nos = 0
 */
     __pyx_t_2 = NULL;
-    __Pyx_GetModuleGlobalName(__pyx_t_5, __pyx_mstate_global->__pyx_n_u_get_file_id); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 63, __pyx_L1_error)
+    __Pyx_GetModuleGlobalName(__pyx_t_5, __pyx_mstate_global->__pyx_n_u_get_file_id); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 65, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_5);
     __pyx_t_3 = 1;
     #if CYTHON_UNPACK_METHODS
@@ -4112,31 +4136,31 @@ static PyObject *__pyx_pf_5c104f_8handlers_13file_handlers_2server_file_send_han
       __pyx_t_1 = __Pyx_PyObject_FastCall((PyObject*)__pyx_t_5, __pyx_callargs+__pyx_t_3, (2-__pyx_t_3) | (__pyx_t_3*__Pyx_PY_VECTORCALL_ARGUMENTS_OFFSET));
       __Pyx_XDECREF(__pyx_t_2); __pyx_t_2 = 0;
       __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
-      if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 63, __pyx_L1_error)
+      if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 65, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_1);
     }
     __pyx_v_file_id = __pyx_t_1;
     __pyx_t_1 = 0;
 
-    /* "c104f/handlers/file_handlers.py":64
+    /* "c104f/handlers/file_handlers.py":66
  *     if station:
  *         file_id = get_file_id(filename)
  *         type = c104.Cot.SPONTANEOUS             # <<<<<<<<<<<<<<
  *         nos = 0
  *         zero_point = get_zero_point(station)
 */
-    __Pyx_GetModuleGlobalName(__pyx_t_1, __pyx_mstate_global->__pyx_n_u_c104); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 64, __pyx_L1_error)
+    __Pyx_GetModuleGlobalName(__pyx_t_1, __pyx_mstate_global->__pyx_n_u_c104); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 66, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_1);
-    __pyx_t_5 = __Pyx_PyObject_GetAttrStr(__pyx_t_1, __pyx_mstate_global->__pyx_n_u_Cot); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 64, __pyx_L1_error)
+    __pyx_t_5 = __Pyx_PyObject_GetAttrStr(__pyx_t_1, __pyx_mstate_global->__pyx_n_u_Cot); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 66, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_5);
     __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
-    __pyx_t_1 = __Pyx_PyObject_GetAttrStr(__pyx_t_5, __pyx_mstate_global->__pyx_n_u_SPONTANEOUS); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 64, __pyx_L1_error)
+    __pyx_t_1 = __Pyx_PyObject_GetAttrStr(__pyx_t_5, __pyx_mstate_global->__pyx_n_u_SPONTANEOUS); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 66, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_1);
     __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
     __pyx_v_type = __pyx_t_1;
     __pyx_t_1 = 0;
 
-    /* "c104f/handlers/file_handlers.py":65
+    /* "c104f/handlers/file_handlers.py":67
  *         file_id = get_file_id(filename)
  *         type = c104.Cot.SPONTANEOUS
  *         nos = 0             # <<<<<<<<<<<<<<
@@ -4145,7 +4169,7 @@ static PyObject *__pyx_pf_5c104f_8handlers_13file_handlers_2server_file_send_han
 */
     __pyx_v_nos = 0;
 
-    /* "c104f/handlers/file_handlers.py":66
+    /* "c104f/handlers/file_handlers.py":68
  *         type = c104.Cot.SPONTANEOUS
  *         nos = 0
  *         zero_point = get_zero_point(station)             # <<<<<<<<<<<<<<
@@ -4153,7 +4177,7 @@ static PyObject *__pyx_pf_5c104f_8handlers_13file_handlers_2server_file_send_han
  * 
 */
     __pyx_t_5 = NULL;
-    __Pyx_GetModuleGlobalName(__pyx_t_2, __pyx_mstate_global->__pyx_n_u_get_zero_point); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 66, __pyx_L1_error)
+    __Pyx_GetModuleGlobalName(__pyx_t_2, __pyx_mstate_global->__pyx_n_u_get_zero_point); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 68, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_2);
     __pyx_t_3 = 1;
     #if CYTHON_UNPACK_METHODS
@@ -4172,13 +4196,13 @@ static PyObject *__pyx_pf_5c104f_8handlers_13file_handlers_2server_file_send_han
       __pyx_t_1 = __Pyx_PyObject_FastCall((PyObject*)__pyx_t_2, __pyx_callargs+__pyx_t_3, (2-__pyx_t_3) | (__pyx_t_3*__Pyx_PY_VECTORCALL_ARGUMENTS_OFFSET));
       __Pyx_XDECREF(__pyx_t_5); __pyx_t_5 = 0;
       __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
-      if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 66, __pyx_L1_error)
+      if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 68, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_1);
     }
     __pyx_v_zero_point = __pyx_t_1;
     __pyx_t_1 = 0;
 
-    /* "c104f/handlers/file_handlers.py":67
+    /* "c104f/handlers/file_handlers.py":69
  *         nos = 0
  *         zero_point = get_zero_point(station)
  *         sv_select_file_handler(zero_point, 0, file_id, nos, tr_type = type)             # <<<<<<<<<<<<<<
@@ -4186,9 +4210,9 @@ static PyObject *__pyx_pf_5c104f_8handlers_13file_handlers_2server_file_send_han
  * def sv_call_section_handler(zero_point, ioa, nof, nos):
 */
     __pyx_t_2 = NULL;
-    __Pyx_GetModuleGlobalName(__pyx_t_5, __pyx_mstate_global->__pyx_n_u_sv_select_file_handler); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 67, __pyx_L1_error)
+    __Pyx_GetModuleGlobalName(__pyx_t_5, __pyx_mstate_global->__pyx_n_u_sv_select_file_handler); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 69, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_5);
-    __pyx_t_6 = __Pyx_PyLong_From_long(__pyx_v_nos); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 67, __pyx_L1_error)
+    __pyx_t_6 = __Pyx_PyLong_From_long(__pyx_v_nos); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 69, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_6);
     __pyx_t_3 = 1;
     #if CYTHON_UNPACK_METHODS
@@ -4204,20 +4228,20 @@ static PyObject *__pyx_pf_5c104f_8handlers_13file_handlers_2server_file_send_han
     #endif
     {
       PyObject *__pyx_callargs[5 + ((CYTHON_VECTORCALL) ? 1 : 0)] = {__pyx_t_2, __pyx_v_zero_point, __pyx_mstate_global->__pyx_int_0, __pyx_v_file_id, __pyx_t_6};
-      __pyx_t_7 = __Pyx_MakeVectorcallBuilderKwds(1); if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 67, __pyx_L1_error)
+      __pyx_t_7 = __Pyx_MakeVectorcallBuilderKwds(1); if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 69, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_7);
-      if (__Pyx_VectorcallBuilder_AddArg(__pyx_mstate_global->__pyx_n_u_tr_type, __pyx_v_type, __pyx_t_7, __pyx_callargs+5, 0) < (0)) __PYX_ERR(0, 67, __pyx_L1_error)
+      if (__Pyx_VectorcallBuilder_AddArg(__pyx_mstate_global->__pyx_n_u_tr_type, __pyx_v_type, __pyx_t_7, __pyx_callargs+5, 0) < (0)) __PYX_ERR(0, 69, __pyx_L1_error)
       __pyx_t_1 = __Pyx_Object_Vectorcall_CallFromBuilder((PyObject*)__pyx_t_5, __pyx_callargs+__pyx_t_3, (5-__pyx_t_3) | (__pyx_t_3*__Pyx_PY_VECTORCALL_ARGUMENTS_OFFSET), __pyx_t_7);
       __Pyx_XDECREF(__pyx_t_2); __pyx_t_2 = 0;
       __Pyx_DECREF(__pyx_t_6); __pyx_t_6 = 0;
       __Pyx_DECREF(__pyx_t_7); __pyx_t_7 = 0;
       __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
-      if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 67, __pyx_L1_error)
+      if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 69, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_1);
     }
     __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
 
-    /* "c104f/handlers/file_handlers.py":62
+    /* "c104f/handlers/file_handlers.py":64
  * def server_file_send_handler(server, filename, station_id):
  *     station = server.get_station(station_id)
  *     if station:             # <<<<<<<<<<<<<<
@@ -4226,7 +4250,7 @@ static PyObject *__pyx_pf_5c104f_8handlers_13file_handlers_2server_file_send_han
 */
   }
 
-  /* "c104f/handlers/file_handlers.py":60
+  /* "c104f/handlers/file_handlers.py":62
  *             print("Unexpected type")
  * 
  * def server_file_send_handler(server, filename, station_id):             # <<<<<<<<<<<<<<
@@ -4255,7 +4279,7 @@ static PyObject *__pyx_pf_5c104f_8handlers_13file_handlers_2server_file_send_han
   return __pyx_r;
 }
 
-/* "c104f/handlers/file_handlers.py":69
+/* "c104f/handlers/file_handlers.py":71
  *         sv_select_file_handler(zero_point, 0, file_id, nos, tr_type = type)
  * 
  * def sv_call_section_handler(zero_point, ioa, nof, nos):             # <<<<<<<<<<<<<<
@@ -4305,44 +4329,44 @@ PyObject *__pyx_args, PyObject *__pyx_kwds
   {
     PyObject ** const __pyx_pyargnames[] = {&__pyx_mstate_global->__pyx_n_u_zero_point,&__pyx_mstate_global->__pyx_n_u_ioa,&__pyx_mstate_global->__pyx_n_u_nof,&__pyx_mstate_global->__pyx_n_u_nos,0};
     const Py_ssize_t __pyx_kwds_len = (__pyx_kwds) ? __Pyx_NumKwargs_FASTCALL(__pyx_kwds) : 0;
-    if (unlikely(__pyx_kwds_len) < 0) __PYX_ERR(0, 69, __pyx_L3_error)
+    if (unlikely(__pyx_kwds_len) < 0) __PYX_ERR(0, 71, __pyx_L3_error)
     if (__pyx_kwds_len > 0) {
       switch (__pyx_nargs) {
         case  4:
         values[3] = __Pyx_ArgRef_FASTCALL(__pyx_args, 3);
-        if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[3])) __PYX_ERR(0, 69, __pyx_L3_error)
+        if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[3])) __PYX_ERR(0, 71, __pyx_L3_error)
         CYTHON_FALLTHROUGH;
         case  3:
         values[2] = __Pyx_ArgRef_FASTCALL(__pyx_args, 2);
-        if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[2])) __PYX_ERR(0, 69, __pyx_L3_error)
+        if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[2])) __PYX_ERR(0, 71, __pyx_L3_error)
         CYTHON_FALLTHROUGH;
         case  2:
         values[1] = __Pyx_ArgRef_FASTCALL(__pyx_args, 1);
-        if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[1])) __PYX_ERR(0, 69, __pyx_L3_error)
+        if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[1])) __PYX_ERR(0, 71, __pyx_L3_error)
         CYTHON_FALLTHROUGH;
         case  1:
         values[0] = __Pyx_ArgRef_FASTCALL(__pyx_args, 0);
-        if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[0])) __PYX_ERR(0, 69, __pyx_L3_error)
+        if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[0])) __PYX_ERR(0, 71, __pyx_L3_error)
         CYTHON_FALLTHROUGH;
         case  0: break;
         default: goto __pyx_L5_argtuple_error;
       }
       const Py_ssize_t kwd_pos_args = __pyx_nargs;
-      if (__Pyx_ParseKeywords(__pyx_kwds, __pyx_kwvalues, __pyx_pyargnames, 0, values, kwd_pos_args, __pyx_kwds_len, "sv_call_section_handler", 0) < (0)) __PYX_ERR(0, 69, __pyx_L3_error)
+      if (__Pyx_ParseKeywords(__pyx_kwds, __pyx_kwvalues, __pyx_pyargnames, 0, values, kwd_pos_args, __pyx_kwds_len, "sv_call_section_handler", 0) < (0)) __PYX_ERR(0, 71, __pyx_L3_error)
       for (Py_ssize_t i = __pyx_nargs; i < 4; i++) {
-        if (unlikely(!values[i])) { __Pyx_RaiseArgtupleInvalid("sv_call_section_handler", 1, 4, 4, i); __PYX_ERR(0, 69, __pyx_L3_error) }
+        if (unlikely(!values[i])) { __Pyx_RaiseArgtupleInvalid("sv_call_section_handler", 1, 4, 4, i); __PYX_ERR(0, 71, __pyx_L3_error) }
       }
     } else if (unlikely(__pyx_nargs != 4)) {
       goto __pyx_L5_argtuple_error;
     } else {
       values[0] = __Pyx_ArgRef_FASTCALL(__pyx_args, 0);
-      if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[0])) __PYX_ERR(0, 69, __pyx_L3_error)
+      if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[0])) __PYX_ERR(0, 71, __pyx_L3_error)
       values[1] = __Pyx_ArgRef_FASTCALL(__pyx_args, 1);
-      if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[1])) __PYX_ERR(0, 69, __pyx_L3_error)
+      if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[1])) __PYX_ERR(0, 71, __pyx_L3_error)
       values[2] = __Pyx_ArgRef_FASTCALL(__pyx_args, 2);
-      if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[2])) __PYX_ERR(0, 69, __pyx_L3_error)
+      if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[2])) __PYX_ERR(0, 71, __pyx_L3_error)
       values[3] = __Pyx_ArgRef_FASTCALL(__pyx_args, 3);
-      if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[3])) __PYX_ERR(0, 69, __pyx_L3_error)
+      if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[3])) __PYX_ERR(0, 71, __pyx_L3_error)
     }
     __pyx_v_zero_point = values[0];
     __pyx_v_ioa = values[1];
@@ -4351,7 +4375,7 @@ PyObject *__pyx_args, PyObject *__pyx_kwds
   }
   goto __pyx_L6_skip;
   __pyx_L5_argtuple_error:;
-  __Pyx_RaiseArgtupleInvalid("sv_call_section_handler", 1, 4, 4, __pyx_nargs); __PYX_ERR(0, 69, __pyx_L3_error)
+  __Pyx_RaiseArgtupleInvalid("sv_call_section_handler", 1, 4, 4, __pyx_nargs); __PYX_ERR(0, 71, __pyx_L3_error)
   __pyx_L6_skip:;
   goto __pyx_L4_argument_unpacking_done;
   __pyx_L3_error:;
@@ -4402,35 +4426,35 @@ static PyObject *__pyx_pf_5c104f_8handlers_13file_handlers_4sv_call_section_hand
   int __pyx_clineno = 0;
   __Pyx_RefNannySetupContext("sv_call_section_handler", 0);
 
-  /* "c104f/handlers/file_handlers.py":70
+  /* "c104f/handlers/file_handlers.py":72
  * 
  * def sv_call_section_handler(zero_point, ioa, nof, nos):
  *     if ioa == 0:             # <<<<<<<<<<<<<<
  *         # main dir here
  *         ## send segments here
 */
-  __pyx_t_1 = (__Pyx_PyLong_BoolEqObjC(__pyx_v_ioa, __pyx_mstate_global->__pyx_int_0, 0, 0)); if (unlikely((__pyx_t_1 < 0))) __PYX_ERR(0, 70, __pyx_L1_error)
+  __pyx_t_1 = (__Pyx_PyLong_BoolEqObjC(__pyx_v_ioa, __pyx_mstate_global->__pyx_int_0, 0, 0)); if (unlikely((__pyx_t_1 < 0))) __PYX_ERR(0, 72, __pyx_L1_error)
   if (__pyx_t_1) {
 
-    /* "c104f/handlers/file_handlers.py":73
+    /* "c104f/handlers/file_handlers.py":75
  *         # main dir here
  *         ## send segments here
  *         zero_point.type = c104.Type.F_SG_NA_1             # <<<<<<<<<<<<<<
  *         file_info = get_file_info(zero_point, nof)
  *         if file_info:
 */
-    __Pyx_GetModuleGlobalName(__pyx_t_2, __pyx_mstate_global->__pyx_n_u_c104); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 73, __pyx_L1_error)
+    __Pyx_GetModuleGlobalName(__pyx_t_2, __pyx_mstate_global->__pyx_n_u_c104); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 75, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_2);
-    __pyx_t_3 = __Pyx_PyObject_GetAttrStr(__pyx_t_2, __pyx_mstate_global->__pyx_n_u_Type); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 73, __pyx_L1_error)
+    __pyx_t_3 = __Pyx_PyObject_GetAttrStr(__pyx_t_2, __pyx_mstate_global->__pyx_n_u_Type); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 75, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_3);
     __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
-    __pyx_t_2 = __Pyx_PyObject_GetAttrStr(__pyx_t_3, __pyx_mstate_global->__pyx_n_u_F_SG_NA_1); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 73, __pyx_L1_error)
+    __pyx_t_2 = __Pyx_PyObject_GetAttrStr(__pyx_t_3, __pyx_mstate_global->__pyx_n_u_F_SG_NA_1); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 75, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_2);
     __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
-    if (__Pyx_PyObject_SetAttrStr(__pyx_v_zero_point, __pyx_mstate_global->__pyx_n_u_type, __pyx_t_2) < (0)) __PYX_ERR(0, 73, __pyx_L1_error)
+    if (__Pyx_PyObject_SetAttrStr(__pyx_v_zero_point, __pyx_mstate_global->__pyx_n_u_type, __pyx_t_2) < (0)) __PYX_ERR(0, 75, __pyx_L1_error)
     __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
 
-    /* "c104f/handlers/file_handlers.py":74
+    /* "c104f/handlers/file_handlers.py":76
  *         ## send segments here
  *         zero_point.type = c104.Type.F_SG_NA_1
  *         file_info = get_file_info(zero_point, nof)             # <<<<<<<<<<<<<<
@@ -4438,7 +4462,7 @@ static PyObject *__pyx_pf_5c104f_8handlers_13file_handlers_4sv_call_section_hand
  *             # file ready for transmition
 */
     __pyx_t_3 = NULL;
-    __Pyx_GetModuleGlobalName(__pyx_t_4, __pyx_mstate_global->__pyx_n_u_get_file_info); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 74, __pyx_L1_error)
+    __Pyx_GetModuleGlobalName(__pyx_t_4, __pyx_mstate_global->__pyx_n_u_get_file_info); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 76, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_4);
     __pyx_t_5 = 1;
     #if CYTHON_UNPACK_METHODS
@@ -4457,41 +4481,41 @@ static PyObject *__pyx_pf_5c104f_8handlers_13file_handlers_4sv_call_section_hand
       __pyx_t_2 = __Pyx_PyObject_FastCall((PyObject*)__pyx_t_4, __pyx_callargs+__pyx_t_5, (3-__pyx_t_5) | (__pyx_t_5*__Pyx_PY_VECTORCALL_ARGUMENTS_OFFSET));
       __Pyx_XDECREF(__pyx_t_3); __pyx_t_3 = 0;
       __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
-      if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 74, __pyx_L1_error)
+      if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 76, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_2);
     }
     __pyx_v_file_info = __pyx_t_2;
     __pyx_t_2 = 0;
 
-    /* "c104f/handlers/file_handlers.py":75
+    /* "c104f/handlers/file_handlers.py":77
  *         zero_point.type = c104.Type.F_SG_NA_1
  *         file_info = get_file_info(zero_point, nof)
  *         if file_info:             # <<<<<<<<<<<<<<
  *             # file ready for transmition
  *             if file_info.section_id + 1 == nos:
 */
-    __pyx_t_1 = __Pyx_PyObject_IsTrue(__pyx_v_file_info); if (unlikely((__pyx_t_1 < 0))) __PYX_ERR(0, 75, __pyx_L1_error)
+    __pyx_t_1 = __Pyx_PyObject_IsTrue(__pyx_v_file_info); if (unlikely((__pyx_t_1 < 0))) __PYX_ERR(0, 77, __pyx_L1_error)
     if (__pyx_t_1) {
 
-      /* "c104f/handlers/file_handlers.py":77
+      /* "c104f/handlers/file_handlers.py":79
  *         if file_info:
  *             # file ready for transmition
  *             if file_info.section_id + 1 == nos:             # <<<<<<<<<<<<<<
  *                 # correct selected section
  *                 print(f"TRANSFERING {nos} / {file_info.max_sections} SECTION ...")
 */
-      __pyx_t_2 = __Pyx_PyObject_GetAttrStr(__pyx_v_file_info, __pyx_mstate_global->__pyx_n_u_section_id); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 77, __pyx_L1_error)
+      __pyx_t_2 = __Pyx_PyObject_GetAttrStr(__pyx_v_file_info, __pyx_mstate_global->__pyx_n_u_section_id); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 79, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_2);
-      __pyx_t_4 = __Pyx_PyLong_AddObjC(__pyx_t_2, __pyx_mstate_global->__pyx_int_1, 1, 0, 0); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 77, __pyx_L1_error)
+      __pyx_t_4 = __Pyx_PyLong_AddObjC(__pyx_t_2, __pyx_mstate_global->__pyx_int_1, 1, 0, 0); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 79, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_4);
       __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
-      __pyx_t_2 = PyObject_RichCompare(__pyx_t_4, __pyx_v_nos, Py_EQ); __Pyx_XGOTREF(__pyx_t_2); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 77, __pyx_L1_error)
+      __pyx_t_2 = PyObject_RichCompare(__pyx_t_4, __pyx_v_nos, Py_EQ); __Pyx_XGOTREF(__pyx_t_2); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 79, __pyx_L1_error)
       __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
-      __pyx_t_1 = __Pyx_PyObject_IsTrue(__pyx_t_2); if (unlikely((__pyx_t_1 < 0))) __PYX_ERR(0, 77, __pyx_L1_error)
+      __pyx_t_1 = __Pyx_PyObject_IsTrue(__pyx_t_2); if (unlikely((__pyx_t_1 < 0))) __PYX_ERR(0, 79, __pyx_L1_error)
       __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
       if (__pyx_t_1) {
 
-        /* "c104f/handlers/file_handlers.py":79
+        /* "c104f/handlers/file_handlers.py":81
  *             if file_info.section_id + 1 == nos:
  *                 # correct selected section
  *                 print(f"TRANSFERING {nos} / {file_info.max_sections} SECTION ...")             # <<<<<<<<<<<<<<
@@ -4499,11 +4523,11 @@ static PyObject *__pyx_pf_5c104f_8handlers_13file_handlers_4sv_call_section_hand
  *                 data_list = file_info.section
 */
         __pyx_t_4 = NULL;
-        __pyx_t_3 = __Pyx_PyObject_FormatSimple(__pyx_v_nos, __pyx_mstate_global->__pyx_empty_unicode); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 79, __pyx_L1_error)
+        __pyx_t_3 = __Pyx_PyObject_FormatSimple(__pyx_v_nos, __pyx_mstate_global->__pyx_empty_unicode); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 81, __pyx_L1_error)
         __Pyx_GOTREF(__pyx_t_3);
-        __pyx_t_6 = __Pyx_PyObject_GetAttrStr(__pyx_v_file_info, __pyx_mstate_global->__pyx_n_u_max_sections); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 79, __pyx_L1_error)
+        __pyx_t_6 = __Pyx_PyObject_GetAttrStr(__pyx_v_file_info, __pyx_mstate_global->__pyx_n_u_max_sections); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 81, __pyx_L1_error)
         __Pyx_GOTREF(__pyx_t_6);
-        __pyx_t_7 = __Pyx_PyObject_FormatSimple(__pyx_t_6, __pyx_mstate_global->__pyx_empty_unicode); if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 79, __pyx_L1_error)
+        __pyx_t_7 = __Pyx_PyObject_FormatSimple(__pyx_t_6, __pyx_mstate_global->__pyx_empty_unicode); if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 81, __pyx_L1_error)
         __Pyx_GOTREF(__pyx_t_7);
         __Pyx_DECREF(__pyx_t_6); __pyx_t_6 = 0;
         __pyx_t_8[0] = __pyx_mstate_global->__pyx_kp_u_TRANSFERING;
@@ -4512,7 +4536,7 @@ static PyObject *__pyx_pf_5c104f_8handlers_13file_handlers_4sv_call_section_hand
         __pyx_t_8[3] = __pyx_t_7;
         __pyx_t_8[4] = __pyx_mstate_global->__pyx_kp_u_SECTION;
         __pyx_t_6 = __Pyx_PyUnicode_Join(__pyx_t_8, 5, 12 * 2 + __Pyx_PyUnicode_GET_LENGTH(__pyx_t_3) + 3 + __Pyx_PyUnicode_GET_LENGTH(__pyx_t_7), 127 | __Pyx_PyUnicode_MAX_CHAR_VALUE(__pyx_t_3) | __Pyx_PyUnicode_MAX_CHAR_VALUE(__pyx_t_7));
-        if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 79, __pyx_L1_error)
+        if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 81, __pyx_L1_error)
         __Pyx_GOTREF(__pyx_t_6);
         __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
         __Pyx_DECREF(__pyx_t_7); __pyx_t_7 = 0;
@@ -4522,12 +4546,12 @@ static PyObject *__pyx_pf_5c104f_8handlers_13file_handlers_4sv_call_section_hand
           __pyx_t_2 = __Pyx_PyObject_FastCall((PyObject*)__pyx_builtin_print, __pyx_callargs+__pyx_t_5, (2-__pyx_t_5) | (__pyx_t_5*__Pyx_PY_VECTORCALL_ARGUMENTS_OFFSET));
           __Pyx_XDECREF(__pyx_t_4); __pyx_t_4 = 0;
           __Pyx_DECREF(__pyx_t_6); __pyx_t_6 = 0;
-          if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 79, __pyx_L1_error)
+          if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 81, __pyx_L1_error)
           __Pyx_GOTREF(__pyx_t_2);
         }
         __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
 
-        /* "c104f/handlers/file_handlers.py":80
+        /* "c104f/handlers/file_handlers.py":82
  *                 # correct selected section
  *                 print(f"TRANSFERING {nos} / {file_info.max_sections} SECTION ...")
  *                 segment_count = 0             # <<<<<<<<<<<<<<
@@ -4537,19 +4561,19 @@ static PyObject *__pyx_pf_5c104f_8handlers_13file_handlers_4sv_call_section_hand
         __Pyx_INCREF(__pyx_mstate_global->__pyx_int_0);
         __pyx_v_segment_count = __pyx_mstate_global->__pyx_int_0;
 
-        /* "c104f/handlers/file_handlers.py":81
+        /* "c104f/handlers/file_handlers.py":83
  *                 print(f"TRANSFERING {nos} / {file_info.max_sections} SECTION ...")
  *                 segment_count = 0
  *                 data_list = file_info.section             # <<<<<<<<<<<<<<
  *                 print(len(data_list), file_info.section_chs)
  *                 while segment_count*SEGMENT_SIZE < file_info.section_len:
 */
-        __pyx_t_2 = __Pyx_PyObject_GetAttrStr(__pyx_v_file_info, __pyx_mstate_global->__pyx_n_u_section); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 81, __pyx_L1_error)
+        __pyx_t_2 = __Pyx_PyObject_GetAttrStr(__pyx_v_file_info, __pyx_mstate_global->__pyx_n_u_section); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 83, __pyx_L1_error)
         __Pyx_GOTREF(__pyx_t_2);
         __pyx_v_data_list = __pyx_t_2;
         __pyx_t_2 = 0;
 
-        /* "c104f/handlers/file_handlers.py":82
+        /* "c104f/handlers/file_handlers.py":84
  *                 segment_count = 0
  *                 data_list = file_info.section
  *                 print(len(data_list), file_info.section_chs)             # <<<<<<<<<<<<<<
@@ -4557,10 +4581,10 @@ static PyObject *__pyx_pf_5c104f_8handlers_13file_handlers_4sv_call_section_hand
  *                     segment_data = data_list[segment_count*SEGMENT_SIZE: (segment_count + 1)*SEGMENT_SIZE]
 */
         __pyx_t_6 = NULL;
-        __pyx_t_9 = PyObject_Length(__pyx_v_data_list); if (unlikely(__pyx_t_9 == ((Py_ssize_t)-1))) __PYX_ERR(0, 82, __pyx_L1_error)
-        __pyx_t_4 = PyLong_FromSsize_t(__pyx_t_9); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 82, __pyx_L1_error)
+        __pyx_t_9 = PyObject_Length(__pyx_v_data_list); if (unlikely(__pyx_t_9 == ((Py_ssize_t)-1))) __PYX_ERR(0, 84, __pyx_L1_error)
+        __pyx_t_4 = PyLong_FromSsize_t(__pyx_t_9); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 84, __pyx_L1_error)
         __Pyx_GOTREF(__pyx_t_4);
-        __pyx_t_7 = __Pyx_PyObject_GetAttrStr(__pyx_v_file_info, __pyx_mstate_global->__pyx_n_u_section_chs); if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 82, __pyx_L1_error)
+        __pyx_t_7 = __Pyx_PyObject_GetAttrStr(__pyx_v_file_info, __pyx_mstate_global->__pyx_n_u_section_chs); if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 84, __pyx_L1_error)
         __Pyx_GOTREF(__pyx_t_7);
         __pyx_t_5 = 1;
         {
@@ -4569,12 +4593,12 @@ static PyObject *__pyx_pf_5c104f_8handlers_13file_handlers_4sv_call_section_hand
           __Pyx_XDECREF(__pyx_t_6); __pyx_t_6 = 0;
           __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
           __Pyx_DECREF(__pyx_t_7); __pyx_t_7 = 0;
-          if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 82, __pyx_L1_error)
+          if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 84, __pyx_L1_error)
           __Pyx_GOTREF(__pyx_t_2);
         }
         __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
 
-        /* "c104f/handlers/file_handlers.py":83
+        /* "c104f/handlers/file_handlers.py":85
  *                 data_list = file_info.section
  *                 print(len(data_list), file_info.section_chs)
  *                 while segment_count*SEGMENT_SIZE < file_info.section_len:             # <<<<<<<<<<<<<<
@@ -4582,48 +4606,48 @@ static PyObject *__pyx_pf_5c104f_8handlers_13file_handlers_4sv_call_section_hand
  *                     segment_info = c104.FileSegmentCall(nof = c104.Int16(nof), nos=c104.Uint8(nos), los=c104.Uint8(len(segment_data)), data=segment_data)
 */
         while (1) {
-          __Pyx_GetModuleGlobalName(__pyx_t_2, __pyx_mstate_global->__pyx_n_u_SEGMENT_SIZE); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 83, __pyx_L1_error)
+          __Pyx_GetModuleGlobalName(__pyx_t_2, __pyx_mstate_global->__pyx_n_u_SEGMENT_SIZE); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 85, __pyx_L1_error)
           __Pyx_GOTREF(__pyx_t_2);
-          __pyx_t_7 = PyNumber_Multiply(__pyx_v_segment_count, __pyx_t_2); if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 83, __pyx_L1_error)
+          __pyx_t_7 = PyNumber_Multiply(__pyx_v_segment_count, __pyx_t_2); if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 85, __pyx_L1_error)
           __Pyx_GOTREF(__pyx_t_7);
           __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
-          __pyx_t_2 = __Pyx_PyObject_GetAttrStr(__pyx_v_file_info, __pyx_mstate_global->__pyx_n_u_section_len); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 83, __pyx_L1_error)
+          __pyx_t_2 = __Pyx_PyObject_GetAttrStr(__pyx_v_file_info, __pyx_mstate_global->__pyx_n_u_section_len); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 85, __pyx_L1_error)
           __Pyx_GOTREF(__pyx_t_2);
-          __pyx_t_4 = PyObject_RichCompare(__pyx_t_7, __pyx_t_2, Py_LT); __Pyx_XGOTREF(__pyx_t_4); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 83, __pyx_L1_error)
+          __pyx_t_4 = PyObject_RichCompare(__pyx_t_7, __pyx_t_2, Py_LT); __Pyx_XGOTREF(__pyx_t_4); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 85, __pyx_L1_error)
           __Pyx_DECREF(__pyx_t_7); __pyx_t_7 = 0;
           __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
-          __pyx_t_1 = __Pyx_PyObject_IsTrue(__pyx_t_4); if (unlikely((__pyx_t_1 < 0))) __PYX_ERR(0, 83, __pyx_L1_error)
+          __pyx_t_1 = __Pyx_PyObject_IsTrue(__pyx_t_4); if (unlikely((__pyx_t_1 < 0))) __PYX_ERR(0, 85, __pyx_L1_error)
           __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
           if (!__pyx_t_1) break;
 
-          /* "c104f/handlers/file_handlers.py":84
+          /* "c104f/handlers/file_handlers.py":86
  *                 print(len(data_list), file_info.section_chs)
  *                 while segment_count*SEGMENT_SIZE < file_info.section_len:
  *                     segment_data = data_list[segment_count*SEGMENT_SIZE: (segment_count + 1)*SEGMENT_SIZE]             # <<<<<<<<<<<<<<
  *                     segment_info = c104.FileSegmentCall(nof = c104.Int16(nof), nos=c104.Uint8(nos), los=c104.Uint8(len(segment_data)), data=segment_data)
  *                     zero_point.info = segment_info
 */
-          __Pyx_GetModuleGlobalName(__pyx_t_4, __pyx_mstate_global->__pyx_n_u_SEGMENT_SIZE); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 84, __pyx_L1_error)
+          __Pyx_GetModuleGlobalName(__pyx_t_4, __pyx_mstate_global->__pyx_n_u_SEGMENT_SIZE); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 86, __pyx_L1_error)
           __Pyx_GOTREF(__pyx_t_4);
-          __pyx_t_2 = PyNumber_Multiply(__pyx_v_segment_count, __pyx_t_4); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 84, __pyx_L1_error)
+          __pyx_t_2 = PyNumber_Multiply(__pyx_v_segment_count, __pyx_t_4); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 86, __pyx_L1_error)
           __Pyx_GOTREF(__pyx_t_2);
           __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
-          __pyx_t_4 = __Pyx_PyLong_AddObjC(__pyx_v_segment_count, __pyx_mstate_global->__pyx_int_1, 1, 0, 0); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 84, __pyx_L1_error)
+          __pyx_t_4 = __Pyx_PyLong_AddObjC(__pyx_v_segment_count, __pyx_mstate_global->__pyx_int_1, 1, 0, 0); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 86, __pyx_L1_error)
           __Pyx_GOTREF(__pyx_t_4);
-          __Pyx_GetModuleGlobalName(__pyx_t_7, __pyx_mstate_global->__pyx_n_u_SEGMENT_SIZE); if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 84, __pyx_L1_error)
+          __Pyx_GetModuleGlobalName(__pyx_t_7, __pyx_mstate_global->__pyx_n_u_SEGMENT_SIZE); if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 86, __pyx_L1_error)
           __Pyx_GOTREF(__pyx_t_7);
-          __pyx_t_6 = PyNumber_Multiply(__pyx_t_4, __pyx_t_7); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 84, __pyx_L1_error)
+          __pyx_t_6 = PyNumber_Multiply(__pyx_t_4, __pyx_t_7); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 86, __pyx_L1_error)
           __Pyx_GOTREF(__pyx_t_6);
           __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
           __Pyx_DECREF(__pyx_t_7); __pyx_t_7 = 0;
-          __pyx_t_7 = __Pyx_PyObject_GetSlice(__pyx_v_data_list, 0, 0, &__pyx_t_2, &__pyx_t_6, NULL, 0, 0, 1); if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 84, __pyx_L1_error)
+          __pyx_t_7 = __Pyx_PyObject_GetSlice(__pyx_v_data_list, 0, 0, &__pyx_t_2, &__pyx_t_6, NULL, 0, 0, 1); if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 86, __pyx_L1_error)
           __Pyx_GOTREF(__pyx_t_7);
           __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
           __Pyx_DECREF(__pyx_t_6); __pyx_t_6 = 0;
           __Pyx_XDECREF_SET(__pyx_v_segment_data, __pyx_t_7);
           __pyx_t_7 = 0;
 
-          /* "c104f/handlers/file_handlers.py":85
+          /* "c104f/handlers/file_handlers.py":87
  *                 while segment_count*SEGMENT_SIZE < file_info.section_len:
  *                     segment_data = data_list[segment_count*SEGMENT_SIZE: (segment_count + 1)*SEGMENT_SIZE]
  *                     segment_info = c104.FileSegmentCall(nof = c104.Int16(nof), nos=c104.Uint8(nos), los=c104.Uint8(len(segment_data)), data=segment_data)             # <<<<<<<<<<<<<<
@@ -4631,15 +4655,15 @@ static PyObject *__pyx_pf_5c104f_8handlers_13file_handlers_4sv_call_section_hand
  *                     zero_point.transmit(c104.Cot.FILE_TRANSFER)
 */
           __pyx_t_6 = NULL;
-          __Pyx_GetModuleGlobalName(__pyx_t_2, __pyx_mstate_global->__pyx_n_u_c104); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 85, __pyx_L1_error)
+          __Pyx_GetModuleGlobalName(__pyx_t_2, __pyx_mstate_global->__pyx_n_u_c104); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 87, __pyx_L1_error)
           __Pyx_GOTREF(__pyx_t_2);
-          __pyx_t_4 = __Pyx_PyObject_GetAttrStr(__pyx_t_2, __pyx_mstate_global->__pyx_n_u_FileSegmentCall); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 85, __pyx_L1_error)
+          __pyx_t_4 = __Pyx_PyObject_GetAttrStr(__pyx_t_2, __pyx_mstate_global->__pyx_n_u_FileSegmentCall); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 87, __pyx_L1_error)
           __Pyx_GOTREF(__pyx_t_4);
           __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
           __pyx_t_3 = NULL;
-          __Pyx_GetModuleGlobalName(__pyx_t_10, __pyx_mstate_global->__pyx_n_u_c104); if (unlikely(!__pyx_t_10)) __PYX_ERR(0, 85, __pyx_L1_error)
+          __Pyx_GetModuleGlobalName(__pyx_t_10, __pyx_mstate_global->__pyx_n_u_c104); if (unlikely(!__pyx_t_10)) __PYX_ERR(0, 87, __pyx_L1_error)
           __Pyx_GOTREF(__pyx_t_10);
-          __pyx_t_11 = __Pyx_PyObject_GetAttrStr(__pyx_t_10, __pyx_mstate_global->__pyx_n_u_Int16); if (unlikely(!__pyx_t_11)) __PYX_ERR(0, 85, __pyx_L1_error)
+          __pyx_t_11 = __Pyx_PyObject_GetAttrStr(__pyx_t_10, __pyx_mstate_global->__pyx_n_u_Int16); if (unlikely(!__pyx_t_11)) __PYX_ERR(0, 87, __pyx_L1_error)
           __Pyx_GOTREF(__pyx_t_11);
           __Pyx_DECREF(__pyx_t_10); __pyx_t_10 = 0;
           __pyx_t_5 = 1;
@@ -4659,13 +4683,13 @@ static PyObject *__pyx_pf_5c104f_8handlers_13file_handlers_4sv_call_section_hand
             __pyx_t_2 = __Pyx_PyObject_FastCall((PyObject*)__pyx_t_11, __pyx_callargs+__pyx_t_5, (2-__pyx_t_5) | (__pyx_t_5*__Pyx_PY_VECTORCALL_ARGUMENTS_OFFSET));
             __Pyx_XDECREF(__pyx_t_3); __pyx_t_3 = 0;
             __Pyx_DECREF(__pyx_t_11); __pyx_t_11 = 0;
-            if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 85, __pyx_L1_error)
+            if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 87, __pyx_L1_error)
             __Pyx_GOTREF(__pyx_t_2);
           }
           __pyx_t_3 = NULL;
-          __Pyx_GetModuleGlobalName(__pyx_t_10, __pyx_mstate_global->__pyx_n_u_c104); if (unlikely(!__pyx_t_10)) __PYX_ERR(0, 85, __pyx_L1_error)
+          __Pyx_GetModuleGlobalName(__pyx_t_10, __pyx_mstate_global->__pyx_n_u_c104); if (unlikely(!__pyx_t_10)) __PYX_ERR(0, 87, __pyx_L1_error)
           __Pyx_GOTREF(__pyx_t_10);
-          __pyx_t_12 = __Pyx_PyObject_GetAttrStr(__pyx_t_10, __pyx_mstate_global->__pyx_n_u_Uint8); if (unlikely(!__pyx_t_12)) __PYX_ERR(0, 85, __pyx_L1_error)
+          __pyx_t_12 = __Pyx_PyObject_GetAttrStr(__pyx_t_10, __pyx_mstate_global->__pyx_n_u_Uint8); if (unlikely(!__pyx_t_12)) __PYX_ERR(0, 87, __pyx_L1_error)
           __Pyx_GOTREF(__pyx_t_12);
           __Pyx_DECREF(__pyx_t_10); __pyx_t_10 = 0;
           __pyx_t_5 = 1;
@@ -4685,17 +4709,17 @@ static PyObject *__pyx_pf_5c104f_8handlers_13file_handlers_4sv_call_section_hand
             __pyx_t_11 = __Pyx_PyObject_FastCall((PyObject*)__pyx_t_12, __pyx_callargs+__pyx_t_5, (2-__pyx_t_5) | (__pyx_t_5*__Pyx_PY_VECTORCALL_ARGUMENTS_OFFSET));
             __Pyx_XDECREF(__pyx_t_3); __pyx_t_3 = 0;
             __Pyx_DECREF(__pyx_t_12); __pyx_t_12 = 0;
-            if (unlikely(!__pyx_t_11)) __PYX_ERR(0, 85, __pyx_L1_error)
+            if (unlikely(!__pyx_t_11)) __PYX_ERR(0, 87, __pyx_L1_error)
             __Pyx_GOTREF(__pyx_t_11);
           }
           __pyx_t_3 = NULL;
-          __Pyx_GetModuleGlobalName(__pyx_t_10, __pyx_mstate_global->__pyx_n_u_c104); if (unlikely(!__pyx_t_10)) __PYX_ERR(0, 85, __pyx_L1_error)
+          __Pyx_GetModuleGlobalName(__pyx_t_10, __pyx_mstate_global->__pyx_n_u_c104); if (unlikely(!__pyx_t_10)) __PYX_ERR(0, 87, __pyx_L1_error)
           __Pyx_GOTREF(__pyx_t_10);
-          __pyx_t_13 = __Pyx_PyObject_GetAttrStr(__pyx_t_10, __pyx_mstate_global->__pyx_n_u_Uint8); if (unlikely(!__pyx_t_13)) __PYX_ERR(0, 85, __pyx_L1_error)
+          __pyx_t_13 = __Pyx_PyObject_GetAttrStr(__pyx_t_10, __pyx_mstate_global->__pyx_n_u_Uint8); if (unlikely(!__pyx_t_13)) __PYX_ERR(0, 87, __pyx_L1_error)
           __Pyx_GOTREF(__pyx_t_13);
           __Pyx_DECREF(__pyx_t_10); __pyx_t_10 = 0;
-          __pyx_t_9 = PyObject_Length(__pyx_v_segment_data); if (unlikely(__pyx_t_9 == ((Py_ssize_t)-1))) __PYX_ERR(0, 85, __pyx_L1_error)
-          __pyx_t_10 = PyLong_FromSsize_t(__pyx_t_9); if (unlikely(!__pyx_t_10)) __PYX_ERR(0, 85, __pyx_L1_error)
+          __pyx_t_9 = PyObject_Length(__pyx_v_segment_data); if (unlikely(__pyx_t_9 == ((Py_ssize_t)-1))) __PYX_ERR(0, 87, __pyx_L1_error)
+          __pyx_t_10 = PyLong_FromSsize_t(__pyx_t_9); if (unlikely(!__pyx_t_10)) __PYX_ERR(0, 87, __pyx_L1_error)
           __Pyx_GOTREF(__pyx_t_10);
           __pyx_t_5 = 1;
           #if CYTHON_UNPACK_METHODS
@@ -4715,7 +4739,7 @@ static PyObject *__pyx_pf_5c104f_8handlers_13file_handlers_4sv_call_section_hand
             __Pyx_XDECREF(__pyx_t_3); __pyx_t_3 = 0;
             __Pyx_DECREF(__pyx_t_10); __pyx_t_10 = 0;
             __Pyx_DECREF(__pyx_t_13); __pyx_t_13 = 0;
-            if (unlikely(!__pyx_t_12)) __PYX_ERR(0, 85, __pyx_L1_error)
+            if (unlikely(!__pyx_t_12)) __PYX_ERR(0, 87, __pyx_L1_error)
             __Pyx_GOTREF(__pyx_t_12);
           }
           __pyx_t_5 = 1;
@@ -4732,12 +4756,12 @@ static PyObject *__pyx_pf_5c104f_8handlers_13file_handlers_4sv_call_section_hand
           #endif
           {
             PyObject *__pyx_callargs[2 + ((CYTHON_VECTORCALL) ? 4 : 0)] = {__pyx_t_6, NULL};
-            __pyx_t_13 = __Pyx_MakeVectorcallBuilderKwds(4); if (unlikely(!__pyx_t_13)) __PYX_ERR(0, 85, __pyx_L1_error)
+            __pyx_t_13 = __Pyx_MakeVectorcallBuilderKwds(4); if (unlikely(!__pyx_t_13)) __PYX_ERR(0, 87, __pyx_L1_error)
             __Pyx_GOTREF(__pyx_t_13);
-            if (__Pyx_VectorcallBuilder_AddArg(__pyx_mstate_global->__pyx_n_u_nof, __pyx_t_2, __pyx_t_13, __pyx_callargs+1, 0) < (0)) __PYX_ERR(0, 85, __pyx_L1_error)
-            if (__Pyx_VectorcallBuilder_AddArg(__pyx_mstate_global->__pyx_n_u_nos, __pyx_t_11, __pyx_t_13, __pyx_callargs+1, 1) < (0)) __PYX_ERR(0, 85, __pyx_L1_error)
-            if (__Pyx_VectorcallBuilder_AddArg(__pyx_mstate_global->__pyx_n_u_los, __pyx_t_12, __pyx_t_13, __pyx_callargs+1, 2) < (0)) __PYX_ERR(0, 85, __pyx_L1_error)
-            if (__Pyx_VectorcallBuilder_AddArg(__pyx_mstate_global->__pyx_n_u_data, __pyx_v_segment_data, __pyx_t_13, __pyx_callargs+1, 3) < (0)) __PYX_ERR(0, 85, __pyx_L1_error)
+            if (__Pyx_VectorcallBuilder_AddArg(__pyx_mstate_global->__pyx_n_u_nof, __pyx_t_2, __pyx_t_13, __pyx_callargs+1, 0) < (0)) __PYX_ERR(0, 87, __pyx_L1_error)
+            if (__Pyx_VectorcallBuilder_AddArg(__pyx_mstate_global->__pyx_n_u_nos, __pyx_t_11, __pyx_t_13, __pyx_callargs+1, 1) < (0)) __PYX_ERR(0, 87, __pyx_L1_error)
+            if (__Pyx_VectorcallBuilder_AddArg(__pyx_mstate_global->__pyx_n_u_los, __pyx_t_12, __pyx_t_13, __pyx_callargs+1, 2) < (0)) __PYX_ERR(0, 87, __pyx_L1_error)
+            if (__Pyx_VectorcallBuilder_AddArg(__pyx_mstate_global->__pyx_n_u_data, __pyx_v_segment_data, __pyx_t_13, __pyx_callargs+1, 3) < (0)) __PYX_ERR(0, 87, __pyx_L1_error)
             __pyx_t_7 = __Pyx_Object_Vectorcall_CallFromBuilder((PyObject*)__pyx_t_4, __pyx_callargs+__pyx_t_5, (1-__pyx_t_5) | (__pyx_t_5*__Pyx_PY_VECTORCALL_ARGUMENTS_OFFSET), __pyx_t_13);
             __Pyx_XDECREF(__pyx_t_6); __pyx_t_6 = 0;
             __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
@@ -4745,22 +4769,22 @@ static PyObject *__pyx_pf_5c104f_8handlers_13file_handlers_4sv_call_section_hand
             __Pyx_DECREF(__pyx_t_12); __pyx_t_12 = 0;
             __Pyx_DECREF(__pyx_t_13); __pyx_t_13 = 0;
             __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
-            if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 85, __pyx_L1_error)
+            if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 87, __pyx_L1_error)
             __Pyx_GOTREF(__pyx_t_7);
           }
           __Pyx_XDECREF_SET(__pyx_v_segment_info, __pyx_t_7);
           __pyx_t_7 = 0;
 
-          /* "c104f/handlers/file_handlers.py":86
+          /* "c104f/handlers/file_handlers.py":88
  *                     segment_data = data_list[segment_count*SEGMENT_SIZE: (segment_count + 1)*SEGMENT_SIZE]
  *                     segment_info = c104.FileSegmentCall(nof = c104.Int16(nof), nos=c104.Uint8(nos), los=c104.Uint8(len(segment_data)), data=segment_data)
  *                     zero_point.info = segment_info             # <<<<<<<<<<<<<<
  *                     zero_point.transmit(c104.Cot.FILE_TRANSFER)
  *                     segment_count += 1
 */
-          if (__Pyx_PyObject_SetAttrStr(__pyx_v_zero_point, __pyx_mstate_global->__pyx_n_u_info, __pyx_v_segment_info) < (0)) __PYX_ERR(0, 86, __pyx_L1_error)
+          if (__Pyx_PyObject_SetAttrStr(__pyx_v_zero_point, __pyx_mstate_global->__pyx_n_u_info, __pyx_v_segment_info) < (0)) __PYX_ERR(0, 88, __pyx_L1_error)
 
-          /* "c104f/handlers/file_handlers.py":87
+          /* "c104f/handlers/file_handlers.py":89
  *                     segment_info = c104.FileSegmentCall(nof = c104.Int16(nof), nos=c104.Uint8(nos), los=c104.Uint8(len(segment_data)), data=segment_data)
  *                     zero_point.info = segment_info
  *                     zero_point.transmit(c104.Cot.FILE_TRANSFER)             # <<<<<<<<<<<<<<
@@ -4769,12 +4793,12 @@ static PyObject *__pyx_pf_5c104f_8handlers_13file_handlers_4sv_call_section_hand
 */
           __pyx_t_4 = __pyx_v_zero_point;
           __Pyx_INCREF(__pyx_t_4);
-          __Pyx_GetModuleGlobalName(__pyx_t_13, __pyx_mstate_global->__pyx_n_u_c104); if (unlikely(!__pyx_t_13)) __PYX_ERR(0, 87, __pyx_L1_error)
+          __Pyx_GetModuleGlobalName(__pyx_t_13, __pyx_mstate_global->__pyx_n_u_c104); if (unlikely(!__pyx_t_13)) __PYX_ERR(0, 89, __pyx_L1_error)
           __Pyx_GOTREF(__pyx_t_13);
-          __pyx_t_12 = __Pyx_PyObject_GetAttrStr(__pyx_t_13, __pyx_mstate_global->__pyx_n_u_Cot); if (unlikely(!__pyx_t_12)) __PYX_ERR(0, 87, __pyx_L1_error)
+          __pyx_t_12 = __Pyx_PyObject_GetAttrStr(__pyx_t_13, __pyx_mstate_global->__pyx_n_u_Cot); if (unlikely(!__pyx_t_12)) __PYX_ERR(0, 89, __pyx_L1_error)
           __Pyx_GOTREF(__pyx_t_12);
           __Pyx_DECREF(__pyx_t_13); __pyx_t_13 = 0;
-          __pyx_t_13 = __Pyx_PyObject_GetAttrStr(__pyx_t_12, __pyx_mstate_global->__pyx_n_u_FILE_TRANSFER); if (unlikely(!__pyx_t_13)) __PYX_ERR(0, 87, __pyx_L1_error)
+          __pyx_t_13 = __Pyx_PyObject_GetAttrStr(__pyx_t_12, __pyx_mstate_global->__pyx_n_u_FILE_TRANSFER); if (unlikely(!__pyx_t_13)) __PYX_ERR(0, 89, __pyx_L1_error)
           __Pyx_GOTREF(__pyx_t_13);
           __Pyx_DECREF(__pyx_t_12); __pyx_t_12 = 0;
           __pyx_t_5 = 0;
@@ -4783,43 +4807,43 @@ static PyObject *__pyx_pf_5c104f_8handlers_13file_handlers_4sv_call_section_hand
             __pyx_t_7 = __Pyx_PyObject_FastCallMethod((PyObject*)__pyx_mstate_global->__pyx_n_u_transmit, __pyx_callargs+__pyx_t_5, (2-__pyx_t_5) | (1*__Pyx_PY_VECTORCALL_ARGUMENTS_OFFSET));
             __Pyx_XDECREF(__pyx_t_4); __pyx_t_4 = 0;
             __Pyx_DECREF(__pyx_t_13); __pyx_t_13 = 0;
-            if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 87, __pyx_L1_error)
+            if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 89, __pyx_L1_error)
             __Pyx_GOTREF(__pyx_t_7);
           }
           __Pyx_DECREF(__pyx_t_7); __pyx_t_7 = 0;
 
-          /* "c104f/handlers/file_handlers.py":88
+          /* "c104f/handlers/file_handlers.py":90
  *                     zero_point.info = segment_info
  *                     zero_point.transmit(c104.Cot.FILE_TRANSFER)
  *                     segment_count += 1             # <<<<<<<<<<<<<<
  * 
  *                 ## if last segment call last segment call
 */
-          __pyx_t_7 = __Pyx_PyLong_AddObjC(__pyx_v_segment_count, __pyx_mstate_global->__pyx_int_1, 1, 1, 0); if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 88, __pyx_L1_error)
+          __pyx_t_7 = __Pyx_PyLong_AddObjC(__pyx_v_segment_count, __pyx_mstate_global->__pyx_int_1, 1, 1, 0); if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 90, __pyx_L1_error)
           __Pyx_GOTREF(__pyx_t_7);
           __Pyx_DECREF_SET(__pyx_v_segment_count, __pyx_t_7);
           __pyx_t_7 = 0;
         }
 
-        /* "c104f/handlers/file_handlers.py":92
+        /* "c104f/handlers/file_handlers.py":94
  *                 ## if last segment call last segment call
  *                 ## or if last segment/section of file call last file call
  *                 zero_point.type = c104.Type.F_LS_NA_1             # <<<<<<<<<<<<<<
  *                 print("SEND LAST SECTION CALL")
  *                 lsq = LSQ()
 */
-        __Pyx_GetModuleGlobalName(__pyx_t_7, __pyx_mstate_global->__pyx_n_u_c104); if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 92, __pyx_L1_error)
+        __Pyx_GetModuleGlobalName(__pyx_t_7, __pyx_mstate_global->__pyx_n_u_c104); if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 94, __pyx_L1_error)
         __Pyx_GOTREF(__pyx_t_7);
-        __pyx_t_13 = __Pyx_PyObject_GetAttrStr(__pyx_t_7, __pyx_mstate_global->__pyx_n_u_Type); if (unlikely(!__pyx_t_13)) __PYX_ERR(0, 92, __pyx_L1_error)
+        __pyx_t_13 = __Pyx_PyObject_GetAttrStr(__pyx_t_7, __pyx_mstate_global->__pyx_n_u_Type); if (unlikely(!__pyx_t_13)) __PYX_ERR(0, 94, __pyx_L1_error)
         __Pyx_GOTREF(__pyx_t_13);
         __Pyx_DECREF(__pyx_t_7); __pyx_t_7 = 0;
-        __pyx_t_7 = __Pyx_PyObject_GetAttrStr(__pyx_t_13, __pyx_mstate_global->__pyx_n_u_F_LS_NA_1); if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 92, __pyx_L1_error)
+        __pyx_t_7 = __Pyx_PyObject_GetAttrStr(__pyx_t_13, __pyx_mstate_global->__pyx_n_u_F_LS_NA_1); if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 94, __pyx_L1_error)
         __Pyx_GOTREF(__pyx_t_7);
         __Pyx_DECREF(__pyx_t_13); __pyx_t_13 = 0;
-        if (__Pyx_PyObject_SetAttrStr(__pyx_v_zero_point, __pyx_mstate_global->__pyx_n_u_type, __pyx_t_7) < (0)) __PYX_ERR(0, 92, __pyx_L1_error)
+        if (__Pyx_PyObject_SetAttrStr(__pyx_v_zero_point, __pyx_mstate_global->__pyx_n_u_type, __pyx_t_7) < (0)) __PYX_ERR(0, 94, __pyx_L1_error)
         __Pyx_DECREF(__pyx_t_7); __pyx_t_7 = 0;
 
-        /* "c104f/handlers/file_handlers.py":93
+        /* "c104f/handlers/file_handlers.py":95
  *                 ## or if last segment/section of file call last file call
  *                 zero_point.type = c104.Type.F_LS_NA_1
  *                 print("SEND LAST SECTION CALL")             # <<<<<<<<<<<<<<
@@ -4832,12 +4856,12 @@ static PyObject *__pyx_pf_5c104f_8handlers_13file_handlers_4sv_call_section_hand
           PyObject *__pyx_callargs[2] = {__pyx_t_13, __pyx_mstate_global->__pyx_kp_u_SEND_LAST_SECTION_CALL};
           __pyx_t_7 = __Pyx_PyObject_FastCall((PyObject*)__pyx_builtin_print, __pyx_callargs+__pyx_t_5, (2-__pyx_t_5) | (__pyx_t_5*__Pyx_PY_VECTORCALL_ARGUMENTS_OFFSET));
           __Pyx_XDECREF(__pyx_t_13); __pyx_t_13 = 0;
-          if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 93, __pyx_L1_error)
+          if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 95, __pyx_L1_error)
           __Pyx_GOTREF(__pyx_t_7);
         }
         __Pyx_DECREF(__pyx_t_7); __pyx_t_7 = 0;
 
-        /* "c104f/handlers/file_handlers.py":94
+        /* "c104f/handlers/file_handlers.py":96
  *                 zero_point.type = c104.Type.F_LS_NA_1
  *                 print("SEND LAST SECTION CALL")
  *                 lsq = LSQ()             # <<<<<<<<<<<<<<
@@ -4845,7 +4869,7 @@ static PyObject *__pyx_pf_5c104f_8handlers_13file_handlers_4sv_call_section_hand
  *                 if nos == file_info.max_sections:
 */
         __pyx_t_13 = NULL;
-        __Pyx_GetModuleGlobalName(__pyx_t_4, __pyx_mstate_global->__pyx_n_u_LSQ); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 94, __pyx_L1_error)
+        __Pyx_GetModuleGlobalName(__pyx_t_4, __pyx_mstate_global->__pyx_n_u_LSQ); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 96, __pyx_L1_error)
         __Pyx_GOTREF(__pyx_t_4);
         __pyx_t_5 = 1;
         #if CYTHON_UNPACK_METHODS
@@ -4864,28 +4888,28 @@ static PyObject *__pyx_pf_5c104f_8handlers_13file_handlers_4sv_call_section_hand
           __pyx_t_7 = __Pyx_PyObject_FastCall((PyObject*)__pyx_t_4, __pyx_callargs+__pyx_t_5, (1-__pyx_t_5) | (__pyx_t_5*__Pyx_PY_VECTORCALL_ARGUMENTS_OFFSET));
           __Pyx_XDECREF(__pyx_t_13); __pyx_t_13 = 0;
           __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
-          if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 94, __pyx_L1_error)
+          if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 96, __pyx_L1_error)
           __Pyx_GOTREF(__pyx_t_7);
         }
         __pyx_v_lsq = __pyx_t_7;
         __pyx_t_7 = 0;
 
-        /* "c104f/handlers/file_handlers.py":96
+        /* "c104f/handlers/file_handlers.py":98
  *                 lsq = LSQ()
  *                 # if last section => last file
  *                 if nos == file_info.max_sections:             # <<<<<<<<<<<<<<
  *                     #last section of file
  *                     print("last section of file")
 */
-        __pyx_t_7 = __Pyx_PyObject_GetAttrStr(__pyx_v_file_info, __pyx_mstate_global->__pyx_n_u_max_sections); if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 96, __pyx_L1_error)
+        __pyx_t_7 = __Pyx_PyObject_GetAttrStr(__pyx_v_file_info, __pyx_mstate_global->__pyx_n_u_max_sections); if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 98, __pyx_L1_error)
         __Pyx_GOTREF(__pyx_t_7);
-        __pyx_t_4 = PyObject_RichCompare(__pyx_v_nos, __pyx_t_7, Py_EQ); __Pyx_XGOTREF(__pyx_t_4); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 96, __pyx_L1_error)
+        __pyx_t_4 = PyObject_RichCompare(__pyx_v_nos, __pyx_t_7, Py_EQ); __Pyx_XGOTREF(__pyx_t_4); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 98, __pyx_L1_error)
         __Pyx_DECREF(__pyx_t_7); __pyx_t_7 = 0;
-        __pyx_t_1 = __Pyx_PyObject_IsTrue(__pyx_t_4); if (unlikely((__pyx_t_1 < 0))) __PYX_ERR(0, 96, __pyx_L1_error)
+        __pyx_t_1 = __Pyx_PyObject_IsTrue(__pyx_t_4); if (unlikely((__pyx_t_1 < 0))) __PYX_ERR(0, 98, __pyx_L1_error)
         __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
         if (__pyx_t_1) {
 
-          /* "c104f/handlers/file_handlers.py":98
+          /* "c104f/handlers/file_handlers.py":100
  *                 if nos == file_info.max_sections:
  *                     #last section of file
  *                     print("last section of file")             # <<<<<<<<<<<<<<
@@ -4898,12 +4922,12 @@ static PyObject *__pyx_pf_5c104f_8handlers_13file_handlers_4sv_call_section_hand
             PyObject *__pyx_callargs[2] = {__pyx_t_7, __pyx_mstate_global->__pyx_kp_u_last_section_of_file};
             __pyx_t_4 = __Pyx_PyObject_FastCall((PyObject*)__pyx_builtin_print, __pyx_callargs+__pyx_t_5, (2-__pyx_t_5) | (__pyx_t_5*__Pyx_PY_VECTORCALL_ARGUMENTS_OFFSET));
             __Pyx_XDECREF(__pyx_t_7); __pyx_t_7 = 0;
-            if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 98, __pyx_L1_error)
+            if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 100, __pyx_L1_error)
             __Pyx_GOTREF(__pyx_t_4);
           }
           __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
 
-          /* "c104f/handlers/file_handlers.py":99
+          /* "c104f/handlers/file_handlers.py":101
  *                     #last section of file
  *                     print("last section of file")
  *                     lsq.setLastFile()             # <<<<<<<<<<<<<<
@@ -4917,12 +4941,12 @@ static PyObject *__pyx_pf_5c104f_8handlers_13file_handlers_4sv_call_section_hand
             PyObject *__pyx_callargs[2] = {__pyx_t_7, NULL};
             __pyx_t_4 = __Pyx_PyObject_FastCallMethod((PyObject*)__pyx_mstate_global->__pyx_n_u_setLastFile, __pyx_callargs+__pyx_t_5, (1-__pyx_t_5) | (1*__Pyx_PY_VECTORCALL_ARGUMENTS_OFFSET));
             __Pyx_XDECREF(__pyx_t_7); __pyx_t_7 = 0;
-            if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 99, __pyx_L1_error)
+            if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 101, __pyx_L1_error)
             __Pyx_GOTREF(__pyx_t_4);
           }
           __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
 
-          /* "c104f/handlers/file_handlers.py":100
+          /* "c104f/handlers/file_handlers.py":102
  *                     print("last section of file")
  *                     lsq.setLastFile()
  *                     chs = file_info.get_full_chs()             # <<<<<<<<<<<<<<
@@ -4936,13 +4960,13 @@ static PyObject *__pyx_pf_5c104f_8handlers_13file_handlers_4sv_call_section_hand
             PyObject *__pyx_callargs[2] = {__pyx_t_7, NULL};
             __pyx_t_4 = __Pyx_PyObject_FastCallMethod((PyObject*)__pyx_mstate_global->__pyx_n_u_get_full_chs, __pyx_callargs+__pyx_t_5, (1-__pyx_t_5) | (1*__Pyx_PY_VECTORCALL_ARGUMENTS_OFFSET));
             __Pyx_XDECREF(__pyx_t_7); __pyx_t_7 = 0;
-            if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 100, __pyx_L1_error)
+            if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 102, __pyx_L1_error)
             __Pyx_GOTREF(__pyx_t_4);
           }
           __pyx_v_chs = __pyx_t_4;
           __pyx_t_4 = 0;
 
-          /* "c104f/handlers/file_handlers.py":96
+          /* "c104f/handlers/file_handlers.py":98
  *                 lsq = LSQ()
  *                 # if last section => last file
  *                 if nos == file_info.max_sections:             # <<<<<<<<<<<<<<
@@ -4952,7 +4976,7 @@ static PyObject *__pyx_pf_5c104f_8handlers_13file_handlers_4sv_call_section_hand
           goto __pyx_L8;
         }
 
-        /* "c104f/handlers/file_handlers.py":102
+        /* "c104f/handlers/file_handlers.py":104
  *                     chs = file_info.get_full_chs()
  *                 else:
  *                     print("will be next section")             # <<<<<<<<<<<<<<
@@ -4966,12 +4990,12 @@ static PyObject *__pyx_pf_5c104f_8handlers_13file_handlers_4sv_call_section_hand
             PyObject *__pyx_callargs[2] = {__pyx_t_7, __pyx_mstate_global->__pyx_kp_u_will_be_next_section};
             __pyx_t_4 = __Pyx_PyObject_FastCall((PyObject*)__pyx_builtin_print, __pyx_callargs+__pyx_t_5, (2-__pyx_t_5) | (__pyx_t_5*__Pyx_PY_VECTORCALL_ARGUMENTS_OFFSET));
             __Pyx_XDECREF(__pyx_t_7); __pyx_t_7 = 0;
-            if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 102, __pyx_L1_error)
+            if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 104, __pyx_L1_error)
             __Pyx_GOTREF(__pyx_t_4);
           }
           __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
 
-          /* "c104f/handlers/file_handlers.py":103
+          /* "c104f/handlers/file_handlers.py":105
  *                 else:
  *                     print("will be next section")
  *                     lsq.setLastSection()             # <<<<<<<<<<<<<<
@@ -4985,26 +5009,26 @@ static PyObject *__pyx_pf_5c104f_8handlers_13file_handlers_4sv_call_section_hand
             PyObject *__pyx_callargs[2] = {__pyx_t_7, NULL};
             __pyx_t_4 = __Pyx_PyObject_FastCallMethod((PyObject*)__pyx_mstate_global->__pyx_n_u_setLastSection, __pyx_callargs+__pyx_t_5, (1-__pyx_t_5) | (1*__Pyx_PY_VECTORCALL_ARGUMENTS_OFFSET));
             __Pyx_XDECREF(__pyx_t_7); __pyx_t_7 = 0;
-            if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 103, __pyx_L1_error)
+            if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 105, __pyx_L1_error)
             __Pyx_GOTREF(__pyx_t_4);
           }
           __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
 
-          /* "c104f/handlers/file_handlers.py":104
+          /* "c104f/handlers/file_handlers.py":106
  *                     print("will be next section")
  *                     lsq.setLastSection()
  *                     chs = file_info.section_chs             # <<<<<<<<<<<<<<
  * 
  *                 # print(chs.chs, sum(data_list) % 256 )
 */
-          __pyx_t_4 = __Pyx_PyObject_GetAttrStr(__pyx_v_file_info, __pyx_mstate_global->__pyx_n_u_section_chs); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 104, __pyx_L1_error)
+          __pyx_t_4 = __Pyx_PyObject_GetAttrStr(__pyx_v_file_info, __pyx_mstate_global->__pyx_n_u_section_chs); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 106, __pyx_L1_error)
           __Pyx_GOTREF(__pyx_t_4);
           __pyx_v_chs = __pyx_t_4;
           __pyx_t_4 = 0;
         }
         __pyx_L8:;
 
-        /* "c104f/handlers/file_handlers.py":107
+        /* "c104f/handlers/file_handlers.py":109
  * 
  *                 # print(chs.chs, sum(data_list) % 256 )
  *                 last_segment_info = c104.FileLastSegmentOrSectionCall(nof=c104.Int16(nof), nos=c104.Uint8(nos), lsq=c104.Uint8(lsq.lsq), chs=c104.Uint8(chs))             # <<<<<<<<<<<<<<
@@ -5012,15 +5036,15 @@ static PyObject *__pyx_pf_5c104f_8handlers_13file_handlers_4sv_call_section_hand
  *                 zero_point.transmit(c104.Cot.FILE_TRANSFER)
 */
         __pyx_t_7 = NULL;
-        __Pyx_GetModuleGlobalName(__pyx_t_13, __pyx_mstate_global->__pyx_n_u_c104); if (unlikely(!__pyx_t_13)) __PYX_ERR(0, 107, __pyx_L1_error)
+        __Pyx_GetModuleGlobalName(__pyx_t_13, __pyx_mstate_global->__pyx_n_u_c104); if (unlikely(!__pyx_t_13)) __PYX_ERR(0, 109, __pyx_L1_error)
         __Pyx_GOTREF(__pyx_t_13);
-        __pyx_t_12 = __Pyx_PyObject_GetAttrStr(__pyx_t_13, __pyx_mstate_global->__pyx_n_u_FileLastSegmentOrSectionCall); if (unlikely(!__pyx_t_12)) __PYX_ERR(0, 107, __pyx_L1_error)
+        __pyx_t_12 = __Pyx_PyObject_GetAttrStr(__pyx_t_13, __pyx_mstate_global->__pyx_n_u_FileLastSegmentOrSectionCall); if (unlikely(!__pyx_t_12)) __PYX_ERR(0, 109, __pyx_L1_error)
         __Pyx_GOTREF(__pyx_t_12);
         __Pyx_DECREF(__pyx_t_13); __pyx_t_13 = 0;
         __pyx_t_11 = NULL;
-        __Pyx_GetModuleGlobalName(__pyx_t_2, __pyx_mstate_global->__pyx_n_u_c104); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 107, __pyx_L1_error)
+        __Pyx_GetModuleGlobalName(__pyx_t_2, __pyx_mstate_global->__pyx_n_u_c104); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 109, __pyx_L1_error)
         __Pyx_GOTREF(__pyx_t_2);
-        __pyx_t_6 = __Pyx_PyObject_GetAttrStr(__pyx_t_2, __pyx_mstate_global->__pyx_n_u_Int16); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 107, __pyx_L1_error)
+        __pyx_t_6 = __Pyx_PyObject_GetAttrStr(__pyx_t_2, __pyx_mstate_global->__pyx_n_u_Int16); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 109, __pyx_L1_error)
         __Pyx_GOTREF(__pyx_t_6);
         __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
         __pyx_t_5 = 1;
@@ -5040,13 +5064,13 @@ static PyObject *__pyx_pf_5c104f_8handlers_13file_handlers_4sv_call_section_hand
           __pyx_t_13 = __Pyx_PyObject_FastCall((PyObject*)__pyx_t_6, __pyx_callargs+__pyx_t_5, (2-__pyx_t_5) | (__pyx_t_5*__Pyx_PY_VECTORCALL_ARGUMENTS_OFFSET));
           __Pyx_XDECREF(__pyx_t_11); __pyx_t_11 = 0;
           __Pyx_DECREF(__pyx_t_6); __pyx_t_6 = 0;
-          if (unlikely(!__pyx_t_13)) __PYX_ERR(0, 107, __pyx_L1_error)
+          if (unlikely(!__pyx_t_13)) __PYX_ERR(0, 109, __pyx_L1_error)
           __Pyx_GOTREF(__pyx_t_13);
         }
         __pyx_t_11 = NULL;
-        __Pyx_GetModuleGlobalName(__pyx_t_2, __pyx_mstate_global->__pyx_n_u_c104); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 107, __pyx_L1_error)
+        __Pyx_GetModuleGlobalName(__pyx_t_2, __pyx_mstate_global->__pyx_n_u_c104); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 109, __pyx_L1_error)
         __Pyx_GOTREF(__pyx_t_2);
-        __pyx_t_10 = __Pyx_PyObject_GetAttrStr(__pyx_t_2, __pyx_mstate_global->__pyx_n_u_Uint8); if (unlikely(!__pyx_t_10)) __PYX_ERR(0, 107, __pyx_L1_error)
+        __pyx_t_10 = __Pyx_PyObject_GetAttrStr(__pyx_t_2, __pyx_mstate_global->__pyx_n_u_Uint8); if (unlikely(!__pyx_t_10)) __PYX_ERR(0, 109, __pyx_L1_error)
         __Pyx_GOTREF(__pyx_t_10);
         __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
         __pyx_t_5 = 1;
@@ -5066,16 +5090,16 @@ static PyObject *__pyx_pf_5c104f_8handlers_13file_handlers_4sv_call_section_hand
           __pyx_t_6 = __Pyx_PyObject_FastCall((PyObject*)__pyx_t_10, __pyx_callargs+__pyx_t_5, (2-__pyx_t_5) | (__pyx_t_5*__Pyx_PY_VECTORCALL_ARGUMENTS_OFFSET));
           __Pyx_XDECREF(__pyx_t_11); __pyx_t_11 = 0;
           __Pyx_DECREF(__pyx_t_10); __pyx_t_10 = 0;
-          if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 107, __pyx_L1_error)
+          if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 109, __pyx_L1_error)
           __Pyx_GOTREF(__pyx_t_6);
         }
         __pyx_t_11 = NULL;
-        __Pyx_GetModuleGlobalName(__pyx_t_2, __pyx_mstate_global->__pyx_n_u_c104); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 107, __pyx_L1_error)
+        __Pyx_GetModuleGlobalName(__pyx_t_2, __pyx_mstate_global->__pyx_n_u_c104); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 109, __pyx_L1_error)
         __Pyx_GOTREF(__pyx_t_2);
-        __pyx_t_3 = __Pyx_PyObject_GetAttrStr(__pyx_t_2, __pyx_mstate_global->__pyx_n_u_Uint8); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 107, __pyx_L1_error)
+        __pyx_t_3 = __Pyx_PyObject_GetAttrStr(__pyx_t_2, __pyx_mstate_global->__pyx_n_u_Uint8); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 109, __pyx_L1_error)
         __Pyx_GOTREF(__pyx_t_3);
         __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
-        __pyx_t_2 = __Pyx_PyObject_GetAttrStr(__pyx_v_lsq, __pyx_mstate_global->__pyx_n_u_lsq); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 107, __pyx_L1_error)
+        __pyx_t_2 = __Pyx_PyObject_GetAttrStr(__pyx_v_lsq, __pyx_mstate_global->__pyx_n_u_lsq); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 109, __pyx_L1_error)
         __Pyx_GOTREF(__pyx_t_2);
         __pyx_t_5 = 1;
         #if CYTHON_UNPACK_METHODS
@@ -5095,13 +5119,13 @@ static PyObject *__pyx_pf_5c104f_8handlers_13file_handlers_4sv_call_section_hand
           __Pyx_XDECREF(__pyx_t_11); __pyx_t_11 = 0;
           __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
           __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
-          if (unlikely(!__pyx_t_10)) __PYX_ERR(0, 107, __pyx_L1_error)
+          if (unlikely(!__pyx_t_10)) __PYX_ERR(0, 109, __pyx_L1_error)
           __Pyx_GOTREF(__pyx_t_10);
         }
         __pyx_t_2 = NULL;
-        __Pyx_GetModuleGlobalName(__pyx_t_11, __pyx_mstate_global->__pyx_n_u_c104); if (unlikely(!__pyx_t_11)) __PYX_ERR(0, 107, __pyx_L1_error)
+        __Pyx_GetModuleGlobalName(__pyx_t_11, __pyx_mstate_global->__pyx_n_u_c104); if (unlikely(!__pyx_t_11)) __PYX_ERR(0, 109, __pyx_L1_error)
         __Pyx_GOTREF(__pyx_t_11);
-        __pyx_t_14 = __Pyx_PyObject_GetAttrStr(__pyx_t_11, __pyx_mstate_global->__pyx_n_u_Uint8); if (unlikely(!__pyx_t_14)) __PYX_ERR(0, 107, __pyx_L1_error)
+        __pyx_t_14 = __Pyx_PyObject_GetAttrStr(__pyx_t_11, __pyx_mstate_global->__pyx_n_u_Uint8); if (unlikely(!__pyx_t_14)) __PYX_ERR(0, 109, __pyx_L1_error)
         __Pyx_GOTREF(__pyx_t_14);
         __Pyx_DECREF(__pyx_t_11); __pyx_t_11 = 0;
         __pyx_t_5 = 1;
@@ -5121,7 +5145,7 @@ static PyObject *__pyx_pf_5c104f_8handlers_13file_handlers_4sv_call_section_hand
           __pyx_t_3 = __Pyx_PyObject_FastCall((PyObject*)__pyx_t_14, __pyx_callargs+__pyx_t_5, (2-__pyx_t_5) | (__pyx_t_5*__Pyx_PY_VECTORCALL_ARGUMENTS_OFFSET));
           __Pyx_XDECREF(__pyx_t_2); __pyx_t_2 = 0;
           __Pyx_DECREF(__pyx_t_14); __pyx_t_14 = 0;
-          if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 107, __pyx_L1_error)
+          if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 109, __pyx_L1_error)
           __Pyx_GOTREF(__pyx_t_3);
         }
         __pyx_t_5 = 1;
@@ -5138,12 +5162,12 @@ static PyObject *__pyx_pf_5c104f_8handlers_13file_handlers_4sv_call_section_hand
         #endif
         {
           PyObject *__pyx_callargs[2 + ((CYTHON_VECTORCALL) ? 4 : 0)] = {__pyx_t_7, NULL};
-          __pyx_t_14 = __Pyx_MakeVectorcallBuilderKwds(4); if (unlikely(!__pyx_t_14)) __PYX_ERR(0, 107, __pyx_L1_error)
+          __pyx_t_14 = __Pyx_MakeVectorcallBuilderKwds(4); if (unlikely(!__pyx_t_14)) __PYX_ERR(0, 109, __pyx_L1_error)
           __Pyx_GOTREF(__pyx_t_14);
-          if (__Pyx_VectorcallBuilder_AddArg(__pyx_mstate_global->__pyx_n_u_nof, __pyx_t_13, __pyx_t_14, __pyx_callargs+1, 0) < (0)) __PYX_ERR(0, 107, __pyx_L1_error)
-          if (__Pyx_VectorcallBuilder_AddArg(__pyx_mstate_global->__pyx_n_u_nos, __pyx_t_6, __pyx_t_14, __pyx_callargs+1, 1) < (0)) __PYX_ERR(0, 107, __pyx_L1_error)
-          if (__Pyx_VectorcallBuilder_AddArg(__pyx_mstate_global->__pyx_n_u_lsq, __pyx_t_10, __pyx_t_14, __pyx_callargs+1, 2) < (0)) __PYX_ERR(0, 107, __pyx_L1_error)
-          if (__Pyx_VectorcallBuilder_AddArg(__pyx_mstate_global->__pyx_n_u_chs, __pyx_t_3, __pyx_t_14, __pyx_callargs+1, 3) < (0)) __PYX_ERR(0, 107, __pyx_L1_error)
+          if (__Pyx_VectorcallBuilder_AddArg(__pyx_mstate_global->__pyx_n_u_nof, __pyx_t_13, __pyx_t_14, __pyx_callargs+1, 0) < (0)) __PYX_ERR(0, 109, __pyx_L1_error)
+          if (__Pyx_VectorcallBuilder_AddArg(__pyx_mstate_global->__pyx_n_u_nos, __pyx_t_6, __pyx_t_14, __pyx_callargs+1, 1) < (0)) __PYX_ERR(0, 109, __pyx_L1_error)
+          if (__Pyx_VectorcallBuilder_AddArg(__pyx_mstate_global->__pyx_n_u_lsq, __pyx_t_10, __pyx_t_14, __pyx_callargs+1, 2) < (0)) __PYX_ERR(0, 109, __pyx_L1_error)
+          if (__Pyx_VectorcallBuilder_AddArg(__pyx_mstate_global->__pyx_n_u_chs, __pyx_t_3, __pyx_t_14, __pyx_callargs+1, 3) < (0)) __PYX_ERR(0, 109, __pyx_L1_error)
           __pyx_t_4 = __Pyx_Object_Vectorcall_CallFromBuilder((PyObject*)__pyx_t_12, __pyx_callargs+__pyx_t_5, (1-__pyx_t_5) | (__pyx_t_5*__Pyx_PY_VECTORCALL_ARGUMENTS_OFFSET), __pyx_t_14);
           __Pyx_XDECREF(__pyx_t_7); __pyx_t_7 = 0;
           __Pyx_DECREF(__pyx_t_13); __pyx_t_13 = 0;
@@ -5152,22 +5176,22 @@ static PyObject *__pyx_pf_5c104f_8handlers_13file_handlers_4sv_call_section_hand
           __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
           __Pyx_DECREF(__pyx_t_14); __pyx_t_14 = 0;
           __Pyx_DECREF(__pyx_t_12); __pyx_t_12 = 0;
-          if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 107, __pyx_L1_error)
+          if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 109, __pyx_L1_error)
           __Pyx_GOTREF(__pyx_t_4);
         }
         __pyx_v_last_segment_info = __pyx_t_4;
         __pyx_t_4 = 0;
 
-        /* "c104f/handlers/file_handlers.py":108
+        /* "c104f/handlers/file_handlers.py":110
  *                 # print(chs.chs, sum(data_list) % 256 )
  *                 last_segment_info = c104.FileLastSegmentOrSectionCall(nof=c104.Int16(nof), nos=c104.Uint8(nos), lsq=c104.Uint8(lsq.lsq), chs=c104.Uint8(chs))
  *                 zero_point.info = last_segment_info             # <<<<<<<<<<<<<<
  *                 zero_point.transmit(c104.Cot.FILE_TRANSFER)
  *                 print("TRANSMITING DONE")
 */
-        if (__Pyx_PyObject_SetAttrStr(__pyx_v_zero_point, __pyx_mstate_global->__pyx_n_u_info, __pyx_v_last_segment_info) < (0)) __PYX_ERR(0, 108, __pyx_L1_error)
+        if (__Pyx_PyObject_SetAttrStr(__pyx_v_zero_point, __pyx_mstate_global->__pyx_n_u_info, __pyx_v_last_segment_info) < (0)) __PYX_ERR(0, 110, __pyx_L1_error)
 
-        /* "c104f/handlers/file_handlers.py":109
+        /* "c104f/handlers/file_handlers.py":111
  *                 last_segment_info = c104.FileLastSegmentOrSectionCall(nof=c104.Int16(nof), nos=c104.Uint8(nos), lsq=c104.Uint8(lsq.lsq), chs=c104.Uint8(chs))
  *                 zero_point.info = last_segment_info
  *                 zero_point.transmit(c104.Cot.FILE_TRANSFER)             # <<<<<<<<<<<<<<
@@ -5176,12 +5200,12 @@ static PyObject *__pyx_pf_5c104f_8handlers_13file_handlers_4sv_call_section_hand
 */
         __pyx_t_12 = __pyx_v_zero_point;
         __Pyx_INCREF(__pyx_t_12);
-        __Pyx_GetModuleGlobalName(__pyx_t_14, __pyx_mstate_global->__pyx_n_u_c104); if (unlikely(!__pyx_t_14)) __PYX_ERR(0, 109, __pyx_L1_error)
+        __Pyx_GetModuleGlobalName(__pyx_t_14, __pyx_mstate_global->__pyx_n_u_c104); if (unlikely(!__pyx_t_14)) __PYX_ERR(0, 111, __pyx_L1_error)
         __Pyx_GOTREF(__pyx_t_14);
-        __pyx_t_3 = __Pyx_PyObject_GetAttrStr(__pyx_t_14, __pyx_mstate_global->__pyx_n_u_Cot); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 109, __pyx_L1_error)
+        __pyx_t_3 = __Pyx_PyObject_GetAttrStr(__pyx_t_14, __pyx_mstate_global->__pyx_n_u_Cot); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 111, __pyx_L1_error)
         __Pyx_GOTREF(__pyx_t_3);
         __Pyx_DECREF(__pyx_t_14); __pyx_t_14 = 0;
-        __pyx_t_14 = __Pyx_PyObject_GetAttrStr(__pyx_t_3, __pyx_mstate_global->__pyx_n_u_FILE_TRANSFER); if (unlikely(!__pyx_t_14)) __PYX_ERR(0, 109, __pyx_L1_error)
+        __pyx_t_14 = __Pyx_PyObject_GetAttrStr(__pyx_t_3, __pyx_mstate_global->__pyx_n_u_FILE_TRANSFER); if (unlikely(!__pyx_t_14)) __PYX_ERR(0, 111, __pyx_L1_error)
         __Pyx_GOTREF(__pyx_t_14);
         __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
         __pyx_t_5 = 0;
@@ -5190,12 +5214,12 @@ static PyObject *__pyx_pf_5c104f_8handlers_13file_handlers_4sv_call_section_hand
           __pyx_t_4 = __Pyx_PyObject_FastCallMethod((PyObject*)__pyx_mstate_global->__pyx_n_u_transmit, __pyx_callargs+__pyx_t_5, (2-__pyx_t_5) | (1*__Pyx_PY_VECTORCALL_ARGUMENTS_OFFSET));
           __Pyx_XDECREF(__pyx_t_12); __pyx_t_12 = 0;
           __Pyx_DECREF(__pyx_t_14); __pyx_t_14 = 0;
-          if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 109, __pyx_L1_error)
+          if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 111, __pyx_L1_error)
           __Pyx_GOTREF(__pyx_t_4);
         }
         __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
 
-        /* "c104f/handlers/file_handlers.py":110
+        /* "c104f/handlers/file_handlers.py":112
  *                 zero_point.info = last_segment_info
  *                 zero_point.transmit(c104.Cot.FILE_TRANSFER)
  *                 print("TRANSMITING DONE")             # <<<<<<<<<<<<<<
@@ -5208,12 +5232,12 @@ static PyObject *__pyx_pf_5c104f_8handlers_13file_handlers_4sv_call_section_hand
           PyObject *__pyx_callargs[2] = {__pyx_t_14, __pyx_mstate_global->__pyx_kp_u_TRANSMITING_DONE};
           __pyx_t_4 = __Pyx_PyObject_FastCall((PyObject*)__pyx_builtin_print, __pyx_callargs+__pyx_t_5, (2-__pyx_t_5) | (__pyx_t_5*__Pyx_PY_VECTORCALL_ARGUMENTS_OFFSET));
           __Pyx_XDECREF(__pyx_t_14); __pyx_t_14 = 0;
-          if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 110, __pyx_L1_error)
+          if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 112, __pyx_L1_error)
           __Pyx_GOTREF(__pyx_t_4);
         }
         __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
 
-        /* "c104f/handlers/file_handlers.py":77
+        /* "c104f/handlers/file_handlers.py":79
  *         if file_info:
  *             # file ready for transmition
  *             if file_info.section_id + 1 == nos:             # <<<<<<<<<<<<<<
@@ -5222,7 +5246,7 @@ static PyObject *__pyx_pf_5c104f_8handlers_13file_handlers_4sv_call_section_hand
 */
       }
 
-      /* "c104f/handlers/file_handlers.py":75
+      /* "c104f/handlers/file_handlers.py":77
  *         zero_point.type = c104.Type.F_SG_NA_1
  *         file_info = get_file_info(zero_point, nof)
  *         if file_info:             # <<<<<<<<<<<<<<
@@ -5231,7 +5255,7 @@ static PyObject *__pyx_pf_5c104f_8handlers_13file_handlers_4sv_call_section_hand
 */
     }
 
-    /* "c104f/handlers/file_handlers.py":70
+    /* "c104f/handlers/file_handlers.py":72
  * 
  * def sv_call_section_handler(zero_point, ioa, nof, nos):
  *     if ioa == 0:             # <<<<<<<<<<<<<<
@@ -5240,7 +5264,7 @@ static PyObject *__pyx_pf_5c104f_8handlers_13file_handlers_4sv_call_section_hand
 */
   }
 
-  /* "c104f/handlers/file_handlers.py":69
+  /* "c104f/handlers/file_handlers.py":71
  *         sv_select_file_handler(zero_point, 0, file_id, nos, tr_type = type)
  * 
  * def sv_call_section_handler(zero_point, ioa, nof, nos):             # <<<<<<<<<<<<<<
@@ -5278,7 +5302,7 @@ static PyObject *__pyx_pf_5c104f_8handlers_13file_handlers_4sv_call_section_hand
   return __pyx_r;
 }
 
-/* "c104f/handlers/file_handlers.py":112
+/* "c104f/handlers/file_handlers.py":114
  *                 print("TRANSMITING DONE")
  * 
  * def sv_select_file_handler(zero_point, ioa, nof, nos, tr_type = None):             # <<<<<<<<<<<<<<
@@ -5329,53 +5353,53 @@ PyObject *__pyx_args, PyObject *__pyx_kwds
   {
     PyObject ** const __pyx_pyargnames[] = {&__pyx_mstate_global->__pyx_n_u_zero_point,&__pyx_mstate_global->__pyx_n_u_ioa,&__pyx_mstate_global->__pyx_n_u_nof,&__pyx_mstate_global->__pyx_n_u_nos,&__pyx_mstate_global->__pyx_n_u_tr_type,0};
     const Py_ssize_t __pyx_kwds_len = (__pyx_kwds) ? __Pyx_NumKwargs_FASTCALL(__pyx_kwds) : 0;
-    if (unlikely(__pyx_kwds_len) < 0) __PYX_ERR(0, 112, __pyx_L3_error)
+    if (unlikely(__pyx_kwds_len) < 0) __PYX_ERR(0, 114, __pyx_L3_error)
     if (__pyx_kwds_len > 0) {
       switch (__pyx_nargs) {
         case  5:
         values[4] = __Pyx_ArgRef_FASTCALL(__pyx_args, 4);
-        if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[4])) __PYX_ERR(0, 112, __pyx_L3_error)
+        if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[4])) __PYX_ERR(0, 114, __pyx_L3_error)
         CYTHON_FALLTHROUGH;
         case  4:
         values[3] = __Pyx_ArgRef_FASTCALL(__pyx_args, 3);
-        if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[3])) __PYX_ERR(0, 112, __pyx_L3_error)
+        if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[3])) __PYX_ERR(0, 114, __pyx_L3_error)
         CYTHON_FALLTHROUGH;
         case  3:
         values[2] = __Pyx_ArgRef_FASTCALL(__pyx_args, 2);
-        if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[2])) __PYX_ERR(0, 112, __pyx_L3_error)
+        if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[2])) __PYX_ERR(0, 114, __pyx_L3_error)
         CYTHON_FALLTHROUGH;
         case  2:
         values[1] = __Pyx_ArgRef_FASTCALL(__pyx_args, 1);
-        if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[1])) __PYX_ERR(0, 112, __pyx_L3_error)
+        if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[1])) __PYX_ERR(0, 114, __pyx_L3_error)
         CYTHON_FALLTHROUGH;
         case  1:
         values[0] = __Pyx_ArgRef_FASTCALL(__pyx_args, 0);
-        if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[0])) __PYX_ERR(0, 112, __pyx_L3_error)
+        if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[0])) __PYX_ERR(0, 114, __pyx_L3_error)
         CYTHON_FALLTHROUGH;
         case  0: break;
         default: goto __pyx_L5_argtuple_error;
       }
       const Py_ssize_t kwd_pos_args = __pyx_nargs;
-      if (__Pyx_ParseKeywords(__pyx_kwds, __pyx_kwvalues, __pyx_pyargnames, 0, values, kwd_pos_args, __pyx_kwds_len, "sv_select_file_handler", 0) < (0)) __PYX_ERR(0, 112, __pyx_L3_error)
+      if (__Pyx_ParseKeywords(__pyx_kwds, __pyx_kwvalues, __pyx_pyargnames, 0, values, kwd_pos_args, __pyx_kwds_len, "sv_select_file_handler", 0) < (0)) __PYX_ERR(0, 114, __pyx_L3_error)
       if (!values[4]) values[4] = __Pyx_NewRef(((PyObject *)Py_None));
       for (Py_ssize_t i = __pyx_nargs; i < 4; i++) {
-        if (unlikely(!values[i])) { __Pyx_RaiseArgtupleInvalid("sv_select_file_handler", 0, 4, 5, i); __PYX_ERR(0, 112, __pyx_L3_error) }
+        if (unlikely(!values[i])) { __Pyx_RaiseArgtupleInvalid("sv_select_file_handler", 0, 4, 5, i); __PYX_ERR(0, 114, __pyx_L3_error) }
       }
     } else {
       switch (__pyx_nargs) {
         case  5:
         values[4] = __Pyx_ArgRef_FASTCALL(__pyx_args, 4);
-        if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[4])) __PYX_ERR(0, 112, __pyx_L3_error)
+        if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[4])) __PYX_ERR(0, 114, __pyx_L3_error)
         CYTHON_FALLTHROUGH;
         case  4:
         values[3] = __Pyx_ArgRef_FASTCALL(__pyx_args, 3);
-        if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[3])) __PYX_ERR(0, 112, __pyx_L3_error)
+        if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[3])) __PYX_ERR(0, 114, __pyx_L3_error)
         values[2] = __Pyx_ArgRef_FASTCALL(__pyx_args, 2);
-        if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[2])) __PYX_ERR(0, 112, __pyx_L3_error)
+        if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[2])) __PYX_ERR(0, 114, __pyx_L3_error)
         values[1] = __Pyx_ArgRef_FASTCALL(__pyx_args, 1);
-        if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[1])) __PYX_ERR(0, 112, __pyx_L3_error)
+        if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[1])) __PYX_ERR(0, 114, __pyx_L3_error)
         values[0] = __Pyx_ArgRef_FASTCALL(__pyx_args, 0);
-        if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[0])) __PYX_ERR(0, 112, __pyx_L3_error)
+        if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[0])) __PYX_ERR(0, 114, __pyx_L3_error)
         break;
         default: goto __pyx_L5_argtuple_error;
       }
@@ -5389,7 +5413,7 @@ PyObject *__pyx_args, PyObject *__pyx_kwds
   }
   goto __pyx_L6_skip;
   __pyx_L5_argtuple_error:;
-  __Pyx_RaiseArgtupleInvalid("sv_select_file_handler", 0, 4, 5, __pyx_nargs); __PYX_ERR(0, 112, __pyx_L3_error)
+  __Pyx_RaiseArgtupleInvalid("sv_select_file_handler", 0, 4, 5, __pyx_nargs); __PYX_ERR(0, 114, __pyx_L3_error)
   __pyx_L6_skip:;
   goto __pyx_L4_argument_unpacking_done;
   __pyx_L3_error:;
@@ -5442,17 +5466,17 @@ static PyObject *__pyx_pf_5c104f_8handlers_13file_handlers_6sv_select_file_handl
   int __pyx_clineno = 0;
   __Pyx_RefNannySetupContext("sv_select_file_handler", 0);
 
-  /* "c104f/handlers/file_handlers.py":113
+  /* "c104f/handlers/file_handlers.py":115
  * 
  * def sv_select_file_handler(zero_point, ioa, nof, nos, tr_type = None):
  *     if ioa == 0:             # <<<<<<<<<<<<<<
  *         # from main dir
  *         file_names = os.listdir(SERVER_DIR)
 */
-  __pyx_t_1 = (__Pyx_PyLong_BoolEqObjC(__pyx_v_ioa, __pyx_mstate_global->__pyx_int_0, 0, 0)); if (unlikely((__pyx_t_1 < 0))) __PYX_ERR(0, 113, __pyx_L1_error)
+  __pyx_t_1 = (__Pyx_PyLong_BoolEqObjC(__pyx_v_ioa, __pyx_mstate_global->__pyx_int_0, 0, 0)); if (unlikely((__pyx_t_1 < 0))) __PYX_ERR(0, 115, __pyx_L1_error)
   if (__pyx_t_1) {
 
-    /* "c104f/handlers/file_handlers.py":115
+    /* "c104f/handlers/file_handlers.py":117
  *     if ioa == 0:
  *         # from main dir
  *         file_names = os.listdir(SERVER_DIR)             # <<<<<<<<<<<<<<
@@ -5460,12 +5484,12 @@ static PyObject *__pyx_pf_5c104f_8handlers_13file_handlers_6sv_select_file_handl
  *         file_size = 0
 */
     __pyx_t_3 = NULL;
-    __Pyx_GetModuleGlobalName(__pyx_t_4, __pyx_mstate_global->__pyx_n_u_os); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 115, __pyx_L1_error)
+    __Pyx_GetModuleGlobalName(__pyx_t_4, __pyx_mstate_global->__pyx_n_u_os); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 117, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_4);
-    __pyx_t_5 = __Pyx_PyObject_GetAttrStr(__pyx_t_4, __pyx_mstate_global->__pyx_n_u_listdir); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 115, __pyx_L1_error)
+    __pyx_t_5 = __Pyx_PyObject_GetAttrStr(__pyx_t_4, __pyx_mstate_global->__pyx_n_u_listdir); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 117, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_5);
     __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
-    __Pyx_GetModuleGlobalName(__pyx_t_4, __pyx_mstate_global->__pyx_n_u_SERVER_DIR); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 115, __pyx_L1_error)
+    __Pyx_GetModuleGlobalName(__pyx_t_4, __pyx_mstate_global->__pyx_n_u_SERVER_DIR); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 117, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_4);
     __pyx_t_6 = 1;
     #if CYTHON_UNPACK_METHODS
@@ -5485,13 +5509,13 @@ static PyObject *__pyx_pf_5c104f_8handlers_13file_handlers_6sv_select_file_handl
       __Pyx_XDECREF(__pyx_t_3); __pyx_t_3 = 0;
       __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
       __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
-      if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 115, __pyx_L1_error)
+      if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 117, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_2);
     }
     __pyx_v_file_names = __pyx_t_2;
     __pyx_t_2 = 0;
 
-    /* "c104f/handlers/file_handlers.py":116
+    /* "c104f/handlers/file_handlers.py":118
  *         # from main dir
  *         file_names = os.listdir(SERVER_DIR)
  *         file_is_found = False             # <<<<<<<<<<<<<<
@@ -5500,7 +5524,7 @@ static PyObject *__pyx_pf_5c104f_8handlers_13file_handlers_6sv_select_file_handl
 */
     __pyx_v_file_is_found = 0;
 
-    /* "c104f/handlers/file_handlers.py":117
+    /* "c104f/handlers/file_handlers.py":119
  *         file_names = os.listdir(SERVER_DIR)
  *         file_is_found = False
  *         file_size = 0             # <<<<<<<<<<<<<<
@@ -5510,7 +5534,7 @@ static PyObject *__pyx_pf_5c104f_8handlers_13file_handlers_6sv_select_file_handl
     __Pyx_INCREF(__pyx_mstate_global->__pyx_int_0);
     __pyx_v_file_size = __pyx_mstate_global->__pyx_int_0;
 
-    /* "c104f/handlers/file_handlers.py":118
+    /* "c104f/handlers/file_handlers.py":120
  *         file_is_found = False
  *         file_size = 0
  *         for filename in file_names:             # <<<<<<<<<<<<<<
@@ -5522,9 +5546,9 @@ static PyObject *__pyx_pf_5c104f_8handlers_13file_handlers_6sv_select_file_handl
       __pyx_t_7 = 0;
       __pyx_t_8 = NULL;
     } else {
-      __pyx_t_7 = -1; __pyx_t_2 = PyObject_GetIter(__pyx_v_file_names); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 118, __pyx_L1_error)
+      __pyx_t_7 = -1; __pyx_t_2 = PyObject_GetIter(__pyx_v_file_names); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 120, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_2);
-      __pyx_t_8 = (CYTHON_COMPILING_IN_LIMITED_API) ? PyIter_Next : __Pyx_PyObject_GetIterNextFunc(__pyx_t_2); if (unlikely(!__pyx_t_8)) __PYX_ERR(0, 118, __pyx_L1_error)
+      __pyx_t_8 = (CYTHON_COMPILING_IN_LIMITED_API) ? PyIter_Next : __Pyx_PyObject_GetIterNextFunc(__pyx_t_2); if (unlikely(!__pyx_t_8)) __PYX_ERR(0, 120, __pyx_L1_error)
     }
     for (;;) {
       if (likely(!__pyx_t_8)) {
@@ -5532,7 +5556,7 @@ static PyObject *__pyx_pf_5c104f_8handlers_13file_handlers_6sv_select_file_handl
           {
             Py_ssize_t __pyx_temp = __Pyx_PyList_GET_SIZE(__pyx_t_2);
             #if !CYTHON_ASSUME_SAFE_SIZE
-            if (unlikely((__pyx_temp < 0))) __PYX_ERR(0, 118, __pyx_L1_error)
+            if (unlikely((__pyx_temp < 0))) __PYX_ERR(0, 120, __pyx_L1_error)
             #endif
             if (__pyx_t_7 >= __pyx_temp) break;
           }
@@ -5542,7 +5566,7 @@ static PyObject *__pyx_pf_5c104f_8handlers_13file_handlers_6sv_select_file_handl
           {
             Py_ssize_t __pyx_temp = __Pyx_PyTuple_GET_SIZE(__pyx_t_2);
             #if !CYTHON_ASSUME_SAFE_SIZE
-            if (unlikely((__pyx_temp < 0))) __PYX_ERR(0, 118, __pyx_L1_error)
+            if (unlikely((__pyx_temp < 0))) __PYX_ERR(0, 120, __pyx_L1_error)
             #endif
             if (__pyx_t_7 >= __pyx_temp) break;
           }
@@ -5553,13 +5577,13 @@ static PyObject *__pyx_pf_5c104f_8handlers_13file_handlers_6sv_select_file_handl
           #endif
           ++__pyx_t_7;
         }
-        if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 118, __pyx_L1_error)
+        if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 120, __pyx_L1_error)
       } else {
         __pyx_t_5 = __pyx_t_8(__pyx_t_2);
         if (unlikely(!__pyx_t_5)) {
           PyObject* exc_type = PyErr_Occurred();
           if (exc_type) {
-            if (unlikely(!__Pyx_PyErr_GivenExceptionMatches(exc_type, PyExc_StopIteration))) __PYX_ERR(0, 118, __pyx_L1_error)
+            if (unlikely(!__Pyx_PyErr_GivenExceptionMatches(exc_type, PyExc_StopIteration))) __PYX_ERR(0, 120, __pyx_L1_error)
             PyErr_Clear();
           }
           break;
@@ -5569,7 +5593,7 @@ static PyObject *__pyx_pf_5c104f_8handlers_13file_handlers_6sv_select_file_handl
       __Pyx_XDECREF_SET(__pyx_v_filename, __pyx_t_5);
       __pyx_t_5 = 0;
 
-      /* "c104f/handlers/file_handlers.py":119
+      /* "c104f/handlers/file_handlers.py":121
  *         file_size = 0
  *         for filename in file_names:
  *             file_id = get_file_id(filename)             # <<<<<<<<<<<<<<
@@ -5577,7 +5601,7 @@ static PyObject *__pyx_pf_5c104f_8handlers_13file_handlers_6sv_select_file_handl
  *             if file_id == nof:
 */
       __pyx_t_4 = NULL;
-      __Pyx_GetModuleGlobalName(__pyx_t_3, __pyx_mstate_global->__pyx_n_u_get_file_id); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 119, __pyx_L1_error)
+      __Pyx_GetModuleGlobalName(__pyx_t_3, __pyx_mstate_global->__pyx_n_u_get_file_id); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 121, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_3);
       __pyx_t_6 = 1;
       #if CYTHON_UNPACK_METHODS
@@ -5596,13 +5620,13 @@ static PyObject *__pyx_pf_5c104f_8handlers_13file_handlers_6sv_select_file_handl
         __pyx_t_5 = __Pyx_PyObject_FastCall((PyObject*)__pyx_t_3, __pyx_callargs+__pyx_t_6, (2-__pyx_t_6) | (__pyx_t_6*__Pyx_PY_VECTORCALL_ARGUMENTS_OFFSET));
         __Pyx_XDECREF(__pyx_t_4); __pyx_t_4 = 0;
         __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
-        if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 119, __pyx_L1_error)
+        if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 121, __pyx_L1_error)
         __Pyx_GOTREF(__pyx_t_5);
       }
       __Pyx_XDECREF_SET(__pyx_v_file_id, __pyx_t_5);
       __pyx_t_5 = 0;
 
-      /* "c104f/handlers/file_handlers.py":120
+      /* "c104f/handlers/file_handlers.py":122
  *         for filename in file_names:
  *             file_id = get_file_id(filename)
  *             print(file_id, nof)             # <<<<<<<<<<<<<<
@@ -5615,24 +5639,24 @@ static PyObject *__pyx_pf_5c104f_8handlers_13file_handlers_6sv_select_file_handl
         PyObject *__pyx_callargs[3] = {__pyx_t_3, __pyx_v_file_id, __pyx_v_nof};
         __pyx_t_5 = __Pyx_PyObject_FastCall((PyObject*)__pyx_builtin_print, __pyx_callargs+__pyx_t_6, (3-__pyx_t_6) | (__pyx_t_6*__Pyx_PY_VECTORCALL_ARGUMENTS_OFFSET));
         __Pyx_XDECREF(__pyx_t_3); __pyx_t_3 = 0;
-        if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 120, __pyx_L1_error)
+        if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 122, __pyx_L1_error)
         __Pyx_GOTREF(__pyx_t_5);
       }
       __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
 
-      /* "c104f/handlers/file_handlers.py":121
+      /* "c104f/handlers/file_handlers.py":123
  *             file_id = get_file_id(filename)
  *             print(file_id, nof)
  *             if file_id == nof:             # <<<<<<<<<<<<<<
  *                 # file is found
  *                 file_is_found = True
 */
-      __pyx_t_5 = PyObject_RichCompare(__pyx_v_file_id, __pyx_v_nof, Py_EQ); __Pyx_XGOTREF(__pyx_t_5); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 121, __pyx_L1_error)
-      __pyx_t_1 = __Pyx_PyObject_IsTrue(__pyx_t_5); if (unlikely((__pyx_t_1 < 0))) __PYX_ERR(0, 121, __pyx_L1_error)
+      __pyx_t_5 = PyObject_RichCompare(__pyx_v_file_id, __pyx_v_nof, Py_EQ); __Pyx_XGOTREF(__pyx_t_5); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 123, __pyx_L1_error)
+      __pyx_t_1 = __Pyx_PyObject_IsTrue(__pyx_t_5); if (unlikely((__pyx_t_1 < 0))) __PYX_ERR(0, 123, __pyx_L1_error)
       __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
       if (__pyx_t_1) {
 
-        /* "c104f/handlers/file_handlers.py":123
+        /* "c104f/handlers/file_handlers.py":125
  *             if file_id == nof:
  *                 # file is found
  *                 file_is_found = True             # <<<<<<<<<<<<<<
@@ -5641,28 +5665,28 @@ static PyObject *__pyx_pf_5c104f_8handlers_13file_handlers_6sv_select_file_handl
 */
         __pyx_v_file_is_found = 1;
 
-        /* "c104f/handlers/file_handlers.py":124
+        /* "c104f/handlers/file_handlers.py":126
  *                 # file is found
  *                 file_is_found = True
  *                 file_size = os.path.getsize(os.path.join(SERVER_DIR, filename))             # <<<<<<<<<<<<<<
  *                 # check activation here and create new file_transfer
  *                 server_ft = get_server_ft(zero_point)
 */
-        __Pyx_GetModuleGlobalName(__pyx_t_4, __pyx_mstate_global->__pyx_n_u_os); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 124, __pyx_L1_error)
+        __Pyx_GetModuleGlobalName(__pyx_t_4, __pyx_mstate_global->__pyx_n_u_os); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 126, __pyx_L1_error)
         __Pyx_GOTREF(__pyx_t_4);
-        __pyx_t_9 = __Pyx_PyObject_GetAttrStr(__pyx_t_4, __pyx_mstate_global->__pyx_n_u_path); if (unlikely(!__pyx_t_9)) __PYX_ERR(0, 124, __pyx_L1_error)
+        __pyx_t_9 = __Pyx_PyObject_GetAttrStr(__pyx_t_4, __pyx_mstate_global->__pyx_n_u_path); if (unlikely(!__pyx_t_9)) __PYX_ERR(0, 126, __pyx_L1_error)
         __Pyx_GOTREF(__pyx_t_9);
         __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
         __pyx_t_3 = __pyx_t_9;
         __Pyx_INCREF(__pyx_t_3);
-        __Pyx_GetModuleGlobalName(__pyx_t_11, __pyx_mstate_global->__pyx_n_u_os); if (unlikely(!__pyx_t_11)) __PYX_ERR(0, 124, __pyx_L1_error)
+        __Pyx_GetModuleGlobalName(__pyx_t_11, __pyx_mstate_global->__pyx_n_u_os); if (unlikely(!__pyx_t_11)) __PYX_ERR(0, 126, __pyx_L1_error)
         __Pyx_GOTREF(__pyx_t_11);
-        __pyx_t_12 = __Pyx_PyObject_GetAttrStr(__pyx_t_11, __pyx_mstate_global->__pyx_n_u_path); if (unlikely(!__pyx_t_12)) __PYX_ERR(0, 124, __pyx_L1_error)
+        __pyx_t_12 = __Pyx_PyObject_GetAttrStr(__pyx_t_11, __pyx_mstate_global->__pyx_n_u_path); if (unlikely(!__pyx_t_12)) __PYX_ERR(0, 126, __pyx_L1_error)
         __Pyx_GOTREF(__pyx_t_12);
         __Pyx_DECREF(__pyx_t_11); __pyx_t_11 = 0;
         __pyx_t_10 = __pyx_t_12;
         __Pyx_INCREF(__pyx_t_10);
-        __Pyx_GetModuleGlobalName(__pyx_t_11, __pyx_mstate_global->__pyx_n_u_SERVER_DIR); if (unlikely(!__pyx_t_11)) __PYX_ERR(0, 124, __pyx_L1_error)
+        __Pyx_GetModuleGlobalName(__pyx_t_11, __pyx_mstate_global->__pyx_n_u_SERVER_DIR); if (unlikely(!__pyx_t_11)) __PYX_ERR(0, 126, __pyx_L1_error)
         __Pyx_GOTREF(__pyx_t_11);
         __pyx_t_6 = 0;
         {
@@ -5671,7 +5695,7 @@ static PyObject *__pyx_pf_5c104f_8handlers_13file_handlers_6sv_select_file_handl
           __Pyx_XDECREF(__pyx_t_10); __pyx_t_10 = 0;
           __Pyx_DECREF(__pyx_t_11); __pyx_t_11 = 0;
           __Pyx_DECREF(__pyx_t_12); __pyx_t_12 = 0;
-          if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 124, __pyx_L1_error)
+          if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 126, __pyx_L1_error)
           __Pyx_GOTREF(__pyx_t_4);
         }
         __pyx_t_6 = 0;
@@ -5681,13 +5705,13 @@ static PyObject *__pyx_pf_5c104f_8handlers_13file_handlers_6sv_select_file_handl
           __Pyx_XDECREF(__pyx_t_3); __pyx_t_3 = 0;
           __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
           __Pyx_DECREF(__pyx_t_9); __pyx_t_9 = 0;
-          if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 124, __pyx_L1_error)
+          if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 126, __pyx_L1_error)
           __Pyx_GOTREF(__pyx_t_5);
         }
         __Pyx_DECREF_SET(__pyx_v_file_size, __pyx_t_5);
         __pyx_t_5 = 0;
 
-        /* "c104f/handlers/file_handlers.py":126
+        /* "c104f/handlers/file_handlers.py":128
  *                 file_size = os.path.getsize(os.path.join(SERVER_DIR, filename))
  *                 # check activation here and create new file_transfer
  *                 server_ft = get_server_ft(zero_point)             # <<<<<<<<<<<<<<
@@ -5695,7 +5719,7 @@ static PyObject *__pyx_pf_5c104f_8handlers_13file_handlers_6sv_select_file_handl
  *                 if file_info:
 */
         __pyx_t_9 = NULL;
-        __Pyx_GetModuleGlobalName(__pyx_t_4, __pyx_mstate_global->__pyx_n_u_get_server_ft); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 126, __pyx_L1_error)
+        __Pyx_GetModuleGlobalName(__pyx_t_4, __pyx_mstate_global->__pyx_n_u_get_server_ft); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 128, __pyx_L1_error)
         __Pyx_GOTREF(__pyx_t_4);
         __pyx_t_6 = 1;
         #if CYTHON_UNPACK_METHODS
@@ -5714,13 +5738,13 @@ static PyObject *__pyx_pf_5c104f_8handlers_13file_handlers_6sv_select_file_handl
           __pyx_t_5 = __Pyx_PyObject_FastCall((PyObject*)__pyx_t_4, __pyx_callargs+__pyx_t_6, (2-__pyx_t_6) | (__pyx_t_6*__Pyx_PY_VECTORCALL_ARGUMENTS_OFFSET));
           __Pyx_XDECREF(__pyx_t_9); __pyx_t_9 = 0;
           __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
-          if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 126, __pyx_L1_error)
+          if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 128, __pyx_L1_error)
           __Pyx_GOTREF(__pyx_t_5);
         }
         __pyx_v_server_ft = __pyx_t_5;
         __pyx_t_5 = 0;
 
-        /* "c104f/handlers/file_handlers.py":127
+        /* "c104f/handlers/file_handlers.py":129
  *                 # check activation here and create new file_transfer
  *                 server_ft = get_server_ft(zero_point)
  *                 file_info = server_ft.get(file_id)             # <<<<<<<<<<<<<<
@@ -5734,23 +5758,23 @@ static PyObject *__pyx_pf_5c104f_8handlers_13file_handlers_6sv_select_file_handl
           PyObject *__pyx_callargs[2] = {__pyx_t_4, __pyx_v_file_id};
           __pyx_t_5 = __Pyx_PyObject_FastCallMethod((PyObject*)__pyx_mstate_global->__pyx_n_u_get, __pyx_callargs+__pyx_t_6, (2-__pyx_t_6) | (1*__Pyx_PY_VECTORCALL_ARGUMENTS_OFFSET));
           __Pyx_XDECREF(__pyx_t_4); __pyx_t_4 = 0;
-          if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 127, __pyx_L1_error)
+          if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 129, __pyx_L1_error)
           __Pyx_GOTREF(__pyx_t_5);
         }
         __pyx_v_file_info = __pyx_t_5;
         __pyx_t_5 = 0;
 
-        /* "c104f/handlers/file_handlers.py":128
+        /* "c104f/handlers/file_handlers.py":130
  *                 server_ft = get_server_ft(zero_point)
  *                 file_info = server_ft.get(file_id)
  *                 if file_info:             # <<<<<<<<<<<<<<
  *                     # already opened ( error )
  *                     file_is_found = False
 */
-        __pyx_t_1 = __Pyx_PyObject_IsTrue(__pyx_v_file_info); if (unlikely((__pyx_t_1 < 0))) __PYX_ERR(0, 128, __pyx_L1_error)
+        __pyx_t_1 = __Pyx_PyObject_IsTrue(__pyx_v_file_info); if (unlikely((__pyx_t_1 < 0))) __PYX_ERR(0, 130, __pyx_L1_error)
         if (__pyx_t_1) {
 
-          /* "c104f/handlers/file_handlers.py":130
+          /* "c104f/handlers/file_handlers.py":132
  *                 if file_info:
  *                     # already opened ( error )
  *                     file_is_found = False             # <<<<<<<<<<<<<<
@@ -5759,7 +5783,7 @@ static PyObject *__pyx_pf_5c104f_8handlers_13file_handlers_6sv_select_file_handl
 */
           __pyx_v_file_is_found = 0;
 
-          /* "c104f/handlers/file_handlers.py":128
+          /* "c104f/handlers/file_handlers.py":130
  *                 server_ft = get_server_ft(zero_point)
  *                 file_info = server_ft.get(file_id)
  *                 if file_info:             # <<<<<<<<<<<<<<
@@ -5769,7 +5793,7 @@ static PyObject *__pyx_pf_5c104f_8handlers_13file_handlers_6sv_select_file_handl
           goto __pyx_L7;
         }
 
-        /* "c104f/handlers/file_handlers.py":132
+        /* "c104f/handlers/file_handlers.py":134
  *                     file_is_found = False
  *                 else:
  *                     print(f"OPEN FILE {file_id} FOR TRANSFER")             # <<<<<<<<<<<<<<
@@ -5778,13 +5802,13 @@ static PyObject *__pyx_pf_5c104f_8handlers_13file_handlers_6sv_select_file_handl
 */
         /*else*/ {
           __pyx_t_4 = NULL;
-          __pyx_t_9 = __Pyx_PyObject_FormatSimple(__pyx_v_file_id, __pyx_mstate_global->__pyx_empty_unicode); if (unlikely(!__pyx_t_9)) __PYX_ERR(0, 132, __pyx_L1_error)
+          __pyx_t_9 = __Pyx_PyObject_FormatSimple(__pyx_v_file_id, __pyx_mstate_global->__pyx_empty_unicode); if (unlikely(!__pyx_t_9)) __PYX_ERR(0, 134, __pyx_L1_error)
           __Pyx_GOTREF(__pyx_t_9);
           __pyx_t_13[0] = __pyx_mstate_global->__pyx_kp_u_OPEN_FILE;
           __pyx_t_13[1] = __pyx_t_9;
           __pyx_t_13[2] = __pyx_mstate_global->__pyx_kp_u_FOR_TRANSFER;
           __pyx_t_3 = __Pyx_PyUnicode_Join(__pyx_t_13, 3, 10 + __Pyx_PyUnicode_GET_LENGTH(__pyx_t_9) + 13, 127 | __Pyx_PyUnicode_MAX_CHAR_VALUE(__pyx_t_9));
-          if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 132, __pyx_L1_error)
+          if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 134, __pyx_L1_error)
           __Pyx_GOTREF(__pyx_t_3);
           __Pyx_DECREF(__pyx_t_9); __pyx_t_9 = 0;
           __pyx_t_6 = 1;
@@ -5793,12 +5817,12 @@ static PyObject *__pyx_pf_5c104f_8handlers_13file_handlers_6sv_select_file_handl
             __pyx_t_5 = __Pyx_PyObject_FastCall((PyObject*)__pyx_builtin_print, __pyx_callargs+__pyx_t_6, (2-__pyx_t_6) | (__pyx_t_6*__Pyx_PY_VECTORCALL_ARGUMENTS_OFFSET));
             __Pyx_XDECREF(__pyx_t_4); __pyx_t_4 = 0;
             __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
-            if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 132, __pyx_L1_error)
+            if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 134, __pyx_L1_error)
             __Pyx_GOTREF(__pyx_t_5);
           }
           __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
 
-          /* "c104f/handlers/file_handlers.py":133
+          /* "c104f/handlers/file_handlers.py":135
  *                 else:
  *                     print(f"OPEN FILE {file_id} FOR TRANSFER")
  *                     file_bytes = open(os.path.join(SERVER_DIR, filename), "rb")             # <<<<<<<<<<<<<<
@@ -5806,14 +5830,14 @@ static PyObject *__pyx_pf_5c104f_8handlers_13file_handlers_6sv_select_file_handl
  *                     if sections * SECTION_SIZE < file_size:
 */
           __pyx_t_3 = NULL;
-          __Pyx_GetModuleGlobalName(__pyx_t_12, __pyx_mstate_global->__pyx_n_u_os); if (unlikely(!__pyx_t_12)) __PYX_ERR(0, 133, __pyx_L1_error)
+          __Pyx_GetModuleGlobalName(__pyx_t_12, __pyx_mstate_global->__pyx_n_u_os); if (unlikely(!__pyx_t_12)) __PYX_ERR(0, 135, __pyx_L1_error)
           __Pyx_GOTREF(__pyx_t_12);
-          __pyx_t_11 = __Pyx_PyObject_GetAttrStr(__pyx_t_12, __pyx_mstate_global->__pyx_n_u_path); if (unlikely(!__pyx_t_11)) __PYX_ERR(0, 133, __pyx_L1_error)
+          __pyx_t_11 = __Pyx_PyObject_GetAttrStr(__pyx_t_12, __pyx_mstate_global->__pyx_n_u_path); if (unlikely(!__pyx_t_11)) __PYX_ERR(0, 135, __pyx_L1_error)
           __Pyx_GOTREF(__pyx_t_11);
           __Pyx_DECREF(__pyx_t_12); __pyx_t_12 = 0;
           __pyx_t_9 = __pyx_t_11;
           __Pyx_INCREF(__pyx_t_9);
-          __Pyx_GetModuleGlobalName(__pyx_t_12, __pyx_mstate_global->__pyx_n_u_SERVER_DIR); if (unlikely(!__pyx_t_12)) __PYX_ERR(0, 133, __pyx_L1_error)
+          __Pyx_GetModuleGlobalName(__pyx_t_12, __pyx_mstate_global->__pyx_n_u_SERVER_DIR); if (unlikely(!__pyx_t_12)) __PYX_ERR(0, 135, __pyx_L1_error)
           __Pyx_GOTREF(__pyx_t_12);
           __pyx_t_6 = 0;
           {
@@ -5822,7 +5846,7 @@ static PyObject *__pyx_pf_5c104f_8handlers_13file_handlers_6sv_select_file_handl
             __Pyx_XDECREF(__pyx_t_9); __pyx_t_9 = 0;
             __Pyx_DECREF(__pyx_t_12); __pyx_t_12 = 0;
             __Pyx_DECREF(__pyx_t_11); __pyx_t_11 = 0;
-            if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 133, __pyx_L1_error)
+            if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 135, __pyx_L1_error)
             __Pyx_GOTREF(__pyx_t_4);
           }
           __pyx_t_6 = 1;
@@ -5831,58 +5855,58 @@ static PyObject *__pyx_pf_5c104f_8handlers_13file_handlers_6sv_select_file_handl
             __pyx_t_5 = __Pyx_PyObject_FastCall((PyObject*)__pyx_builtin_open, __pyx_callargs+__pyx_t_6, (3-__pyx_t_6) | (__pyx_t_6*__Pyx_PY_VECTORCALL_ARGUMENTS_OFFSET));
             __Pyx_XDECREF(__pyx_t_3); __pyx_t_3 = 0;
             __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
-            if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 133, __pyx_L1_error)
+            if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 135, __pyx_L1_error)
             __Pyx_GOTREF(__pyx_t_5);
           }
           __pyx_v_file_bytes = __pyx_t_5;
           __pyx_t_5 = 0;
 
-          /* "c104f/handlers/file_handlers.py":134
+          /* "c104f/handlers/file_handlers.py":136
  *                     print(f"OPEN FILE {file_id} FOR TRANSFER")
  *                     file_bytes = open(os.path.join(SERVER_DIR, filename), "rb")
  *                     sections = file_size // SECTION_SIZE             # <<<<<<<<<<<<<<
  *                     if sections * SECTION_SIZE < file_size:
  *                         sections += 1
 */
-          __Pyx_GetModuleGlobalName(__pyx_t_5, __pyx_mstate_global->__pyx_n_u_SECTION_SIZE); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 134, __pyx_L1_error)
+          __Pyx_GetModuleGlobalName(__pyx_t_5, __pyx_mstate_global->__pyx_n_u_SECTION_SIZE); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 136, __pyx_L1_error)
           __Pyx_GOTREF(__pyx_t_5);
-          __pyx_t_4 = PyNumber_FloorDivide(__pyx_v_file_size, __pyx_t_5); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 134, __pyx_L1_error)
+          __pyx_t_4 = PyNumber_FloorDivide(__pyx_v_file_size, __pyx_t_5); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 136, __pyx_L1_error)
           __Pyx_GOTREF(__pyx_t_4);
           __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
           __pyx_v_sections = __pyx_t_4;
           __pyx_t_4 = 0;
 
-          /* "c104f/handlers/file_handlers.py":135
+          /* "c104f/handlers/file_handlers.py":137
  *                     file_bytes = open(os.path.join(SERVER_DIR, filename), "rb")
  *                     sections = file_size // SECTION_SIZE
  *                     if sections * SECTION_SIZE < file_size:             # <<<<<<<<<<<<<<
  *                         sections += 1
  *                     file_info = FileTransferInfo(file = file_bytes, file_size = file_size, max_sections = sections, section_size=SECTION_SIZE)
 */
-          __Pyx_GetModuleGlobalName(__pyx_t_4, __pyx_mstate_global->__pyx_n_u_SECTION_SIZE); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 135, __pyx_L1_error)
+          __Pyx_GetModuleGlobalName(__pyx_t_4, __pyx_mstate_global->__pyx_n_u_SECTION_SIZE); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 137, __pyx_L1_error)
           __Pyx_GOTREF(__pyx_t_4);
-          __pyx_t_5 = PyNumber_Multiply(__pyx_v_sections, __pyx_t_4); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 135, __pyx_L1_error)
+          __pyx_t_5 = PyNumber_Multiply(__pyx_v_sections, __pyx_t_4); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 137, __pyx_L1_error)
           __Pyx_GOTREF(__pyx_t_5);
           __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
-          __pyx_t_4 = PyObject_RichCompare(__pyx_t_5, __pyx_v_file_size, Py_LT); __Pyx_XGOTREF(__pyx_t_4); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 135, __pyx_L1_error)
+          __pyx_t_4 = PyObject_RichCompare(__pyx_t_5, __pyx_v_file_size, Py_LT); __Pyx_XGOTREF(__pyx_t_4); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 137, __pyx_L1_error)
           __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
-          __pyx_t_1 = __Pyx_PyObject_IsTrue(__pyx_t_4); if (unlikely((__pyx_t_1 < 0))) __PYX_ERR(0, 135, __pyx_L1_error)
+          __pyx_t_1 = __Pyx_PyObject_IsTrue(__pyx_t_4); if (unlikely((__pyx_t_1 < 0))) __PYX_ERR(0, 137, __pyx_L1_error)
           __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
           if (__pyx_t_1) {
 
-            /* "c104f/handlers/file_handlers.py":136
+            /* "c104f/handlers/file_handlers.py":138
  *                     sections = file_size // SECTION_SIZE
  *                     if sections * SECTION_SIZE < file_size:
  *                         sections += 1             # <<<<<<<<<<<<<<
  *                     file_info = FileTransferInfo(file = file_bytes, file_size = file_size, max_sections = sections, section_size=SECTION_SIZE)
  *                     server_ft[file_id] = file_info
 */
-            __pyx_t_4 = __Pyx_PyLong_AddObjC(__pyx_v_sections, __pyx_mstate_global->__pyx_int_1, 1, 1, 0); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 136, __pyx_L1_error)
+            __pyx_t_4 = __Pyx_PyLong_AddObjC(__pyx_v_sections, __pyx_mstate_global->__pyx_int_1, 1, 1, 0); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 138, __pyx_L1_error)
             __Pyx_GOTREF(__pyx_t_4);
             __Pyx_DECREF_SET(__pyx_v_sections, __pyx_t_4);
             __pyx_t_4 = 0;
 
-            /* "c104f/handlers/file_handlers.py":135
+            /* "c104f/handlers/file_handlers.py":137
  *                     file_bytes = open(os.path.join(SERVER_DIR, filename), "rb")
  *                     sections = file_size // SECTION_SIZE
  *                     if sections * SECTION_SIZE < file_size:             # <<<<<<<<<<<<<<
@@ -5891,7 +5915,7 @@ static PyObject *__pyx_pf_5c104f_8handlers_13file_handlers_6sv_select_file_handl
 */
           }
 
-          /* "c104f/handlers/file_handlers.py":137
+          /* "c104f/handlers/file_handlers.py":139
  *                     if sections * SECTION_SIZE < file_size:
  *                         sections += 1
  *                     file_info = FileTransferInfo(file = file_bytes, file_size = file_size, max_sections = sections, section_size=SECTION_SIZE)             # <<<<<<<<<<<<<<
@@ -5899,9 +5923,9 @@ static PyObject *__pyx_pf_5c104f_8handlers_13file_handlers_6sv_select_file_handl
  *                 break
 */
           __pyx_t_5 = NULL;
-          __Pyx_GetModuleGlobalName(__pyx_t_3, __pyx_mstate_global->__pyx_n_u_FileTransferInfo); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 137, __pyx_L1_error)
+          __Pyx_GetModuleGlobalName(__pyx_t_3, __pyx_mstate_global->__pyx_n_u_FileTransferInfo); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 139, __pyx_L1_error)
           __Pyx_GOTREF(__pyx_t_3);
-          __Pyx_GetModuleGlobalName(__pyx_t_11, __pyx_mstate_global->__pyx_n_u_SECTION_SIZE); if (unlikely(!__pyx_t_11)) __PYX_ERR(0, 137, __pyx_L1_error)
+          __Pyx_GetModuleGlobalName(__pyx_t_11, __pyx_mstate_global->__pyx_n_u_SECTION_SIZE); if (unlikely(!__pyx_t_11)) __PYX_ERR(0, 139, __pyx_L1_error)
           __Pyx_GOTREF(__pyx_t_11);
           __pyx_t_6 = 1;
           #if CYTHON_UNPACK_METHODS
@@ -5917,35 +5941,35 @@ static PyObject *__pyx_pf_5c104f_8handlers_13file_handlers_6sv_select_file_handl
           #endif
           {
             PyObject *__pyx_callargs[2 + ((CYTHON_VECTORCALL) ? 4 : 0)] = {__pyx_t_5, NULL};
-            __pyx_t_12 = __Pyx_MakeVectorcallBuilderKwds(4); if (unlikely(!__pyx_t_12)) __PYX_ERR(0, 137, __pyx_L1_error)
+            __pyx_t_12 = __Pyx_MakeVectorcallBuilderKwds(4); if (unlikely(!__pyx_t_12)) __PYX_ERR(0, 139, __pyx_L1_error)
             __Pyx_GOTREF(__pyx_t_12);
-            if (__Pyx_VectorcallBuilder_AddArg(__pyx_mstate_global->__pyx_n_u_file, __pyx_v_file_bytes, __pyx_t_12, __pyx_callargs+1, 0) < (0)) __PYX_ERR(0, 137, __pyx_L1_error)
-            if (__Pyx_VectorcallBuilder_AddArg(__pyx_mstate_global->__pyx_n_u_file_size, __pyx_v_file_size, __pyx_t_12, __pyx_callargs+1, 1) < (0)) __PYX_ERR(0, 137, __pyx_L1_error)
-            if (__Pyx_VectorcallBuilder_AddArg(__pyx_mstate_global->__pyx_n_u_max_sections, __pyx_v_sections, __pyx_t_12, __pyx_callargs+1, 2) < (0)) __PYX_ERR(0, 137, __pyx_L1_error)
-            if (__Pyx_VectorcallBuilder_AddArg(__pyx_mstate_global->__pyx_n_u_section_size, __pyx_t_11, __pyx_t_12, __pyx_callargs+1, 3) < (0)) __PYX_ERR(0, 137, __pyx_L1_error)
+            if (__Pyx_VectorcallBuilder_AddArg(__pyx_mstate_global->__pyx_n_u_file, __pyx_v_file_bytes, __pyx_t_12, __pyx_callargs+1, 0) < (0)) __PYX_ERR(0, 139, __pyx_L1_error)
+            if (__Pyx_VectorcallBuilder_AddArg(__pyx_mstate_global->__pyx_n_u_file_size, __pyx_v_file_size, __pyx_t_12, __pyx_callargs+1, 1) < (0)) __PYX_ERR(0, 139, __pyx_L1_error)
+            if (__Pyx_VectorcallBuilder_AddArg(__pyx_mstate_global->__pyx_n_u_max_sections, __pyx_v_sections, __pyx_t_12, __pyx_callargs+1, 2) < (0)) __PYX_ERR(0, 139, __pyx_L1_error)
+            if (__Pyx_VectorcallBuilder_AddArg(__pyx_mstate_global->__pyx_n_u_section_size, __pyx_t_11, __pyx_t_12, __pyx_callargs+1, 3) < (0)) __PYX_ERR(0, 139, __pyx_L1_error)
             __pyx_t_4 = __Pyx_Object_Vectorcall_CallFromBuilder((PyObject*)__pyx_t_3, __pyx_callargs+__pyx_t_6, (1-__pyx_t_6) | (__pyx_t_6*__Pyx_PY_VECTORCALL_ARGUMENTS_OFFSET), __pyx_t_12);
             __Pyx_XDECREF(__pyx_t_5); __pyx_t_5 = 0;
             __Pyx_DECREF(__pyx_t_11); __pyx_t_11 = 0;
             __Pyx_DECREF(__pyx_t_12); __pyx_t_12 = 0;
             __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
-            if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 137, __pyx_L1_error)
+            if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 139, __pyx_L1_error)
             __Pyx_GOTREF(__pyx_t_4);
           }
           __Pyx_DECREF_SET(__pyx_v_file_info, __pyx_t_4);
           __pyx_t_4 = 0;
 
-          /* "c104f/handlers/file_handlers.py":138
+          /* "c104f/handlers/file_handlers.py":140
  *                         sections += 1
  *                     file_info = FileTransferInfo(file = file_bytes, file_size = file_size, max_sections = sections, section_size=SECTION_SIZE)
  *                     server_ft[file_id] = file_info             # <<<<<<<<<<<<<<
  *                 break
  *         # file ready ack
 */
-          if (unlikely((PyObject_SetItem(__pyx_v_server_ft, __pyx_v_file_id, __pyx_v_file_info) < 0))) __PYX_ERR(0, 138, __pyx_L1_error)
+          if (unlikely((PyObject_SetItem(__pyx_v_server_ft, __pyx_v_file_id, __pyx_v_file_info) < 0))) __PYX_ERR(0, 140, __pyx_L1_error)
         }
         __pyx_L7:;
 
-        /* "c104f/handlers/file_handlers.py":139
+        /* "c104f/handlers/file_handlers.py":141
  *                     file_info = FileTransferInfo(file = file_bytes, file_size = file_size, max_sections = sections, section_size=SECTION_SIZE)
  *                     server_ft[file_id] = file_info
  *                 break             # <<<<<<<<<<<<<<
@@ -5954,7 +5978,7 @@ static PyObject *__pyx_pf_5c104f_8handlers_13file_handlers_6sv_select_file_handl
 */
         goto __pyx_L5_break;
 
-        /* "c104f/handlers/file_handlers.py":121
+        /* "c104f/handlers/file_handlers.py":123
  *             file_id = get_file_id(filename)
  *             print(file_id, nof)
  *             if file_id == nof:             # <<<<<<<<<<<<<<
@@ -5963,7 +5987,7 @@ static PyObject *__pyx_pf_5c104f_8handlers_13file_handlers_6sv_select_file_handl
 */
       }
 
-      /* "c104f/handlers/file_handlers.py":118
+      /* "c104f/handlers/file_handlers.py":120
  *         file_is_found = False
  *         file_size = 0
  *         for filename in file_names:             # <<<<<<<<<<<<<<
@@ -5978,25 +6002,25 @@ static PyObject *__pyx_pf_5c104f_8handlers_13file_handlers_6sv_select_file_handl
     goto __pyx_L9_for_end;
     __pyx_L9_for_end:;
 
-    /* "c104f/handlers/file_handlers.py":141
+    /* "c104f/handlers/file_handlers.py":143
  *                 break
  *         # file ready ack
  *         zero_point.type = c104.Type.F_FR_NA_1             # <<<<<<<<<<<<<<
  *         print(file_size)
  *         file_ready_info = c104.FileReadyCall(nof=c104.Int16(nof), lof=c104.Uint32(file_size), positive=file_is_found)
 */
-    __Pyx_GetModuleGlobalName(__pyx_t_2, __pyx_mstate_global->__pyx_n_u_c104); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 141, __pyx_L1_error)
+    __Pyx_GetModuleGlobalName(__pyx_t_2, __pyx_mstate_global->__pyx_n_u_c104); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 143, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_2);
-    __pyx_t_4 = __Pyx_PyObject_GetAttrStr(__pyx_t_2, __pyx_mstate_global->__pyx_n_u_Type); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 141, __pyx_L1_error)
+    __pyx_t_4 = __Pyx_PyObject_GetAttrStr(__pyx_t_2, __pyx_mstate_global->__pyx_n_u_Type); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 143, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_4);
     __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
-    __pyx_t_2 = __Pyx_PyObject_GetAttrStr(__pyx_t_4, __pyx_mstate_global->__pyx_n_u_F_FR_NA_1); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 141, __pyx_L1_error)
+    __pyx_t_2 = __Pyx_PyObject_GetAttrStr(__pyx_t_4, __pyx_mstate_global->__pyx_n_u_F_FR_NA_1); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 143, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_2);
     __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
-    if (__Pyx_PyObject_SetAttrStr(__pyx_v_zero_point, __pyx_mstate_global->__pyx_n_u_type, __pyx_t_2) < (0)) __PYX_ERR(0, 141, __pyx_L1_error)
+    if (__Pyx_PyObject_SetAttrStr(__pyx_v_zero_point, __pyx_mstate_global->__pyx_n_u_type, __pyx_t_2) < (0)) __PYX_ERR(0, 143, __pyx_L1_error)
     __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
 
-    /* "c104f/handlers/file_handlers.py":142
+    /* "c104f/handlers/file_handlers.py":144
  *         # file ready ack
  *         zero_point.type = c104.Type.F_FR_NA_1
  *         print(file_size)             # <<<<<<<<<<<<<<
@@ -6009,12 +6033,12 @@ static PyObject *__pyx_pf_5c104f_8handlers_13file_handlers_6sv_select_file_handl
       PyObject *__pyx_callargs[2] = {__pyx_t_4, __pyx_v_file_size};
       __pyx_t_2 = __Pyx_PyObject_FastCall((PyObject*)__pyx_builtin_print, __pyx_callargs+__pyx_t_6, (2-__pyx_t_6) | (__pyx_t_6*__Pyx_PY_VECTORCALL_ARGUMENTS_OFFSET));
       __Pyx_XDECREF(__pyx_t_4); __pyx_t_4 = 0;
-      if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 142, __pyx_L1_error)
+      if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 144, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_2);
     }
     __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
 
-    /* "c104f/handlers/file_handlers.py":143
+    /* "c104f/handlers/file_handlers.py":145
  *         zero_point.type = c104.Type.F_FR_NA_1
  *         print(file_size)
  *         file_ready_info = c104.FileReadyCall(nof=c104.Int16(nof), lof=c104.Uint32(file_size), positive=file_is_found)             # <<<<<<<<<<<<<<
@@ -6022,15 +6046,15 @@ static PyObject *__pyx_pf_5c104f_8handlers_13file_handlers_6sv_select_file_handl
  *         zero_point.info = file_ready_info
 */
     __pyx_t_4 = NULL;
-    __Pyx_GetModuleGlobalName(__pyx_t_3, __pyx_mstate_global->__pyx_n_u_c104); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 143, __pyx_L1_error)
+    __Pyx_GetModuleGlobalName(__pyx_t_3, __pyx_mstate_global->__pyx_n_u_c104); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 145, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_3);
-    __pyx_t_12 = __Pyx_PyObject_GetAttrStr(__pyx_t_3, __pyx_mstate_global->__pyx_n_u_FileReadyCall); if (unlikely(!__pyx_t_12)) __PYX_ERR(0, 143, __pyx_L1_error)
+    __pyx_t_12 = __Pyx_PyObject_GetAttrStr(__pyx_t_3, __pyx_mstate_global->__pyx_n_u_FileReadyCall); if (unlikely(!__pyx_t_12)) __PYX_ERR(0, 145, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_12);
     __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
     __pyx_t_11 = NULL;
-    __Pyx_GetModuleGlobalName(__pyx_t_5, __pyx_mstate_global->__pyx_n_u_c104); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 143, __pyx_L1_error)
+    __Pyx_GetModuleGlobalName(__pyx_t_5, __pyx_mstate_global->__pyx_n_u_c104); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 145, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_5);
-    __pyx_t_9 = __Pyx_PyObject_GetAttrStr(__pyx_t_5, __pyx_mstate_global->__pyx_n_u_Int16); if (unlikely(!__pyx_t_9)) __PYX_ERR(0, 143, __pyx_L1_error)
+    __pyx_t_9 = __Pyx_PyObject_GetAttrStr(__pyx_t_5, __pyx_mstate_global->__pyx_n_u_Int16); if (unlikely(!__pyx_t_9)) __PYX_ERR(0, 145, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_9);
     __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
     __pyx_t_6 = 1;
@@ -6050,13 +6074,13 @@ static PyObject *__pyx_pf_5c104f_8handlers_13file_handlers_6sv_select_file_handl
       __pyx_t_3 = __Pyx_PyObject_FastCall((PyObject*)__pyx_t_9, __pyx_callargs+__pyx_t_6, (2-__pyx_t_6) | (__pyx_t_6*__Pyx_PY_VECTORCALL_ARGUMENTS_OFFSET));
       __Pyx_XDECREF(__pyx_t_11); __pyx_t_11 = 0;
       __Pyx_DECREF(__pyx_t_9); __pyx_t_9 = 0;
-      if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 143, __pyx_L1_error)
+      if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 145, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_3);
     }
     __pyx_t_11 = NULL;
-    __Pyx_GetModuleGlobalName(__pyx_t_5, __pyx_mstate_global->__pyx_n_u_c104); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 143, __pyx_L1_error)
+    __Pyx_GetModuleGlobalName(__pyx_t_5, __pyx_mstate_global->__pyx_n_u_c104); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 145, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_5);
-    __pyx_t_10 = __Pyx_PyObject_GetAttrStr(__pyx_t_5, __pyx_mstate_global->__pyx_n_u_Uint32); if (unlikely(!__pyx_t_10)) __PYX_ERR(0, 143, __pyx_L1_error)
+    __pyx_t_10 = __Pyx_PyObject_GetAttrStr(__pyx_t_5, __pyx_mstate_global->__pyx_n_u_Uint32); if (unlikely(!__pyx_t_10)) __PYX_ERR(0, 145, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_10);
     __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
     __pyx_t_6 = 1;
@@ -6076,10 +6100,10 @@ static PyObject *__pyx_pf_5c104f_8handlers_13file_handlers_6sv_select_file_handl
       __pyx_t_9 = __Pyx_PyObject_FastCall((PyObject*)__pyx_t_10, __pyx_callargs+__pyx_t_6, (2-__pyx_t_6) | (__pyx_t_6*__Pyx_PY_VECTORCALL_ARGUMENTS_OFFSET));
       __Pyx_XDECREF(__pyx_t_11); __pyx_t_11 = 0;
       __Pyx_DECREF(__pyx_t_10); __pyx_t_10 = 0;
-      if (unlikely(!__pyx_t_9)) __PYX_ERR(0, 143, __pyx_L1_error)
+      if (unlikely(!__pyx_t_9)) __PYX_ERR(0, 145, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_9);
     }
-    __pyx_t_10 = __Pyx_PyBool_FromLong(__pyx_v_file_is_found); if (unlikely(!__pyx_t_10)) __PYX_ERR(0, 143, __pyx_L1_error)
+    __pyx_t_10 = __Pyx_PyBool_FromLong(__pyx_v_file_is_found); if (unlikely(!__pyx_t_10)) __PYX_ERR(0, 145, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_10);
     __pyx_t_6 = 1;
     #if CYTHON_UNPACK_METHODS
@@ -6095,11 +6119,11 @@ static PyObject *__pyx_pf_5c104f_8handlers_13file_handlers_6sv_select_file_handl
     #endif
     {
       PyObject *__pyx_callargs[2 + ((CYTHON_VECTORCALL) ? 3 : 0)] = {__pyx_t_4, NULL};
-      __pyx_t_11 = __Pyx_MakeVectorcallBuilderKwds(3); if (unlikely(!__pyx_t_11)) __PYX_ERR(0, 143, __pyx_L1_error)
+      __pyx_t_11 = __Pyx_MakeVectorcallBuilderKwds(3); if (unlikely(!__pyx_t_11)) __PYX_ERR(0, 145, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_11);
-      if (__Pyx_VectorcallBuilder_AddArg(__pyx_mstate_global->__pyx_n_u_nof, __pyx_t_3, __pyx_t_11, __pyx_callargs+1, 0) < (0)) __PYX_ERR(0, 143, __pyx_L1_error)
-      if (__Pyx_VectorcallBuilder_AddArg(__pyx_mstate_global->__pyx_n_u_lof, __pyx_t_9, __pyx_t_11, __pyx_callargs+1, 1) < (0)) __PYX_ERR(0, 143, __pyx_L1_error)
-      if (__Pyx_VectorcallBuilder_AddArg(__pyx_mstate_global->__pyx_n_u_positive, __pyx_t_10, __pyx_t_11, __pyx_callargs+1, 2) < (0)) __PYX_ERR(0, 143, __pyx_L1_error)
+      if (__Pyx_VectorcallBuilder_AddArg(__pyx_mstate_global->__pyx_n_u_nof, __pyx_t_3, __pyx_t_11, __pyx_callargs+1, 0) < (0)) __PYX_ERR(0, 145, __pyx_L1_error)
+      if (__Pyx_VectorcallBuilder_AddArg(__pyx_mstate_global->__pyx_n_u_lof, __pyx_t_9, __pyx_t_11, __pyx_callargs+1, 1) < (0)) __PYX_ERR(0, 145, __pyx_L1_error)
+      if (__Pyx_VectorcallBuilder_AddArg(__pyx_mstate_global->__pyx_n_u_positive, __pyx_t_10, __pyx_t_11, __pyx_callargs+1, 2) < (0)) __PYX_ERR(0, 145, __pyx_L1_error)
       __pyx_t_2 = __Pyx_Object_Vectorcall_CallFromBuilder((PyObject*)__pyx_t_12, __pyx_callargs+__pyx_t_6, (1-__pyx_t_6) | (__pyx_t_6*__Pyx_PY_VECTORCALL_ARGUMENTS_OFFSET), __pyx_t_11);
       __Pyx_XDECREF(__pyx_t_4); __pyx_t_4 = 0;
       __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
@@ -6107,13 +6131,13 @@ static PyObject *__pyx_pf_5c104f_8handlers_13file_handlers_6sv_select_file_handl
       __Pyx_DECREF(__pyx_t_10); __pyx_t_10 = 0;
       __Pyx_DECREF(__pyx_t_11); __pyx_t_11 = 0;
       __Pyx_DECREF(__pyx_t_12); __pyx_t_12 = 0;
-      if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 143, __pyx_L1_error)
+      if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 145, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_2);
     }
     __pyx_v_file_ready_info = __pyx_t_2;
     __pyx_t_2 = 0;
 
-    /* "c104f/handlers/file_handlers.py":144
+    /* "c104f/handlers/file_handlers.py":146
  *         print(file_size)
  *         file_ready_info = c104.FileReadyCall(nof=c104.Int16(nof), lof=c104.Uint32(file_size), positive=file_is_found)
  *         print(file_ready_info)             # <<<<<<<<<<<<<<
@@ -6126,21 +6150,21 @@ static PyObject *__pyx_pf_5c104f_8handlers_13file_handlers_6sv_select_file_handl
       PyObject *__pyx_callargs[2] = {__pyx_t_12, __pyx_v_file_ready_info};
       __pyx_t_2 = __Pyx_PyObject_FastCall((PyObject*)__pyx_builtin_print, __pyx_callargs+__pyx_t_6, (2-__pyx_t_6) | (__pyx_t_6*__Pyx_PY_VECTORCALL_ARGUMENTS_OFFSET));
       __Pyx_XDECREF(__pyx_t_12); __pyx_t_12 = 0;
-      if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 144, __pyx_L1_error)
+      if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 146, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_2);
     }
     __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
 
-    /* "c104f/handlers/file_handlers.py":145
+    /* "c104f/handlers/file_handlers.py":147
  *         file_ready_info = c104.FileReadyCall(nof=c104.Int16(nof), lof=c104.Uint32(file_size), positive=file_is_found)
  *         print(file_ready_info)
  *         zero_point.info = file_ready_info             # <<<<<<<<<<<<<<
  *         zero_point.transmit(cause = c104.Cot.FILE_TRANSFER if tr_type is None else tr_type)
  *         server = get_server(zero_point)
 */
-    if (__Pyx_PyObject_SetAttrStr(__pyx_v_zero_point, __pyx_mstate_global->__pyx_n_u_info, __pyx_v_file_ready_info) < (0)) __PYX_ERR(0, 145, __pyx_L1_error)
+    if (__Pyx_PyObject_SetAttrStr(__pyx_v_zero_point, __pyx_mstate_global->__pyx_n_u_info, __pyx_v_file_ready_info) < (0)) __PYX_ERR(0, 147, __pyx_L1_error)
 
-    /* "c104f/handlers/file_handlers.py":146
+    /* "c104f/handlers/file_handlers.py":148
  *         print(file_ready_info)
  *         zero_point.info = file_ready_info
  *         zero_point.transmit(cause = c104.Cot.FILE_TRANSFER if tr_type is None else tr_type)             # <<<<<<<<<<<<<<
@@ -6151,12 +6175,12 @@ static PyObject *__pyx_pf_5c104f_8handlers_13file_handlers_6sv_select_file_handl
     __Pyx_INCREF(__pyx_t_12);
     __pyx_t_1 = (__pyx_v_tr_type == Py_None);
     if (__pyx_t_1) {
-      __Pyx_GetModuleGlobalName(__pyx_t_10, __pyx_mstate_global->__pyx_n_u_c104); if (unlikely(!__pyx_t_10)) __PYX_ERR(0, 146, __pyx_L1_error)
+      __Pyx_GetModuleGlobalName(__pyx_t_10, __pyx_mstate_global->__pyx_n_u_c104); if (unlikely(!__pyx_t_10)) __PYX_ERR(0, 148, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_10);
-      __pyx_t_9 = __Pyx_PyObject_GetAttrStr(__pyx_t_10, __pyx_mstate_global->__pyx_n_u_Cot); if (unlikely(!__pyx_t_9)) __PYX_ERR(0, 146, __pyx_L1_error)
+      __pyx_t_9 = __Pyx_PyObject_GetAttrStr(__pyx_t_10, __pyx_mstate_global->__pyx_n_u_Cot); if (unlikely(!__pyx_t_9)) __PYX_ERR(0, 148, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_9);
       __Pyx_DECREF(__pyx_t_10); __pyx_t_10 = 0;
-      __pyx_t_10 = __Pyx_PyObject_GetAttrStr(__pyx_t_9, __pyx_mstate_global->__pyx_n_u_FILE_TRANSFER); if (unlikely(!__pyx_t_10)) __PYX_ERR(0, 146, __pyx_L1_error)
+      __pyx_t_10 = __Pyx_PyObject_GetAttrStr(__pyx_t_9, __pyx_mstate_global->__pyx_n_u_FILE_TRANSFER); if (unlikely(!__pyx_t_10)) __PYX_ERR(0, 148, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_10);
       __Pyx_DECREF(__pyx_t_9); __pyx_t_9 = 0;
       __pyx_t_11 = __pyx_t_10;
@@ -6168,19 +6192,19 @@ static PyObject *__pyx_pf_5c104f_8handlers_13file_handlers_6sv_select_file_handl
     __pyx_t_6 = 0;
     {
       PyObject *__pyx_callargs[2 + ((CYTHON_VECTORCALL) ? 1 : 0)] = {__pyx_t_12, NULL};
-      __pyx_t_10 = __Pyx_MakeVectorcallBuilderKwds(1); if (unlikely(!__pyx_t_10)) __PYX_ERR(0, 146, __pyx_L1_error)
+      __pyx_t_10 = __Pyx_MakeVectorcallBuilderKwds(1); if (unlikely(!__pyx_t_10)) __PYX_ERR(0, 148, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_10);
-      if (__Pyx_VectorcallBuilder_AddArg(__pyx_mstate_global->__pyx_n_u_cause, __pyx_t_11, __pyx_t_10, __pyx_callargs+1, 0) < (0)) __PYX_ERR(0, 146, __pyx_L1_error)
+      if (__Pyx_VectorcallBuilder_AddArg(__pyx_mstate_global->__pyx_n_u_cause, __pyx_t_11, __pyx_t_10, __pyx_callargs+1, 0) < (0)) __PYX_ERR(0, 148, __pyx_L1_error)
       __pyx_t_2 = __Pyx_Object_VectorcallMethod_CallFromBuilder((PyObject*)__pyx_mstate_global->__pyx_n_u_transmit, __pyx_callargs+__pyx_t_6, (1-__pyx_t_6) | (1*__Pyx_PY_VECTORCALL_ARGUMENTS_OFFSET), __pyx_t_10);
       __Pyx_XDECREF(__pyx_t_12); __pyx_t_12 = 0;
       __Pyx_DECREF(__pyx_t_11); __pyx_t_11 = 0;
       __Pyx_DECREF(__pyx_t_10); __pyx_t_10 = 0;
-      if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 146, __pyx_L1_error)
+      if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 148, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_2);
     }
     __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
 
-    /* "c104f/handlers/file_handlers.py":147
+    /* "c104f/handlers/file_handlers.py":149
  *         zero_point.info = file_ready_info
  *         zero_point.transmit(cause = c104.Cot.FILE_TRANSFER if tr_type is None else tr_type)
  *         server = get_server(zero_point)             # <<<<<<<<<<<<<<
@@ -6188,7 +6212,7 @@ static PyObject *__pyx_pf_5c104f_8handlers_13file_handlers_6sv_select_file_handl
  *         print("Called file timer")
 */
     __pyx_t_10 = NULL;
-    __Pyx_GetModuleGlobalName(__pyx_t_11, __pyx_mstate_global->__pyx_n_u_get_server); if (unlikely(!__pyx_t_11)) __PYX_ERR(0, 147, __pyx_L1_error)
+    __Pyx_GetModuleGlobalName(__pyx_t_11, __pyx_mstate_global->__pyx_n_u_get_server); if (unlikely(!__pyx_t_11)) __PYX_ERR(0, 149, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_11);
     __pyx_t_6 = 1;
     #if CYTHON_UNPACK_METHODS
@@ -6207,13 +6231,13 @@ static PyObject *__pyx_pf_5c104f_8handlers_13file_handlers_6sv_select_file_handl
       __pyx_t_2 = __Pyx_PyObject_FastCall((PyObject*)__pyx_t_11, __pyx_callargs+__pyx_t_6, (2-__pyx_t_6) | (__pyx_t_6*__Pyx_PY_VECTORCALL_ARGUMENTS_OFFSET));
       __Pyx_XDECREF(__pyx_t_10); __pyx_t_10 = 0;
       __Pyx_DECREF(__pyx_t_11); __pyx_t_11 = 0;
-      if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 147, __pyx_L1_error)
+      if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 149, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_2);
     }
     __pyx_v_server = __pyx_t_2;
     __pyx_t_2 = 0;
 
-    /* "c104f/handlers/file_handlers.py":148
+    /* "c104f/handlers/file_handlers.py":150
  *         zero_point.transmit(cause = c104.Cot.FILE_TRANSFER if tr_type is None else tr_type)
  *         server = get_server(zero_point)
  *         server.add_timer(ms=server.files_timeout, callable=server.check_files)             # <<<<<<<<<<<<<<
@@ -6222,28 +6246,28 @@ static PyObject *__pyx_pf_5c104f_8handlers_13file_handlers_6sv_select_file_handl
 */
     __pyx_t_11 = __pyx_v_server;
     __Pyx_INCREF(__pyx_t_11);
-    __pyx_t_10 = __Pyx_PyObject_GetAttrStr(__pyx_v_server, __pyx_mstate_global->__pyx_n_u_files_timeout); if (unlikely(!__pyx_t_10)) __PYX_ERR(0, 148, __pyx_L1_error)
+    __pyx_t_10 = __Pyx_PyObject_GetAttrStr(__pyx_v_server, __pyx_mstate_global->__pyx_n_u_files_timeout); if (unlikely(!__pyx_t_10)) __PYX_ERR(0, 150, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_10);
-    __pyx_t_12 = __Pyx_PyObject_GetAttrStr(__pyx_v_server, __pyx_mstate_global->__pyx_n_u_check_files); if (unlikely(!__pyx_t_12)) __PYX_ERR(0, 148, __pyx_L1_error)
+    __pyx_t_12 = __Pyx_PyObject_GetAttrStr(__pyx_v_server, __pyx_mstate_global->__pyx_n_u_check_files); if (unlikely(!__pyx_t_12)) __PYX_ERR(0, 150, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_12);
     __pyx_t_6 = 0;
     {
       PyObject *__pyx_callargs[2 + ((CYTHON_VECTORCALL) ? 2 : 0)] = {__pyx_t_11, NULL};
-      __pyx_t_9 = __Pyx_MakeVectorcallBuilderKwds(2); if (unlikely(!__pyx_t_9)) __PYX_ERR(0, 148, __pyx_L1_error)
+      __pyx_t_9 = __Pyx_MakeVectorcallBuilderKwds(2); if (unlikely(!__pyx_t_9)) __PYX_ERR(0, 150, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_9);
-      if (__Pyx_VectorcallBuilder_AddArg(__pyx_mstate_global->__pyx_n_u_ms, __pyx_t_10, __pyx_t_9, __pyx_callargs+1, 0) < (0)) __PYX_ERR(0, 148, __pyx_L1_error)
-      if (__Pyx_VectorcallBuilder_AddArg(__pyx_mstate_global->__pyx_n_u_callable, __pyx_t_12, __pyx_t_9, __pyx_callargs+1, 1) < (0)) __PYX_ERR(0, 148, __pyx_L1_error)
+      if (__Pyx_VectorcallBuilder_AddArg(__pyx_mstate_global->__pyx_n_u_ms, __pyx_t_10, __pyx_t_9, __pyx_callargs+1, 0) < (0)) __PYX_ERR(0, 150, __pyx_L1_error)
+      if (__Pyx_VectorcallBuilder_AddArg(__pyx_mstate_global->__pyx_n_u_callable, __pyx_t_12, __pyx_t_9, __pyx_callargs+1, 1) < (0)) __PYX_ERR(0, 150, __pyx_L1_error)
       __pyx_t_2 = __Pyx_Object_VectorcallMethod_CallFromBuilder((PyObject*)__pyx_mstate_global->__pyx_n_u_add_timer, __pyx_callargs+__pyx_t_6, (1-__pyx_t_6) | (1*__Pyx_PY_VECTORCALL_ARGUMENTS_OFFSET), __pyx_t_9);
       __Pyx_XDECREF(__pyx_t_11); __pyx_t_11 = 0;
       __Pyx_DECREF(__pyx_t_10); __pyx_t_10 = 0;
       __Pyx_DECREF(__pyx_t_12); __pyx_t_12 = 0;
       __Pyx_DECREF(__pyx_t_9); __pyx_t_9 = 0;
-      if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 148, __pyx_L1_error)
+      if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 150, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_2);
     }
     __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
 
-    /* "c104f/handlers/file_handlers.py":149
+    /* "c104f/handlers/file_handlers.py":151
  *         server = get_server(zero_point)
  *         server.add_timer(ms=server.files_timeout, callable=server.check_files)
  *         print("Called file timer")             # <<<<<<<<<<<<<<
@@ -6256,12 +6280,12 @@ static PyObject *__pyx_pf_5c104f_8handlers_13file_handlers_6sv_select_file_handl
       PyObject *__pyx_callargs[2] = {__pyx_t_9, __pyx_mstate_global->__pyx_kp_u_Called_file_timer};
       __pyx_t_2 = __Pyx_PyObject_FastCall((PyObject*)__pyx_builtin_print, __pyx_callargs+__pyx_t_6, (2-__pyx_t_6) | (__pyx_t_6*__Pyx_PY_VECTORCALL_ARGUMENTS_OFFSET));
       __Pyx_XDECREF(__pyx_t_9); __pyx_t_9 = 0;
-      if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 149, __pyx_L1_error)
+      if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 151, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_2);
     }
     __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
 
-    /* "c104f/handlers/file_handlers.py":113
+    /* "c104f/handlers/file_handlers.py":115
  * 
  * def sv_select_file_handler(zero_point, ioa, nof, nos, tr_type = None):
  *     if ioa == 0:             # <<<<<<<<<<<<<<
@@ -6270,7 +6294,7 @@ static PyObject *__pyx_pf_5c104f_8handlers_13file_handlers_6sv_select_file_handl
 */
   }
 
-  /* "c104f/handlers/file_handlers.py":112
+  /* "c104f/handlers/file_handlers.py":114
  *                 print("TRANSMITING DONE")
  * 
  * def sv_select_file_handler(zero_point, ioa, nof, nos, tr_type = None):             # <<<<<<<<<<<<<<
@@ -6308,7 +6332,7 @@ static PyObject *__pyx_pf_5c104f_8handlers_13file_handlers_6sv_select_file_handl
   return __pyx_r;
 }
 
-/* "c104f/handlers/file_handlers.py":152
+/* "c104f/handlers/file_handlers.py":154
  *         # from here need to timer response to close file if no responce for a long time
  * 
  * def sv_select_section_handler(zero_point, ioa, nof, nos):             # <<<<<<<<<<<<<<
@@ -6358,44 +6382,44 @@ PyObject *__pyx_args, PyObject *__pyx_kwds
   {
     PyObject ** const __pyx_pyargnames[] = {&__pyx_mstate_global->__pyx_n_u_zero_point,&__pyx_mstate_global->__pyx_n_u_ioa,&__pyx_mstate_global->__pyx_n_u_nof,&__pyx_mstate_global->__pyx_n_u_nos,0};
     const Py_ssize_t __pyx_kwds_len = (__pyx_kwds) ? __Pyx_NumKwargs_FASTCALL(__pyx_kwds) : 0;
-    if (unlikely(__pyx_kwds_len) < 0) __PYX_ERR(0, 152, __pyx_L3_error)
+    if (unlikely(__pyx_kwds_len) < 0) __PYX_ERR(0, 154, __pyx_L3_error)
     if (__pyx_kwds_len > 0) {
       switch (__pyx_nargs) {
         case  4:
         values[3] = __Pyx_ArgRef_FASTCALL(__pyx_args, 3);
-        if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[3])) __PYX_ERR(0, 152, __pyx_L3_error)
+        if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[3])) __PYX_ERR(0, 154, __pyx_L3_error)
         CYTHON_FALLTHROUGH;
         case  3:
         values[2] = __Pyx_ArgRef_FASTCALL(__pyx_args, 2);
-        if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[2])) __PYX_ERR(0, 152, __pyx_L3_error)
+        if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[2])) __PYX_ERR(0, 154, __pyx_L3_error)
         CYTHON_FALLTHROUGH;
         case  2:
         values[1] = __Pyx_ArgRef_FASTCALL(__pyx_args, 1);
-        if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[1])) __PYX_ERR(0, 152, __pyx_L3_error)
+        if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[1])) __PYX_ERR(0, 154, __pyx_L3_error)
         CYTHON_FALLTHROUGH;
         case  1:
         values[0] = __Pyx_ArgRef_FASTCALL(__pyx_args, 0);
-        if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[0])) __PYX_ERR(0, 152, __pyx_L3_error)
+        if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[0])) __PYX_ERR(0, 154, __pyx_L3_error)
         CYTHON_FALLTHROUGH;
         case  0: break;
         default: goto __pyx_L5_argtuple_error;
       }
       const Py_ssize_t kwd_pos_args = __pyx_nargs;
-      if (__Pyx_ParseKeywords(__pyx_kwds, __pyx_kwvalues, __pyx_pyargnames, 0, values, kwd_pos_args, __pyx_kwds_len, "sv_select_section_handler", 0) < (0)) __PYX_ERR(0, 152, __pyx_L3_error)
+      if (__Pyx_ParseKeywords(__pyx_kwds, __pyx_kwvalues, __pyx_pyargnames, 0, values, kwd_pos_args, __pyx_kwds_len, "sv_select_section_handler", 0) < (0)) __PYX_ERR(0, 154, __pyx_L3_error)
       for (Py_ssize_t i = __pyx_nargs; i < 4; i++) {
-        if (unlikely(!values[i])) { __Pyx_RaiseArgtupleInvalid("sv_select_section_handler", 1, 4, 4, i); __PYX_ERR(0, 152, __pyx_L3_error) }
+        if (unlikely(!values[i])) { __Pyx_RaiseArgtupleInvalid("sv_select_section_handler", 1, 4, 4, i); __PYX_ERR(0, 154, __pyx_L3_error) }
       }
     } else if (unlikely(__pyx_nargs != 4)) {
       goto __pyx_L5_argtuple_error;
     } else {
       values[0] = __Pyx_ArgRef_FASTCALL(__pyx_args, 0);
-      if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[0])) __PYX_ERR(0, 152, __pyx_L3_error)
+      if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[0])) __PYX_ERR(0, 154, __pyx_L3_error)
       values[1] = __Pyx_ArgRef_FASTCALL(__pyx_args, 1);
-      if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[1])) __PYX_ERR(0, 152, __pyx_L3_error)
+      if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[1])) __PYX_ERR(0, 154, __pyx_L3_error)
       values[2] = __Pyx_ArgRef_FASTCALL(__pyx_args, 2);
-      if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[2])) __PYX_ERR(0, 152, __pyx_L3_error)
+      if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[2])) __PYX_ERR(0, 154, __pyx_L3_error)
       values[3] = __Pyx_ArgRef_FASTCALL(__pyx_args, 3);
-      if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[3])) __PYX_ERR(0, 152, __pyx_L3_error)
+      if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[3])) __PYX_ERR(0, 154, __pyx_L3_error)
     }
     __pyx_v_zero_point = values[0];
     __pyx_v_ioa = values[1];
@@ -6404,7 +6428,7 @@ PyObject *__pyx_args, PyObject *__pyx_kwds
   }
   goto __pyx_L6_skip;
   __pyx_L5_argtuple_error:;
-  __Pyx_RaiseArgtupleInvalid("sv_select_section_handler", 1, 4, 4, __pyx_nargs); __PYX_ERR(0, 152, __pyx_L3_error)
+  __Pyx_RaiseArgtupleInvalid("sv_select_section_handler", 1, 4, 4, __pyx_nargs); __PYX_ERR(0, 154, __pyx_L3_error)
   __pyx_L6_skip:;
   goto __pyx_L4_argument_unpacking_done;
   __pyx_L3_error:;
@@ -6450,17 +6474,17 @@ static PyObject *__pyx_pf_5c104f_8handlers_13file_handlers_8sv_select_section_ha
   int __pyx_clineno = 0;
   __Pyx_RefNannySetupContext("sv_select_section_handler", 0);
 
-  /* "c104f/handlers/file_handlers.py":153
+  /* "c104f/handlers/file_handlers.py":155
  * 
  * def sv_select_section_handler(zero_point, ioa, nof, nos):
  *     if ioa == 0:             # <<<<<<<<<<<<<<
  *         # file from main dir
  *         # get nof data
 */
-  __pyx_t_1 = (__Pyx_PyLong_BoolEqObjC(__pyx_v_ioa, __pyx_mstate_global->__pyx_int_0, 0, 0)); if (unlikely((__pyx_t_1 < 0))) __PYX_ERR(0, 153, __pyx_L1_error)
+  __pyx_t_1 = (__Pyx_PyLong_BoolEqObjC(__pyx_v_ioa, __pyx_mstate_global->__pyx_int_0, 0, 0)); if (unlikely((__pyx_t_1 < 0))) __PYX_ERR(0, 155, __pyx_L1_error)
   if (__pyx_t_1) {
 
-    /* "c104f/handlers/file_handlers.py":158
+    /* "c104f/handlers/file_handlers.py":160
  *         # get nos
  *         ## slice data from nof
  *         file_info = get_file_info(zero_point, nof)             # <<<<<<<<<<<<<<
@@ -6468,7 +6492,7 @@ static PyObject *__pyx_pf_5c104f_8handlers_13file_handlers_8sv_select_section_ha
  *         if file_info:
 */
     __pyx_t_3 = NULL;
-    __Pyx_GetModuleGlobalName(__pyx_t_4, __pyx_mstate_global->__pyx_n_u_get_file_info); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 158, __pyx_L1_error)
+    __Pyx_GetModuleGlobalName(__pyx_t_4, __pyx_mstate_global->__pyx_n_u_get_file_info); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 160, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_4);
     __pyx_t_5 = 1;
     #if CYTHON_UNPACK_METHODS
@@ -6487,13 +6511,13 @@ static PyObject *__pyx_pf_5c104f_8handlers_13file_handlers_8sv_select_section_ha
       __pyx_t_2 = __Pyx_PyObject_FastCall((PyObject*)__pyx_t_4, __pyx_callargs+__pyx_t_5, (3-__pyx_t_5) | (__pyx_t_5*__Pyx_PY_VECTORCALL_ARGUMENTS_OFFSET));
       __Pyx_XDECREF(__pyx_t_3); __pyx_t_3 = 0;
       __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
-      if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 158, __pyx_L1_error)
+      if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 160, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_2);
     }
     __pyx_v_file_info = __pyx_t_2;
     __pyx_t_2 = 0;
 
-    /* "c104f/handlers/file_handlers.py":159
+    /* "c104f/handlers/file_handlers.py":161
  *         ## slice data from nof
  *         file_info = get_file_info(zero_point, nof)
  *         file_info.update_time = time.time()             # <<<<<<<<<<<<<<
@@ -6501,9 +6525,9 @@ static PyObject *__pyx_pf_5c104f_8handlers_13file_handlers_8sv_select_section_ha
  *             # transmit section ready
 */
     __pyx_t_4 = NULL;
-    __Pyx_GetModuleGlobalName(__pyx_t_3, __pyx_mstate_global->__pyx_n_u_time); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 159, __pyx_L1_error)
+    __Pyx_GetModuleGlobalName(__pyx_t_3, __pyx_mstate_global->__pyx_n_u_time); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 161, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_3);
-    __pyx_t_6 = __Pyx_PyObject_GetAttrStr(__pyx_t_3, __pyx_mstate_global->__pyx_n_u_time); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 159, __pyx_L1_error)
+    __pyx_t_6 = __Pyx_PyObject_GetAttrStr(__pyx_t_3, __pyx_mstate_global->__pyx_n_u_time); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 161, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_6);
     __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
     __pyx_t_5 = 1;
@@ -6523,56 +6547,56 @@ static PyObject *__pyx_pf_5c104f_8handlers_13file_handlers_8sv_select_section_ha
       __pyx_t_2 = __Pyx_PyObject_FastCall((PyObject*)__pyx_t_6, __pyx_callargs+__pyx_t_5, (1-__pyx_t_5) | (__pyx_t_5*__Pyx_PY_VECTORCALL_ARGUMENTS_OFFSET));
       __Pyx_XDECREF(__pyx_t_4); __pyx_t_4 = 0;
       __Pyx_DECREF(__pyx_t_6); __pyx_t_6 = 0;
-      if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 159, __pyx_L1_error)
+      if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 161, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_2);
     }
-    if (__Pyx_PyObject_SetAttrStr(__pyx_v_file_info, __pyx_mstate_global->__pyx_n_u_update_time, __pyx_t_2) < (0)) __PYX_ERR(0, 159, __pyx_L1_error)
+    if (__Pyx_PyObject_SetAttrStr(__pyx_v_file_info, __pyx_mstate_global->__pyx_n_u_update_time, __pyx_t_2) < (0)) __PYX_ERR(0, 161, __pyx_L1_error)
     __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
 
-    /* "c104f/handlers/file_handlers.py":160
+    /* "c104f/handlers/file_handlers.py":162
  *         file_info = get_file_info(zero_point, nof)
  *         file_info.update_time = time.time()
  *         if file_info:             # <<<<<<<<<<<<<<
  *             # transmit section ready
  *             section_id = nos - 1 # in prot from 1 in real from zero
 */
-    __pyx_t_1 = __Pyx_PyObject_IsTrue(__pyx_v_file_info); if (unlikely((__pyx_t_1 < 0))) __PYX_ERR(0, 160, __pyx_L1_error)
+    __pyx_t_1 = __Pyx_PyObject_IsTrue(__pyx_v_file_info); if (unlikely((__pyx_t_1 < 0))) __PYX_ERR(0, 162, __pyx_L1_error)
     if (__pyx_t_1) {
 
-      /* "c104f/handlers/file_handlers.py":162
+      /* "c104f/handlers/file_handlers.py":164
  *         if file_info:
  *             # transmit section ready
  *             section_id = nos - 1 # in prot from 1 in real from zero             # <<<<<<<<<<<<<<
  *             if SECTION_SIZE * section_id >= file_info.file_size:
  *                 print("no such section")
 */
-      __pyx_t_2 = __Pyx_PyLong_SubtractObjC(__pyx_v_nos, __pyx_mstate_global->__pyx_int_1, 1, 0, 0); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 162, __pyx_L1_error)
+      __pyx_t_2 = __Pyx_PyLong_SubtractObjC(__pyx_v_nos, __pyx_mstate_global->__pyx_int_1, 1, 0, 0); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 164, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_2);
       __pyx_v_section_id = __pyx_t_2;
       __pyx_t_2 = 0;
 
-      /* "c104f/handlers/file_handlers.py":163
+      /* "c104f/handlers/file_handlers.py":165
  *             # transmit section ready
  *             section_id = nos - 1 # in prot from 1 in real from zero
  *             if SECTION_SIZE * section_id >= file_info.file_size:             # <<<<<<<<<<<<<<
  *                 print("no such section")
  *             else:
 */
-      __Pyx_GetModuleGlobalName(__pyx_t_2, __pyx_mstate_global->__pyx_n_u_SECTION_SIZE); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 163, __pyx_L1_error)
+      __Pyx_GetModuleGlobalName(__pyx_t_2, __pyx_mstate_global->__pyx_n_u_SECTION_SIZE); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 165, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_2);
-      __pyx_t_6 = PyNumber_Multiply(__pyx_t_2, __pyx_v_section_id); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 163, __pyx_L1_error)
+      __pyx_t_6 = PyNumber_Multiply(__pyx_t_2, __pyx_v_section_id); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 165, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_6);
       __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
-      __pyx_t_2 = __Pyx_PyObject_GetAttrStr(__pyx_v_file_info, __pyx_mstate_global->__pyx_n_u_file_size); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 163, __pyx_L1_error)
+      __pyx_t_2 = __Pyx_PyObject_GetAttrStr(__pyx_v_file_info, __pyx_mstate_global->__pyx_n_u_file_size); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 165, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_2);
-      __pyx_t_4 = PyObject_RichCompare(__pyx_t_6, __pyx_t_2, Py_GE); __Pyx_XGOTREF(__pyx_t_4); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 163, __pyx_L1_error)
+      __pyx_t_4 = PyObject_RichCompare(__pyx_t_6, __pyx_t_2, Py_GE); __Pyx_XGOTREF(__pyx_t_4); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 165, __pyx_L1_error)
       __Pyx_DECREF(__pyx_t_6); __pyx_t_6 = 0;
       __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
-      __pyx_t_1 = __Pyx_PyObject_IsTrue(__pyx_t_4); if (unlikely((__pyx_t_1 < 0))) __PYX_ERR(0, 163, __pyx_L1_error)
+      __pyx_t_1 = __Pyx_PyObject_IsTrue(__pyx_t_4); if (unlikely((__pyx_t_1 < 0))) __PYX_ERR(0, 165, __pyx_L1_error)
       __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
       if (__pyx_t_1) {
 
-        /* "c104f/handlers/file_handlers.py":164
+        /* "c104f/handlers/file_handlers.py":166
  *             section_id = nos - 1 # in prot from 1 in real from zero
  *             if SECTION_SIZE * section_id >= file_info.file_size:
  *                 print("no such section")             # <<<<<<<<<<<<<<
@@ -6585,12 +6609,12 @@ static PyObject *__pyx_pf_5c104f_8handlers_13file_handlers_8sv_select_section_ha
           PyObject *__pyx_callargs[2] = {__pyx_t_2, __pyx_mstate_global->__pyx_kp_u_no_such_section};
           __pyx_t_4 = __Pyx_PyObject_FastCall((PyObject*)__pyx_builtin_print, __pyx_callargs+__pyx_t_5, (2-__pyx_t_5) | (__pyx_t_5*__Pyx_PY_VECTORCALL_ARGUMENTS_OFFSET));
           __Pyx_XDECREF(__pyx_t_2); __pyx_t_2 = 0;
-          if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 164, __pyx_L1_error)
+          if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 166, __pyx_L1_error)
           __Pyx_GOTREF(__pyx_t_4);
         }
         __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
 
-        /* "c104f/handlers/file_handlers.py":163
+        /* "c104f/handlers/file_handlers.py":165
  *             # transmit section ready
  *             section_id = nos - 1 # in prot from 1 in real from zero
  *             if SECTION_SIZE * section_id >= file_info.file_size:             # <<<<<<<<<<<<<<
@@ -6600,7 +6624,7 @@ static PyObject *__pyx_pf_5c104f_8handlers_13file_handlers_8sv_select_section_ha
         goto __pyx_L5;
       }
 
-      /* "c104f/handlers/file_handlers.py":166
+      /* "c104f/handlers/file_handlers.py":168
  *                 print("no such section")
  *             else:
  *                 notReady = False             # <<<<<<<<<<<<<<
@@ -6610,7 +6634,7 @@ static PyObject *__pyx_pf_5c104f_8handlers_13file_handlers_8sv_select_section_ha
       /*else*/ {
         __pyx_v_notReady = 0;
 
-        /* "c104f/handlers/file_handlers.py":167
+        /* "c104f/handlers/file_handlers.py":169
  *             else:
  *                 notReady = False
  *                 result = file_info.prepare_section()             # <<<<<<<<<<<<<<
@@ -6624,24 +6648,24 @@ static PyObject *__pyx_pf_5c104f_8handlers_13file_handlers_8sv_select_section_ha
           PyObject *__pyx_callargs[2] = {__pyx_t_2, NULL};
           __pyx_t_4 = __Pyx_PyObject_FastCallMethod((PyObject*)__pyx_mstate_global->__pyx_n_u_prepare_section, __pyx_callargs+__pyx_t_5, (1-__pyx_t_5) | (1*__Pyx_PY_VECTORCALL_ARGUMENTS_OFFSET));
           __Pyx_XDECREF(__pyx_t_2); __pyx_t_2 = 0;
-          if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 167, __pyx_L1_error)
+          if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 169, __pyx_L1_error)
           __Pyx_GOTREF(__pyx_t_4);
         }
         __pyx_v_result = __pyx_t_4;
         __pyx_t_4 = 0;
 
-        /* "c104f/handlers/file_handlers.py":168
+        /* "c104f/handlers/file_handlers.py":170
  *                 notReady = False
  *                 result = file_info.prepare_section()
  *                 if not result:             # <<<<<<<<<<<<<<
  *                     notReady = True
  *                 zero_point.type = c104.Type.F_SR_NA_1
 */
-        __pyx_t_1 = __Pyx_PyObject_IsTrue(__pyx_v_result); if (unlikely((__pyx_t_1 < 0))) __PYX_ERR(0, 168, __pyx_L1_error)
+        __pyx_t_1 = __Pyx_PyObject_IsTrue(__pyx_v_result); if (unlikely((__pyx_t_1 < 0))) __PYX_ERR(0, 170, __pyx_L1_error)
         __pyx_t_7 = (!__pyx_t_1);
         if (__pyx_t_7) {
 
-          /* "c104f/handlers/file_handlers.py":169
+          /* "c104f/handlers/file_handlers.py":171
  *                 result = file_info.prepare_section()
  *                 if not result:
  *                     notReady = True             # <<<<<<<<<<<<<<
@@ -6650,7 +6674,7 @@ static PyObject *__pyx_pf_5c104f_8handlers_13file_handlers_8sv_select_section_ha
 */
           __pyx_v_notReady = 1;
 
-          /* "c104f/handlers/file_handlers.py":168
+          /* "c104f/handlers/file_handlers.py":170
  *                 notReady = False
  *                 result = file_info.prepare_section()
  *                 if not result:             # <<<<<<<<<<<<<<
@@ -6659,25 +6683,25 @@ static PyObject *__pyx_pf_5c104f_8handlers_13file_handlers_8sv_select_section_ha
 */
         }
 
-        /* "c104f/handlers/file_handlers.py":170
+        /* "c104f/handlers/file_handlers.py":172
  *                 if not result:
  *                     notReady = True
  *                 zero_point.type = c104.Type.F_SR_NA_1             # <<<<<<<<<<<<<<
  *                 section_ready_info = c104.FileSectionReadyCall(nof=c104.Int16(nof), nos=c104.Uint8(nos), lof=c104.Uint32(file_info.section_len), notReady=notReady)
  *                 zero_point.info = section_ready_info
 */
-        __Pyx_GetModuleGlobalName(__pyx_t_4, __pyx_mstate_global->__pyx_n_u_c104); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 170, __pyx_L1_error)
+        __Pyx_GetModuleGlobalName(__pyx_t_4, __pyx_mstate_global->__pyx_n_u_c104); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 172, __pyx_L1_error)
         __Pyx_GOTREF(__pyx_t_4);
-        __pyx_t_2 = __Pyx_PyObject_GetAttrStr(__pyx_t_4, __pyx_mstate_global->__pyx_n_u_Type); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 170, __pyx_L1_error)
+        __pyx_t_2 = __Pyx_PyObject_GetAttrStr(__pyx_t_4, __pyx_mstate_global->__pyx_n_u_Type); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 172, __pyx_L1_error)
         __Pyx_GOTREF(__pyx_t_2);
         __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
-        __pyx_t_4 = __Pyx_PyObject_GetAttrStr(__pyx_t_2, __pyx_mstate_global->__pyx_n_u_F_SR_NA_1); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 170, __pyx_L1_error)
+        __pyx_t_4 = __Pyx_PyObject_GetAttrStr(__pyx_t_2, __pyx_mstate_global->__pyx_n_u_F_SR_NA_1); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 172, __pyx_L1_error)
         __Pyx_GOTREF(__pyx_t_4);
         __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
-        if (__Pyx_PyObject_SetAttrStr(__pyx_v_zero_point, __pyx_mstate_global->__pyx_n_u_type, __pyx_t_4) < (0)) __PYX_ERR(0, 170, __pyx_L1_error)
+        if (__Pyx_PyObject_SetAttrStr(__pyx_v_zero_point, __pyx_mstate_global->__pyx_n_u_type, __pyx_t_4) < (0)) __PYX_ERR(0, 172, __pyx_L1_error)
         __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
 
-        /* "c104f/handlers/file_handlers.py":171
+        /* "c104f/handlers/file_handlers.py":173
  *                     notReady = True
  *                 zero_point.type = c104.Type.F_SR_NA_1
  *                 section_ready_info = c104.FileSectionReadyCall(nof=c104.Int16(nof), nos=c104.Uint8(nos), lof=c104.Uint32(file_info.section_len), notReady=notReady)             # <<<<<<<<<<<<<<
@@ -6685,15 +6709,15 @@ static PyObject *__pyx_pf_5c104f_8handlers_13file_handlers_8sv_select_section_ha
  *                 zero_point.transmit(cause = c104.Cot.FILE_TRANSFER)
 */
         __pyx_t_2 = NULL;
-        __Pyx_GetModuleGlobalName(__pyx_t_6, __pyx_mstate_global->__pyx_n_u_c104); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 171, __pyx_L1_error)
+        __Pyx_GetModuleGlobalName(__pyx_t_6, __pyx_mstate_global->__pyx_n_u_c104); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 173, __pyx_L1_error)
         __Pyx_GOTREF(__pyx_t_6);
-        __pyx_t_3 = __Pyx_PyObject_GetAttrStr(__pyx_t_6, __pyx_mstate_global->__pyx_n_u_FileSectionReadyCall); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 171, __pyx_L1_error)
+        __pyx_t_3 = __Pyx_PyObject_GetAttrStr(__pyx_t_6, __pyx_mstate_global->__pyx_n_u_FileSectionReadyCall); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 173, __pyx_L1_error)
         __Pyx_GOTREF(__pyx_t_3);
         __Pyx_DECREF(__pyx_t_6); __pyx_t_6 = 0;
         __pyx_t_8 = NULL;
-        __Pyx_GetModuleGlobalName(__pyx_t_9, __pyx_mstate_global->__pyx_n_u_c104); if (unlikely(!__pyx_t_9)) __PYX_ERR(0, 171, __pyx_L1_error)
+        __Pyx_GetModuleGlobalName(__pyx_t_9, __pyx_mstate_global->__pyx_n_u_c104); if (unlikely(!__pyx_t_9)) __PYX_ERR(0, 173, __pyx_L1_error)
         __Pyx_GOTREF(__pyx_t_9);
-        __pyx_t_10 = __Pyx_PyObject_GetAttrStr(__pyx_t_9, __pyx_mstate_global->__pyx_n_u_Int16); if (unlikely(!__pyx_t_10)) __PYX_ERR(0, 171, __pyx_L1_error)
+        __pyx_t_10 = __Pyx_PyObject_GetAttrStr(__pyx_t_9, __pyx_mstate_global->__pyx_n_u_Int16); if (unlikely(!__pyx_t_10)) __PYX_ERR(0, 173, __pyx_L1_error)
         __Pyx_GOTREF(__pyx_t_10);
         __Pyx_DECREF(__pyx_t_9); __pyx_t_9 = 0;
         __pyx_t_5 = 1;
@@ -6713,13 +6737,13 @@ static PyObject *__pyx_pf_5c104f_8handlers_13file_handlers_8sv_select_section_ha
           __pyx_t_6 = __Pyx_PyObject_FastCall((PyObject*)__pyx_t_10, __pyx_callargs+__pyx_t_5, (2-__pyx_t_5) | (__pyx_t_5*__Pyx_PY_VECTORCALL_ARGUMENTS_OFFSET));
           __Pyx_XDECREF(__pyx_t_8); __pyx_t_8 = 0;
           __Pyx_DECREF(__pyx_t_10); __pyx_t_10 = 0;
-          if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 171, __pyx_L1_error)
+          if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 173, __pyx_L1_error)
           __Pyx_GOTREF(__pyx_t_6);
         }
         __pyx_t_8 = NULL;
-        __Pyx_GetModuleGlobalName(__pyx_t_9, __pyx_mstate_global->__pyx_n_u_c104); if (unlikely(!__pyx_t_9)) __PYX_ERR(0, 171, __pyx_L1_error)
+        __Pyx_GetModuleGlobalName(__pyx_t_9, __pyx_mstate_global->__pyx_n_u_c104); if (unlikely(!__pyx_t_9)) __PYX_ERR(0, 173, __pyx_L1_error)
         __Pyx_GOTREF(__pyx_t_9);
-        __pyx_t_11 = __Pyx_PyObject_GetAttrStr(__pyx_t_9, __pyx_mstate_global->__pyx_n_u_Uint8); if (unlikely(!__pyx_t_11)) __PYX_ERR(0, 171, __pyx_L1_error)
+        __pyx_t_11 = __Pyx_PyObject_GetAttrStr(__pyx_t_9, __pyx_mstate_global->__pyx_n_u_Uint8); if (unlikely(!__pyx_t_11)) __PYX_ERR(0, 173, __pyx_L1_error)
         __Pyx_GOTREF(__pyx_t_11);
         __Pyx_DECREF(__pyx_t_9); __pyx_t_9 = 0;
         __pyx_t_5 = 1;
@@ -6739,16 +6763,16 @@ static PyObject *__pyx_pf_5c104f_8handlers_13file_handlers_8sv_select_section_ha
           __pyx_t_10 = __Pyx_PyObject_FastCall((PyObject*)__pyx_t_11, __pyx_callargs+__pyx_t_5, (2-__pyx_t_5) | (__pyx_t_5*__Pyx_PY_VECTORCALL_ARGUMENTS_OFFSET));
           __Pyx_XDECREF(__pyx_t_8); __pyx_t_8 = 0;
           __Pyx_DECREF(__pyx_t_11); __pyx_t_11 = 0;
-          if (unlikely(!__pyx_t_10)) __PYX_ERR(0, 171, __pyx_L1_error)
+          if (unlikely(!__pyx_t_10)) __PYX_ERR(0, 173, __pyx_L1_error)
           __Pyx_GOTREF(__pyx_t_10);
         }
         __pyx_t_8 = NULL;
-        __Pyx_GetModuleGlobalName(__pyx_t_9, __pyx_mstate_global->__pyx_n_u_c104); if (unlikely(!__pyx_t_9)) __PYX_ERR(0, 171, __pyx_L1_error)
+        __Pyx_GetModuleGlobalName(__pyx_t_9, __pyx_mstate_global->__pyx_n_u_c104); if (unlikely(!__pyx_t_9)) __PYX_ERR(0, 173, __pyx_L1_error)
         __Pyx_GOTREF(__pyx_t_9);
-        __pyx_t_12 = __Pyx_PyObject_GetAttrStr(__pyx_t_9, __pyx_mstate_global->__pyx_n_u_Uint32); if (unlikely(!__pyx_t_12)) __PYX_ERR(0, 171, __pyx_L1_error)
+        __pyx_t_12 = __Pyx_PyObject_GetAttrStr(__pyx_t_9, __pyx_mstate_global->__pyx_n_u_Uint32); if (unlikely(!__pyx_t_12)) __PYX_ERR(0, 173, __pyx_L1_error)
         __Pyx_GOTREF(__pyx_t_12);
         __Pyx_DECREF(__pyx_t_9); __pyx_t_9 = 0;
-        __pyx_t_9 = __Pyx_PyObject_GetAttrStr(__pyx_v_file_info, __pyx_mstate_global->__pyx_n_u_section_len); if (unlikely(!__pyx_t_9)) __PYX_ERR(0, 171, __pyx_L1_error)
+        __pyx_t_9 = __Pyx_PyObject_GetAttrStr(__pyx_v_file_info, __pyx_mstate_global->__pyx_n_u_section_len); if (unlikely(!__pyx_t_9)) __PYX_ERR(0, 173, __pyx_L1_error)
         __Pyx_GOTREF(__pyx_t_9);
         __pyx_t_5 = 1;
         #if CYTHON_UNPACK_METHODS
@@ -6768,10 +6792,10 @@ static PyObject *__pyx_pf_5c104f_8handlers_13file_handlers_8sv_select_section_ha
           __Pyx_XDECREF(__pyx_t_8); __pyx_t_8 = 0;
           __Pyx_DECREF(__pyx_t_9); __pyx_t_9 = 0;
           __Pyx_DECREF(__pyx_t_12); __pyx_t_12 = 0;
-          if (unlikely(!__pyx_t_11)) __PYX_ERR(0, 171, __pyx_L1_error)
+          if (unlikely(!__pyx_t_11)) __PYX_ERR(0, 173, __pyx_L1_error)
           __Pyx_GOTREF(__pyx_t_11);
         }
-        __pyx_t_12 = __Pyx_PyBool_FromLong(__pyx_v_notReady); if (unlikely(!__pyx_t_12)) __PYX_ERR(0, 171, __pyx_L1_error)
+        __pyx_t_12 = __Pyx_PyBool_FromLong(__pyx_v_notReady); if (unlikely(!__pyx_t_12)) __PYX_ERR(0, 173, __pyx_L1_error)
         __Pyx_GOTREF(__pyx_t_12);
         __pyx_t_5 = 1;
         #if CYTHON_UNPACK_METHODS
@@ -6787,12 +6811,12 @@ static PyObject *__pyx_pf_5c104f_8handlers_13file_handlers_8sv_select_section_ha
         #endif
         {
           PyObject *__pyx_callargs[2 + ((CYTHON_VECTORCALL) ? 4 : 0)] = {__pyx_t_2, NULL};
-          __pyx_t_9 = __Pyx_MakeVectorcallBuilderKwds(4); if (unlikely(!__pyx_t_9)) __PYX_ERR(0, 171, __pyx_L1_error)
+          __pyx_t_9 = __Pyx_MakeVectorcallBuilderKwds(4); if (unlikely(!__pyx_t_9)) __PYX_ERR(0, 173, __pyx_L1_error)
           __Pyx_GOTREF(__pyx_t_9);
-          if (__Pyx_VectorcallBuilder_AddArg(__pyx_mstate_global->__pyx_n_u_nof, __pyx_t_6, __pyx_t_9, __pyx_callargs+1, 0) < (0)) __PYX_ERR(0, 171, __pyx_L1_error)
-          if (__Pyx_VectorcallBuilder_AddArg(__pyx_mstate_global->__pyx_n_u_nos, __pyx_t_10, __pyx_t_9, __pyx_callargs+1, 1) < (0)) __PYX_ERR(0, 171, __pyx_L1_error)
-          if (__Pyx_VectorcallBuilder_AddArg(__pyx_mstate_global->__pyx_n_u_lof, __pyx_t_11, __pyx_t_9, __pyx_callargs+1, 2) < (0)) __PYX_ERR(0, 171, __pyx_L1_error)
-          if (__Pyx_VectorcallBuilder_AddArg(__pyx_mstate_global->__pyx_n_u_notReady, __pyx_t_12, __pyx_t_9, __pyx_callargs+1, 3) < (0)) __PYX_ERR(0, 171, __pyx_L1_error)
+          if (__Pyx_VectorcallBuilder_AddArg(__pyx_mstate_global->__pyx_n_u_nof, __pyx_t_6, __pyx_t_9, __pyx_callargs+1, 0) < (0)) __PYX_ERR(0, 173, __pyx_L1_error)
+          if (__Pyx_VectorcallBuilder_AddArg(__pyx_mstate_global->__pyx_n_u_nos, __pyx_t_10, __pyx_t_9, __pyx_callargs+1, 1) < (0)) __PYX_ERR(0, 173, __pyx_L1_error)
+          if (__Pyx_VectorcallBuilder_AddArg(__pyx_mstate_global->__pyx_n_u_lof, __pyx_t_11, __pyx_t_9, __pyx_callargs+1, 2) < (0)) __PYX_ERR(0, 173, __pyx_L1_error)
+          if (__Pyx_VectorcallBuilder_AddArg(__pyx_mstate_global->__pyx_n_u_notReady, __pyx_t_12, __pyx_t_9, __pyx_callargs+1, 3) < (0)) __PYX_ERR(0, 173, __pyx_L1_error)
           __pyx_t_4 = __Pyx_Object_Vectorcall_CallFromBuilder((PyObject*)__pyx_t_3, __pyx_callargs+__pyx_t_5, (1-__pyx_t_5) | (__pyx_t_5*__Pyx_PY_VECTORCALL_ARGUMENTS_OFFSET), __pyx_t_9);
           __Pyx_XDECREF(__pyx_t_2); __pyx_t_2 = 0;
           __Pyx_DECREF(__pyx_t_6); __pyx_t_6 = 0;
@@ -6801,22 +6825,22 @@ static PyObject *__pyx_pf_5c104f_8handlers_13file_handlers_8sv_select_section_ha
           __Pyx_DECREF(__pyx_t_12); __pyx_t_12 = 0;
           __Pyx_DECREF(__pyx_t_9); __pyx_t_9 = 0;
           __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
-          if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 171, __pyx_L1_error)
+          if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 173, __pyx_L1_error)
           __Pyx_GOTREF(__pyx_t_4);
         }
         __pyx_v_section_ready_info = __pyx_t_4;
         __pyx_t_4 = 0;
 
-        /* "c104f/handlers/file_handlers.py":172
+        /* "c104f/handlers/file_handlers.py":174
  *                 zero_point.type = c104.Type.F_SR_NA_1
  *                 section_ready_info = c104.FileSectionReadyCall(nof=c104.Int16(nof), nos=c104.Uint8(nos), lof=c104.Uint32(file_info.section_len), notReady=notReady)
  *                 zero_point.info = section_ready_info             # <<<<<<<<<<<<<<
  *                 zero_point.transmit(cause = c104.Cot.FILE_TRANSFER)
  *         else:
 */
-        if (__Pyx_PyObject_SetAttrStr(__pyx_v_zero_point, __pyx_mstate_global->__pyx_n_u_info, __pyx_v_section_ready_info) < (0)) __PYX_ERR(0, 172, __pyx_L1_error)
+        if (__Pyx_PyObject_SetAttrStr(__pyx_v_zero_point, __pyx_mstate_global->__pyx_n_u_info, __pyx_v_section_ready_info) < (0)) __PYX_ERR(0, 174, __pyx_L1_error)
 
-        /* "c104f/handlers/file_handlers.py":173
+        /* "c104f/handlers/file_handlers.py":175
  *                 section_ready_info = c104.FileSectionReadyCall(nof=c104.Int16(nof), nos=c104.Uint8(nos), lof=c104.Uint32(file_info.section_len), notReady=notReady)
  *                 zero_point.info = section_ready_info
  *                 zero_point.transmit(cause = c104.Cot.FILE_TRANSFER)             # <<<<<<<<<<<<<<
@@ -6825,32 +6849,32 @@ static PyObject *__pyx_pf_5c104f_8handlers_13file_handlers_8sv_select_section_ha
 */
         __pyx_t_3 = __pyx_v_zero_point;
         __Pyx_INCREF(__pyx_t_3);
-        __Pyx_GetModuleGlobalName(__pyx_t_9, __pyx_mstate_global->__pyx_n_u_c104); if (unlikely(!__pyx_t_9)) __PYX_ERR(0, 173, __pyx_L1_error)
+        __Pyx_GetModuleGlobalName(__pyx_t_9, __pyx_mstate_global->__pyx_n_u_c104); if (unlikely(!__pyx_t_9)) __PYX_ERR(0, 175, __pyx_L1_error)
         __Pyx_GOTREF(__pyx_t_9);
-        __pyx_t_12 = __Pyx_PyObject_GetAttrStr(__pyx_t_9, __pyx_mstate_global->__pyx_n_u_Cot); if (unlikely(!__pyx_t_12)) __PYX_ERR(0, 173, __pyx_L1_error)
+        __pyx_t_12 = __Pyx_PyObject_GetAttrStr(__pyx_t_9, __pyx_mstate_global->__pyx_n_u_Cot); if (unlikely(!__pyx_t_12)) __PYX_ERR(0, 175, __pyx_L1_error)
         __Pyx_GOTREF(__pyx_t_12);
         __Pyx_DECREF(__pyx_t_9); __pyx_t_9 = 0;
-        __pyx_t_9 = __Pyx_PyObject_GetAttrStr(__pyx_t_12, __pyx_mstate_global->__pyx_n_u_FILE_TRANSFER); if (unlikely(!__pyx_t_9)) __PYX_ERR(0, 173, __pyx_L1_error)
+        __pyx_t_9 = __Pyx_PyObject_GetAttrStr(__pyx_t_12, __pyx_mstate_global->__pyx_n_u_FILE_TRANSFER); if (unlikely(!__pyx_t_9)) __PYX_ERR(0, 175, __pyx_L1_error)
         __Pyx_GOTREF(__pyx_t_9);
         __Pyx_DECREF(__pyx_t_12); __pyx_t_12 = 0;
         __pyx_t_5 = 0;
         {
           PyObject *__pyx_callargs[2 + ((CYTHON_VECTORCALL) ? 1 : 0)] = {__pyx_t_3, NULL};
-          __pyx_t_12 = __Pyx_MakeVectorcallBuilderKwds(1); if (unlikely(!__pyx_t_12)) __PYX_ERR(0, 173, __pyx_L1_error)
+          __pyx_t_12 = __Pyx_MakeVectorcallBuilderKwds(1); if (unlikely(!__pyx_t_12)) __PYX_ERR(0, 175, __pyx_L1_error)
           __Pyx_GOTREF(__pyx_t_12);
-          if (__Pyx_VectorcallBuilder_AddArg(__pyx_mstate_global->__pyx_n_u_cause, __pyx_t_9, __pyx_t_12, __pyx_callargs+1, 0) < (0)) __PYX_ERR(0, 173, __pyx_L1_error)
+          if (__Pyx_VectorcallBuilder_AddArg(__pyx_mstate_global->__pyx_n_u_cause, __pyx_t_9, __pyx_t_12, __pyx_callargs+1, 0) < (0)) __PYX_ERR(0, 175, __pyx_L1_error)
           __pyx_t_4 = __Pyx_Object_VectorcallMethod_CallFromBuilder((PyObject*)__pyx_mstate_global->__pyx_n_u_transmit, __pyx_callargs+__pyx_t_5, (1-__pyx_t_5) | (1*__Pyx_PY_VECTORCALL_ARGUMENTS_OFFSET), __pyx_t_12);
           __Pyx_XDECREF(__pyx_t_3); __pyx_t_3 = 0;
           __Pyx_DECREF(__pyx_t_9); __pyx_t_9 = 0;
           __Pyx_DECREF(__pyx_t_12); __pyx_t_12 = 0;
-          if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 173, __pyx_L1_error)
+          if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 175, __pyx_L1_error)
           __Pyx_GOTREF(__pyx_t_4);
         }
         __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
       }
       __pyx_L5:;
 
-      /* "c104f/handlers/file_handlers.py":160
+      /* "c104f/handlers/file_handlers.py":162
  *         file_info = get_file_info(zero_point, nof)
  *         file_info.update_time = time.time()
  *         if file_info:             # <<<<<<<<<<<<<<
@@ -6860,7 +6884,7 @@ static PyObject *__pyx_pf_5c104f_8handlers_13file_handlers_8sv_select_section_ha
       goto __pyx_L4;
     }
 
-    /* "c104f/handlers/file_handlers.py":175
+    /* "c104f/handlers/file_handlers.py":177
  *                 zero_point.transmit(cause = c104.Cot.FILE_TRANSFER)
  *         else:
  *             print("File not selected error")             # <<<<<<<<<<<<<<
@@ -6874,14 +6898,14 @@ static PyObject *__pyx_pf_5c104f_8handlers_13file_handlers_8sv_select_section_ha
         PyObject *__pyx_callargs[2] = {__pyx_t_12, __pyx_mstate_global->__pyx_kp_u_File_not_selected_error};
         __pyx_t_4 = __Pyx_PyObject_FastCall((PyObject*)__pyx_builtin_print, __pyx_callargs+__pyx_t_5, (2-__pyx_t_5) | (__pyx_t_5*__Pyx_PY_VECTORCALL_ARGUMENTS_OFFSET));
         __Pyx_XDECREF(__pyx_t_12); __pyx_t_12 = 0;
-        if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 175, __pyx_L1_error)
+        if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 177, __pyx_L1_error)
         __Pyx_GOTREF(__pyx_t_4);
       }
       __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
     }
     __pyx_L4:;
 
-    /* "c104f/handlers/file_handlers.py":153
+    /* "c104f/handlers/file_handlers.py":155
  * 
  * def sv_select_section_handler(zero_point, ioa, nof, nos):
  *     if ioa == 0:             # <<<<<<<<<<<<<<
@@ -6890,7 +6914,7 @@ static PyObject *__pyx_pf_5c104f_8handlers_13file_handlers_8sv_select_section_ha
 */
   }
 
-  /* "c104f/handlers/file_handlers.py":152
+  /* "c104f/handlers/file_handlers.py":154
  *         # from here need to timer response to close file if no responce for a long time
  * 
  * def sv_select_section_handler(zero_point, ioa, nof, nos):             # <<<<<<<<<<<<<<
@@ -6923,7 +6947,7 @@ static PyObject *__pyx_pf_5c104f_8handlers_13file_handlers_8sv_select_section_ha
   return __pyx_r;
 }
 
-/* "c104f/handlers/file_handlers.py":177
+/* "c104f/handlers/file_handlers.py":179
  *             print("File not selected error")
  * 
  * def sv_confirm_handler(zero_point, ioa, nof, nos, afq:AFQ):             # <<<<<<<<<<<<<<
@@ -6974,50 +6998,50 @@ PyObject *__pyx_args, PyObject *__pyx_kwds
   {
     PyObject ** const __pyx_pyargnames[] = {&__pyx_mstate_global->__pyx_n_u_zero_point,&__pyx_mstate_global->__pyx_n_u_ioa,&__pyx_mstate_global->__pyx_n_u_nof,&__pyx_mstate_global->__pyx_n_u_nos,&__pyx_mstate_global->__pyx_n_u_afq,0};
     const Py_ssize_t __pyx_kwds_len = (__pyx_kwds) ? __Pyx_NumKwargs_FASTCALL(__pyx_kwds) : 0;
-    if (unlikely(__pyx_kwds_len) < 0) __PYX_ERR(0, 177, __pyx_L3_error)
+    if (unlikely(__pyx_kwds_len) < 0) __PYX_ERR(0, 179, __pyx_L3_error)
     if (__pyx_kwds_len > 0) {
       switch (__pyx_nargs) {
         case  5:
         values[4] = __Pyx_ArgRef_FASTCALL(__pyx_args, 4);
-        if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[4])) __PYX_ERR(0, 177, __pyx_L3_error)
+        if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[4])) __PYX_ERR(0, 179, __pyx_L3_error)
         CYTHON_FALLTHROUGH;
         case  4:
         values[3] = __Pyx_ArgRef_FASTCALL(__pyx_args, 3);
-        if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[3])) __PYX_ERR(0, 177, __pyx_L3_error)
+        if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[3])) __PYX_ERR(0, 179, __pyx_L3_error)
         CYTHON_FALLTHROUGH;
         case  3:
         values[2] = __Pyx_ArgRef_FASTCALL(__pyx_args, 2);
-        if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[2])) __PYX_ERR(0, 177, __pyx_L3_error)
+        if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[2])) __PYX_ERR(0, 179, __pyx_L3_error)
         CYTHON_FALLTHROUGH;
         case  2:
         values[1] = __Pyx_ArgRef_FASTCALL(__pyx_args, 1);
-        if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[1])) __PYX_ERR(0, 177, __pyx_L3_error)
+        if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[1])) __PYX_ERR(0, 179, __pyx_L3_error)
         CYTHON_FALLTHROUGH;
         case  1:
         values[0] = __Pyx_ArgRef_FASTCALL(__pyx_args, 0);
-        if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[0])) __PYX_ERR(0, 177, __pyx_L3_error)
+        if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[0])) __PYX_ERR(0, 179, __pyx_L3_error)
         CYTHON_FALLTHROUGH;
         case  0: break;
         default: goto __pyx_L5_argtuple_error;
       }
       const Py_ssize_t kwd_pos_args = __pyx_nargs;
-      if (__Pyx_ParseKeywords(__pyx_kwds, __pyx_kwvalues, __pyx_pyargnames, 0, values, kwd_pos_args, __pyx_kwds_len, "sv_confirm_handler", 0) < (0)) __PYX_ERR(0, 177, __pyx_L3_error)
+      if (__Pyx_ParseKeywords(__pyx_kwds, __pyx_kwvalues, __pyx_pyargnames, 0, values, kwd_pos_args, __pyx_kwds_len, "sv_confirm_handler", 0) < (0)) __PYX_ERR(0, 179, __pyx_L3_error)
       for (Py_ssize_t i = __pyx_nargs; i < 5; i++) {
-        if (unlikely(!values[i])) { __Pyx_RaiseArgtupleInvalid("sv_confirm_handler", 1, 5, 5, i); __PYX_ERR(0, 177, __pyx_L3_error) }
+        if (unlikely(!values[i])) { __Pyx_RaiseArgtupleInvalid("sv_confirm_handler", 1, 5, 5, i); __PYX_ERR(0, 179, __pyx_L3_error) }
       }
     } else if (unlikely(__pyx_nargs != 5)) {
       goto __pyx_L5_argtuple_error;
     } else {
       values[0] = __Pyx_ArgRef_FASTCALL(__pyx_args, 0);
-      if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[0])) __PYX_ERR(0, 177, __pyx_L3_error)
+      if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[0])) __PYX_ERR(0, 179, __pyx_L3_error)
       values[1] = __Pyx_ArgRef_FASTCALL(__pyx_args, 1);
-      if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[1])) __PYX_ERR(0, 177, __pyx_L3_error)
+      if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[1])) __PYX_ERR(0, 179, __pyx_L3_error)
       values[2] = __Pyx_ArgRef_FASTCALL(__pyx_args, 2);
-      if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[2])) __PYX_ERR(0, 177, __pyx_L3_error)
+      if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[2])) __PYX_ERR(0, 179, __pyx_L3_error)
       values[3] = __Pyx_ArgRef_FASTCALL(__pyx_args, 3);
-      if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[3])) __PYX_ERR(0, 177, __pyx_L3_error)
+      if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[3])) __PYX_ERR(0, 179, __pyx_L3_error)
       values[4] = __Pyx_ArgRef_FASTCALL(__pyx_args, 4);
-      if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[4])) __PYX_ERR(0, 177, __pyx_L3_error)
+      if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[4])) __PYX_ERR(0, 179, __pyx_L3_error)
     }
     __pyx_v_zero_point = values[0];
     __pyx_v_ioa = values[1];
@@ -7027,7 +7051,7 @@ PyObject *__pyx_args, PyObject *__pyx_kwds
   }
   goto __pyx_L6_skip;
   __pyx_L5_argtuple_error:;
-  __Pyx_RaiseArgtupleInvalid("sv_confirm_handler", 1, 5, 5, __pyx_nargs); __PYX_ERR(0, 177, __pyx_L3_error)
+  __Pyx_RaiseArgtupleInvalid("sv_confirm_handler", 1, 5, 5, __pyx_nargs); __PYX_ERR(0, 179, __pyx_L3_error)
   __pyx_L6_skip:;
   goto __pyx_L4_argument_unpacking_done;
   __pyx_L3_error:;
@@ -7063,7 +7087,7 @@ static PyObject *__pyx_pf_5c104f_8handlers_13file_handlers_10sv_confirm_handler(
   int __pyx_clineno = 0;
   __Pyx_RefNannySetupContext("sv_confirm_handler", 0);
 
-  /* "c104f/handlers/file_handlers.py":179
+  /* "c104f/handlers/file_handlers.py":181
  * def sv_confirm_handler(zero_point, ioa, nof, nos, afq:AFQ):
  * 
  *     if afq.isFilePositive():             # <<<<<<<<<<<<<<
@@ -7077,14 +7101,14 @@ static PyObject *__pyx_pf_5c104f_8handlers_13file_handlers_10sv_confirm_handler(
     PyObject *__pyx_callargs[2] = {__pyx_t_2, NULL};
     __pyx_t_1 = __Pyx_PyObject_FastCallMethod((PyObject*)__pyx_mstate_global->__pyx_n_u_isFilePositive, __pyx_callargs+__pyx_t_3, (1-__pyx_t_3) | (1*__Pyx_PY_VECTORCALL_ARGUMENTS_OFFSET));
     __Pyx_XDECREF(__pyx_t_2); __pyx_t_2 = 0;
-    if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 179, __pyx_L1_error)
+    if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 181, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_1);
   }
-  __pyx_t_4 = __Pyx_PyObject_IsTrue(__pyx_t_1); if (unlikely((__pyx_t_4 < 0))) __PYX_ERR(0, 179, __pyx_L1_error)
+  __pyx_t_4 = __Pyx_PyObject_IsTrue(__pyx_t_1); if (unlikely((__pyx_t_4 < 0))) __PYX_ERR(0, 181, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
   if (__pyx_t_4) {
 
-    /* "c104f/handlers/file_handlers.py":180
+    /* "c104f/handlers/file_handlers.py":182
  * 
  *     if afq.isFilePositive():
  *         print("FILE TRANSMITING SUCCESS")             # <<<<<<<<<<<<<<
@@ -7097,12 +7121,12 @@ static PyObject *__pyx_pf_5c104f_8handlers_13file_handlers_10sv_confirm_handler(
       PyObject *__pyx_callargs[2] = {__pyx_t_2, __pyx_mstate_global->__pyx_kp_u_FILE_TRANSMITING_SUCCESS};
       __pyx_t_1 = __Pyx_PyObject_FastCall((PyObject*)__pyx_builtin_print, __pyx_callargs+__pyx_t_3, (2-__pyx_t_3) | (__pyx_t_3*__Pyx_PY_VECTORCALL_ARGUMENTS_OFFSET));
       __Pyx_XDECREF(__pyx_t_2); __pyx_t_2 = 0;
-      if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 180, __pyx_L1_error)
+      if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 182, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_1);
     }
     __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
 
-    /* "c104f/handlers/file_handlers.py":182
+    /* "c104f/handlers/file_handlers.py":184
  *         print("FILE TRANSMITING SUCCESS")
  *         # remove file from file transfer section
  *         delete_ft(zero_point, nof)             # <<<<<<<<<<<<<<
@@ -7110,7 +7134,7 @@ static PyObject *__pyx_pf_5c104f_8handlers_13file_handlers_10sv_confirm_handler(
  *     elif afq.isSectionPositive():
 */
     __pyx_t_2 = NULL;
-    __Pyx_GetModuleGlobalName(__pyx_t_5, __pyx_mstate_global->__pyx_n_u_delete_ft); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 182, __pyx_L1_error)
+    __Pyx_GetModuleGlobalName(__pyx_t_5, __pyx_mstate_global->__pyx_n_u_delete_ft); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 184, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_5);
     __pyx_t_3 = 1;
     #if CYTHON_UNPACK_METHODS
@@ -7129,12 +7153,12 @@ static PyObject *__pyx_pf_5c104f_8handlers_13file_handlers_10sv_confirm_handler(
       __pyx_t_1 = __Pyx_PyObject_FastCall((PyObject*)__pyx_t_5, __pyx_callargs+__pyx_t_3, (3-__pyx_t_3) | (__pyx_t_3*__Pyx_PY_VECTORCALL_ARGUMENTS_OFFSET));
       __Pyx_XDECREF(__pyx_t_2); __pyx_t_2 = 0;
       __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
-      if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 182, __pyx_L1_error)
+      if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 184, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_1);
     }
     __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
 
-    /* "c104f/handlers/file_handlers.py":179
+    /* "c104f/handlers/file_handlers.py":181
  * def sv_confirm_handler(zero_point, ioa, nof, nos, afq:AFQ):
  * 
  *     if afq.isFilePositive():             # <<<<<<<<<<<<<<
@@ -7144,7 +7168,7 @@ static PyObject *__pyx_pf_5c104f_8handlers_13file_handlers_10sv_confirm_handler(
     goto __pyx_L3;
   }
 
-  /* "c104f/handlers/file_handlers.py":184
+  /* "c104f/handlers/file_handlers.py":186
  *         delete_ft(zero_point, nof)
  * 
  *     elif afq.isSectionPositive():             # <<<<<<<<<<<<<<
@@ -7158,14 +7182,14 @@ static PyObject *__pyx_pf_5c104f_8handlers_13file_handlers_10sv_confirm_handler(
     PyObject *__pyx_callargs[2] = {__pyx_t_5, NULL};
     __pyx_t_1 = __Pyx_PyObject_FastCallMethod((PyObject*)__pyx_mstate_global->__pyx_n_u_isSectionPositive, __pyx_callargs+__pyx_t_3, (1-__pyx_t_3) | (1*__Pyx_PY_VECTORCALL_ARGUMENTS_OFFSET));
     __Pyx_XDECREF(__pyx_t_5); __pyx_t_5 = 0;
-    if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 184, __pyx_L1_error)
+    if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 186, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_1);
   }
-  __pyx_t_4 = __Pyx_PyObject_IsTrue(__pyx_t_1); if (unlikely((__pyx_t_4 < 0))) __PYX_ERR(0, 184, __pyx_L1_error)
+  __pyx_t_4 = __Pyx_PyObject_IsTrue(__pyx_t_1); if (unlikely((__pyx_t_4 < 0))) __PYX_ERR(0, 186, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
   if (__pyx_t_4) {
 
-    /* "c104f/handlers/file_handlers.py":185
+    /* "c104f/handlers/file_handlers.py":187
  * 
  *     elif afq.isSectionPositive():
  *         print("SECTION TRANSMITING SUCCESS")             # <<<<<<<<<<<<<<
@@ -7178,12 +7202,12 @@ static PyObject *__pyx_pf_5c104f_8handlers_13file_handlers_10sv_confirm_handler(
       PyObject *__pyx_callargs[2] = {__pyx_t_5, __pyx_mstate_global->__pyx_kp_u_SECTION_TRANSMITING_SUCCESS};
       __pyx_t_1 = __Pyx_PyObject_FastCall((PyObject*)__pyx_builtin_print, __pyx_callargs+__pyx_t_3, (2-__pyx_t_3) | (__pyx_t_3*__Pyx_PY_VECTORCALL_ARGUMENTS_OFFSET));
       __Pyx_XDECREF(__pyx_t_5); __pyx_t_5 = 0;
-      if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 185, __pyx_L1_error)
+      if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 187, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_1);
     }
     __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
 
-    /* "c104f/handlers/file_handlers.py":188
+    /* "c104f/handlers/file_handlers.py":190
  *         # update section
  *         # update file_chs
  *         file_info = get_file_info(zero_point, nof)             # <<<<<<<<<<<<<<
@@ -7191,7 +7215,7 @@ static PyObject *__pyx_pf_5c104f_8handlers_13file_handlers_10sv_confirm_handler(
  *         file_info.update_file_chs()
 */
     __pyx_t_5 = NULL;
-    __Pyx_GetModuleGlobalName(__pyx_t_2, __pyx_mstate_global->__pyx_n_u_get_file_info); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 188, __pyx_L1_error)
+    __Pyx_GetModuleGlobalName(__pyx_t_2, __pyx_mstate_global->__pyx_n_u_get_file_info); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 190, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_2);
     __pyx_t_3 = 1;
     #if CYTHON_UNPACK_METHODS
@@ -7210,13 +7234,13 @@ static PyObject *__pyx_pf_5c104f_8handlers_13file_handlers_10sv_confirm_handler(
       __pyx_t_1 = __Pyx_PyObject_FastCall((PyObject*)__pyx_t_2, __pyx_callargs+__pyx_t_3, (3-__pyx_t_3) | (__pyx_t_3*__Pyx_PY_VECTORCALL_ARGUMENTS_OFFSET));
       __Pyx_XDECREF(__pyx_t_5); __pyx_t_5 = 0;
       __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
-      if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 188, __pyx_L1_error)
+      if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 190, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_1);
     }
     __pyx_v_file_info = __pyx_t_1;
     __pyx_t_1 = 0;
 
-    /* "c104f/handlers/file_handlers.py":189
+    /* "c104f/handlers/file_handlers.py":191
  *         # update file_chs
  *         file_info = get_file_info(zero_point, nof)
  *         file_info.update_time = time.time()             # <<<<<<<<<<<<<<
@@ -7224,9 +7248,9 @@ static PyObject *__pyx_pf_5c104f_8handlers_13file_handlers_10sv_confirm_handler(
  *         file_info.next_section()
 */
     __pyx_t_2 = NULL;
-    __Pyx_GetModuleGlobalName(__pyx_t_5, __pyx_mstate_global->__pyx_n_u_time); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 189, __pyx_L1_error)
+    __Pyx_GetModuleGlobalName(__pyx_t_5, __pyx_mstate_global->__pyx_n_u_time); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 191, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_5);
-    __pyx_t_6 = __Pyx_PyObject_GetAttrStr(__pyx_t_5, __pyx_mstate_global->__pyx_n_u_time); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 189, __pyx_L1_error)
+    __pyx_t_6 = __Pyx_PyObject_GetAttrStr(__pyx_t_5, __pyx_mstate_global->__pyx_n_u_time); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 191, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_6);
     __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
     __pyx_t_3 = 1;
@@ -7246,13 +7270,13 @@ static PyObject *__pyx_pf_5c104f_8handlers_13file_handlers_10sv_confirm_handler(
       __pyx_t_1 = __Pyx_PyObject_FastCall((PyObject*)__pyx_t_6, __pyx_callargs+__pyx_t_3, (1-__pyx_t_3) | (__pyx_t_3*__Pyx_PY_VECTORCALL_ARGUMENTS_OFFSET));
       __Pyx_XDECREF(__pyx_t_2); __pyx_t_2 = 0;
       __Pyx_DECREF(__pyx_t_6); __pyx_t_6 = 0;
-      if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 189, __pyx_L1_error)
+      if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 191, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_1);
     }
-    if (__Pyx_PyObject_SetAttrStr(__pyx_v_file_info, __pyx_mstate_global->__pyx_n_u_update_time, __pyx_t_1) < (0)) __PYX_ERR(0, 189, __pyx_L1_error)
+    if (__Pyx_PyObject_SetAttrStr(__pyx_v_file_info, __pyx_mstate_global->__pyx_n_u_update_time, __pyx_t_1) < (0)) __PYX_ERR(0, 191, __pyx_L1_error)
     __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
 
-    /* "c104f/handlers/file_handlers.py":190
+    /* "c104f/handlers/file_handlers.py":192
  *         file_info = get_file_info(zero_point, nof)
  *         file_info.update_time = time.time()
  *         file_info.update_file_chs()             # <<<<<<<<<<<<<<
@@ -7266,12 +7290,12 @@ static PyObject *__pyx_pf_5c104f_8handlers_13file_handlers_10sv_confirm_handler(
       PyObject *__pyx_callargs[2] = {__pyx_t_6, NULL};
       __pyx_t_1 = __Pyx_PyObject_FastCallMethod((PyObject*)__pyx_mstate_global->__pyx_n_u_update_file_chs, __pyx_callargs+__pyx_t_3, (1-__pyx_t_3) | (1*__Pyx_PY_VECTORCALL_ARGUMENTS_OFFSET));
       __Pyx_XDECREF(__pyx_t_6); __pyx_t_6 = 0;
-      if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 190, __pyx_L1_error)
+      if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 192, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_1);
     }
     __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
 
-    /* "c104f/handlers/file_handlers.py":191
+    /* "c104f/handlers/file_handlers.py":193
  *         file_info.update_time = time.time()
  *         file_info.update_file_chs()
  *         file_info.next_section()             # <<<<<<<<<<<<<<
@@ -7285,12 +7309,12 @@ static PyObject *__pyx_pf_5c104f_8handlers_13file_handlers_10sv_confirm_handler(
       PyObject *__pyx_callargs[2] = {__pyx_t_6, NULL};
       __pyx_t_1 = __Pyx_PyObject_FastCallMethod((PyObject*)__pyx_mstate_global->__pyx_n_u_next_section, __pyx_callargs+__pyx_t_3, (1-__pyx_t_3) | (1*__Pyx_PY_VECTORCALL_ARGUMENTS_OFFSET));
       __Pyx_XDECREF(__pyx_t_6); __pyx_t_6 = 0;
-      if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 191, __pyx_L1_error)
+      if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 193, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_1);
     }
     __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
 
-    /* "c104f/handlers/file_handlers.py":192
+    /* "c104f/handlers/file_handlers.py":194
  *         file_info.update_file_chs()
  *         file_info.next_section()
  *         sv_select_section_handler(zero_point, ioa, nof, nos+1)             # <<<<<<<<<<<<<<
@@ -7298,9 +7322,9 @@ static PyObject *__pyx_pf_5c104f_8handlers_13file_handlers_10sv_confirm_handler(
  *     else:
 */
     __pyx_t_6 = NULL;
-    __Pyx_GetModuleGlobalName(__pyx_t_2, __pyx_mstate_global->__pyx_n_u_sv_select_section_handler); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 192, __pyx_L1_error)
+    __Pyx_GetModuleGlobalName(__pyx_t_2, __pyx_mstate_global->__pyx_n_u_sv_select_section_handler); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 194, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_2);
-    __pyx_t_5 = __Pyx_PyLong_AddObjC(__pyx_v_nos, __pyx_mstate_global->__pyx_int_1, 1, 0, 0); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 192, __pyx_L1_error)
+    __pyx_t_5 = __Pyx_PyLong_AddObjC(__pyx_v_nos, __pyx_mstate_global->__pyx_int_1, 1, 0, 0); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 194, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_5);
     __pyx_t_3 = 1;
     #if CYTHON_UNPACK_METHODS
@@ -7320,12 +7344,12 @@ static PyObject *__pyx_pf_5c104f_8handlers_13file_handlers_10sv_confirm_handler(
       __Pyx_XDECREF(__pyx_t_6); __pyx_t_6 = 0;
       __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
       __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
-      if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 192, __pyx_L1_error)
+      if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 194, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_1);
     }
     __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
 
-    /* "c104f/handlers/file_handlers.py":184
+    /* "c104f/handlers/file_handlers.py":186
  *         delete_ft(zero_point, nof)
  * 
  *     elif afq.isSectionPositive():             # <<<<<<<<<<<<<<
@@ -7335,7 +7359,7 @@ static PyObject *__pyx_pf_5c104f_8handlers_13file_handlers_10sv_confirm_handler(
     goto __pyx_L3;
   }
 
-  /* "c104f/handlers/file_handlers.py":195
+  /* "c104f/handlers/file_handlers.py":197
  * 
  *     else:
  *         print(afq._value)             # <<<<<<<<<<<<<<
@@ -7344,7 +7368,7 @@ static PyObject *__pyx_pf_5c104f_8handlers_13file_handlers_10sv_confirm_handler(
 */
   /*else*/ {
     __pyx_t_2 = NULL;
-    __pyx_t_5 = __Pyx_PyObject_GetAttrStr(__pyx_v_afq, __pyx_mstate_global->__pyx_n_u_value); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 195, __pyx_L1_error)
+    __pyx_t_5 = __Pyx_PyObject_GetAttrStr(__pyx_v_afq, __pyx_mstate_global->__pyx_n_u_value); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 197, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_5);
     __pyx_t_3 = 1;
     {
@@ -7352,12 +7376,12 @@ static PyObject *__pyx_pf_5c104f_8handlers_13file_handlers_10sv_confirm_handler(
       __pyx_t_1 = __Pyx_PyObject_FastCall((PyObject*)__pyx_builtin_print, __pyx_callargs+__pyx_t_3, (2-__pyx_t_3) | (__pyx_t_3*__Pyx_PY_VECTORCALL_ARGUMENTS_OFFSET));
       __Pyx_XDECREF(__pyx_t_2); __pyx_t_2 = 0;
       __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
-      if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 195, __pyx_L1_error)
+      if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 197, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_1);
     }
     __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
 
-    /* "c104f/handlers/file_handlers.py":196
+    /* "c104f/handlers/file_handlers.py":198
  *     else:
  *         print(afq._value)
  *         if afq.isCHSError():             # <<<<<<<<<<<<<<
@@ -7371,14 +7395,14 @@ static PyObject *__pyx_pf_5c104f_8handlers_13file_handlers_10sv_confirm_handler(
       PyObject *__pyx_callargs[2] = {__pyx_t_5, NULL};
       __pyx_t_1 = __Pyx_PyObject_FastCallMethod((PyObject*)__pyx_mstate_global->__pyx_n_u_isCHSError, __pyx_callargs+__pyx_t_3, (1-__pyx_t_3) | (1*__Pyx_PY_VECTORCALL_ARGUMENTS_OFFSET));
       __Pyx_XDECREF(__pyx_t_5); __pyx_t_5 = 0;
-      if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 196, __pyx_L1_error)
+      if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 198, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_1);
     }
-    __pyx_t_4 = __Pyx_PyObject_IsTrue(__pyx_t_1); if (unlikely((__pyx_t_4 < 0))) __PYX_ERR(0, 196, __pyx_L1_error)
+    __pyx_t_4 = __Pyx_PyObject_IsTrue(__pyx_t_1); if (unlikely((__pyx_t_4 < 0))) __PYX_ERR(0, 198, __pyx_L1_error)
     __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
     if (__pyx_t_4) {
 
-      /* "c104f/handlers/file_handlers.py":197
+      /* "c104f/handlers/file_handlers.py":199
  *         print(afq._value)
  *         if afq.isCHSError():
  *             if afq.isFileNegative():             # <<<<<<<<<<<<<<
@@ -7392,14 +7416,14 @@ static PyObject *__pyx_pf_5c104f_8handlers_13file_handlers_10sv_confirm_handler(
         PyObject *__pyx_callargs[2] = {__pyx_t_5, NULL};
         __pyx_t_1 = __Pyx_PyObject_FastCallMethod((PyObject*)__pyx_mstate_global->__pyx_n_u_isFileNegative, __pyx_callargs+__pyx_t_3, (1-__pyx_t_3) | (1*__Pyx_PY_VECTORCALL_ARGUMENTS_OFFSET));
         __Pyx_XDECREF(__pyx_t_5); __pyx_t_5 = 0;
-        if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 197, __pyx_L1_error)
+        if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 199, __pyx_L1_error)
         __Pyx_GOTREF(__pyx_t_1);
       }
-      __pyx_t_4 = __Pyx_PyObject_IsTrue(__pyx_t_1); if (unlikely((__pyx_t_4 < 0))) __PYX_ERR(0, 197, __pyx_L1_error)
+      __pyx_t_4 = __Pyx_PyObject_IsTrue(__pyx_t_1); if (unlikely((__pyx_t_4 < 0))) __PYX_ERR(0, 199, __pyx_L1_error)
       __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
       if (__pyx_t_4) {
 
-        /* "c104f/handlers/file_handlers.py":198
+        /* "c104f/handlers/file_handlers.py":200
  *         if afq.isCHSError():
  *             if afq.isFileNegative():
  *                 print("FILE CHS ERROR")             # <<<<<<<<<<<<<<
@@ -7412,12 +7436,12 @@ static PyObject *__pyx_pf_5c104f_8handlers_13file_handlers_10sv_confirm_handler(
           PyObject *__pyx_callargs[2] = {__pyx_t_5, __pyx_mstate_global->__pyx_kp_u_FILE_CHS_ERROR};
           __pyx_t_1 = __Pyx_PyObject_FastCall((PyObject*)__pyx_builtin_print, __pyx_callargs+__pyx_t_3, (2-__pyx_t_3) | (__pyx_t_3*__Pyx_PY_VECTORCALL_ARGUMENTS_OFFSET));
           __Pyx_XDECREF(__pyx_t_5); __pyx_t_5 = 0;
-          if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 198, __pyx_L1_error)
+          if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 200, __pyx_L1_error)
           __Pyx_GOTREF(__pyx_t_1);
         }
         __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
 
-        /* "c104f/handlers/file_handlers.py":197
+        /* "c104f/handlers/file_handlers.py":199
  *         print(afq._value)
  *         if afq.isCHSError():
  *             if afq.isFileNegative():             # <<<<<<<<<<<<<<
@@ -7427,7 +7451,7 @@ static PyObject *__pyx_pf_5c104f_8handlers_13file_handlers_10sv_confirm_handler(
         goto __pyx_L5;
       }
 
-      /* "c104f/handlers/file_handlers.py":199
+      /* "c104f/handlers/file_handlers.py":201
  *             if afq.isFileNegative():
  *                 print("FILE CHS ERROR")
  *             elif afq.isSectionNegative():             # <<<<<<<<<<<<<<
@@ -7441,14 +7465,14 @@ static PyObject *__pyx_pf_5c104f_8handlers_13file_handlers_10sv_confirm_handler(
         PyObject *__pyx_callargs[2] = {__pyx_t_5, NULL};
         __pyx_t_1 = __Pyx_PyObject_FastCallMethod((PyObject*)__pyx_mstate_global->__pyx_n_u_isSectionNegative, __pyx_callargs+__pyx_t_3, (1-__pyx_t_3) | (1*__Pyx_PY_VECTORCALL_ARGUMENTS_OFFSET));
         __Pyx_XDECREF(__pyx_t_5); __pyx_t_5 = 0;
-        if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 199, __pyx_L1_error)
+        if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 201, __pyx_L1_error)
         __Pyx_GOTREF(__pyx_t_1);
       }
-      __pyx_t_4 = __Pyx_PyObject_IsTrue(__pyx_t_1); if (unlikely((__pyx_t_4 < 0))) __PYX_ERR(0, 199, __pyx_L1_error)
+      __pyx_t_4 = __Pyx_PyObject_IsTrue(__pyx_t_1); if (unlikely((__pyx_t_4 < 0))) __PYX_ERR(0, 201, __pyx_L1_error)
       __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
       if (__pyx_t_4) {
 
-        /* "c104f/handlers/file_handlers.py":200
+        /* "c104f/handlers/file_handlers.py":202
  *                 print("FILE CHS ERROR")
  *             elif afq.isSectionNegative():
  *                 print("SECTION CHS ERROR")             # <<<<<<<<<<<<<<
@@ -7461,12 +7485,12 @@ static PyObject *__pyx_pf_5c104f_8handlers_13file_handlers_10sv_confirm_handler(
           PyObject *__pyx_callargs[2] = {__pyx_t_5, __pyx_mstate_global->__pyx_kp_u_SECTION_CHS_ERROR};
           __pyx_t_1 = __Pyx_PyObject_FastCall((PyObject*)__pyx_builtin_print, __pyx_callargs+__pyx_t_3, (2-__pyx_t_3) | (__pyx_t_3*__Pyx_PY_VECTORCALL_ARGUMENTS_OFFSET));
           __Pyx_XDECREF(__pyx_t_5); __pyx_t_5 = 0;
-          if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 200, __pyx_L1_error)
+          if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 202, __pyx_L1_error)
           __Pyx_GOTREF(__pyx_t_1);
         }
         __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
 
-        /* "c104f/handlers/file_handlers.py":199
+        /* "c104f/handlers/file_handlers.py":201
  *             if afq.isFileNegative():
  *                 print("FILE CHS ERROR")
  *             elif afq.isSectionNegative():             # <<<<<<<<<<<<<<
@@ -7476,7 +7500,7 @@ static PyObject *__pyx_pf_5c104f_8handlers_13file_handlers_10sv_confirm_handler(
       }
       __pyx_L5:;
 
-      /* "c104f/handlers/file_handlers.py":196
+      /* "c104f/handlers/file_handlers.py":198
  *     else:
  *         print(afq._value)
  *         if afq.isCHSError():             # <<<<<<<<<<<<<<
@@ -7486,7 +7510,7 @@ static PyObject *__pyx_pf_5c104f_8handlers_13file_handlers_10sv_confirm_handler(
       goto __pyx_L4;
     }
 
-    /* "c104f/handlers/file_handlers.py":202
+    /* "c104f/handlers/file_handlers.py":204
  *                 print("SECTION CHS ERROR")
  *         else:
  *             print("TRANSMITING ERROR")             # <<<<<<<<<<<<<<
@@ -7500,7 +7524,7 @@ static PyObject *__pyx_pf_5c104f_8handlers_13file_handlers_10sv_confirm_handler(
         PyObject *__pyx_callargs[2] = {__pyx_t_5, __pyx_mstate_global->__pyx_kp_u_TRANSMITING_ERROR};
         __pyx_t_1 = __Pyx_PyObject_FastCall((PyObject*)__pyx_builtin_print, __pyx_callargs+__pyx_t_3, (2-__pyx_t_3) | (__pyx_t_3*__Pyx_PY_VECTORCALL_ARGUMENTS_OFFSET));
         __Pyx_XDECREF(__pyx_t_5); __pyx_t_5 = 0;
-        if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 202, __pyx_L1_error)
+        if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 204, __pyx_L1_error)
         __Pyx_GOTREF(__pyx_t_1);
       }
       __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
@@ -7509,7 +7533,7 @@ static PyObject *__pyx_pf_5c104f_8handlers_13file_handlers_10sv_confirm_handler(
   }
   __pyx_L3:;
 
-  /* "c104f/handlers/file_handlers.py":177
+  /* "c104f/handlers/file_handlers.py":179
  *             print("File not selected error")
  * 
  * def sv_confirm_handler(zero_point, ioa, nof, nos, afq:AFQ):             # <<<<<<<<<<<<<<
@@ -7534,7 +7558,7 @@ static PyObject *__pyx_pf_5c104f_8handlers_13file_handlers_10sv_confirm_handler(
   return __pyx_r;
 }
 
-/* "c104f/handlers/file_handlers.py":204
+/* "c104f/handlers/file_handlers.py":206
  *             print("TRANSMITING ERROR")
  * 
  * def sv_dir_read_handler(zero_point, ioa, nof, nos):             # <<<<<<<<<<<<<<
@@ -7584,44 +7608,44 @@ PyObject *__pyx_args, PyObject *__pyx_kwds
   {
     PyObject ** const __pyx_pyargnames[] = {&__pyx_mstate_global->__pyx_n_u_zero_point,&__pyx_mstate_global->__pyx_n_u_ioa,&__pyx_mstate_global->__pyx_n_u_nof,&__pyx_mstate_global->__pyx_n_u_nos,0};
     const Py_ssize_t __pyx_kwds_len = (__pyx_kwds) ? __Pyx_NumKwargs_FASTCALL(__pyx_kwds) : 0;
-    if (unlikely(__pyx_kwds_len) < 0) __PYX_ERR(0, 204, __pyx_L3_error)
+    if (unlikely(__pyx_kwds_len) < 0) __PYX_ERR(0, 206, __pyx_L3_error)
     if (__pyx_kwds_len > 0) {
       switch (__pyx_nargs) {
         case  4:
         values[3] = __Pyx_ArgRef_FASTCALL(__pyx_args, 3);
-        if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[3])) __PYX_ERR(0, 204, __pyx_L3_error)
+        if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[3])) __PYX_ERR(0, 206, __pyx_L3_error)
         CYTHON_FALLTHROUGH;
         case  3:
         values[2] = __Pyx_ArgRef_FASTCALL(__pyx_args, 2);
-        if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[2])) __PYX_ERR(0, 204, __pyx_L3_error)
+        if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[2])) __PYX_ERR(0, 206, __pyx_L3_error)
         CYTHON_FALLTHROUGH;
         case  2:
         values[1] = __Pyx_ArgRef_FASTCALL(__pyx_args, 1);
-        if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[1])) __PYX_ERR(0, 204, __pyx_L3_error)
+        if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[1])) __PYX_ERR(0, 206, __pyx_L3_error)
         CYTHON_FALLTHROUGH;
         case  1:
         values[0] = __Pyx_ArgRef_FASTCALL(__pyx_args, 0);
-        if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[0])) __PYX_ERR(0, 204, __pyx_L3_error)
+        if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[0])) __PYX_ERR(0, 206, __pyx_L3_error)
         CYTHON_FALLTHROUGH;
         case  0: break;
         default: goto __pyx_L5_argtuple_error;
       }
       const Py_ssize_t kwd_pos_args = __pyx_nargs;
-      if (__Pyx_ParseKeywords(__pyx_kwds, __pyx_kwvalues, __pyx_pyargnames, 0, values, kwd_pos_args, __pyx_kwds_len, "sv_dir_read_handler", 0) < (0)) __PYX_ERR(0, 204, __pyx_L3_error)
+      if (__Pyx_ParseKeywords(__pyx_kwds, __pyx_kwvalues, __pyx_pyargnames, 0, values, kwd_pos_args, __pyx_kwds_len, "sv_dir_read_handler", 0) < (0)) __PYX_ERR(0, 206, __pyx_L3_error)
       for (Py_ssize_t i = __pyx_nargs; i < 4; i++) {
-        if (unlikely(!values[i])) { __Pyx_RaiseArgtupleInvalid("sv_dir_read_handler", 1, 4, 4, i); __PYX_ERR(0, 204, __pyx_L3_error) }
+        if (unlikely(!values[i])) { __Pyx_RaiseArgtupleInvalid("sv_dir_read_handler", 1, 4, 4, i); __PYX_ERR(0, 206, __pyx_L3_error) }
       }
     } else if (unlikely(__pyx_nargs != 4)) {
       goto __pyx_L5_argtuple_error;
     } else {
       values[0] = __Pyx_ArgRef_FASTCALL(__pyx_args, 0);
-      if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[0])) __PYX_ERR(0, 204, __pyx_L3_error)
+      if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[0])) __PYX_ERR(0, 206, __pyx_L3_error)
       values[1] = __Pyx_ArgRef_FASTCALL(__pyx_args, 1);
-      if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[1])) __PYX_ERR(0, 204, __pyx_L3_error)
+      if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[1])) __PYX_ERR(0, 206, __pyx_L3_error)
       values[2] = __Pyx_ArgRef_FASTCALL(__pyx_args, 2);
-      if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[2])) __PYX_ERR(0, 204, __pyx_L3_error)
+      if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[2])) __PYX_ERR(0, 206, __pyx_L3_error)
       values[3] = __Pyx_ArgRef_FASTCALL(__pyx_args, 3);
-      if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[3])) __PYX_ERR(0, 204, __pyx_L3_error)
+      if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[3])) __PYX_ERR(0, 206, __pyx_L3_error)
     }
     __pyx_v_zero_point = values[0];
     __pyx_v_ioa = values[1];
@@ -7630,7 +7654,7 @@ PyObject *__pyx_args, PyObject *__pyx_kwds
   }
   goto __pyx_L6_skip;
   __pyx_L5_argtuple_error:;
-  __Pyx_RaiseArgtupleInvalid("sv_dir_read_handler", 1, 4, 4, __pyx_nargs); __PYX_ERR(0, 204, __pyx_L3_error)
+  __Pyx_RaiseArgtupleInvalid("sv_dir_read_handler", 1, 4, 4, __pyx_nargs); __PYX_ERR(0, 206, __pyx_L3_error)
   __pyx_L6_skip:;
   goto __pyx_L4_argument_unpacking_done;
   __pyx_L3_error:;
@@ -7694,17 +7718,17 @@ static PyObject *__pyx_pf_5c104f_8handlers_13file_handlers_12sv_dir_read_handler
   int __pyx_clineno = 0;
   __Pyx_RefNannySetupContext("sv_dir_read_handler", 0);
 
-  /* "c104f/handlers/file_handlers.py":206
+  /* "c104f/handlers/file_handlers.py":208
  * def sv_dir_read_handler(zero_point, ioa, nof, nos):
  * 
  *     if ioa == 0:             # <<<<<<<<<<<<<<
  *         # main dir here
  *         file_names = os.listdir(SERVER_DIR)
 */
-  __pyx_t_1 = (__Pyx_PyLong_BoolEqObjC(__pyx_v_ioa, __pyx_mstate_global->__pyx_int_0, 0, 0)); if (unlikely((__pyx_t_1 < 0))) __PYX_ERR(0, 206, __pyx_L1_error)
+  __pyx_t_1 = (__Pyx_PyLong_BoolEqObjC(__pyx_v_ioa, __pyx_mstate_global->__pyx_int_0, 0, 0)); if (unlikely((__pyx_t_1 < 0))) __PYX_ERR(0, 208, __pyx_L1_error)
   if (__pyx_t_1) {
 
-    /* "c104f/handlers/file_handlers.py":208
+    /* "c104f/handlers/file_handlers.py":210
  *     if ioa == 0:
  *         # main dir here
  *         file_names = os.listdir(SERVER_DIR)             # <<<<<<<<<<<<<<
@@ -7712,12 +7736,12 @@ static PyObject *__pyx_pf_5c104f_8handlers_13file_handlers_12sv_dir_read_handler
  *         scq = SCQ()
 */
     __pyx_t_3 = NULL;
-    __Pyx_GetModuleGlobalName(__pyx_t_4, __pyx_mstate_global->__pyx_n_u_os); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 208, __pyx_L1_error)
+    __Pyx_GetModuleGlobalName(__pyx_t_4, __pyx_mstate_global->__pyx_n_u_os); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 210, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_4);
-    __pyx_t_5 = __Pyx_PyObject_GetAttrStr(__pyx_t_4, __pyx_mstate_global->__pyx_n_u_listdir); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 208, __pyx_L1_error)
+    __pyx_t_5 = __Pyx_PyObject_GetAttrStr(__pyx_t_4, __pyx_mstate_global->__pyx_n_u_listdir); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 210, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_5);
     __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
-    __Pyx_GetModuleGlobalName(__pyx_t_4, __pyx_mstate_global->__pyx_n_u_SERVER_DIR); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 208, __pyx_L1_error)
+    __Pyx_GetModuleGlobalName(__pyx_t_4, __pyx_mstate_global->__pyx_n_u_SERVER_DIR); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 210, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_4);
     __pyx_t_6 = 1;
     #if CYTHON_UNPACK_METHODS
@@ -7737,13 +7761,13 @@ static PyObject *__pyx_pf_5c104f_8handlers_13file_handlers_12sv_dir_read_handler
       __Pyx_XDECREF(__pyx_t_3); __pyx_t_3 = 0;
       __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
       __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
-      if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 208, __pyx_L1_error)
+      if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 210, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_2);
     }
     __pyx_v_file_names = __pyx_t_2;
     __pyx_t_2 = 0;
 
-    /* "c104f/handlers/file_handlers.py":210
+    /* "c104f/handlers/file_handlers.py":212
  *         file_names = os.listdir(SERVER_DIR)
  *         # prepare response for client
  *         scq = SCQ()             # <<<<<<<<<<<<<<
@@ -7751,7 +7775,7 @@ static PyObject *__pyx_pf_5c104f_8handlers_13file_handlers_12sv_dir_read_handler
  * 
 */
     __pyx_t_5 = NULL;
-    __Pyx_GetModuleGlobalName(__pyx_t_4, __pyx_mstate_global->__pyx_n_u_SCQ); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 210, __pyx_L1_error)
+    __Pyx_GetModuleGlobalName(__pyx_t_4, __pyx_mstate_global->__pyx_n_u_SCQ); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 212, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_4);
     __pyx_t_6 = 1;
     #if CYTHON_UNPACK_METHODS
@@ -7770,13 +7794,13 @@ static PyObject *__pyx_pf_5c104f_8handlers_13file_handlers_12sv_dir_read_handler
       __pyx_t_2 = __Pyx_PyObject_FastCall((PyObject*)__pyx_t_4, __pyx_callargs+__pyx_t_6, (1-__pyx_t_6) | (__pyx_t_6*__Pyx_PY_VECTORCALL_ARGUMENTS_OFFSET));
       __Pyx_XDECREF(__pyx_t_5); __pyx_t_5 = 0;
       __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
-      if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 210, __pyx_L1_error)
+      if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 212, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_2);
     }
     __pyx_v_scq = __pyx_t_2;
     __pyx_t_2 = 0;
 
-    /* "c104f/handlers/file_handlers.py":211
+    /* "c104f/handlers/file_handlers.py":213
  *         # prepare response for client
  *         scq = SCQ()
  *         scq.setSelectFile() # confirm select file             # <<<<<<<<<<<<<<
@@ -7790,30 +7814,30 @@ static PyObject *__pyx_pf_5c104f_8handlers_13file_handlers_12sv_dir_read_handler
       PyObject *__pyx_callargs[2] = {__pyx_t_4, NULL};
       __pyx_t_2 = __Pyx_PyObject_FastCallMethod((PyObject*)__pyx_mstate_global->__pyx_n_u_setSelectFile, __pyx_callargs+__pyx_t_6, (1-__pyx_t_6) | (1*__Pyx_PY_VECTORCALL_ARGUMENTS_OFFSET));
       __Pyx_XDECREF(__pyx_t_4); __pyx_t_4 = 0;
-      if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 211, __pyx_L1_error)
+      if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 213, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_2);
     }
     __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
 
-    /* "c104f/handlers/file_handlers.py":214
+    /* "c104f/handlers/file_handlers.py":216
  * 
  *         # transmit confirmation ( if necessary )
  *         zero_point.type = c104.Type.F_SC_NA_1 # confirm zero type             # <<<<<<<<<<<<<<
  *         directory = c104.DirectoryCall(nof=c104.Int16(nof), nos=c104.UInt7(nos), scq=c104.UInt7(scq.scq))
  *         zero_point.info = directory
 */
-    __Pyx_GetModuleGlobalName(__pyx_t_2, __pyx_mstate_global->__pyx_n_u_c104); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 214, __pyx_L1_error)
+    __Pyx_GetModuleGlobalName(__pyx_t_2, __pyx_mstate_global->__pyx_n_u_c104); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 216, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_2);
-    __pyx_t_4 = __Pyx_PyObject_GetAttrStr(__pyx_t_2, __pyx_mstate_global->__pyx_n_u_Type); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 214, __pyx_L1_error)
+    __pyx_t_4 = __Pyx_PyObject_GetAttrStr(__pyx_t_2, __pyx_mstate_global->__pyx_n_u_Type); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 216, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_4);
     __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
-    __pyx_t_2 = __Pyx_PyObject_GetAttrStr(__pyx_t_4, __pyx_mstate_global->__pyx_n_u_F_SC_NA_1); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 214, __pyx_L1_error)
+    __pyx_t_2 = __Pyx_PyObject_GetAttrStr(__pyx_t_4, __pyx_mstate_global->__pyx_n_u_F_SC_NA_1); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 216, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_2);
     __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
-    if (__Pyx_PyObject_SetAttrStr(__pyx_v_zero_point, __pyx_mstate_global->__pyx_n_u_type, __pyx_t_2) < (0)) __PYX_ERR(0, 214, __pyx_L1_error)
+    if (__Pyx_PyObject_SetAttrStr(__pyx_v_zero_point, __pyx_mstate_global->__pyx_n_u_type, __pyx_t_2) < (0)) __PYX_ERR(0, 216, __pyx_L1_error)
     __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
 
-    /* "c104f/handlers/file_handlers.py":215
+    /* "c104f/handlers/file_handlers.py":217
  *         # transmit confirmation ( if necessary )
  *         zero_point.type = c104.Type.F_SC_NA_1 # confirm zero type
  *         directory = c104.DirectoryCall(nof=c104.Int16(nof), nos=c104.UInt7(nos), scq=c104.UInt7(scq.scq))             # <<<<<<<<<<<<<<
@@ -7821,15 +7845,15 @@ static PyObject *__pyx_pf_5c104f_8handlers_13file_handlers_12sv_dir_read_handler
  *         zero_point.transmit(cause=c104.Cot.ACTIVATION_CON)
 */
     __pyx_t_4 = NULL;
-    __Pyx_GetModuleGlobalName(__pyx_t_5, __pyx_mstate_global->__pyx_n_u_c104); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 215, __pyx_L1_error)
+    __Pyx_GetModuleGlobalName(__pyx_t_5, __pyx_mstate_global->__pyx_n_u_c104); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 217, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_5);
-    __pyx_t_3 = __Pyx_PyObject_GetAttrStr(__pyx_t_5, __pyx_mstate_global->__pyx_n_u_DirectoryCall); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 215, __pyx_L1_error)
+    __pyx_t_3 = __Pyx_PyObject_GetAttrStr(__pyx_t_5, __pyx_mstate_global->__pyx_n_u_DirectoryCall); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 217, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_3);
     __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
     __pyx_t_7 = NULL;
-    __Pyx_GetModuleGlobalName(__pyx_t_8, __pyx_mstate_global->__pyx_n_u_c104); if (unlikely(!__pyx_t_8)) __PYX_ERR(0, 215, __pyx_L1_error)
+    __Pyx_GetModuleGlobalName(__pyx_t_8, __pyx_mstate_global->__pyx_n_u_c104); if (unlikely(!__pyx_t_8)) __PYX_ERR(0, 217, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_8);
-    __pyx_t_9 = __Pyx_PyObject_GetAttrStr(__pyx_t_8, __pyx_mstate_global->__pyx_n_u_Int16); if (unlikely(!__pyx_t_9)) __PYX_ERR(0, 215, __pyx_L1_error)
+    __pyx_t_9 = __Pyx_PyObject_GetAttrStr(__pyx_t_8, __pyx_mstate_global->__pyx_n_u_Int16); if (unlikely(!__pyx_t_9)) __PYX_ERR(0, 217, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_9);
     __Pyx_DECREF(__pyx_t_8); __pyx_t_8 = 0;
     __pyx_t_6 = 1;
@@ -7849,13 +7873,13 @@ static PyObject *__pyx_pf_5c104f_8handlers_13file_handlers_12sv_dir_read_handler
       __pyx_t_5 = __Pyx_PyObject_FastCall((PyObject*)__pyx_t_9, __pyx_callargs+__pyx_t_6, (2-__pyx_t_6) | (__pyx_t_6*__Pyx_PY_VECTORCALL_ARGUMENTS_OFFSET));
       __Pyx_XDECREF(__pyx_t_7); __pyx_t_7 = 0;
       __Pyx_DECREF(__pyx_t_9); __pyx_t_9 = 0;
-      if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 215, __pyx_L1_error)
+      if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 217, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_5);
     }
     __pyx_t_7 = NULL;
-    __Pyx_GetModuleGlobalName(__pyx_t_8, __pyx_mstate_global->__pyx_n_u_c104); if (unlikely(!__pyx_t_8)) __PYX_ERR(0, 215, __pyx_L1_error)
+    __Pyx_GetModuleGlobalName(__pyx_t_8, __pyx_mstate_global->__pyx_n_u_c104); if (unlikely(!__pyx_t_8)) __PYX_ERR(0, 217, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_8);
-    __pyx_t_10 = __Pyx_PyObject_GetAttrStr(__pyx_t_8, __pyx_mstate_global->__pyx_n_u_UInt7); if (unlikely(!__pyx_t_10)) __PYX_ERR(0, 215, __pyx_L1_error)
+    __pyx_t_10 = __Pyx_PyObject_GetAttrStr(__pyx_t_8, __pyx_mstate_global->__pyx_n_u_UInt7); if (unlikely(!__pyx_t_10)) __PYX_ERR(0, 217, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_10);
     __Pyx_DECREF(__pyx_t_8); __pyx_t_8 = 0;
     __pyx_t_6 = 1;
@@ -7875,16 +7899,16 @@ static PyObject *__pyx_pf_5c104f_8handlers_13file_handlers_12sv_dir_read_handler
       __pyx_t_9 = __Pyx_PyObject_FastCall((PyObject*)__pyx_t_10, __pyx_callargs+__pyx_t_6, (2-__pyx_t_6) | (__pyx_t_6*__Pyx_PY_VECTORCALL_ARGUMENTS_OFFSET));
       __Pyx_XDECREF(__pyx_t_7); __pyx_t_7 = 0;
       __Pyx_DECREF(__pyx_t_10); __pyx_t_10 = 0;
-      if (unlikely(!__pyx_t_9)) __PYX_ERR(0, 215, __pyx_L1_error)
+      if (unlikely(!__pyx_t_9)) __PYX_ERR(0, 217, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_9);
     }
     __pyx_t_7 = NULL;
-    __Pyx_GetModuleGlobalName(__pyx_t_8, __pyx_mstate_global->__pyx_n_u_c104); if (unlikely(!__pyx_t_8)) __PYX_ERR(0, 215, __pyx_L1_error)
+    __Pyx_GetModuleGlobalName(__pyx_t_8, __pyx_mstate_global->__pyx_n_u_c104); if (unlikely(!__pyx_t_8)) __PYX_ERR(0, 217, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_8);
-    __pyx_t_11 = __Pyx_PyObject_GetAttrStr(__pyx_t_8, __pyx_mstate_global->__pyx_n_u_UInt7); if (unlikely(!__pyx_t_11)) __PYX_ERR(0, 215, __pyx_L1_error)
+    __pyx_t_11 = __Pyx_PyObject_GetAttrStr(__pyx_t_8, __pyx_mstate_global->__pyx_n_u_UInt7); if (unlikely(!__pyx_t_11)) __PYX_ERR(0, 217, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_11);
     __Pyx_DECREF(__pyx_t_8); __pyx_t_8 = 0;
-    __pyx_t_8 = __Pyx_PyObject_GetAttrStr(__pyx_v_scq, __pyx_mstate_global->__pyx_n_u_scq); if (unlikely(!__pyx_t_8)) __PYX_ERR(0, 215, __pyx_L1_error)
+    __pyx_t_8 = __Pyx_PyObject_GetAttrStr(__pyx_v_scq, __pyx_mstate_global->__pyx_n_u_scq); if (unlikely(!__pyx_t_8)) __PYX_ERR(0, 217, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_8);
     __pyx_t_6 = 1;
     #if CYTHON_UNPACK_METHODS
@@ -7904,7 +7928,7 @@ static PyObject *__pyx_pf_5c104f_8handlers_13file_handlers_12sv_dir_read_handler
       __Pyx_XDECREF(__pyx_t_7); __pyx_t_7 = 0;
       __Pyx_DECREF(__pyx_t_8); __pyx_t_8 = 0;
       __Pyx_DECREF(__pyx_t_11); __pyx_t_11 = 0;
-      if (unlikely(!__pyx_t_10)) __PYX_ERR(0, 215, __pyx_L1_error)
+      if (unlikely(!__pyx_t_10)) __PYX_ERR(0, 217, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_10);
     }
     __pyx_t_6 = 1;
@@ -7921,11 +7945,11 @@ static PyObject *__pyx_pf_5c104f_8handlers_13file_handlers_12sv_dir_read_handler
     #endif
     {
       PyObject *__pyx_callargs[2 + ((CYTHON_VECTORCALL) ? 3 : 0)] = {__pyx_t_4, NULL};
-      __pyx_t_11 = __Pyx_MakeVectorcallBuilderKwds(3); if (unlikely(!__pyx_t_11)) __PYX_ERR(0, 215, __pyx_L1_error)
+      __pyx_t_11 = __Pyx_MakeVectorcallBuilderKwds(3); if (unlikely(!__pyx_t_11)) __PYX_ERR(0, 217, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_11);
-      if (__Pyx_VectorcallBuilder_AddArg(__pyx_mstate_global->__pyx_n_u_nof, __pyx_t_5, __pyx_t_11, __pyx_callargs+1, 0) < (0)) __PYX_ERR(0, 215, __pyx_L1_error)
-      if (__Pyx_VectorcallBuilder_AddArg(__pyx_mstate_global->__pyx_n_u_nos, __pyx_t_9, __pyx_t_11, __pyx_callargs+1, 1) < (0)) __PYX_ERR(0, 215, __pyx_L1_error)
-      if (__Pyx_VectorcallBuilder_AddArg(__pyx_mstate_global->__pyx_n_u_scq, __pyx_t_10, __pyx_t_11, __pyx_callargs+1, 2) < (0)) __PYX_ERR(0, 215, __pyx_L1_error)
+      if (__Pyx_VectorcallBuilder_AddArg(__pyx_mstate_global->__pyx_n_u_nof, __pyx_t_5, __pyx_t_11, __pyx_callargs+1, 0) < (0)) __PYX_ERR(0, 217, __pyx_L1_error)
+      if (__Pyx_VectorcallBuilder_AddArg(__pyx_mstate_global->__pyx_n_u_nos, __pyx_t_9, __pyx_t_11, __pyx_callargs+1, 1) < (0)) __PYX_ERR(0, 217, __pyx_L1_error)
+      if (__Pyx_VectorcallBuilder_AddArg(__pyx_mstate_global->__pyx_n_u_scq, __pyx_t_10, __pyx_t_11, __pyx_callargs+1, 2) < (0)) __PYX_ERR(0, 217, __pyx_L1_error)
       __pyx_t_2 = __Pyx_Object_Vectorcall_CallFromBuilder((PyObject*)__pyx_t_3, __pyx_callargs+__pyx_t_6, (1-__pyx_t_6) | (__pyx_t_6*__Pyx_PY_VECTORCALL_ARGUMENTS_OFFSET), __pyx_t_11);
       __Pyx_XDECREF(__pyx_t_4); __pyx_t_4 = 0;
       __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
@@ -7933,22 +7957,22 @@ static PyObject *__pyx_pf_5c104f_8handlers_13file_handlers_12sv_dir_read_handler
       __Pyx_DECREF(__pyx_t_10); __pyx_t_10 = 0;
       __Pyx_DECREF(__pyx_t_11); __pyx_t_11 = 0;
       __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
-      if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 215, __pyx_L1_error)
+      if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 217, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_2);
     }
     __pyx_v_directory = __pyx_t_2;
     __pyx_t_2 = 0;
 
-    /* "c104f/handlers/file_handlers.py":216
+    /* "c104f/handlers/file_handlers.py":218
  *         zero_point.type = c104.Type.F_SC_NA_1 # confirm zero type
  *         directory = c104.DirectoryCall(nof=c104.Int16(nof), nos=c104.UInt7(nos), scq=c104.UInt7(scq.scq))
  *         zero_point.info = directory             # <<<<<<<<<<<<<<
  *         zero_point.transmit(cause=c104.Cot.ACTIVATION_CON)
  * 
 */
-    if (__Pyx_PyObject_SetAttrStr(__pyx_v_zero_point, __pyx_mstate_global->__pyx_n_u_info, __pyx_v_directory) < (0)) __PYX_ERR(0, 216, __pyx_L1_error)
+    if (__Pyx_PyObject_SetAttrStr(__pyx_v_zero_point, __pyx_mstate_global->__pyx_n_u_info, __pyx_v_directory) < (0)) __PYX_ERR(0, 218, __pyx_L1_error)
 
-    /* "c104f/handlers/file_handlers.py":217
+    /* "c104f/handlers/file_handlers.py":219
  *         directory = c104.DirectoryCall(nof=c104.Int16(nof), nos=c104.UInt7(nos), scq=c104.UInt7(scq.scq))
  *         zero_point.info = directory
  *         zero_point.transmit(cause=c104.Cot.ACTIVATION_CON)             # <<<<<<<<<<<<<<
@@ -7957,48 +7981,48 @@ static PyObject *__pyx_pf_5c104f_8handlers_13file_handlers_12sv_dir_read_handler
 */
     __pyx_t_3 = __pyx_v_zero_point;
     __Pyx_INCREF(__pyx_t_3);
-    __Pyx_GetModuleGlobalName(__pyx_t_11, __pyx_mstate_global->__pyx_n_u_c104); if (unlikely(!__pyx_t_11)) __PYX_ERR(0, 217, __pyx_L1_error)
+    __Pyx_GetModuleGlobalName(__pyx_t_11, __pyx_mstate_global->__pyx_n_u_c104); if (unlikely(!__pyx_t_11)) __PYX_ERR(0, 219, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_11);
-    __pyx_t_10 = __Pyx_PyObject_GetAttrStr(__pyx_t_11, __pyx_mstate_global->__pyx_n_u_Cot); if (unlikely(!__pyx_t_10)) __PYX_ERR(0, 217, __pyx_L1_error)
+    __pyx_t_10 = __Pyx_PyObject_GetAttrStr(__pyx_t_11, __pyx_mstate_global->__pyx_n_u_Cot); if (unlikely(!__pyx_t_10)) __PYX_ERR(0, 219, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_10);
     __Pyx_DECREF(__pyx_t_11); __pyx_t_11 = 0;
-    __pyx_t_11 = __Pyx_PyObject_GetAttrStr(__pyx_t_10, __pyx_mstate_global->__pyx_n_u_ACTIVATION_CON); if (unlikely(!__pyx_t_11)) __PYX_ERR(0, 217, __pyx_L1_error)
+    __pyx_t_11 = __Pyx_PyObject_GetAttrStr(__pyx_t_10, __pyx_mstate_global->__pyx_n_u_ACTIVATION_CON); if (unlikely(!__pyx_t_11)) __PYX_ERR(0, 219, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_11);
     __Pyx_DECREF(__pyx_t_10); __pyx_t_10 = 0;
     __pyx_t_6 = 0;
     {
       PyObject *__pyx_callargs[2 + ((CYTHON_VECTORCALL) ? 1 : 0)] = {__pyx_t_3, NULL};
-      __pyx_t_10 = __Pyx_MakeVectorcallBuilderKwds(1); if (unlikely(!__pyx_t_10)) __PYX_ERR(0, 217, __pyx_L1_error)
+      __pyx_t_10 = __Pyx_MakeVectorcallBuilderKwds(1); if (unlikely(!__pyx_t_10)) __PYX_ERR(0, 219, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_10);
-      if (__Pyx_VectorcallBuilder_AddArg(__pyx_mstate_global->__pyx_n_u_cause, __pyx_t_11, __pyx_t_10, __pyx_callargs+1, 0) < (0)) __PYX_ERR(0, 217, __pyx_L1_error)
+      if (__Pyx_VectorcallBuilder_AddArg(__pyx_mstate_global->__pyx_n_u_cause, __pyx_t_11, __pyx_t_10, __pyx_callargs+1, 0) < (0)) __PYX_ERR(0, 219, __pyx_L1_error)
       __pyx_t_2 = __Pyx_Object_VectorcallMethod_CallFromBuilder((PyObject*)__pyx_mstate_global->__pyx_n_u_transmit, __pyx_callargs+__pyx_t_6, (1-__pyx_t_6) | (1*__Pyx_PY_VECTORCALL_ARGUMENTS_OFFSET), __pyx_t_10);
       __Pyx_XDECREF(__pyx_t_3); __pyx_t_3 = 0;
       __Pyx_DECREF(__pyx_t_11); __pyx_t_11 = 0;
       __Pyx_DECREF(__pyx_t_10); __pyx_t_10 = 0;
-      if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 217, __pyx_L1_error)
+      if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 219, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_2);
     }
     __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
 
-    /* "c104f/handlers/file_handlers.py":221
+    /* "c104f/handlers/file_handlers.py":223
  * 
  *         # start transmiting file list
  *         zero_point.type = c104.Type.F_DR_TA_1             # <<<<<<<<<<<<<<
  *         for filename in file_names:
  *             # transmit files
 */
-    __Pyx_GetModuleGlobalName(__pyx_t_2, __pyx_mstate_global->__pyx_n_u_c104); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 221, __pyx_L1_error)
+    __Pyx_GetModuleGlobalName(__pyx_t_2, __pyx_mstate_global->__pyx_n_u_c104); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 223, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_2);
-    __pyx_t_10 = __Pyx_PyObject_GetAttrStr(__pyx_t_2, __pyx_mstate_global->__pyx_n_u_Type); if (unlikely(!__pyx_t_10)) __PYX_ERR(0, 221, __pyx_L1_error)
+    __pyx_t_10 = __Pyx_PyObject_GetAttrStr(__pyx_t_2, __pyx_mstate_global->__pyx_n_u_Type); if (unlikely(!__pyx_t_10)) __PYX_ERR(0, 223, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_10);
     __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
-    __pyx_t_2 = __Pyx_PyObject_GetAttrStr(__pyx_t_10, __pyx_mstate_global->__pyx_n_u_F_DR_TA_1); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 221, __pyx_L1_error)
+    __pyx_t_2 = __Pyx_PyObject_GetAttrStr(__pyx_t_10, __pyx_mstate_global->__pyx_n_u_F_DR_TA_1); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 223, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_2);
     __Pyx_DECREF(__pyx_t_10); __pyx_t_10 = 0;
-    if (__Pyx_PyObject_SetAttrStr(__pyx_v_zero_point, __pyx_mstate_global->__pyx_n_u_type, __pyx_t_2) < (0)) __PYX_ERR(0, 221, __pyx_L1_error)
+    if (__Pyx_PyObject_SetAttrStr(__pyx_v_zero_point, __pyx_mstate_global->__pyx_n_u_type, __pyx_t_2) < (0)) __PYX_ERR(0, 223, __pyx_L1_error)
     __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
 
-    /* "c104f/handlers/file_handlers.py":222
+    /* "c104f/handlers/file_handlers.py":224
  *         # start transmiting file list
  *         zero_point.type = c104.Type.F_DR_TA_1
  *         for filename in file_names:             # <<<<<<<<<<<<<<
@@ -8010,9 +8034,9 @@ static PyObject *__pyx_pf_5c104f_8handlers_13file_handlers_12sv_dir_read_handler
       __pyx_t_12 = 0;
       __pyx_t_13 = NULL;
     } else {
-      __pyx_t_12 = -1; __pyx_t_2 = PyObject_GetIter(__pyx_v_file_names); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 222, __pyx_L1_error)
+      __pyx_t_12 = -1; __pyx_t_2 = PyObject_GetIter(__pyx_v_file_names); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 224, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_2);
-      __pyx_t_13 = (CYTHON_COMPILING_IN_LIMITED_API) ? PyIter_Next : __Pyx_PyObject_GetIterNextFunc(__pyx_t_2); if (unlikely(!__pyx_t_13)) __PYX_ERR(0, 222, __pyx_L1_error)
+      __pyx_t_13 = (CYTHON_COMPILING_IN_LIMITED_API) ? PyIter_Next : __Pyx_PyObject_GetIterNextFunc(__pyx_t_2); if (unlikely(!__pyx_t_13)) __PYX_ERR(0, 224, __pyx_L1_error)
     }
     for (;;) {
       if (likely(!__pyx_t_13)) {
@@ -8020,7 +8044,7 @@ static PyObject *__pyx_pf_5c104f_8handlers_13file_handlers_12sv_dir_read_handler
           {
             Py_ssize_t __pyx_temp = __Pyx_PyList_GET_SIZE(__pyx_t_2);
             #if !CYTHON_ASSUME_SAFE_SIZE
-            if (unlikely((__pyx_temp < 0))) __PYX_ERR(0, 222, __pyx_L1_error)
+            if (unlikely((__pyx_temp < 0))) __PYX_ERR(0, 224, __pyx_L1_error)
             #endif
             if (__pyx_t_12 >= __pyx_temp) break;
           }
@@ -8030,7 +8054,7 @@ static PyObject *__pyx_pf_5c104f_8handlers_13file_handlers_12sv_dir_read_handler
           {
             Py_ssize_t __pyx_temp = __Pyx_PyTuple_GET_SIZE(__pyx_t_2);
             #if !CYTHON_ASSUME_SAFE_SIZE
-            if (unlikely((__pyx_temp < 0))) __PYX_ERR(0, 222, __pyx_L1_error)
+            if (unlikely((__pyx_temp < 0))) __PYX_ERR(0, 224, __pyx_L1_error)
             #endif
             if (__pyx_t_12 >= __pyx_temp) break;
           }
@@ -8041,13 +8065,13 @@ static PyObject *__pyx_pf_5c104f_8handlers_13file_handlers_12sv_dir_read_handler
           #endif
           ++__pyx_t_12;
         }
-        if (unlikely(!__pyx_t_10)) __PYX_ERR(0, 222, __pyx_L1_error)
+        if (unlikely(!__pyx_t_10)) __PYX_ERR(0, 224, __pyx_L1_error)
       } else {
         __pyx_t_10 = __pyx_t_13(__pyx_t_2);
         if (unlikely(!__pyx_t_10)) {
           PyObject* exc_type = PyErr_Occurred();
           if (exc_type) {
-            if (unlikely(!__Pyx_PyErr_GivenExceptionMatches(exc_type, PyExc_StopIteration))) __PYX_ERR(0, 222, __pyx_L1_error)
+            if (unlikely(!__Pyx_PyErr_GivenExceptionMatches(exc_type, PyExc_StopIteration))) __PYX_ERR(0, 224, __pyx_L1_error)
             PyErr_Clear();
           }
           break;
@@ -8057,21 +8081,21 @@ static PyObject *__pyx_pf_5c104f_8handlers_13file_handlers_12sv_dir_read_handler
       __Pyx_XDECREF_SET(__pyx_v_filename, __pyx_t_10);
       __pyx_t_10 = 0;
 
-      /* "c104f/handlers/file_handlers.py":224
+      /* "c104f/handlers/file_handlers.py":226
  *         for filename in file_names:
  *             # transmit files
  *             file_path = os.path.join(SERVER_DIR, filename)             # <<<<<<<<<<<<<<
  *             file_id = get_file_id(filename)
  *             file_size = os.path.getsize(file_path)
 */
-      __Pyx_GetModuleGlobalName(__pyx_t_3, __pyx_mstate_global->__pyx_n_u_os); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 224, __pyx_L1_error)
+      __Pyx_GetModuleGlobalName(__pyx_t_3, __pyx_mstate_global->__pyx_n_u_os); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 226, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_3);
-      __pyx_t_9 = __Pyx_PyObject_GetAttrStr(__pyx_t_3, __pyx_mstate_global->__pyx_n_u_path); if (unlikely(!__pyx_t_9)) __PYX_ERR(0, 224, __pyx_L1_error)
+      __pyx_t_9 = __Pyx_PyObject_GetAttrStr(__pyx_t_3, __pyx_mstate_global->__pyx_n_u_path); if (unlikely(!__pyx_t_9)) __PYX_ERR(0, 226, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_9);
       __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
       __pyx_t_11 = __pyx_t_9;
       __Pyx_INCREF(__pyx_t_11);
-      __Pyx_GetModuleGlobalName(__pyx_t_3, __pyx_mstate_global->__pyx_n_u_SERVER_DIR); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 224, __pyx_L1_error)
+      __Pyx_GetModuleGlobalName(__pyx_t_3, __pyx_mstate_global->__pyx_n_u_SERVER_DIR); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 226, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_3);
       __pyx_t_6 = 0;
       {
@@ -8080,13 +8104,13 @@ static PyObject *__pyx_pf_5c104f_8handlers_13file_handlers_12sv_dir_read_handler
         __Pyx_XDECREF(__pyx_t_11); __pyx_t_11 = 0;
         __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
         __Pyx_DECREF(__pyx_t_9); __pyx_t_9 = 0;
-        if (unlikely(!__pyx_t_10)) __PYX_ERR(0, 224, __pyx_L1_error)
+        if (unlikely(!__pyx_t_10)) __PYX_ERR(0, 226, __pyx_L1_error)
         __Pyx_GOTREF(__pyx_t_10);
       }
       __Pyx_XDECREF_SET(__pyx_v_file_path, __pyx_t_10);
       __pyx_t_10 = 0;
 
-      /* "c104f/handlers/file_handlers.py":225
+      /* "c104f/handlers/file_handlers.py":227
  *             # transmit files
  *             file_path = os.path.join(SERVER_DIR, filename)
  *             file_id = get_file_id(filename)             # <<<<<<<<<<<<<<
@@ -8094,7 +8118,7 @@ static PyObject *__pyx_pf_5c104f_8handlers_13file_handlers_12sv_dir_read_handler
  *             file_ctime = os.path.getctime(file_path)
 */
       __pyx_t_9 = NULL;
-      __Pyx_GetModuleGlobalName(__pyx_t_3, __pyx_mstate_global->__pyx_n_u_get_file_id); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 225, __pyx_L1_error)
+      __Pyx_GetModuleGlobalName(__pyx_t_3, __pyx_mstate_global->__pyx_n_u_get_file_id); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 227, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_3);
       __pyx_t_6 = 1;
       #if CYTHON_UNPACK_METHODS
@@ -8113,22 +8137,22 @@ static PyObject *__pyx_pf_5c104f_8handlers_13file_handlers_12sv_dir_read_handler
         __pyx_t_10 = __Pyx_PyObject_FastCall((PyObject*)__pyx_t_3, __pyx_callargs+__pyx_t_6, (2-__pyx_t_6) | (__pyx_t_6*__Pyx_PY_VECTORCALL_ARGUMENTS_OFFSET));
         __Pyx_XDECREF(__pyx_t_9); __pyx_t_9 = 0;
         __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
-        if (unlikely(!__pyx_t_10)) __PYX_ERR(0, 225, __pyx_L1_error)
+        if (unlikely(!__pyx_t_10)) __PYX_ERR(0, 227, __pyx_L1_error)
         __Pyx_GOTREF(__pyx_t_10);
       }
       __Pyx_XDECREF_SET(__pyx_v_file_id, __pyx_t_10);
       __pyx_t_10 = 0;
 
-      /* "c104f/handlers/file_handlers.py":226
+      /* "c104f/handlers/file_handlers.py":228
  *             file_path = os.path.join(SERVER_DIR, filename)
  *             file_id = get_file_id(filename)
  *             file_size = os.path.getsize(file_path)             # <<<<<<<<<<<<<<
  *             file_ctime = os.path.getctime(file_path)
  *             file_mtime = os.path.getmtime(file_path)
 */
-      __Pyx_GetModuleGlobalName(__pyx_t_9, __pyx_mstate_global->__pyx_n_u_os); if (unlikely(!__pyx_t_9)) __PYX_ERR(0, 226, __pyx_L1_error)
+      __Pyx_GetModuleGlobalName(__pyx_t_9, __pyx_mstate_global->__pyx_n_u_os); if (unlikely(!__pyx_t_9)) __PYX_ERR(0, 228, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_9);
-      __pyx_t_11 = __Pyx_PyObject_GetAttrStr(__pyx_t_9, __pyx_mstate_global->__pyx_n_u_path); if (unlikely(!__pyx_t_11)) __PYX_ERR(0, 226, __pyx_L1_error)
+      __pyx_t_11 = __Pyx_PyObject_GetAttrStr(__pyx_t_9, __pyx_mstate_global->__pyx_n_u_path); if (unlikely(!__pyx_t_11)) __PYX_ERR(0, 228, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_11);
       __Pyx_DECREF(__pyx_t_9); __pyx_t_9 = 0;
       __pyx_t_3 = __pyx_t_11;
@@ -8139,22 +8163,22 @@ static PyObject *__pyx_pf_5c104f_8handlers_13file_handlers_12sv_dir_read_handler
         __pyx_t_10 = __Pyx_PyObject_FastCallMethod((PyObject*)__pyx_mstate_global->__pyx_n_u_getsize, __pyx_callargs+__pyx_t_6, (2-__pyx_t_6) | (1*__Pyx_PY_VECTORCALL_ARGUMENTS_OFFSET));
         __Pyx_XDECREF(__pyx_t_3); __pyx_t_3 = 0;
         __Pyx_DECREF(__pyx_t_11); __pyx_t_11 = 0;
-        if (unlikely(!__pyx_t_10)) __PYX_ERR(0, 226, __pyx_L1_error)
+        if (unlikely(!__pyx_t_10)) __PYX_ERR(0, 228, __pyx_L1_error)
         __Pyx_GOTREF(__pyx_t_10);
       }
       __Pyx_XDECREF_SET(__pyx_v_file_size, __pyx_t_10);
       __pyx_t_10 = 0;
 
-      /* "c104f/handlers/file_handlers.py":227
+      /* "c104f/handlers/file_handlers.py":229
  *             file_id = get_file_id(filename)
  *             file_size = os.path.getsize(file_path)
  *             file_ctime = os.path.getctime(file_path)             # <<<<<<<<<<<<<<
  *             file_mtime = os.path.getmtime(file_path)
  *             sof = SOF(0)
 */
-      __Pyx_GetModuleGlobalName(__pyx_t_3, __pyx_mstate_global->__pyx_n_u_os); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 227, __pyx_L1_error)
+      __Pyx_GetModuleGlobalName(__pyx_t_3, __pyx_mstate_global->__pyx_n_u_os); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 229, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_3);
-      __pyx_t_9 = __Pyx_PyObject_GetAttrStr(__pyx_t_3, __pyx_mstate_global->__pyx_n_u_path); if (unlikely(!__pyx_t_9)) __PYX_ERR(0, 227, __pyx_L1_error)
+      __pyx_t_9 = __Pyx_PyObject_GetAttrStr(__pyx_t_3, __pyx_mstate_global->__pyx_n_u_path); if (unlikely(!__pyx_t_9)) __PYX_ERR(0, 229, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_9);
       __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
       __pyx_t_11 = __pyx_t_9;
@@ -8165,22 +8189,22 @@ static PyObject *__pyx_pf_5c104f_8handlers_13file_handlers_12sv_dir_read_handler
         __pyx_t_10 = __Pyx_PyObject_FastCallMethod((PyObject*)__pyx_mstate_global->__pyx_n_u_getctime, __pyx_callargs+__pyx_t_6, (2-__pyx_t_6) | (1*__Pyx_PY_VECTORCALL_ARGUMENTS_OFFSET));
         __Pyx_XDECREF(__pyx_t_11); __pyx_t_11 = 0;
         __Pyx_DECREF(__pyx_t_9); __pyx_t_9 = 0;
-        if (unlikely(!__pyx_t_10)) __PYX_ERR(0, 227, __pyx_L1_error)
+        if (unlikely(!__pyx_t_10)) __PYX_ERR(0, 229, __pyx_L1_error)
         __Pyx_GOTREF(__pyx_t_10);
       }
       __Pyx_XDECREF_SET(__pyx_v_file_ctime, __pyx_t_10);
       __pyx_t_10 = 0;
 
-      /* "c104f/handlers/file_handlers.py":228
+      /* "c104f/handlers/file_handlers.py":230
  *             file_size = os.path.getsize(file_path)
  *             file_ctime = os.path.getctime(file_path)
  *             file_mtime = os.path.getmtime(file_path)             # <<<<<<<<<<<<<<
  *             sof = SOF(0)
  *             if filename == file_names[-1]:
 */
-      __Pyx_GetModuleGlobalName(__pyx_t_11, __pyx_mstate_global->__pyx_n_u_os); if (unlikely(!__pyx_t_11)) __PYX_ERR(0, 228, __pyx_L1_error)
+      __Pyx_GetModuleGlobalName(__pyx_t_11, __pyx_mstate_global->__pyx_n_u_os); if (unlikely(!__pyx_t_11)) __PYX_ERR(0, 230, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_11);
-      __pyx_t_3 = __Pyx_PyObject_GetAttrStr(__pyx_t_11, __pyx_mstate_global->__pyx_n_u_path); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 228, __pyx_L1_error)
+      __pyx_t_3 = __Pyx_PyObject_GetAttrStr(__pyx_t_11, __pyx_mstate_global->__pyx_n_u_path); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 230, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_3);
       __Pyx_DECREF(__pyx_t_11); __pyx_t_11 = 0;
       __pyx_t_9 = __pyx_t_3;
@@ -8191,13 +8215,13 @@ static PyObject *__pyx_pf_5c104f_8handlers_13file_handlers_12sv_dir_read_handler
         __pyx_t_10 = __Pyx_PyObject_FastCallMethod((PyObject*)__pyx_mstate_global->__pyx_n_u_getmtime, __pyx_callargs+__pyx_t_6, (2-__pyx_t_6) | (1*__Pyx_PY_VECTORCALL_ARGUMENTS_OFFSET));
         __Pyx_XDECREF(__pyx_t_9); __pyx_t_9 = 0;
         __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
-        if (unlikely(!__pyx_t_10)) __PYX_ERR(0, 228, __pyx_L1_error)
+        if (unlikely(!__pyx_t_10)) __PYX_ERR(0, 230, __pyx_L1_error)
         __Pyx_GOTREF(__pyx_t_10);
       }
       __Pyx_XDECREF_SET(__pyx_v_file_mtime, __pyx_t_10);
       __pyx_t_10 = 0;
 
-      /* "c104f/handlers/file_handlers.py":229
+      /* "c104f/handlers/file_handlers.py":231
  *             file_ctime = os.path.getctime(file_path)
  *             file_mtime = os.path.getmtime(file_path)
  *             sof = SOF(0)             # <<<<<<<<<<<<<<
@@ -8205,7 +8229,7 @@ static PyObject *__pyx_pf_5c104f_8handlers_13file_handlers_12sv_dir_read_handler
  *                 sof.setIsLast()
 */
       __pyx_t_3 = NULL;
-      __Pyx_GetModuleGlobalName(__pyx_t_9, __pyx_mstate_global->__pyx_n_u_SOF); if (unlikely(!__pyx_t_9)) __PYX_ERR(0, 229, __pyx_L1_error)
+      __Pyx_GetModuleGlobalName(__pyx_t_9, __pyx_mstate_global->__pyx_n_u_SOF); if (unlikely(!__pyx_t_9)) __PYX_ERR(0, 231, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_9);
       __pyx_t_6 = 1;
       #if CYTHON_UNPACK_METHODS
@@ -8224,28 +8248,28 @@ static PyObject *__pyx_pf_5c104f_8handlers_13file_handlers_12sv_dir_read_handler
         __pyx_t_10 = __Pyx_PyObject_FastCall((PyObject*)__pyx_t_9, __pyx_callargs+__pyx_t_6, (2-__pyx_t_6) | (__pyx_t_6*__Pyx_PY_VECTORCALL_ARGUMENTS_OFFSET));
         __Pyx_XDECREF(__pyx_t_3); __pyx_t_3 = 0;
         __Pyx_DECREF(__pyx_t_9); __pyx_t_9 = 0;
-        if (unlikely(!__pyx_t_10)) __PYX_ERR(0, 229, __pyx_L1_error)
+        if (unlikely(!__pyx_t_10)) __PYX_ERR(0, 231, __pyx_L1_error)
         __Pyx_GOTREF(__pyx_t_10);
       }
       __Pyx_XDECREF_SET(__pyx_v_sof, __pyx_t_10);
       __pyx_t_10 = 0;
 
-      /* "c104f/handlers/file_handlers.py":230
+      /* "c104f/handlers/file_handlers.py":232
  *             file_mtime = os.path.getmtime(file_path)
  *             sof = SOF(0)
  *             if filename == file_names[-1]:             # <<<<<<<<<<<<<<
  *                 sof.setIsLast()
  *             if os.path.isdir(filename):
 */
-      __pyx_t_10 = __Pyx_GetItemInt(__pyx_v_file_names, -1L, long, 1, __Pyx_PyLong_From_long, 0, 1, 1, 1, __Pyx_ReferenceSharing_OwnStrongReference); if (unlikely(!__pyx_t_10)) __PYX_ERR(0, 230, __pyx_L1_error)
+      __pyx_t_10 = __Pyx_GetItemInt(__pyx_v_file_names, -1L, long, 1, __Pyx_PyLong_From_long, 0, 1, 1, 1, __Pyx_ReferenceSharing_OwnStrongReference); if (unlikely(!__pyx_t_10)) __PYX_ERR(0, 232, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_10);
-      __pyx_t_9 = PyObject_RichCompare(__pyx_v_filename, __pyx_t_10, Py_EQ); __Pyx_XGOTREF(__pyx_t_9); if (unlikely(!__pyx_t_9)) __PYX_ERR(0, 230, __pyx_L1_error)
+      __pyx_t_9 = PyObject_RichCompare(__pyx_v_filename, __pyx_t_10, Py_EQ); __Pyx_XGOTREF(__pyx_t_9); if (unlikely(!__pyx_t_9)) __PYX_ERR(0, 232, __pyx_L1_error)
       __Pyx_DECREF(__pyx_t_10); __pyx_t_10 = 0;
-      __pyx_t_1 = __Pyx_PyObject_IsTrue(__pyx_t_9); if (unlikely((__pyx_t_1 < 0))) __PYX_ERR(0, 230, __pyx_L1_error)
+      __pyx_t_1 = __Pyx_PyObject_IsTrue(__pyx_t_9); if (unlikely((__pyx_t_1 < 0))) __PYX_ERR(0, 232, __pyx_L1_error)
       __Pyx_DECREF(__pyx_t_9); __pyx_t_9 = 0;
       if (__pyx_t_1) {
 
-        /* "c104f/handlers/file_handlers.py":231
+        /* "c104f/handlers/file_handlers.py":233
  *             sof = SOF(0)
  *             if filename == file_names[-1]:
  *                 sof.setIsLast()             # <<<<<<<<<<<<<<
@@ -8259,12 +8283,12 @@ static PyObject *__pyx_pf_5c104f_8handlers_13file_handlers_12sv_dir_read_handler
           PyObject *__pyx_callargs[2] = {__pyx_t_10, NULL};
           __pyx_t_9 = __Pyx_PyObject_FastCallMethod((PyObject*)__pyx_mstate_global->__pyx_n_u_setIsLast, __pyx_callargs+__pyx_t_6, (1-__pyx_t_6) | (1*__Pyx_PY_VECTORCALL_ARGUMENTS_OFFSET));
           __Pyx_XDECREF(__pyx_t_10); __pyx_t_10 = 0;
-          if (unlikely(!__pyx_t_9)) __PYX_ERR(0, 231, __pyx_L1_error)
+          if (unlikely(!__pyx_t_9)) __PYX_ERR(0, 233, __pyx_L1_error)
           __Pyx_GOTREF(__pyx_t_9);
         }
         __Pyx_DECREF(__pyx_t_9); __pyx_t_9 = 0;
 
-        /* "c104f/handlers/file_handlers.py":230
+        /* "c104f/handlers/file_handlers.py":232
  *             file_mtime = os.path.getmtime(file_path)
  *             sof = SOF(0)
  *             if filename == file_names[-1]:             # <<<<<<<<<<<<<<
@@ -8273,16 +8297,16 @@ static PyObject *__pyx_pf_5c104f_8handlers_13file_handlers_12sv_dir_read_handler
 */
       }
 
-      /* "c104f/handlers/file_handlers.py":232
+      /* "c104f/handlers/file_handlers.py":234
  *             if filename == file_names[-1]:
  *                 sof.setIsLast()
  *             if os.path.isdir(filename):             # <<<<<<<<<<<<<<
  *                 sof.setIsDirectory()
  * 
 */
-      __Pyx_GetModuleGlobalName(__pyx_t_3, __pyx_mstate_global->__pyx_n_u_os); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 232, __pyx_L1_error)
+      __Pyx_GetModuleGlobalName(__pyx_t_3, __pyx_mstate_global->__pyx_n_u_os); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 234, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_3);
-      __pyx_t_11 = __Pyx_PyObject_GetAttrStr(__pyx_t_3, __pyx_mstate_global->__pyx_n_u_path); if (unlikely(!__pyx_t_11)) __PYX_ERR(0, 232, __pyx_L1_error)
+      __pyx_t_11 = __Pyx_PyObject_GetAttrStr(__pyx_t_3, __pyx_mstate_global->__pyx_n_u_path); if (unlikely(!__pyx_t_11)) __PYX_ERR(0, 234, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_11);
       __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
       __pyx_t_10 = __pyx_t_11;
@@ -8293,14 +8317,14 @@ static PyObject *__pyx_pf_5c104f_8handlers_13file_handlers_12sv_dir_read_handler
         __pyx_t_9 = __Pyx_PyObject_FastCallMethod((PyObject*)__pyx_mstate_global->__pyx_n_u_isdir, __pyx_callargs+__pyx_t_6, (2-__pyx_t_6) | (1*__Pyx_PY_VECTORCALL_ARGUMENTS_OFFSET));
         __Pyx_XDECREF(__pyx_t_10); __pyx_t_10 = 0;
         __Pyx_DECREF(__pyx_t_11); __pyx_t_11 = 0;
-        if (unlikely(!__pyx_t_9)) __PYX_ERR(0, 232, __pyx_L1_error)
+        if (unlikely(!__pyx_t_9)) __PYX_ERR(0, 234, __pyx_L1_error)
         __Pyx_GOTREF(__pyx_t_9);
       }
-      __pyx_t_1 = __Pyx_PyObject_IsTrue(__pyx_t_9); if (unlikely((__pyx_t_1 < 0))) __PYX_ERR(0, 232, __pyx_L1_error)
+      __pyx_t_1 = __Pyx_PyObject_IsTrue(__pyx_t_9); if (unlikely((__pyx_t_1 < 0))) __PYX_ERR(0, 234, __pyx_L1_error)
       __Pyx_DECREF(__pyx_t_9); __pyx_t_9 = 0;
       if (__pyx_t_1) {
 
-        /* "c104f/handlers/file_handlers.py":233
+        /* "c104f/handlers/file_handlers.py":235
  *                 sof.setIsLast()
  *             if os.path.isdir(filename):
  *                 sof.setIsDirectory()             # <<<<<<<<<<<<<<
@@ -8314,12 +8338,12 @@ static PyObject *__pyx_pf_5c104f_8handlers_13file_handlers_12sv_dir_read_handler
           PyObject *__pyx_callargs[2] = {__pyx_t_11, NULL};
           __pyx_t_9 = __Pyx_PyObject_FastCallMethod((PyObject*)__pyx_mstate_global->__pyx_n_u_setIsDirectory, __pyx_callargs+__pyx_t_6, (1-__pyx_t_6) | (1*__Pyx_PY_VECTORCALL_ARGUMENTS_OFFSET));
           __Pyx_XDECREF(__pyx_t_11); __pyx_t_11 = 0;
-          if (unlikely(!__pyx_t_9)) __PYX_ERR(0, 233, __pyx_L1_error)
+          if (unlikely(!__pyx_t_9)) __PYX_ERR(0, 235, __pyx_L1_error)
           __Pyx_GOTREF(__pyx_t_9);
         }
         __Pyx_DECREF(__pyx_t_9); __pyx_t_9 = 0;
 
-        /* "c104f/handlers/file_handlers.py":232
+        /* "c104f/handlers/file_handlers.py":234
  *             if filename == file_names[-1]:
  *                 sof.setIsLast()
  *             if os.path.isdir(filename):             # <<<<<<<<<<<<<<
@@ -8328,7 +8352,7 @@ static PyObject *__pyx_pf_5c104f_8handlers_13file_handlers_12sv_dir_read_handler
 */
       }
 
-      /* "c104f/handlers/file_handlers.py":235
+      /* "c104f/handlers/file_handlers.py":237
  *                 sof.setIsDirectory()
  * 
  *             try:             # <<<<<<<<<<<<<<
@@ -8344,7 +8368,7 @@ static PyObject *__pyx_pf_5c104f_8handlers_13file_handlers_12sv_dir_read_handler
         __Pyx_XGOTREF(__pyx_t_16);
         /*try:*/ {
 
-          /* "c104f/handlers/file_handlers.py":236
+          /* "c104f/handlers/file_handlers.py":238
  * 
  *             try:
  *                 with open(file_path, "rb") as r_file:             # <<<<<<<<<<<<<<
@@ -8358,13 +8382,13 @@ static PyObject *__pyx_pf_5c104f_8handlers_13file_handlers_12sv_dir_read_handler
               PyObject *__pyx_callargs[3] = {__pyx_t_11, __pyx_v_file_path, __pyx_mstate_global->__pyx_n_u_rb};
               __pyx_t_9 = __Pyx_PyObject_FastCall((PyObject*)__pyx_builtin_open, __pyx_callargs+__pyx_t_6, (3-__pyx_t_6) | (__pyx_t_6*__Pyx_PY_VECTORCALL_ARGUMENTS_OFFSET));
               __Pyx_XDECREF(__pyx_t_11); __pyx_t_11 = 0;
-              if (unlikely(!__pyx_t_9)) __PYX_ERR(0, 236, __pyx_L8_error)
+              if (unlikely(!__pyx_t_9)) __PYX_ERR(0, 238, __pyx_L8_error)
               __Pyx_GOTREF(__pyx_t_9);
             }
-            __pyx_t_17 = __Pyx_PyObject_LookupSpecial(__pyx_t_9, __pyx_mstate_global->__pyx_n_u_exit); if (unlikely(!__pyx_t_17)) __PYX_ERR(0, 236, __pyx_L8_error)
+            __pyx_t_17 = __Pyx_PyObject_LookupSpecial(__pyx_t_9, __pyx_mstate_global->__pyx_n_u_exit); if (unlikely(!__pyx_t_17)) __PYX_ERR(0, 238, __pyx_L8_error)
             __Pyx_GOTREF(__pyx_t_17);
             __pyx_t_10 = NULL;
-            __pyx_t_3 = __Pyx_PyObject_LookupSpecial(__pyx_t_9, __pyx_mstate_global->__pyx_n_u_enter); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 236, __pyx_L16_error)
+            __pyx_t_3 = __Pyx_PyObject_LookupSpecial(__pyx_t_9, __pyx_mstate_global->__pyx_n_u_enter); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 238, __pyx_L16_error)
             __Pyx_GOTREF(__pyx_t_3);
             __pyx_t_6 = 1;
             #if CYTHON_UNPACK_METHODS
@@ -8383,7 +8407,7 @@ static PyObject *__pyx_pf_5c104f_8handlers_13file_handlers_12sv_dir_read_handler
               __pyx_t_11 = __Pyx_PyObject_FastCall((PyObject*)__pyx_t_3, __pyx_callargs+__pyx_t_6, (1-__pyx_t_6) | (__pyx_t_6*__Pyx_PY_VECTORCALL_ARGUMENTS_OFFSET));
               __Pyx_XDECREF(__pyx_t_10); __pyx_t_10 = 0;
               __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
-              if (unlikely(!__pyx_t_11)) __PYX_ERR(0, 236, __pyx_L16_error)
+              if (unlikely(!__pyx_t_11)) __PYX_ERR(0, 238, __pyx_L16_error)
               __Pyx_GOTREF(__pyx_t_11);
             }
             __pyx_t_3 = __pyx_t_11;
@@ -8396,7 +8420,7 @@ static PyObject *__pyx_pf_5c104f_8handlers_13file_handlers_12sv_dir_read_handler
                   __Pyx_XDECREF_SET(__pyx_v_r_file, __pyx_t_3);
                   __pyx_t_3 = 0;
 
-                  /* "c104f/handlers/file_handlers.py":237
+                  /* "c104f/handlers/file_handlers.py":239
  *             try:
  *                 with open(file_path, "rb") as r_file:
  *                     ...             # <<<<<<<<<<<<<<
@@ -8407,7 +8431,7 @@ static PyObject *__pyx_pf_5c104f_8handlers_13file_handlers_12sv_dir_read_handler
               }
             }
 
-            /* "c104f/handlers/file_handlers.py":236
+            /* "c104f/handlers/file_handlers.py":238
  * 
  *             try:
  *                 with open(file_path, "rb") as r_file:             # <<<<<<<<<<<<<<
@@ -8419,7 +8443,7 @@ static PyObject *__pyx_pf_5c104f_8handlers_13file_handlers_12sv_dir_read_handler
                 if (__pyx_t_17) {
                   __pyx_t_20 = __Pyx_PyObject_Call(__pyx_t_17, __pyx_mstate_global->__pyx_tuple[0], NULL);
                   __Pyx_DECREF(__pyx_t_17); __pyx_t_17 = 0;
-                  if (unlikely(!__pyx_t_20)) __PYX_ERR(0, 236, __pyx_L8_error)
+                  if (unlikely(!__pyx_t_20)) __PYX_ERR(0, 238, __pyx_L8_error)
                   __Pyx_GOTREF(__pyx_t_20);
                   __Pyx_DECREF(__pyx_t_20); __pyx_t_20 = 0;
                 }
@@ -8434,7 +8458,7 @@ static PyObject *__pyx_pf_5c104f_8handlers_13file_handlers_12sv_dir_read_handler
             __pyx_L30:;
           }
 
-          /* "c104f/handlers/file_handlers.py":235
+          /* "c104f/handlers/file_handlers.py":237
  *                 sof.setIsDirectory()
  * 
  *             try:             # <<<<<<<<<<<<<<
@@ -8456,7 +8480,7 @@ static PyObject *__pyx_pf_5c104f_8handlers_13file_handlers_12sv_dir_read_handler
         __Pyx_XDECREF(__pyx_t_8); __pyx_t_8 = 0;
         __Pyx_XDECREF(__pyx_t_9); __pyx_t_9 = 0;
 
-        /* "c104f/handlers/file_handlers.py":238
+        /* "c104f/handlers/file_handlers.py":240
  *                 with open(file_path, "rb") as r_file:
  *                     ...
  *             except (PermissionError, OSError):             # <<<<<<<<<<<<<<
@@ -8466,12 +8490,12 @@ static PyObject *__pyx_pf_5c104f_8handlers_13file_handlers_12sv_dir_read_handler
         __pyx_t_21 = __Pyx_PyErr_ExceptionMatches2(((PyObject *)(((PyTypeObject*)PyExc_PermissionError))), ((PyObject *)(((PyTypeObject*)PyExc_OSError))));
         if (__pyx_t_21) {
           __Pyx_AddTraceback("c104f.handlers.file_handlers.sv_dir_read_handler", __pyx_clineno, __pyx_lineno, __pyx_filename);
-          if (__Pyx_GetException(&__pyx_t_3, &__pyx_t_9, &__pyx_t_11) < 0) __PYX_ERR(0, 238, __pyx_L10_except_error)
+          if (__Pyx_GetException(&__pyx_t_3, &__pyx_t_9, &__pyx_t_11) < 0) __PYX_ERR(0, 240, __pyx_L10_except_error)
           __Pyx_XGOTREF(__pyx_t_3);
           __Pyx_XGOTREF(__pyx_t_9);
           __Pyx_XGOTREF(__pyx_t_11);
 
-          /* "c104f/handlers/file_handlers.py":240
+          /* "c104f/handlers/file_handlers.py":242
  *             except (PermissionError, OSError):
  *                 # file already opend
  *                 sof.setFileIsActive()             # <<<<<<<<<<<<<<
@@ -8485,7 +8509,7 @@ static PyObject *__pyx_pf_5c104f_8handlers_13file_handlers_12sv_dir_read_handler
             PyObject *__pyx_callargs[2] = {__pyx_t_5, NULL};
             __pyx_t_10 = __Pyx_PyObject_FastCallMethod((PyObject*)__pyx_mstate_global->__pyx_n_u_setFileIsActive, __pyx_callargs+__pyx_t_6, (1-__pyx_t_6) | (1*__Pyx_PY_VECTORCALL_ARGUMENTS_OFFSET));
             __Pyx_XDECREF(__pyx_t_5); __pyx_t_5 = 0;
-            if (unlikely(!__pyx_t_10)) __PYX_ERR(0, 240, __pyx_L10_except_error)
+            if (unlikely(!__pyx_t_10)) __PYX_ERR(0, 242, __pyx_L10_except_error)
             __Pyx_GOTREF(__pyx_t_10);
           }
           __Pyx_DECREF(__pyx_t_10); __pyx_t_10 = 0;
@@ -8496,7 +8520,7 @@ static PyObject *__pyx_pf_5c104f_8handlers_13file_handlers_12sv_dir_read_handler
         }
         goto __pyx_L10_except_error;
 
-        /* "c104f/handlers/file_handlers.py":235
+        /* "c104f/handlers/file_handlers.py":237
  *                 sof.setIsDirectory()
  * 
  *             try:             # <<<<<<<<<<<<<<
@@ -8517,7 +8541,7 @@ static PyObject *__pyx_pf_5c104f_8handlers_13file_handlers_12sv_dir_read_handler
         __pyx_L15_try_end:;
       }
 
-      /* "c104f/handlers/file_handlers.py":241
+      /* "c104f/handlers/file_handlers.py":243
  *                 # file already opend
  *                 sof.setFileIsActive()
  *             print("TIME INFO")             # <<<<<<<<<<<<<<
@@ -8530,12 +8554,12 @@ static PyObject *__pyx_pf_5c104f_8handlers_13file_handlers_12sv_dir_read_handler
         PyObject *__pyx_callargs[2] = {__pyx_t_9, __pyx_mstate_global->__pyx_kp_u_TIME_INFO};
         __pyx_t_11 = __Pyx_PyObject_FastCall((PyObject*)__pyx_builtin_print, __pyx_callargs+__pyx_t_6, (2-__pyx_t_6) | (__pyx_t_6*__Pyx_PY_VECTORCALL_ARGUMENTS_OFFSET));
         __Pyx_XDECREF(__pyx_t_9); __pyx_t_9 = 0;
-        if (unlikely(!__pyx_t_11)) __PYX_ERR(0, 241, __pyx_L1_error)
+        if (unlikely(!__pyx_t_11)) __PYX_ERR(0, 243, __pyx_L1_error)
         __Pyx_GOTREF(__pyx_t_11);
       }
       __Pyx_DECREF(__pyx_t_11); __pyx_t_11 = 0;
 
-      /* "c104f/handlers/file_handlers.py":242
+      /* "c104f/handlers/file_handlers.py":244
  *                 sof.setFileIsActive()
  *             print("TIME INFO")
  *             print(datetime.datetime.fromtimestamp(file_ctime), datetime.datetime.fromtimestamp(file_mtime))             # <<<<<<<<<<<<<<
@@ -8543,9 +8567,9 @@ static PyObject *__pyx_pf_5c104f_8handlers_13file_handlers_12sv_dir_read_handler
  *                                               sof=c104.Uint8(sof.sof), creationTime=datetime.datetime.fromtimestamp(file_ctime))
 */
       __pyx_t_9 = NULL;
-      __Pyx_GetModuleGlobalName(__pyx_t_5, __pyx_mstate_global->__pyx_n_u_datetime); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 242, __pyx_L1_error)
+      __Pyx_GetModuleGlobalName(__pyx_t_5, __pyx_mstate_global->__pyx_n_u_datetime); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 244, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_5);
-      __pyx_t_4 = __Pyx_PyObject_GetAttrStr(__pyx_t_5, __pyx_mstate_global->__pyx_n_u_datetime); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 242, __pyx_L1_error)
+      __pyx_t_4 = __Pyx_PyObject_GetAttrStr(__pyx_t_5, __pyx_mstate_global->__pyx_n_u_datetime); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 244, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_4);
       __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
       __pyx_t_10 = __pyx_t_4;
@@ -8556,12 +8580,12 @@ static PyObject *__pyx_pf_5c104f_8handlers_13file_handlers_12sv_dir_read_handler
         __pyx_t_3 = __Pyx_PyObject_FastCallMethod((PyObject*)__pyx_mstate_global->__pyx_n_u_fromtimestamp, __pyx_callargs+__pyx_t_6, (2-__pyx_t_6) | (1*__Pyx_PY_VECTORCALL_ARGUMENTS_OFFSET));
         __Pyx_XDECREF(__pyx_t_10); __pyx_t_10 = 0;
         __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
-        if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 242, __pyx_L1_error)
+        if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 244, __pyx_L1_error)
         __Pyx_GOTREF(__pyx_t_3);
       }
-      __Pyx_GetModuleGlobalName(__pyx_t_5, __pyx_mstate_global->__pyx_n_u_datetime); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 242, __pyx_L1_error)
+      __Pyx_GetModuleGlobalName(__pyx_t_5, __pyx_mstate_global->__pyx_n_u_datetime); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 244, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_5);
-      __pyx_t_8 = __Pyx_PyObject_GetAttrStr(__pyx_t_5, __pyx_mstate_global->__pyx_n_u_datetime); if (unlikely(!__pyx_t_8)) __PYX_ERR(0, 242, __pyx_L1_error)
+      __pyx_t_8 = __Pyx_PyObject_GetAttrStr(__pyx_t_5, __pyx_mstate_global->__pyx_n_u_datetime); if (unlikely(!__pyx_t_8)) __PYX_ERR(0, 244, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_8);
       __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
       __pyx_t_10 = __pyx_t_8;
@@ -8572,7 +8596,7 @@ static PyObject *__pyx_pf_5c104f_8handlers_13file_handlers_12sv_dir_read_handler
         __pyx_t_4 = __Pyx_PyObject_FastCallMethod((PyObject*)__pyx_mstate_global->__pyx_n_u_fromtimestamp, __pyx_callargs+__pyx_t_6, (2-__pyx_t_6) | (1*__Pyx_PY_VECTORCALL_ARGUMENTS_OFFSET));
         __Pyx_XDECREF(__pyx_t_10); __pyx_t_10 = 0;
         __Pyx_DECREF(__pyx_t_8); __pyx_t_8 = 0;
-        if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 242, __pyx_L1_error)
+        if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 244, __pyx_L1_error)
         __Pyx_GOTREF(__pyx_t_4);
       }
       __pyx_t_6 = 1;
@@ -8582,12 +8606,12 @@ static PyObject *__pyx_pf_5c104f_8handlers_13file_handlers_12sv_dir_read_handler
         __Pyx_XDECREF(__pyx_t_9); __pyx_t_9 = 0;
         __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
         __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
-        if (unlikely(!__pyx_t_11)) __PYX_ERR(0, 242, __pyx_L1_error)
+        if (unlikely(!__pyx_t_11)) __PYX_ERR(0, 244, __pyx_L1_error)
         __Pyx_GOTREF(__pyx_t_11);
       }
       __Pyx_DECREF(__pyx_t_11); __pyx_t_11 = 0;
 
-      /* "c104f/handlers/file_handlers.py":243
+      /* "c104f/handlers/file_handlers.py":245
  *             print("TIME INFO")
  *             print(datetime.datetime.fromtimestamp(file_ctime), datetime.datetime.fromtimestamp(file_mtime))
  *             file_dir = c104.FileDirectoryCall(nof=c104.Int16(file_id), lof=c104.Uint32(file_size),             # <<<<<<<<<<<<<<
@@ -8595,15 +8619,15 @@ static PyObject *__pyx_pf_5c104f_8handlers_13file_handlers_12sv_dir_read_handler
  *             zero_point.info = file_dir
 */
       __pyx_t_4 = NULL;
-      __Pyx_GetModuleGlobalName(__pyx_t_3, __pyx_mstate_global->__pyx_n_u_c104); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 243, __pyx_L1_error)
+      __Pyx_GetModuleGlobalName(__pyx_t_3, __pyx_mstate_global->__pyx_n_u_c104); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 245, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_3);
-      __pyx_t_9 = __Pyx_PyObject_GetAttrStr(__pyx_t_3, __pyx_mstate_global->__pyx_n_u_FileDirectoryCall); if (unlikely(!__pyx_t_9)) __PYX_ERR(0, 243, __pyx_L1_error)
+      __pyx_t_9 = __Pyx_PyObject_GetAttrStr(__pyx_t_3, __pyx_mstate_global->__pyx_n_u_FileDirectoryCall); if (unlikely(!__pyx_t_9)) __PYX_ERR(0, 245, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_9);
       __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
       __pyx_t_8 = NULL;
-      __Pyx_GetModuleGlobalName(__pyx_t_10, __pyx_mstate_global->__pyx_n_u_c104); if (unlikely(!__pyx_t_10)) __PYX_ERR(0, 243, __pyx_L1_error)
+      __Pyx_GetModuleGlobalName(__pyx_t_10, __pyx_mstate_global->__pyx_n_u_c104); if (unlikely(!__pyx_t_10)) __PYX_ERR(0, 245, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_10);
-      __pyx_t_5 = __Pyx_PyObject_GetAttrStr(__pyx_t_10, __pyx_mstate_global->__pyx_n_u_Int16); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 243, __pyx_L1_error)
+      __pyx_t_5 = __Pyx_PyObject_GetAttrStr(__pyx_t_10, __pyx_mstate_global->__pyx_n_u_Int16); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 245, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_5);
       __Pyx_DECREF(__pyx_t_10); __pyx_t_10 = 0;
       __pyx_t_6 = 1;
@@ -8623,13 +8647,13 @@ static PyObject *__pyx_pf_5c104f_8handlers_13file_handlers_12sv_dir_read_handler
         __pyx_t_3 = __Pyx_PyObject_FastCall((PyObject*)__pyx_t_5, __pyx_callargs+__pyx_t_6, (2-__pyx_t_6) | (__pyx_t_6*__Pyx_PY_VECTORCALL_ARGUMENTS_OFFSET));
         __Pyx_XDECREF(__pyx_t_8); __pyx_t_8 = 0;
         __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
-        if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 243, __pyx_L1_error)
+        if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 245, __pyx_L1_error)
         __Pyx_GOTREF(__pyx_t_3);
       }
       __pyx_t_8 = NULL;
-      __Pyx_GetModuleGlobalName(__pyx_t_10, __pyx_mstate_global->__pyx_n_u_c104); if (unlikely(!__pyx_t_10)) __PYX_ERR(0, 243, __pyx_L1_error)
+      __Pyx_GetModuleGlobalName(__pyx_t_10, __pyx_mstate_global->__pyx_n_u_c104); if (unlikely(!__pyx_t_10)) __PYX_ERR(0, 245, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_10);
-      __pyx_t_7 = __Pyx_PyObject_GetAttrStr(__pyx_t_10, __pyx_mstate_global->__pyx_n_u_Uint32); if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 243, __pyx_L1_error)
+      __pyx_t_7 = __Pyx_PyObject_GetAttrStr(__pyx_t_10, __pyx_mstate_global->__pyx_n_u_Uint32); if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 245, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_7);
       __Pyx_DECREF(__pyx_t_10); __pyx_t_10 = 0;
       __pyx_t_6 = 1;
@@ -8649,11 +8673,11 @@ static PyObject *__pyx_pf_5c104f_8handlers_13file_handlers_12sv_dir_read_handler
         __pyx_t_5 = __Pyx_PyObject_FastCall((PyObject*)__pyx_t_7, __pyx_callargs+__pyx_t_6, (2-__pyx_t_6) | (__pyx_t_6*__Pyx_PY_VECTORCALL_ARGUMENTS_OFFSET));
         __Pyx_XDECREF(__pyx_t_8); __pyx_t_8 = 0;
         __Pyx_DECREF(__pyx_t_7); __pyx_t_7 = 0;
-        if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 243, __pyx_L1_error)
+        if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 245, __pyx_L1_error)
         __Pyx_GOTREF(__pyx_t_5);
       }
 
-      /* "c104f/handlers/file_handlers.py":244
+      /* "c104f/handlers/file_handlers.py":246
  *             print(datetime.datetime.fromtimestamp(file_ctime), datetime.datetime.fromtimestamp(file_mtime))
  *             file_dir = c104.FileDirectoryCall(nof=c104.Int16(file_id), lof=c104.Uint32(file_size),
  *                                               sof=c104.Uint8(sof.sof), creationTime=datetime.datetime.fromtimestamp(file_ctime))             # <<<<<<<<<<<<<<
@@ -8661,12 +8685,12 @@ static PyObject *__pyx_pf_5c104f_8handlers_13file_handlers_12sv_dir_read_handler
  *             zero_point.transmit(cause=c104.Cot.REQUEST)
 */
       __pyx_t_8 = NULL;
-      __Pyx_GetModuleGlobalName(__pyx_t_10, __pyx_mstate_global->__pyx_n_u_c104); if (unlikely(!__pyx_t_10)) __PYX_ERR(0, 244, __pyx_L1_error)
+      __Pyx_GetModuleGlobalName(__pyx_t_10, __pyx_mstate_global->__pyx_n_u_c104); if (unlikely(!__pyx_t_10)) __PYX_ERR(0, 246, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_10);
-      __pyx_t_22 = __Pyx_PyObject_GetAttrStr(__pyx_t_10, __pyx_mstate_global->__pyx_n_u_Uint8); if (unlikely(!__pyx_t_22)) __PYX_ERR(0, 244, __pyx_L1_error)
+      __pyx_t_22 = __Pyx_PyObject_GetAttrStr(__pyx_t_10, __pyx_mstate_global->__pyx_n_u_Uint8); if (unlikely(!__pyx_t_22)) __PYX_ERR(0, 246, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_22);
       __Pyx_DECREF(__pyx_t_10); __pyx_t_10 = 0;
-      __pyx_t_10 = __Pyx_PyObject_GetAttrStr(__pyx_v_sof, __pyx_mstate_global->__pyx_n_u_sof); if (unlikely(!__pyx_t_10)) __PYX_ERR(0, 244, __pyx_L1_error)
+      __pyx_t_10 = __Pyx_PyObject_GetAttrStr(__pyx_v_sof, __pyx_mstate_global->__pyx_n_u_sof); if (unlikely(!__pyx_t_10)) __PYX_ERR(0, 246, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_10);
       __pyx_t_6 = 1;
       #if CYTHON_UNPACK_METHODS
@@ -8686,12 +8710,12 @@ static PyObject *__pyx_pf_5c104f_8handlers_13file_handlers_12sv_dir_read_handler
         __Pyx_XDECREF(__pyx_t_8); __pyx_t_8 = 0;
         __Pyx_DECREF(__pyx_t_10); __pyx_t_10 = 0;
         __Pyx_DECREF(__pyx_t_22); __pyx_t_22 = 0;
-        if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 244, __pyx_L1_error)
+        if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 246, __pyx_L1_error)
         __Pyx_GOTREF(__pyx_t_7);
       }
-      __Pyx_GetModuleGlobalName(__pyx_t_8, __pyx_mstate_global->__pyx_n_u_datetime); if (unlikely(!__pyx_t_8)) __PYX_ERR(0, 244, __pyx_L1_error)
+      __Pyx_GetModuleGlobalName(__pyx_t_8, __pyx_mstate_global->__pyx_n_u_datetime); if (unlikely(!__pyx_t_8)) __PYX_ERR(0, 246, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_8);
-      __pyx_t_23 = __Pyx_PyObject_GetAttrStr(__pyx_t_8, __pyx_mstate_global->__pyx_n_u_datetime); if (unlikely(!__pyx_t_23)) __PYX_ERR(0, 244, __pyx_L1_error)
+      __pyx_t_23 = __Pyx_PyObject_GetAttrStr(__pyx_t_8, __pyx_mstate_global->__pyx_n_u_datetime); if (unlikely(!__pyx_t_23)) __PYX_ERR(0, 246, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_23);
       __Pyx_DECREF(__pyx_t_8); __pyx_t_8 = 0;
       __pyx_t_10 = __pyx_t_23;
@@ -8702,7 +8726,7 @@ static PyObject *__pyx_pf_5c104f_8handlers_13file_handlers_12sv_dir_read_handler
         __pyx_t_22 = __Pyx_PyObject_FastCallMethod((PyObject*)__pyx_mstate_global->__pyx_n_u_fromtimestamp, __pyx_callargs+__pyx_t_6, (2-__pyx_t_6) | (1*__Pyx_PY_VECTORCALL_ARGUMENTS_OFFSET));
         __Pyx_XDECREF(__pyx_t_10); __pyx_t_10 = 0;
         __Pyx_DECREF(__pyx_t_23); __pyx_t_23 = 0;
-        if (unlikely(!__pyx_t_22)) __PYX_ERR(0, 244, __pyx_L1_error)
+        if (unlikely(!__pyx_t_22)) __PYX_ERR(0, 246, __pyx_L1_error)
         __Pyx_GOTREF(__pyx_t_22);
       }
       __pyx_t_6 = 1;
@@ -8719,12 +8743,12 @@ static PyObject *__pyx_pf_5c104f_8handlers_13file_handlers_12sv_dir_read_handler
       #endif
       {
         PyObject *__pyx_callargs[2 + ((CYTHON_VECTORCALL) ? 4 : 0)] = {__pyx_t_4, NULL};
-        __pyx_t_23 = __Pyx_MakeVectorcallBuilderKwds(4); if (unlikely(!__pyx_t_23)) __PYX_ERR(0, 243, __pyx_L1_error)
+        __pyx_t_23 = __Pyx_MakeVectorcallBuilderKwds(4); if (unlikely(!__pyx_t_23)) __PYX_ERR(0, 245, __pyx_L1_error)
         __Pyx_GOTREF(__pyx_t_23);
-        if (__Pyx_VectorcallBuilder_AddArg(__pyx_mstate_global->__pyx_n_u_nof, __pyx_t_3, __pyx_t_23, __pyx_callargs+1, 0) < (0)) __PYX_ERR(0, 243, __pyx_L1_error)
-        if (__Pyx_VectorcallBuilder_AddArg(__pyx_mstate_global->__pyx_n_u_lof, __pyx_t_5, __pyx_t_23, __pyx_callargs+1, 1) < (0)) __PYX_ERR(0, 243, __pyx_L1_error)
-        if (__Pyx_VectorcallBuilder_AddArg(__pyx_mstate_global->__pyx_n_u_sof, __pyx_t_7, __pyx_t_23, __pyx_callargs+1, 2) < (0)) __PYX_ERR(0, 243, __pyx_L1_error)
-        if (__Pyx_VectorcallBuilder_AddArg(__pyx_mstate_global->__pyx_n_u_creationTime, __pyx_t_22, __pyx_t_23, __pyx_callargs+1, 3) < (0)) __PYX_ERR(0, 243, __pyx_L1_error)
+        if (__Pyx_VectorcallBuilder_AddArg(__pyx_mstate_global->__pyx_n_u_nof, __pyx_t_3, __pyx_t_23, __pyx_callargs+1, 0) < (0)) __PYX_ERR(0, 245, __pyx_L1_error)
+        if (__Pyx_VectorcallBuilder_AddArg(__pyx_mstate_global->__pyx_n_u_lof, __pyx_t_5, __pyx_t_23, __pyx_callargs+1, 1) < (0)) __PYX_ERR(0, 245, __pyx_L1_error)
+        if (__Pyx_VectorcallBuilder_AddArg(__pyx_mstate_global->__pyx_n_u_sof, __pyx_t_7, __pyx_t_23, __pyx_callargs+1, 2) < (0)) __PYX_ERR(0, 245, __pyx_L1_error)
+        if (__Pyx_VectorcallBuilder_AddArg(__pyx_mstate_global->__pyx_n_u_creationTime, __pyx_t_22, __pyx_t_23, __pyx_callargs+1, 3) < (0)) __PYX_ERR(0, 245, __pyx_L1_error)
         __pyx_t_11 = __Pyx_Object_Vectorcall_CallFromBuilder((PyObject*)__pyx_t_9, __pyx_callargs+__pyx_t_6, (1-__pyx_t_6) | (__pyx_t_6*__Pyx_PY_VECTORCALL_ARGUMENTS_OFFSET), __pyx_t_23);
         __Pyx_XDECREF(__pyx_t_4); __pyx_t_4 = 0;
         __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
@@ -8733,22 +8757,22 @@ static PyObject *__pyx_pf_5c104f_8handlers_13file_handlers_12sv_dir_read_handler
         __Pyx_DECREF(__pyx_t_22); __pyx_t_22 = 0;
         __Pyx_DECREF(__pyx_t_23); __pyx_t_23 = 0;
         __Pyx_DECREF(__pyx_t_9); __pyx_t_9 = 0;
-        if (unlikely(!__pyx_t_11)) __PYX_ERR(0, 243, __pyx_L1_error)
+        if (unlikely(!__pyx_t_11)) __PYX_ERR(0, 245, __pyx_L1_error)
         __Pyx_GOTREF(__pyx_t_11);
       }
       __Pyx_XDECREF_SET(__pyx_v_file_dir, __pyx_t_11);
       __pyx_t_11 = 0;
 
-      /* "c104f/handlers/file_handlers.py":245
+      /* "c104f/handlers/file_handlers.py":247
  *             file_dir = c104.FileDirectoryCall(nof=c104.Int16(file_id), lof=c104.Uint32(file_size),
  *                                               sof=c104.Uint8(sof.sof), creationTime=datetime.datetime.fromtimestamp(file_ctime))
  *             zero_point.info = file_dir             # <<<<<<<<<<<<<<
  *             zero_point.transmit(cause=c104.Cot.REQUEST)
  * 
 */
-      if (__Pyx_PyObject_SetAttrStr(__pyx_v_zero_point, __pyx_mstate_global->__pyx_n_u_info, __pyx_v_file_dir) < (0)) __PYX_ERR(0, 245, __pyx_L1_error)
+      if (__Pyx_PyObject_SetAttrStr(__pyx_v_zero_point, __pyx_mstate_global->__pyx_n_u_info, __pyx_v_file_dir) < (0)) __PYX_ERR(0, 247, __pyx_L1_error)
 
-      /* "c104f/handlers/file_handlers.py":246
+      /* "c104f/handlers/file_handlers.py":248
  *                                               sof=c104.Uint8(sof.sof), creationTime=datetime.datetime.fromtimestamp(file_ctime))
  *             zero_point.info = file_dir
  *             zero_point.transmit(cause=c104.Cot.REQUEST)             # <<<<<<<<<<<<<<
@@ -8757,30 +8781,30 @@ static PyObject *__pyx_pf_5c104f_8handlers_13file_handlers_12sv_dir_read_handler
 */
       __pyx_t_9 = __pyx_v_zero_point;
       __Pyx_INCREF(__pyx_t_9);
-      __Pyx_GetModuleGlobalName(__pyx_t_23, __pyx_mstate_global->__pyx_n_u_c104); if (unlikely(!__pyx_t_23)) __PYX_ERR(0, 246, __pyx_L1_error)
+      __Pyx_GetModuleGlobalName(__pyx_t_23, __pyx_mstate_global->__pyx_n_u_c104); if (unlikely(!__pyx_t_23)) __PYX_ERR(0, 248, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_23);
-      __pyx_t_22 = __Pyx_PyObject_GetAttrStr(__pyx_t_23, __pyx_mstate_global->__pyx_n_u_Cot); if (unlikely(!__pyx_t_22)) __PYX_ERR(0, 246, __pyx_L1_error)
+      __pyx_t_22 = __Pyx_PyObject_GetAttrStr(__pyx_t_23, __pyx_mstate_global->__pyx_n_u_Cot); if (unlikely(!__pyx_t_22)) __PYX_ERR(0, 248, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_22);
       __Pyx_DECREF(__pyx_t_23); __pyx_t_23 = 0;
-      __pyx_t_23 = __Pyx_PyObject_GetAttrStr(__pyx_t_22, __pyx_mstate_global->__pyx_n_u_REQUEST); if (unlikely(!__pyx_t_23)) __PYX_ERR(0, 246, __pyx_L1_error)
+      __pyx_t_23 = __Pyx_PyObject_GetAttrStr(__pyx_t_22, __pyx_mstate_global->__pyx_n_u_REQUEST); if (unlikely(!__pyx_t_23)) __PYX_ERR(0, 248, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_23);
       __Pyx_DECREF(__pyx_t_22); __pyx_t_22 = 0;
       __pyx_t_6 = 0;
       {
         PyObject *__pyx_callargs[2 + ((CYTHON_VECTORCALL) ? 1 : 0)] = {__pyx_t_9, NULL};
-        __pyx_t_22 = __Pyx_MakeVectorcallBuilderKwds(1); if (unlikely(!__pyx_t_22)) __PYX_ERR(0, 246, __pyx_L1_error)
+        __pyx_t_22 = __Pyx_MakeVectorcallBuilderKwds(1); if (unlikely(!__pyx_t_22)) __PYX_ERR(0, 248, __pyx_L1_error)
         __Pyx_GOTREF(__pyx_t_22);
-        if (__Pyx_VectorcallBuilder_AddArg(__pyx_mstate_global->__pyx_n_u_cause, __pyx_t_23, __pyx_t_22, __pyx_callargs+1, 0) < (0)) __PYX_ERR(0, 246, __pyx_L1_error)
+        if (__Pyx_VectorcallBuilder_AddArg(__pyx_mstate_global->__pyx_n_u_cause, __pyx_t_23, __pyx_t_22, __pyx_callargs+1, 0) < (0)) __PYX_ERR(0, 248, __pyx_L1_error)
         __pyx_t_11 = __Pyx_Object_VectorcallMethod_CallFromBuilder((PyObject*)__pyx_mstate_global->__pyx_n_u_transmit, __pyx_callargs+__pyx_t_6, (1-__pyx_t_6) | (1*__Pyx_PY_VECTORCALL_ARGUMENTS_OFFSET), __pyx_t_22);
         __Pyx_XDECREF(__pyx_t_9); __pyx_t_9 = 0;
         __Pyx_DECREF(__pyx_t_23); __pyx_t_23 = 0;
         __Pyx_DECREF(__pyx_t_22); __pyx_t_22 = 0;
-        if (unlikely(!__pyx_t_11)) __PYX_ERR(0, 246, __pyx_L1_error)
+        if (unlikely(!__pyx_t_11)) __PYX_ERR(0, 248, __pyx_L1_error)
         __Pyx_GOTREF(__pyx_t_11);
       }
       __Pyx_DECREF(__pyx_t_11); __pyx_t_11 = 0;
 
-      /* "c104f/handlers/file_handlers.py":222
+      /* "c104f/handlers/file_handlers.py":224
  *         # start transmiting file list
  *         zero_point.type = c104.Type.F_DR_TA_1
  *         for filename in file_names:             # <<<<<<<<<<<<<<
@@ -8790,34 +8814,34 @@ static PyObject *__pyx_pf_5c104f_8handlers_13file_handlers_12sv_dir_read_handler
     }
     __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
 
-    /* "c104f/handlers/file_handlers.py":252
+    /* "c104f/handlers/file_handlers.py":254
  * 
  *         # terminate conn
  *         zero_point.type = c104.Type.F_SC_NA_1             # <<<<<<<<<<<<<<
  *         zero_point.info = directory
  *         zero_point.transmit(cause=c104.Cot.ACTIVATION_TERMINATION)
 */
-    __Pyx_GetModuleGlobalName(__pyx_t_2, __pyx_mstate_global->__pyx_n_u_c104); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 252, __pyx_L1_error)
+    __Pyx_GetModuleGlobalName(__pyx_t_2, __pyx_mstate_global->__pyx_n_u_c104); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 254, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_2);
-    __pyx_t_11 = __Pyx_PyObject_GetAttrStr(__pyx_t_2, __pyx_mstate_global->__pyx_n_u_Type); if (unlikely(!__pyx_t_11)) __PYX_ERR(0, 252, __pyx_L1_error)
+    __pyx_t_11 = __Pyx_PyObject_GetAttrStr(__pyx_t_2, __pyx_mstate_global->__pyx_n_u_Type); if (unlikely(!__pyx_t_11)) __PYX_ERR(0, 254, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_11);
     __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
-    __pyx_t_2 = __Pyx_PyObject_GetAttrStr(__pyx_t_11, __pyx_mstate_global->__pyx_n_u_F_SC_NA_1); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 252, __pyx_L1_error)
+    __pyx_t_2 = __Pyx_PyObject_GetAttrStr(__pyx_t_11, __pyx_mstate_global->__pyx_n_u_F_SC_NA_1); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 254, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_2);
     __Pyx_DECREF(__pyx_t_11); __pyx_t_11 = 0;
-    if (__Pyx_PyObject_SetAttrStr(__pyx_v_zero_point, __pyx_mstate_global->__pyx_n_u_type, __pyx_t_2) < (0)) __PYX_ERR(0, 252, __pyx_L1_error)
+    if (__Pyx_PyObject_SetAttrStr(__pyx_v_zero_point, __pyx_mstate_global->__pyx_n_u_type, __pyx_t_2) < (0)) __PYX_ERR(0, 254, __pyx_L1_error)
     __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
 
-    /* "c104f/handlers/file_handlers.py":253
+    /* "c104f/handlers/file_handlers.py":255
  *         # terminate conn
  *         zero_point.type = c104.Type.F_SC_NA_1
  *         zero_point.info = directory             # <<<<<<<<<<<<<<
  *         zero_point.transmit(cause=c104.Cot.ACTIVATION_TERMINATION)
  * 
 */
-    if (__Pyx_PyObject_SetAttrStr(__pyx_v_zero_point, __pyx_mstate_global->__pyx_n_u_info, __pyx_v_directory) < (0)) __PYX_ERR(0, 253, __pyx_L1_error)
+    if (__Pyx_PyObject_SetAttrStr(__pyx_v_zero_point, __pyx_mstate_global->__pyx_n_u_info, __pyx_v_directory) < (0)) __PYX_ERR(0, 255, __pyx_L1_error)
 
-    /* "c104f/handlers/file_handlers.py":254
+    /* "c104f/handlers/file_handlers.py":256
  *         zero_point.type = c104.Type.F_SC_NA_1
  *         zero_point.info = directory
  *         zero_point.transmit(cause=c104.Cot.ACTIVATION_TERMINATION)             # <<<<<<<<<<<<<<
@@ -8826,30 +8850,30 @@ static PyObject *__pyx_pf_5c104f_8handlers_13file_handlers_12sv_dir_read_handler
 */
     __pyx_t_11 = __pyx_v_zero_point;
     __Pyx_INCREF(__pyx_t_11);
-    __Pyx_GetModuleGlobalName(__pyx_t_22, __pyx_mstate_global->__pyx_n_u_c104); if (unlikely(!__pyx_t_22)) __PYX_ERR(0, 254, __pyx_L1_error)
+    __Pyx_GetModuleGlobalName(__pyx_t_22, __pyx_mstate_global->__pyx_n_u_c104); if (unlikely(!__pyx_t_22)) __PYX_ERR(0, 256, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_22);
-    __pyx_t_23 = __Pyx_PyObject_GetAttrStr(__pyx_t_22, __pyx_mstate_global->__pyx_n_u_Cot); if (unlikely(!__pyx_t_23)) __PYX_ERR(0, 254, __pyx_L1_error)
+    __pyx_t_23 = __Pyx_PyObject_GetAttrStr(__pyx_t_22, __pyx_mstate_global->__pyx_n_u_Cot); if (unlikely(!__pyx_t_23)) __PYX_ERR(0, 256, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_23);
     __Pyx_DECREF(__pyx_t_22); __pyx_t_22 = 0;
-    __pyx_t_22 = __Pyx_PyObject_GetAttrStr(__pyx_t_23, __pyx_mstate_global->__pyx_n_u_ACTIVATION_TERMINATION); if (unlikely(!__pyx_t_22)) __PYX_ERR(0, 254, __pyx_L1_error)
+    __pyx_t_22 = __Pyx_PyObject_GetAttrStr(__pyx_t_23, __pyx_mstate_global->__pyx_n_u_ACTIVATION_TERMINATION); if (unlikely(!__pyx_t_22)) __PYX_ERR(0, 256, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_22);
     __Pyx_DECREF(__pyx_t_23); __pyx_t_23 = 0;
     __pyx_t_6 = 0;
     {
       PyObject *__pyx_callargs[2 + ((CYTHON_VECTORCALL) ? 1 : 0)] = {__pyx_t_11, NULL};
-      __pyx_t_23 = __Pyx_MakeVectorcallBuilderKwds(1); if (unlikely(!__pyx_t_23)) __PYX_ERR(0, 254, __pyx_L1_error)
+      __pyx_t_23 = __Pyx_MakeVectorcallBuilderKwds(1); if (unlikely(!__pyx_t_23)) __PYX_ERR(0, 256, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_23);
-      if (__Pyx_VectorcallBuilder_AddArg(__pyx_mstate_global->__pyx_n_u_cause, __pyx_t_22, __pyx_t_23, __pyx_callargs+1, 0) < (0)) __PYX_ERR(0, 254, __pyx_L1_error)
+      if (__Pyx_VectorcallBuilder_AddArg(__pyx_mstate_global->__pyx_n_u_cause, __pyx_t_22, __pyx_t_23, __pyx_callargs+1, 0) < (0)) __PYX_ERR(0, 256, __pyx_L1_error)
       __pyx_t_2 = __Pyx_Object_VectorcallMethod_CallFromBuilder((PyObject*)__pyx_mstate_global->__pyx_n_u_transmit, __pyx_callargs+__pyx_t_6, (1-__pyx_t_6) | (1*__Pyx_PY_VECTORCALL_ARGUMENTS_OFFSET), __pyx_t_23);
       __Pyx_XDECREF(__pyx_t_11); __pyx_t_11 = 0;
       __Pyx_DECREF(__pyx_t_22); __pyx_t_22 = 0;
       __Pyx_DECREF(__pyx_t_23); __pyx_t_23 = 0;
-      if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 254, __pyx_L1_error)
+      if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 256, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_2);
     }
     __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
 
-    /* "c104f/handlers/file_handlers.py":206
+    /* "c104f/handlers/file_handlers.py":208
  * def sv_dir_read_handler(zero_point, ioa, nof, nos):
  * 
  *     if ioa == 0:             # <<<<<<<<<<<<<<
@@ -8858,7 +8882,7 @@ static PyObject *__pyx_pf_5c104f_8handlers_13file_handlers_12sv_dir_read_handler
 */
   }
 
-  /* "c104f/handlers/file_handlers.py":204
+  /* "c104f/handlers/file_handlers.py":206
  *             print("TRANSMITING ERROR")
  * 
  * def sv_dir_read_handler(zero_point, ioa, nof, nos):             # <<<<<<<<<<<<<<
@@ -8901,7 +8925,7 @@ static PyObject *__pyx_pf_5c104f_8handlers_13file_handlers_12sv_dir_read_handler
   return __pyx_r;
 }
 
-/* "c104f/handlers/file_handlers.py":256
+/* "c104f/handlers/file_handlers.py":258
  *         zero_point.transmit(cause=c104.Cot.ACTIVATION_TERMINATION)
  * 
  * def sv_call_file_handler(zero_point, ioa, nof, nos):             # <<<<<<<<<<<<<<
@@ -8951,44 +8975,44 @@ PyObject *__pyx_args, PyObject *__pyx_kwds
   {
     PyObject ** const __pyx_pyargnames[] = {&__pyx_mstate_global->__pyx_n_u_zero_point,&__pyx_mstate_global->__pyx_n_u_ioa,&__pyx_mstate_global->__pyx_n_u_nof,&__pyx_mstate_global->__pyx_n_u_nos,0};
     const Py_ssize_t __pyx_kwds_len = (__pyx_kwds) ? __Pyx_NumKwargs_FASTCALL(__pyx_kwds) : 0;
-    if (unlikely(__pyx_kwds_len) < 0) __PYX_ERR(0, 256, __pyx_L3_error)
+    if (unlikely(__pyx_kwds_len) < 0) __PYX_ERR(0, 258, __pyx_L3_error)
     if (__pyx_kwds_len > 0) {
       switch (__pyx_nargs) {
         case  4:
         values[3] = __Pyx_ArgRef_FASTCALL(__pyx_args, 3);
-        if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[3])) __PYX_ERR(0, 256, __pyx_L3_error)
+        if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[3])) __PYX_ERR(0, 258, __pyx_L3_error)
         CYTHON_FALLTHROUGH;
         case  3:
         values[2] = __Pyx_ArgRef_FASTCALL(__pyx_args, 2);
-        if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[2])) __PYX_ERR(0, 256, __pyx_L3_error)
+        if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[2])) __PYX_ERR(0, 258, __pyx_L3_error)
         CYTHON_FALLTHROUGH;
         case  2:
         values[1] = __Pyx_ArgRef_FASTCALL(__pyx_args, 1);
-        if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[1])) __PYX_ERR(0, 256, __pyx_L3_error)
+        if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[1])) __PYX_ERR(0, 258, __pyx_L3_error)
         CYTHON_FALLTHROUGH;
         case  1:
         values[0] = __Pyx_ArgRef_FASTCALL(__pyx_args, 0);
-        if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[0])) __PYX_ERR(0, 256, __pyx_L3_error)
+        if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[0])) __PYX_ERR(0, 258, __pyx_L3_error)
         CYTHON_FALLTHROUGH;
         case  0: break;
         default: goto __pyx_L5_argtuple_error;
       }
       const Py_ssize_t kwd_pos_args = __pyx_nargs;
-      if (__Pyx_ParseKeywords(__pyx_kwds, __pyx_kwvalues, __pyx_pyargnames, 0, values, kwd_pos_args, __pyx_kwds_len, "sv_call_file_handler", 0) < (0)) __PYX_ERR(0, 256, __pyx_L3_error)
+      if (__Pyx_ParseKeywords(__pyx_kwds, __pyx_kwvalues, __pyx_pyargnames, 0, values, kwd_pos_args, __pyx_kwds_len, "sv_call_file_handler", 0) < (0)) __PYX_ERR(0, 258, __pyx_L3_error)
       for (Py_ssize_t i = __pyx_nargs; i < 4; i++) {
-        if (unlikely(!values[i])) { __Pyx_RaiseArgtupleInvalid("sv_call_file_handler", 1, 4, 4, i); __PYX_ERR(0, 256, __pyx_L3_error) }
+        if (unlikely(!values[i])) { __Pyx_RaiseArgtupleInvalid("sv_call_file_handler", 1, 4, 4, i); __PYX_ERR(0, 258, __pyx_L3_error) }
       }
     } else if (unlikely(__pyx_nargs != 4)) {
       goto __pyx_L5_argtuple_error;
     } else {
       values[0] = __Pyx_ArgRef_FASTCALL(__pyx_args, 0);
-      if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[0])) __PYX_ERR(0, 256, __pyx_L3_error)
+      if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[0])) __PYX_ERR(0, 258, __pyx_L3_error)
       values[1] = __Pyx_ArgRef_FASTCALL(__pyx_args, 1);
-      if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[1])) __PYX_ERR(0, 256, __pyx_L3_error)
+      if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[1])) __PYX_ERR(0, 258, __pyx_L3_error)
       values[2] = __Pyx_ArgRef_FASTCALL(__pyx_args, 2);
-      if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[2])) __PYX_ERR(0, 256, __pyx_L3_error)
+      if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[2])) __PYX_ERR(0, 258, __pyx_L3_error)
       values[3] = __Pyx_ArgRef_FASTCALL(__pyx_args, 3);
-      if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[3])) __PYX_ERR(0, 256, __pyx_L3_error)
+      if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[3])) __PYX_ERR(0, 258, __pyx_L3_error)
     }
     __pyx_v_zero_point = values[0];
     __pyx_v_ioa = values[1];
@@ -8997,7 +9021,7 @@ PyObject *__pyx_args, PyObject *__pyx_kwds
   }
   goto __pyx_L6_skip;
   __pyx_L5_argtuple_error:;
-  __Pyx_RaiseArgtupleInvalid("sv_call_file_handler", 1, 4, 4, __pyx_nargs); __PYX_ERR(0, 256, __pyx_L3_error)
+  __Pyx_RaiseArgtupleInvalid("sv_call_file_handler", 1, 4, 4, __pyx_nargs); __PYX_ERR(0, 258, __pyx_L3_error)
   __pyx_L6_skip:;
   goto __pyx_L4_argument_unpacking_done;
   __pyx_L3_error:;
@@ -9031,23 +9055,23 @@ static PyObject *__pyx_pf_5c104f_8handlers_13file_handlers_14sv_call_file_handle
   int __pyx_clineno = 0;
   __Pyx_RefNannySetupContext("sv_call_file_handler", 0);
 
-  /* "c104f/handlers/file_handlers.py":257
+  /* "c104f/handlers/file_handlers.py":259
  * 
  * def sv_call_file_handler(zero_point, ioa, nof, nos):
  *     if ioa == 0:             # <<<<<<<<<<<<<<
  *         #main dir
  *         sv_select_section_handler(zero_point, ioa, nof, nos)
 */
-  __pyx_t_1 = (__Pyx_PyLong_BoolEqObjC(__pyx_v_ioa, __pyx_mstate_global->__pyx_int_0, 0, 0)); if (unlikely((__pyx_t_1 < 0))) __PYX_ERR(0, 257, __pyx_L1_error)
+  __pyx_t_1 = (__Pyx_PyLong_BoolEqObjC(__pyx_v_ioa, __pyx_mstate_global->__pyx_int_0, 0, 0)); if (unlikely((__pyx_t_1 < 0))) __PYX_ERR(0, 259, __pyx_L1_error)
   if (__pyx_t_1) {
 
-    /* "c104f/handlers/file_handlers.py":259
+    /* "c104f/handlers/file_handlers.py":261
  *     if ioa == 0:
  *         #main dir
  *         sv_select_section_handler(zero_point, ioa, nof, nos)             # <<<<<<<<<<<<<<
 */
     __pyx_t_3 = NULL;
-    __Pyx_GetModuleGlobalName(__pyx_t_4, __pyx_mstate_global->__pyx_n_u_sv_select_section_handler); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 259, __pyx_L1_error)
+    __Pyx_GetModuleGlobalName(__pyx_t_4, __pyx_mstate_global->__pyx_n_u_sv_select_section_handler); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 261, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_4);
     __pyx_t_5 = 1;
     #if CYTHON_UNPACK_METHODS
@@ -9066,12 +9090,12 @@ static PyObject *__pyx_pf_5c104f_8handlers_13file_handlers_14sv_call_file_handle
       __pyx_t_2 = __Pyx_PyObject_FastCall((PyObject*)__pyx_t_4, __pyx_callargs+__pyx_t_5, (5-__pyx_t_5) | (__pyx_t_5*__Pyx_PY_VECTORCALL_ARGUMENTS_OFFSET));
       __Pyx_XDECREF(__pyx_t_3); __pyx_t_3 = 0;
       __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
-      if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 259, __pyx_L1_error)
+      if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 261, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_2);
     }
     __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
 
-    /* "c104f/handlers/file_handlers.py":257
+    /* "c104f/handlers/file_handlers.py":259
  * 
  * def sv_call_file_handler(zero_point, ioa, nof, nos):
  *     if ioa == 0:             # <<<<<<<<<<<<<<
@@ -9080,7 +9104,7 @@ static PyObject *__pyx_pf_5c104f_8handlers_13file_handlers_14sv_call_file_handle
 */
   }
 
-  /* "c104f/handlers/file_handlers.py":256
+  /* "c104f/handlers/file_handlers.py":258
  *         zero_point.transmit(cause=c104.Cot.ACTIVATION_TERMINATION)
  * 
  * def sv_call_file_handler(zero_point, ioa, nof, nos):             # <<<<<<<<<<<<<<
@@ -9618,115 +9642,115 @@ __Pyx_RefNannySetupContext("PyInit_file_handlers", 0);
   if (PyDict_SetItem(__pyx_mstate_global->__pyx_d, __pyx_mstate_global->__pyx_n_u_server_file_receive_handler, __pyx_t_4) < (0)) __PYX_ERR(0, 11, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
 
-  /* "c104f/handlers/file_handlers.py":60
+  /* "c104f/handlers/file_handlers.py":62
  *             print("Unexpected type")
  * 
  * def server_file_send_handler(server, filename, station_id):             # <<<<<<<<<<<<<<
  *     station = server.get_station(station_id)
  *     if station:
 */
-  __pyx_t_4 = __Pyx_CyFunction_New(&__pyx_mdef_5c104f_8handlers_13file_handlers_3server_file_send_handler, 0, __pyx_mstate_global->__pyx_n_u_server_file_send_handler, NULL, __pyx_mstate_global->__pyx_n_u_c104f_handlers_file_handlers, __pyx_mstate_global->__pyx_d, ((PyObject *)__pyx_mstate_global->__pyx_codeobj_tab[1])); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 60, __pyx_L1_error)
+  __pyx_t_4 = __Pyx_CyFunction_New(&__pyx_mdef_5c104f_8handlers_13file_handlers_3server_file_send_handler, 0, __pyx_mstate_global->__pyx_n_u_server_file_send_handler, NULL, __pyx_mstate_global->__pyx_n_u_c104f_handlers_file_handlers, __pyx_mstate_global->__pyx_d, ((PyObject *)__pyx_mstate_global->__pyx_codeobj_tab[1])); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 62, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_4);
   #if CYTHON_COMPILING_IN_CPYTHON && PY_VERSION_HEX >= 0x030E0000
   PyUnstable_Object_EnableDeferredRefcount(__pyx_t_4);
   #endif
-  if (PyDict_SetItem(__pyx_mstate_global->__pyx_d, __pyx_mstate_global->__pyx_n_u_server_file_send_handler, __pyx_t_4) < (0)) __PYX_ERR(0, 60, __pyx_L1_error)
+  if (PyDict_SetItem(__pyx_mstate_global->__pyx_d, __pyx_mstate_global->__pyx_n_u_server_file_send_handler, __pyx_t_4) < (0)) __PYX_ERR(0, 62, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
 
-  /* "c104f/handlers/file_handlers.py":69
+  /* "c104f/handlers/file_handlers.py":71
  *         sv_select_file_handler(zero_point, 0, file_id, nos, tr_type = type)
  * 
  * def sv_call_section_handler(zero_point, ioa, nof, nos):             # <<<<<<<<<<<<<<
  *     if ioa == 0:
  *         # main dir here
 */
-  __pyx_t_4 = __Pyx_CyFunction_New(&__pyx_mdef_5c104f_8handlers_13file_handlers_5sv_call_section_handler, 0, __pyx_mstate_global->__pyx_n_u_sv_call_section_handler, NULL, __pyx_mstate_global->__pyx_n_u_c104f_handlers_file_handlers, __pyx_mstate_global->__pyx_d, ((PyObject *)__pyx_mstate_global->__pyx_codeobj_tab[2])); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 69, __pyx_L1_error)
+  __pyx_t_4 = __Pyx_CyFunction_New(&__pyx_mdef_5c104f_8handlers_13file_handlers_5sv_call_section_handler, 0, __pyx_mstate_global->__pyx_n_u_sv_call_section_handler, NULL, __pyx_mstate_global->__pyx_n_u_c104f_handlers_file_handlers, __pyx_mstate_global->__pyx_d, ((PyObject *)__pyx_mstate_global->__pyx_codeobj_tab[2])); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 71, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_4);
   #if CYTHON_COMPILING_IN_CPYTHON && PY_VERSION_HEX >= 0x030E0000
   PyUnstable_Object_EnableDeferredRefcount(__pyx_t_4);
   #endif
-  if (PyDict_SetItem(__pyx_mstate_global->__pyx_d, __pyx_mstate_global->__pyx_n_u_sv_call_section_handler, __pyx_t_4) < (0)) __PYX_ERR(0, 69, __pyx_L1_error)
+  if (PyDict_SetItem(__pyx_mstate_global->__pyx_d, __pyx_mstate_global->__pyx_n_u_sv_call_section_handler, __pyx_t_4) < (0)) __PYX_ERR(0, 71, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
 
-  /* "c104f/handlers/file_handlers.py":112
+  /* "c104f/handlers/file_handlers.py":114
  *                 print("TRANSMITING DONE")
  * 
  * def sv_select_file_handler(zero_point, ioa, nof, nos, tr_type = None):             # <<<<<<<<<<<<<<
  *     if ioa == 0:
  *         # from main dir
 */
-  __pyx_t_4 = __Pyx_CyFunction_New(&__pyx_mdef_5c104f_8handlers_13file_handlers_7sv_select_file_handler, 0, __pyx_mstate_global->__pyx_n_u_sv_select_file_handler, NULL, __pyx_mstate_global->__pyx_n_u_c104f_handlers_file_handlers, __pyx_mstate_global->__pyx_d, ((PyObject *)__pyx_mstate_global->__pyx_codeobj_tab[3])); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 112, __pyx_L1_error)
+  __pyx_t_4 = __Pyx_CyFunction_New(&__pyx_mdef_5c104f_8handlers_13file_handlers_7sv_select_file_handler, 0, __pyx_mstate_global->__pyx_n_u_sv_select_file_handler, NULL, __pyx_mstate_global->__pyx_n_u_c104f_handlers_file_handlers, __pyx_mstate_global->__pyx_d, ((PyObject *)__pyx_mstate_global->__pyx_codeobj_tab[3])); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 114, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_4);
   #if CYTHON_COMPILING_IN_CPYTHON && PY_VERSION_HEX >= 0x030E0000
   PyUnstable_Object_EnableDeferredRefcount(__pyx_t_4);
   #endif
   __Pyx_CyFunction_SetDefaultsTuple(__pyx_t_4, __pyx_mstate_global->__pyx_tuple[1]);
-  if (PyDict_SetItem(__pyx_mstate_global->__pyx_d, __pyx_mstate_global->__pyx_n_u_sv_select_file_handler, __pyx_t_4) < (0)) __PYX_ERR(0, 112, __pyx_L1_error)
+  if (PyDict_SetItem(__pyx_mstate_global->__pyx_d, __pyx_mstate_global->__pyx_n_u_sv_select_file_handler, __pyx_t_4) < (0)) __PYX_ERR(0, 114, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
 
-  /* "c104f/handlers/file_handlers.py":152
+  /* "c104f/handlers/file_handlers.py":154
  *         # from here need to timer response to close file if no responce for a long time
  * 
  * def sv_select_section_handler(zero_point, ioa, nof, nos):             # <<<<<<<<<<<<<<
  *     if ioa == 0:
  *         # file from main dir
 */
-  __pyx_t_4 = __Pyx_CyFunction_New(&__pyx_mdef_5c104f_8handlers_13file_handlers_9sv_select_section_handler, 0, __pyx_mstate_global->__pyx_n_u_sv_select_section_handler, NULL, __pyx_mstate_global->__pyx_n_u_c104f_handlers_file_handlers, __pyx_mstate_global->__pyx_d, ((PyObject *)__pyx_mstate_global->__pyx_codeobj_tab[4])); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 152, __pyx_L1_error)
+  __pyx_t_4 = __Pyx_CyFunction_New(&__pyx_mdef_5c104f_8handlers_13file_handlers_9sv_select_section_handler, 0, __pyx_mstate_global->__pyx_n_u_sv_select_section_handler, NULL, __pyx_mstate_global->__pyx_n_u_c104f_handlers_file_handlers, __pyx_mstate_global->__pyx_d, ((PyObject *)__pyx_mstate_global->__pyx_codeobj_tab[4])); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 154, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_4);
   #if CYTHON_COMPILING_IN_CPYTHON && PY_VERSION_HEX >= 0x030E0000
   PyUnstable_Object_EnableDeferredRefcount(__pyx_t_4);
   #endif
-  if (PyDict_SetItem(__pyx_mstate_global->__pyx_d, __pyx_mstate_global->__pyx_n_u_sv_select_section_handler, __pyx_t_4) < (0)) __PYX_ERR(0, 152, __pyx_L1_error)
+  if (PyDict_SetItem(__pyx_mstate_global->__pyx_d, __pyx_mstate_global->__pyx_n_u_sv_select_section_handler, __pyx_t_4) < (0)) __PYX_ERR(0, 154, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
 
-  /* "c104f/handlers/file_handlers.py":177
+  /* "c104f/handlers/file_handlers.py":179
  *             print("File not selected error")
  * 
  * def sv_confirm_handler(zero_point, ioa, nof, nos, afq:AFQ):             # <<<<<<<<<<<<<<
  * 
  *     if afq.isFilePositive():
 */
-  __pyx_t_4 = __Pyx_PyDict_NewPresized(1); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 177, __pyx_L1_error)
+  __pyx_t_4 = __Pyx_PyDict_NewPresized(1); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 179, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_4);
-  if (PyDict_SetItem(__pyx_t_4, __pyx_mstate_global->__pyx_n_u_afq, __pyx_mstate_global->__pyx_n_u_AFQ) < (0)) __PYX_ERR(0, 177, __pyx_L1_error)
-  __pyx_t_2 = __Pyx_CyFunction_New(&__pyx_mdef_5c104f_8handlers_13file_handlers_11sv_confirm_handler, 0, __pyx_mstate_global->__pyx_n_u_sv_confirm_handler, NULL, __pyx_mstate_global->__pyx_n_u_c104f_handlers_file_handlers, __pyx_mstate_global->__pyx_d, ((PyObject *)__pyx_mstate_global->__pyx_codeobj_tab[5])); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 177, __pyx_L1_error)
+  if (PyDict_SetItem(__pyx_t_4, __pyx_mstate_global->__pyx_n_u_afq, __pyx_mstate_global->__pyx_n_u_AFQ) < (0)) __PYX_ERR(0, 179, __pyx_L1_error)
+  __pyx_t_2 = __Pyx_CyFunction_New(&__pyx_mdef_5c104f_8handlers_13file_handlers_11sv_confirm_handler, 0, __pyx_mstate_global->__pyx_n_u_sv_confirm_handler, NULL, __pyx_mstate_global->__pyx_n_u_c104f_handlers_file_handlers, __pyx_mstate_global->__pyx_d, ((PyObject *)__pyx_mstate_global->__pyx_codeobj_tab[5])); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 179, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_2);
   #if CYTHON_COMPILING_IN_CPYTHON && PY_VERSION_HEX >= 0x030E0000
   PyUnstable_Object_EnableDeferredRefcount(__pyx_t_2);
   #endif
   __Pyx_CyFunction_SetAnnotationsDict(__pyx_t_2, __pyx_t_4);
   __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
-  if (PyDict_SetItem(__pyx_mstate_global->__pyx_d, __pyx_mstate_global->__pyx_n_u_sv_confirm_handler, __pyx_t_2) < (0)) __PYX_ERR(0, 177, __pyx_L1_error)
+  if (PyDict_SetItem(__pyx_mstate_global->__pyx_d, __pyx_mstate_global->__pyx_n_u_sv_confirm_handler, __pyx_t_2) < (0)) __PYX_ERR(0, 179, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
 
-  /* "c104f/handlers/file_handlers.py":204
+  /* "c104f/handlers/file_handlers.py":206
  *             print("TRANSMITING ERROR")
  * 
  * def sv_dir_read_handler(zero_point, ioa, nof, nos):             # <<<<<<<<<<<<<<
  * 
  *     if ioa == 0:
 */
-  __pyx_t_2 = __Pyx_CyFunction_New(&__pyx_mdef_5c104f_8handlers_13file_handlers_13sv_dir_read_handler, 0, __pyx_mstate_global->__pyx_n_u_sv_dir_read_handler, NULL, __pyx_mstate_global->__pyx_n_u_c104f_handlers_file_handlers, __pyx_mstate_global->__pyx_d, ((PyObject *)__pyx_mstate_global->__pyx_codeobj_tab[6])); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 204, __pyx_L1_error)
+  __pyx_t_2 = __Pyx_CyFunction_New(&__pyx_mdef_5c104f_8handlers_13file_handlers_13sv_dir_read_handler, 0, __pyx_mstate_global->__pyx_n_u_sv_dir_read_handler, NULL, __pyx_mstate_global->__pyx_n_u_c104f_handlers_file_handlers, __pyx_mstate_global->__pyx_d, ((PyObject *)__pyx_mstate_global->__pyx_codeobj_tab[6])); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 206, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_2);
   #if CYTHON_COMPILING_IN_CPYTHON && PY_VERSION_HEX >= 0x030E0000
   PyUnstable_Object_EnableDeferredRefcount(__pyx_t_2);
   #endif
-  if (PyDict_SetItem(__pyx_mstate_global->__pyx_d, __pyx_mstate_global->__pyx_n_u_sv_dir_read_handler, __pyx_t_2) < (0)) __PYX_ERR(0, 204, __pyx_L1_error)
+  if (PyDict_SetItem(__pyx_mstate_global->__pyx_d, __pyx_mstate_global->__pyx_n_u_sv_dir_read_handler, __pyx_t_2) < (0)) __PYX_ERR(0, 206, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
 
-  /* "c104f/handlers/file_handlers.py":256
+  /* "c104f/handlers/file_handlers.py":258
  *         zero_point.transmit(cause=c104.Cot.ACTIVATION_TERMINATION)
  * 
  * def sv_call_file_handler(zero_point, ioa, nof, nos):             # <<<<<<<<<<<<<<
  *     if ioa == 0:
  *         #main dir
 */
-  __pyx_t_2 = __Pyx_CyFunction_New(&__pyx_mdef_5c104f_8handlers_13file_handlers_15sv_call_file_handler, 0, __pyx_mstate_global->__pyx_n_u_sv_call_file_handler, NULL, __pyx_mstate_global->__pyx_n_u_c104f_handlers_file_handlers, __pyx_mstate_global->__pyx_d, ((PyObject *)__pyx_mstate_global->__pyx_codeobj_tab[7])); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 256, __pyx_L1_error)
+  __pyx_t_2 = __Pyx_CyFunction_New(&__pyx_mdef_5c104f_8handlers_13file_handlers_15sv_call_file_handler, 0, __pyx_mstate_global->__pyx_n_u_sv_call_file_handler, NULL, __pyx_mstate_global->__pyx_n_u_c104f_handlers_file_handlers, __pyx_mstate_global->__pyx_d, ((PyObject *)__pyx_mstate_global->__pyx_codeobj_tab[7])); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 258, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_2);
   #if CYTHON_COMPILING_IN_CPYTHON && PY_VERSION_HEX >= 0x030E0000
   PyUnstable_Object_EnableDeferredRefcount(__pyx_t_2);
   #endif
-  if (PyDict_SetItem(__pyx_mstate_global->__pyx_d, __pyx_mstate_global->__pyx_n_u_sv_call_file_handler, __pyx_t_2) < (0)) __PYX_ERR(0, 256, __pyx_L1_error)
+  if (PyDict_SetItem(__pyx_mstate_global->__pyx_d, __pyx_mstate_global->__pyx_n_u_sv_call_file_handler, __pyx_t_2) < (0)) __PYX_ERR(0, 258, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
 
   /* "c104f/handlers/file_handlers.py":1
@@ -9777,7 +9801,7 @@ __Pyx_RefNannySetupContext("PyInit_file_handlers", 0);
 static int __Pyx_InitCachedBuiltins(__pyx_mstatetype *__pyx_mstate) {
   CYTHON_UNUSED_VAR(__pyx_mstate);
   __pyx_builtin_print = __Pyx_GetBuiltinName(__pyx_mstate->__pyx_n_u_print); if (!__pyx_builtin_print) __PYX_ERR(0, 18, __pyx_L1_error)
-  __pyx_builtin_open = __Pyx_GetBuiltinName(__pyx_mstate->__pyx_n_u_open); if (!__pyx_builtin_open) __PYX_ERR(0, 133, __pyx_L1_error)
+  __pyx_builtin_open = __Pyx_GetBuiltinName(__pyx_mstate->__pyx_n_u_open); if (!__pyx_builtin_open) __PYX_ERR(0, 135, __pyx_L1_error)
 
   /* Cached unbound methods */
   __pyx_mstate->__pyx_umethod_PyDict_Type_items.type = (PyObject*)&PyDict_Type;
@@ -9797,25 +9821,25 @@ static int __Pyx_InitCachedConstants(__pyx_mstatetype *__pyx_mstate) {
   CYTHON_UNUSED_VAR(__pyx_mstate);
   __Pyx_RefNannySetupContext("__Pyx_InitCachedConstants", 0);
 
-  /* "c104f/handlers/file_handlers.py":236
+  /* "c104f/handlers/file_handlers.py":238
  * 
  *             try:
  *                 with open(file_path, "rb") as r_file:             # <<<<<<<<<<<<<<
  *                     ...
  *             except (PermissionError, OSError):
 */
-  __pyx_mstate_global->__pyx_tuple[0] = PyTuple_Pack(3, Py_None, Py_None, Py_None); if (unlikely(!__pyx_mstate_global->__pyx_tuple[0])) __PYX_ERR(0, 236, __pyx_L1_error)
+  __pyx_mstate_global->__pyx_tuple[0] = PyTuple_Pack(3, Py_None, Py_None, Py_None); if (unlikely(!__pyx_mstate_global->__pyx_tuple[0])) __PYX_ERR(0, 238, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_mstate_global->__pyx_tuple[0]);
   __Pyx_GIVEREF(__pyx_mstate_global->__pyx_tuple[0]);
 
-  /* "c104f/handlers/file_handlers.py":112
+  /* "c104f/handlers/file_handlers.py":114
  *                 print("TRANSMITING DONE")
  * 
  * def sv_select_file_handler(zero_point, ioa, nof, nos, tr_type = None):             # <<<<<<<<<<<<<<
  *     if ioa == 0:
  *         # from main dir
 */
-  __pyx_mstate_global->__pyx_tuple[1] = PyTuple_Pack(1, Py_None); if (unlikely(!__pyx_mstate_global->__pyx_tuple[1])) __PYX_ERR(0, 112, __pyx_L1_error)
+  __pyx_mstate_global->__pyx_tuple[1] = PyTuple_Pack(1, Py_None); if (unlikely(!__pyx_mstate_global->__pyx_tuple[1])) __PYX_ERR(0, 114, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_mstate_global->__pyx_tuple[1]);
   __Pyx_GIVEREF(__pyx_mstate_global->__pyx_tuple[1]);
   #if CYTHON_IMMORTAL_CONSTANTS
@@ -9848,31 +9872,31 @@ static int __Pyx_InitCachedConstants(__pyx_mstatetype *__pyx_mstate) {
 static int __Pyx_InitConstants(__pyx_mstatetype *__pyx_mstate) {
   CYTHON_UNUSED_VAR(__pyx_mstate);
   {
-    const struct { const unsigned int length: 9; } index[] = {{3},{14},{20},{17},{14},{24},{13},{23},{10},{12},{17},{27},{22},{9},{12},{16},{17},{15},{1},{1},{31},{20},{15},{20},{14},{22},{3},{3},{3},{13},{13},{9},{9},{9},{9},{9},{9},{9},{17},{28},{13},{20},{15},{16},{5},{3},{20},{7},{3},{12},{12},{10},{3},{11},{4},{5},{6},{5},{15},{9},{3},{18},{17},{4},{12},{28},{21},{21},{19},{21},{8},{5},{11},{3},{18},{13},{14},{3},{12},{4},{9},{9},{8},{9},{4},{9},{8},{9},{8},{4},{10},{10},{8},{7},{9},{13},{10},{10},{9},{15},{9},{8},{13},{13},{8},{3},{11},{13},{12},{10},{13},{11},{14},{8},{8},{7},{4},{3},{10},{10},{13},{14},{14},{17},{17},{12},{15},{13},{5},{5},{4},{17},{7},{3},{3},{3},{8},{12},{10},{2},{8},{12},{3},{3},{8},{4},{2},{4},{3},{8},{15},{5},{12},{6},{2},{6},{3},{7},{11},{10},{11},{18},{12},{8},{13},{12},{12},{6},{27},{24},{9},{15},{14},{9},{11},{14},{13},{12},{10},{3},{7},{10},{20},{23},{18},{19},{22},{25},{8},{4},{7},{8},{4},{15},{11},{6},{6},{10},{159},{365},{348},{67},{213},{431},{448},{24}};
-    #if (CYTHON_COMPRESS_STRINGS) == 2 /* compression: bz2 (2468 bytes) */
-const char* const cstring = "BZh91AY&SY\334\004\321\335\000\001\r\177\377\377\377\377\377\377\377\377\367\377\377\377\377\377\377\377\377\300@@@@@@@@@@@@\000@\000`\010\335\3205\270\000T\273wJ\225URm\211\300\016\006\210\232\223H\321\352zCOC\3224\320mM\030i\222O\324FhOS\320i46\210\323F&\032\231\250d\r<\246\324\300d\236\246\236\220i\250&\215\000&&@M\032i\244##M\0324\036\240\000\001\240\000\320\000d\014\215\0002\000\032\230\020\246iH\3656\246\201\210\036\240h\032\000h\000\000\320\000\000\006\200\000\000\000\320\001\"@\204F$\311\250\311\340Sz\232#&\232h4\3204h\000\000\000\001\246\232\000\0004\001\247\244\323D\032b`\023\000L\021\246\230\000\023\000&\206\206&\000\000\000\001\030F\001\032bd0\020i\211\200L\0010F\232`\000L\000\232\032\030\230\000\000\000\004a\030\004i\211\220\300\352\000Z\375\0101\2716>\232\252\027\266\327K\357\350~}\037\361n\364\213t\343t*U\326\t\251\252b\360\270|\216o/\234\275.\307d\361\253\024\306\355\312v\030\245tj\205)O\335\226\357\177\243\374DP\205\270L\323\352A\025\333\025#\202\005f\026W1\r\215\200\330\014hm\353%bu\332DR\255\246\330\304\233M\354\314\307\217\027\017\021Ap\"R1\016\324P\302\364`\333\033\023`6\230\323\035\260sJ\215\206D\026F\202X\303%%\241:\231-Bqb%9v\0248\206\013\000$S\037\0270\\\225YS\021\031\026T\322.\202\"!\267S\214\335\264qH\251\201zV4\231\225_\232\231\001\355\307d\261\342\276d\316C\202\035\257\244\"\206\027\345\321\2423hZ\327`H$e5\327\301\262\317J\307\267\263\272\r0R\255\231t,\005\351\251\337\357\200Q\2428\352\ng\312\263\245\303\356\372\366\242\334?\246\376\233z\373\027l\247WXeaD\312IG\n\n\322\330\211\0073\002\341\017\301w\004\252\026\252\210\256\"\312\003z\034N\220\002@*\177\224\005\020\264\310\206\310\202\270\003\337\262\340\317\353pX\254.\353\"\201\004N\354\354e\023{(\220~\010\231x\221+\002\224\027\213\202\202,\255EO\nS\317C\237Q{\202;\333D\205\000V\025\276\010\303nJW\350s\005\013\212_T\307)s\326\350\326\331\017\257\355U\014\257\331\264[\336\016G!\023\224\336\230,(4C]\002\264\224L\306\002X\013\031Z\302\357\243\227\010l,\0368n\221\323\025\205\016\234\366qs7""\302}\000\253\371\026\021\242\021sLo&\0108]\216\301`\260\\\254\203\232D\3013\036\241e\014\372\323=I\006\217\030`2E$\022\2153\373\314H\372\363\253\234\365\034\331>\3308\350\302\2129a\310\010\n$`&\326\250\320i\237^\365\300AfD\0312\330\240*(\007v\322\320\026#\027vyub\022\215\312v[\273\246\256\242\014\303\243\245\262\ts\362\003\304\331\347\236\371\270\225h\020\245y!\204jM\005\037PE/\022\203\002)\021K)N\330#\222\0204\021\235\\\013L\332jM\n\232\371\343\355\305\024P!d\321)\327\242R\020Z-\274l\303\224\320\266\206\034\006\002\254H\227v\253\241\026nB\213YQ\245U\325\205\327c\026\n\351\354<\221\0258/P\344\327\337CLE\334)\022\020\035V\363 q\324v[0.\325\254]o\030\250\205\216\t(\230E\224\r`PI%\0316cI\021P\217\313;2\344\336+K\333\034C\245\363\341\026\261dZ.\007\233\220\246\035\227n\260\237\261Vmnv`\275\003\336q-2\207\302D\204\3651\261EVq\322\023\007\365h9\264\"k\314\325\000l\323\330\257{\321\211\302\032U\002\367[\230\354\337\177[\213\257\261\273\t\200\243\216\3702\343\214$D\213\243\231\342|\336KB\374$aPb[N\201\230T\260\305#\307D\202\002\025\223\231b*\222R@)!\231014rj\310\362\207`C\021\006\350\211,\213Sf|\016\357?_R\247\206\211\241\352\376\357i\200\240n*\264\000.\000\3641\n\220?\236\002X\213`\227\216\021\235\273\342%\007\216\212\250\224\361\355\376<\240\310s\013%\022\024\014$\221``\335\032\214\303\243\000\315\007H\025/\366Wry\334\n\rE\357\272\343\303\353~r\024\024\254\360I\232\016\341\330\251\006\344w\326\034C\307E\321c\0319@\202\366\035\233F\231\250u}\033\267*\256\321\3311\262\r!l\220\354\r\014\202h\215Mi\004\320\246\200\221\210\0041 \312\202\364\313\236\241\303\265\274\316i\264\r\355\215\264e\031\270\3033\003i\223\244\264\270\344\r\341*\313O\2052b\3053\264\006\r\246\301\262\250\302\217\003\013\247#\234\371\003//\t\322`\014\3239\310\344\345=\322\026\031\213\202`w\r\022\253\206'0\006)S\215\253\0026)\022\005\212-\226-X\235\330\021\021\237c\001n&\320\355\026v\305\016\335\3363Q\3476\005\2604'\016\256\020\232\3051Z\273\330U\340`\261q\310^\250\035\245\241\245\221)E\354\004\000\255x\330""\264\021\355J\370\351\341\007\215\261N\372(d\306XFr\023f\266Pq\020\002\334\342\240(\277nM\217\n\013\303>\034\230b\030\220\306\207\273\215r\230\212o\255\301\231\013x\326\257|uKX\254\300\210\022i\301\004\244\361\302\373\212\007\203\"s[zp6@\213K\256\336\336\2507\021\263\257\311\241\211\317\003\003 \227\023J\364\216\033\0228\330\n\262P\315=Xi\rK\033\005\354\270\001\021\tn:\232+\200@1o\302\360\304r\002F\255!&Z0\207\312\035\201M\th]\033\353j\341\0006!\317x\352\355\275rx\002\252\326\340\332\363\231D\240n\033\355S\251h\013/\004C\t,\004\200I1\251L\233\010\333\035\026\005\343\030\247\200W\016Yn\361H.0\300\301\241\264\022\032F\245hL\306\213\034\262\230\361\256S\265^\224BEau\026\t\306\253T\215\031hdSd\216\311(\24281\343MI\306\255\237\020k\013t\251\253V\334\246o\022\003\0335\265\210\341DmQfuF\257\000\317+O\024\224\215Mrd\271m\030\230\032\254SF\346\246\334\356\201\231\361&\306\3036\276\376E\225e8\226\306\261km\347.\336\210-]\014Ntns\333Y\0142\241&\026\273uJ{AP\232\004cL\353\200\260\322\340\346\306\002\311T6\322\215\262gCL\350\033\003w-\032B.\n\367\251\241\001nP\325\000\3065\2301\336:\220E\201\300\215\225\000\252\006D\004Q\220\362\010\214\244\202R\270-\265\364o\254\311\224\245\333\326\345\246\341\320\230\252\301\260l\006\336\r\221jB\"\0146\027\310\306:\261$\"\334H1ni\355\246\273\223>\215|\274\354\250f\261wF\261\220\\\326\257`\"m\375\202\253a\t\025\330\004\322\020\344\335\306\352q\366\227nb\225\003\306Z\305u_]C\030\341R\201\313R\333\300Q\274\001\322\t,\327^1|\252\246\230T\"\212\247\267\375\263\317$t@\0374\275!\211\001Ox\347\243\236\3742\031\354\003n\033Q\364\201\374\375|\3208\343\215x\021\013\234\323mD&\336\211/k$\013\352k\233\330\261\217\342\033\350\014lM\254\310>\330M\010\313'\346B\211\347\204\023\221~z \304\201\227H\013\\\355\024VX\247\234\223\334'\341\371\004\020\341\330\0067\314\2260\262\211\020\000U\320\361\213\250\0243)\327\351\276P3X\252\362\177=\360\371\211\205C\235\366\370t\020\034\216\303\264&(\362\305\352\251[\244#$G\212l\352\003egA8\201\221H\245\206A\266t\223\351\214(2""\0227\214n\204\205\020\223@66,\232!\221]A\t4\017kl\213\302\345\232\236\030+\004\210\363\326\r!\r6l\347V\353\223!\247\242\261\207m\267\307%\241w\027]\224\032\021PeG\371\t\037\203f7T`\020)\\`\t\221'\034h\224\346`\314\210\210\251N8\300\3521xR\357\230M\371\351\245\213\035,\216s\205\\\374\223\240\360\3521~\265\036q|p\257Ju\334\014m\354X\032\030\371\242\t\301\027=\016W\202\271z\034\326\210\342\374\317\305\03153W\324\035\211\010\232\203is\207\2471\023mM\253h\334\260\037ZhD\306{\016\035\203\037\351\260\230\253\207\235\361\363\302\332\263\353\356\215>\365\353}\267\233\217\024\352\346\321\311xAZ\267\023\354\3737X\2672u\264\254t\266\373L\215\246\007Fx\342\351\311b\240\315)C`\251\025]\\\002\2076\254\214\301\2762\247\361M\320\337\017\303x\203\202>\033FY\206\022\223,\265\220\365\010X\354\224\230\213\030&\270\232\310F3p\214\204\245\256\223\243\231\264@f\3334\227.\341\025P9D\346sgPL\275\300q\022\004\315\023\222\203X\203\212\261\340\034\224y^wM\234\215H\007+Ll\223z\221\216,J\3617T,j\300\205\315\016\033\327!)\220Z\324\177\305\334\221N\024$7\0014w@";
-    PyObject *data = __Pyx_DecompressString(cstring, 2468, 2);
+    const struct { const unsigned int length: 9; } index[] = {{3},{14},{20},{17},{14},{24},{13},{23},{10},{12},{17},{27},{22},{9},{12},{16},{17},{15},{1},{1},{31},{20},{15},{20},{14},{22},{3},{3},{3},{13},{13},{9},{9},{9},{9},{9},{9},{9},{17},{28},{13},{20},{15},{16},{5},{3},{20},{7},{3},{12},{12},{10},{3},{11},{4},{5},{6},{5},{15},{9},{3},{18},{17},{4},{12},{28},{21},{21},{19},{21},{8},{5},{11},{3},{18},{13},{14},{3},{12},{4},{9},{9},{8},{9},{4},{9},{8},{9},{8},{4},{10},{10},{8},{7},{9},{13},{10},{10},{9},{15},{9},{8},{13},{13},{8},{3},{11},{13},{12},{10},{13},{11},{14},{8},{8},{7},{4},{3},{10},{10},{13},{12},{14},{14},{17},{17},{12},{15},{13},{5},{5},{4},{17},{7},{3},{3},{3},{8},{12},{10},{2},{8},{12},{3},{3},{8},{4},{2},{4},{3},{8},{15},{5},{12},{6},{2},{6},{3},{7},{11},{10},{11},{18},{12},{8},{13},{12},{12},{6},{27},{24},{9},{15},{14},{9},{11},{14},{13},{12},{10},{3},{7},{10},{20},{23},{18},{19},{22},{25},{8},{4},{7},{8},{4},{15},{11},{6},{6},{10},{159},{365},{355},{67},{213},{431},{448},{24}};
+    #if (CYTHON_COMPRESS_STRINGS) == 2 /* compression: bz2 (2479 bytes) */
+const char* const cstring = "BZh91AY&SYmT\376\357\000\001\016\377\377\377\377\377\377\377\377\377\367\377\377\377\377\377\377\377\377\300@@@@@@@@@@@@\000@\000`\010\374\003\356\325h\007\253\235\332\333\256uX\232dm\355\003\353\3404$\224z\200=@4yG\251\372\211\236\247\245?\023\320\224z\232\032bi\350mI\241\344\206\236\2404=CC \036\3254i\206$\365=OP4\322\010\t\201\031\003F\246\214)\224\365\031\000\311\243\023F\200\000\000\000\000\0004\000\031\000\rL\004PjM\017D44\017Q\243\324\017P\r\r\000\000\000\000\031\000\000d\000\000\000\tM\020F\204&\232\021\250\321\246\206\232\r\003@\r\000\000\000\006\200h\323\324\000\000\032\000\315&\236\241\220L\023\004\3020\004\323\000\2314\030\000\023\000\001\030F\0024`\010\300\010\302`\206@\224\324\024\322h\217\324i\224\315\032i\222l\223&\203A\247\250\014\200\000\000\000\032\003\324\003A\352\032\000\r\001\274\001[\362s\025\t\335\371\355F\033\334M\316\3749\177\2473\232\333\274\342\274\367\335\n\024TrRyG\227\345y\236\217\255\352r%\355{\374\247\334\304\313s\341\272\374\316e\216S\300\313,\277\334\332u\177\306\362I\233KH\325\274\343\323\2044\337\206\005$\325k\220\302B@$\002\023\t.\0035I\024\351\030y\321&I\010fI\222\340\310\307\034:\234\t\215\323<A\200\2536t\027\261d\220\220\311\000\223!\002\025l\244\3154\203;\005X\311\233\020\3178\312T3\326d\236\243\304\243\255\231.\260\263X\t\024\307\213\254\027\263Q\0240\037;hd\314\\\343\273\272J\207\\\221\\\260\202\205\213\331\252iF\206\277Zy\301p\237\261lp\276D\2162q\325o\233\2612\327\350\31565\262\255n\261\001\005\331\327\247\223u\306|\027o;\276'\342>9\333\313R\025\324f\373\275%\273g\303\354h/\224&S/\350\323\244f\027;3\265h\323\r\350^^\244=QZ\034\304]\312\036\350$\014\003\243\030\204 =#p]\201l*cS6C\323'\253\344\301pJ7\244\022\032\323\210y\304\030\260\275\373\230\375\036\216\354K\226\336\242( \211\340\320\326\3217\250\210\377\301\023?A\022\260)A\220Z\0244(t\366\035\354\271>\226\225j\215_u\232\346\007\333\327\2650'\264\332\321\351\366\206\210\277/]I\200\301\033 \221\216\224\372^\255P\340\217o Y\317\034|h\234\247}`\264\240\323\rt\n\323\000""\231\255\tB\222tcA\343\356\366\023HI\003\210F\251l\275\034[\226\216\347.\300\331\342v\211E\030sE\2562FK^\376\026[\210b\030\205\213\230r\310\230%\307\246[C~\224\321R?O\2002\214\321J\374\003L\376\323RN\254\353\315\215M\331\276\307\365\210\322\212s\303\230\020\024\347Q\230O\255eA}\032\3701\200\3733\240\317u\212\005e\000\3478\270\006\t\006>\302\3548F\001\275N\3337\357\253\246\202\341\362^\351F\r\034b16\211\347\3117Al\002\020+\315\014#Ri)\035A\025\230T4\"\242+\nS\310|\222\302\006\2224.\346%\327\324\232Vl\223\311\314\024Q@\205\263D\260dD\244 \260Y\220m\313\312pc\203NQ\224U\205\022\336\321\224#\r\250Q\214*iZ\352\313m\270\306!]=o\206\"\247+5\016M}\030i\210\301\302\221!\002\n\270\032\370\016\243\266\311\201\203V\261m\234EH`\335-\023\010\263\201\254\n\t$\243f\270\322DT$y\347n|\334\005\211\221\322D>_\217--\213T\301\264\036\216B\315\332\255\333aOZ\255\033'J\260^\310{\3165fP\367\021%M\\T\242I\274\206$\302?\272\203v\224Mw9@8\257\353\231\301\346E\000\206\225{7\335q\333\262>\247C\253\265\333H\234\245\007~\031\177\002\342\"C\243\231\354\276O5\262_t\211W\014KY\3203\n\353.\"~lC@\214U\035w2\222\214\256\t(wS\034\276(\247\212}\363\346!\312\217H\210\313\030y\346\265+\336\377<\2156&f\273\363\376\3555D\304\365i\350\300\332\005\311\324ibw4\032\340\300\037-\226K\006\375\232$\263\033\356fKy\217\233\230e\026r\367N\327DC\331\322 ^\\T=\216\001\316G\261\016\013\273}vph\300:\374?~'\247\355r\3020\014\022\256\222\347%(Rjnu\017\337\324N\353\031\2671\010D\241\306\013\320vI\215F\301\277\346]\265\351\014\327\231\032\373\303\033)\332\034\032\371\24259\304\023B\270\004\220<C\022\014\35025:\223\314\212\327\265\312\nT\003\226 \222a\3421\220^ +\"\021|\374\241\302V\212F\256$\211\r\204\216\314\020$\311\002E\030\264\325\213](7\027\030B\202\200+\n\200*\252\210\224J\356\362\274\354\223\025\341LK\000\263\305{Q\334\244(\ng\222:\250\014$\354\3166\017]g\255\036WXw~\037\006\303q\031&\025G\252\256\016\253\316\224Xv\013\302^/N-\376 \233\0051X\314\215+\322\312\301i\314cW\301\274\340\342\330\225Lm\004\000\2731\265\210$""\341J\370\323\274\021\216\030\247\216\212\0331\301\010\320Bn\330\332\016\022\000\371$N\013\272Y\022\341\327qp\025\347Yr\030C0\2310\264n\233h\206#\201%\206\205J\312[\334\214l`\254\275\020$\323\202\tI\344\206;HH\301\2259n\310\233\235(g\265\365\366.,\3624\n\265,\304\271P\234N%\031\262g\3343\030\350f5\223\206\230\360r\030mR\210\n0J\321\221\266\200\"!,\307S\205o\017\030vC\030j@\200\221\252\361\263CI\026\310\256\331<\243+\237n\273Vp\022\030R\327TU\331P\254\rF\340p\353y\340M\231\304\256\337\354\275u\246\020\254\"\353\222\220\220$\226\016\362\315\267\204\360\321\260F\370\325\236\206\275\332#w\2129qk\026L$\301\002f6)2F,Ts\303\245\2259\206\007\232\242\022\256[h\304'\032\254Tp\317Cb\2334\230\245\242\211\037\217\032jN*\333\357\0074\272\365s\027\221@\247\276P%\"\353\202\356U\336rR^\202\336\001\255\2206F#\005\032\204\007\346\246.P\027\310h1\215G\022\023\\\"\275\310$$\027\2250^H\323\030\325f\233\204\020j\326!\260>\306P\324\346\311\004\021\272\262\032p!&\027A\276\253\033\201Q3\321\2563\261\345\246\230\004\016\220\006\022\260\331J;\024\320CL\350\034\367oX/\010\307\327\301N\206\024\372\022n\022\224\3472o\236\222DI\235\223\316P\0303\244\025\211\303\350\210\211\245\005\327l\032g\265[\351\"D\347v\312Q\251:\231!\250\201 H\002Ld\205\201\312\201T\303\210\307+[\005bXE\230Pa\336\277\265\232\336L\372u\366:\033P\273\023-\221\2030\265\316f\320D\3336\212\254\204$V\345\txC\233\177\034\024\343\354\255\336\303\201\004c=b\272\262WP\3068UA\317S\035\270\243\267\010%\022\342\327^1\223\002\323L*\"\212\250\335\376\342\362J<\240x\364\236b\203\t\273E\246-.\000\344uA$\344\231\331\340}}\035\3002\204\375\023\214;n&I3\273$\263\021\355\347q\276\264\334\256\275\010_\030\205\313\020\214\021\231J >\310FA2\312a\220\260y\301\n\213\276\374\360a\361\227\030\027\331\271\351q\202\256\266+\274\330F\023\016c\333\331\021\344M\004B,\352\241\032\306\330\255V\327\007C\373\370\261\021(5\275\177\337\231\275\222jCu~^\253$\006\274\221%\024\350\354;v\325\315\260\231\002{\246\272\300\326\306\340+\020,FY!`\341RF\307q\341\244\260""\241\246c\330\024$\020\241\244!\032;\330\010c\336\220\021F\203\303\n\306\001lD\255VX\n\023\353\260 D\202\023^m\317\365\007\340\224.\030\223\014?\252\020\013\367|\253CD\2642\236\367\007\376\206\267\256\274\002\010\371s\205'*\233\316~)s\3518\216\251X\302u\323\030\005\223\202\322\260\317AMn\273\270\373G\205x\372\365Y\325\254\326\033\0266\206\t\341s\212\255\374\334]>\254\332\230\324\303&\310\346Y\243y\231e\333\243\344r\214\275\231\202\305\013T\345\326\033\267\322$8%\233z\024\222+\343\203\222\366\304\336G\032\243\230\262\233or\327\366$H\365\256\201Z\032*$\177\211\001\340M\002\221\303\351\217\014\034\347\"\327\n\300\r4\337\251\021gY\034U:8\250\376\203z\200\242\214\0139\303[o!\253B\231u\206\211FV\374s\211\270\255\277\2305\006U}h\252j\t\202\034A\365\237\322\200\3130\302!K|\247zf\245a\223L\246\t\255&\272Q\024p\214\204\245\260\233\243\231\264\000\315\267i\256\003\204U@\345\007C\243:\202e\356\203\2010L\3214%\006\260\016\025\2176sQ\216\364\266l\344j@9Vcd\243\327F8bW\203uB\355\330\002V\264w^\304\304\350B\302)\177\305\334\221N\024$\033U?\273\300";
+    PyObject *data = __Pyx_DecompressString(cstring, 2479, 2);
     if (unlikely(!data)) __PYX_ERR(0, 1, __pyx_L1_error)
     const char* const bytes = __Pyx_PyBytes_AsString(data);
     #if !CYTHON_ASSUME_SAFE_MACROS
     if (likely(bytes)); else { Py_DECREF(data); __PYX_ERR(0, 1, __pyx_L1_error) }
     #endif
-    #elif (CYTHON_COMPRESS_STRINGS) != 0 /* compression: zlib (2384 bytes) */
-const char* const cstring = "x\332uUK{\323H\026\305&\320\241\333@\2348@\200n\354!4d\200\244\003\201n\372\353\2011~\200\231\304\216\037\201\204\227Z\221\344D\304\266lI\016\016\323\017\226^j\251\245\226Zj\251\245\227^\326\322K\377\004~\302\234*I\216\223\217\341#\256[\267^\367\236s\356U|)\236J\256\256\306\323\271R&U)\224\266R\205|6WZ\213gs\253\231\2452|\271B>\305\327j\222\030\257\3125)\256\313uI\245\213\361\324\363r<S*\025JlV)%\363\345\265\\%\227\177\026/o\244R\231r9\236-\224<\1776S\312\322\303\rE\217kRM\022t\\'\251\252\242\026\3263y\366V<\356?\026_\\\\\014\314\321\023\201\343+\257\2243\371t|5Y\256\214.\240\tUrk\231x.\237-\004\357\323\023\343\247\323\205|f|\316\236\331hH\235\246\027\235~\320\224\026\237\010\313?\255T\227v\371\206X\223Tm\211\"\300\005\263\305\346A\215\327hB\202.+\215\270Re\0105\224\270\326\026v\003\367G\271V\213o#u\2513\332\232D\234/\2234V\016p\217\315*\231\322Z.\317\354d\266\210\354S\212\236\226U\234R\324\003\312\002E\212\033A\312%\263\\>\311-g\271t\211\2530#[\362=\253e\337(\247\002\343Y`\370{\020\354\321\313\341XEFei\247.5\364\202Z\366\302\r\326J\022/\2166\372k\307|\354`0\255\250|C\253Jj\256QUr\r}\371\341j\271\310q\353\007\035\374\245eA\347\362\300\244$UK\231\342F\246\\)\247\212>\203\\9\367:S\316<[\313\344+\276]z\231)q\020i\271\220-\257\027\362\225d>S\330(W@\322\006\256\376yCn\350\367\357\321\337_xa\217c<\211\222\240\210\010O\344\230f\371j\213\327\016\032\202\254,\n\212\252\264u\271!i\333\007\272\244q\272\302\341$W\2235\235\022\316H\307\246FU\336\361\354\021\345G\004\340\255\325\245=\216\212E[\224\032\355\272\357\304\3555\354n7\030HG\234M^\325\350a\200\304\211\001\374~\260\324\311o\243>\3706\244\262+\371\251h\302\256&\324\020/\302\344t\225\027\244md)(\365:\264$\212\252\244i\336\204\343\203\231.\250\022O\337\256 w\221\327y\372\207\367\004\235\0314U\030\022EFDA\352\022W\325\331j\020\021\234\224K\215\343\360+\251\034\376I\035Y\347X@\014\006\206\035\263\004z\215\207\271\254\262Q\026\275\001\314{\206\306U\225v\303\363\326G\333\033|\335\277\242\311\353\273\314P\251\240\016\017j\362'""\266\225\356dP02\301^UU\330=\232\316\327\233\210\nPs\334\216\244\343?\347\207ph\34266i\003s`Imp\260/\251\207\026\362g\023\235\241F\315O\222\252pM\005\312\300\214\245\210\261\356\2174.z\255\254\360\262\206B\315\320f\006\313\227\276g\3715\"k\324\225\227vp\365\276\344\315\326\025M\366f\376\246\303e\3371\276\203vL\357Z\317\366\267PXGZ\2265\200/\353R]\373\200\230igBf\254\036Y\376\214qY\255)\325\232\242\325\264\026\307\325y\250\t\277\035\316oK\340\272\256\210m\000\306\325aS\310\361\213\032\r64\224jC\321\320\304Y\325+M\364:\215\022\327T\232M?\332\246*A\340Rp\242\251\322\302\342Zm\276\346]\2472F\324m\250\264]\3235\241\025\274\355g\004v\002S\026\003\013\364\007\346\241<\002\017e\"\270$HX\200\326\364`B\005?\216\204\307w\300\272\2479AB\354\243\302\036[\322\244\206x\334\217\233\031\0339-)\320\2341\315i\243N\312f\264\215\302\240\003\335\351\233\345 W\375\220R\016O\350>\326\260D\251\312S`\224\252\257D\177\240h\354s\254i\034\351A\276/\000c\314M\333\227Z\037\363\200}\006\337\230\313\373\026\037\277\321\367\036\273\223\343P\356\340\222\026\200\256\262\226\247\323\006_\227uj\267\233\264\237xW\201D\177J7s\373|\255-\261\037\355\260\246\310\211\207\016?\234\370\346\263\326]2\243\203\311\263\335b\227\037NF\215\250q\307\344\207g\"$\362\203\311\373\376/\247O\234\2315\326\254\250u\307\206/j\\\263&\254\214\215cQ\022MXt4\276\247\273\023l\213\344<pO\272\313n\222\236;\207\013\004\003[\276\353\336\357\356\341\251\310\371\256f,\341\320\324\254Q4\370A4Fb?Z\274?\035Fh\010\t\026\336\000\341\3518\205\270f\215\222\3211[Vh0y\311\304O\314H\016&#\335U\330\221\013\306\036\236M\014\330\311\005s\231\276\3201431\234\212\343\300\324U\363\251)Y\277\330\313\366S\026Z\310\275\332+\016\341^\263\243v\202\256\347\254\212g\316\030\313\303\330\274\225\034\306\346\314\250y\307\342\255\326 \226\260bV\321\332\266O\331\033N\302\371\315\375o?1\210]3?\3313vr\020\273h\034Xa\353\256\255:\321\301%\034\035\304\342$\376\223\023r.\272\221\336*Y\177C\336| \037\364/'N\264CO\303\030\236\206S\341A\354{\263h\356\001\301\251\350pr""\332\270e\316#\304e\037\356\301\344e\314\033v\322\25681\347%\220\314\366\346{b\377&)\226H\351=y\277CvvG{\351\351\004\035\220\272\371\334J\333\023\344\316cw\267'\364/\223r\205Rs\031\013\200\353\\\367\203\0312g\314,\371\307=g\301}\330\013h''\036\271\321\301\304\254\261e\212V\002aL|\333]0V\214\026\320\2358\327\255\032\253V\310\272\346\204(\037\255\001\270xo-#\321\311\031\343\221\231\306\222\177O\325H\016\301\362\003\343$\316\266\361\242G%Dpv\332\2305$\363!I\200U\2475\210L\033\327=\262\251\026\356\232\255!\220_\001e\3634\200a\354\246\325\262#N\306\235u\371\301\354\034BNCo \345\237v\302\376\315i\273\031\204\036\215\031\3771[\203\361\203\203\330-;d_u6\334\033nk\210\ry+ql\303m\250`\325=\345n\364\022C*<J\330\321\267\357\332E\273\206\013\332\275\344\227\311\023\347f\020i\305\234\205\270\275l\350\300r\241\200\200\362 \225\001-\027\363\017\373\201s\n\357'p\024Ic\377\3471\010\243>\200\323\306m\260\017\352\316wu\n3\245\206\037\303\325\273\351\276-#\325\027=\376shT\010_\276\375\177\205\370]wy\030\2313cf\t\240\000\326?!\372=(4\347\024\203\312\232\272\202\332\230\2323\347(\377>0-\252d\240x\331\274e\315[\222\215\r7\254\nYx\354\362\256\336[\351\355\367\213\375*\251l\222\315\267\344\3556\331\026\210 \023\271N\352-\322\352\220\316\001\364\374)\224\242\262N\205Kt(\205\337\320\341M\370m\330\2735A\207\005$\366\334N;\023N\322/\360\317\241\341W\252{\010$\374f\361\330\214\322\3661sX\0331#m\236CI\352\366\212\275\357\024\235\252\233\356M\364\262\375D\377!)n\220\215-\262\305\021\356w\362;\202\024\217\325E\026\331\2116\245e\374F\326@\206\221Kf\330\274a\266\255\244\365\2262:\352'\236\277\0031\242\313\314\231\323\346\003\353\014\353\023G'#\005\234\357\036\230'\315_\255\222\305t\371\253Y\244>\025z\251\232IL\340{\002\211E\316RQG\315\333\326\226\315\017c7,4\243\0312s\035\021\035j,\212(\027\254\307N\324\271\353vz\007d\035eO\263\033D.\032:\271BU*:\363\300 \351\276\356\351\375\225\376G\362\362\025y\2659X\274\347\273\313\275oz\177\222\nx\223\210\244\021M'z\233&\267K\265|\301\220\201\367i`2o\363_\"GP\371""\032p\343\032<\316\312H\216L\203\024\204\210\365\024\375\362\244\275<d\322k\000\331W\350f[h\351AK\316Y\276.\005\326he\033\220]0\352\320\311\2323\355<r\321G\257[\217p\350\235\233p\237\364\027\311\346k\362\032\271\274#\357\336\323\245\025r\363g\247\345\236v\305\336\217\375P\377B_'e\344O\227\311{\221\210\273d\267Fj*Q\221\371>\331\377\010MvB\317\2514\237\207\327\350\260\026\316\243\r\377`\356\342\323\203A\006\313\023Phh@\t\201N\242W\016K\302\373P!>\004\033\264*H\332\373J$\3507\340\017@\021\243:\377\227\023\032s\377M/g\362\007j\321\033V\232\334\312\364\212h\345\363\264\252\240Y|\035\300\252WU\370L4I\0234\241\260\376\"\177\375\215 \377\035\366k\353\005\035^ d\014\371\240\3226\351\260\031\336\242\303V\370\365\361\202\303\227\000\037(/\3701\376\206c_\351\320\377\000 \373h\321";
-    PyObject *data = __Pyx_DecompressString(cstring, 2384, 1);
+    #elif (CYTHON_COMPRESS_STRINGS) != 0 /* compression: zlib (2390 bytes) */
+const char* const cstring = "x\332uUK{\323X\022\305&\320\241\333@L\034\336\335\330Ch`\200\320\201@7\375\365\300\030?\300L\342\340G\200\360R+\262L\004\266eKrH\230~\260\364RK-\265\324RK-\275\364\362.\275\364O\340'\314\251+\311q\3621|\304\267n\335W\3259\247J\311\233\311Lzy9\231-\224s\231\352jy=\263Z\314\027\312+\311|a9w\263\002_a\265\230\021\033\r\271\226\254+\r9i(MY\243\305d\346q%\231+\227W\313|V-\247\213\225\225B\265P|\224\254\254e2\271J%\231_-\373\376|\256\234\247\303-\325H\352rC\226\014\\'k\232\252\255>\315\025\371[\311d\360Xraa!4\307O\204\216\257\274R\311\025\263\311\345t\245:\276\200\022\252\026Vr\311B1\277\032\276O'&OgW\213\271\3119\177f\255%o\267\375\350\214\235\266\274\360@Z\374i\251~sSl\325\032\262\246\337$\004\204p\266\320\336i\210:%$\031\212\332J\252u\216PKM\352]i3t\177T\032\215\344\006R\227\267\307[\323\210\363Y\232b\025\000\367\304\254\232+\257\024\212\334N\347K\310>\243\032YE\303)U\333!\026\010)a\014\251\220\316\013\305\264\260\230\027\262e\241\312\215|9\360,W\002\243\222\t\215G\241\021\354A\260{/\207c\031\031U\344wM\271e\254j\025?\334p\255,\213\265\361\306`m\237\217\037\014\247UMl\351uY+\264\352j\241e,\336]\256\224\004\341\351\3166\376\262\212d\010E`R\226\353\345\\i-W\251V2\245\200A\241Rx\231\253\344\036\255\344\212\325\300.?\313\225\005\210\264\262\232\257<]-V\323\305\334\352Z\245\n\222\326p\365\317kJ\313\270}\213~\177\021\245\017\002\347\251&Kj\r\341\325\004\256Y\261\336\021\365\235\226\244\250\013\222\252\251]Ci\311\372\306\216!\353\202\241\n8)4\024\335 \3029\351\330\324\252+\357|{L\371\036\001\370kM\371\203@b\321\027\344V\267\0318q{\003\273\273-\016\322\036g[\324t:\014\220\204Z\010\177\020,9\305\r\324\207\330\205T6\345 \025]\332\324\245\006\342E\230\202\241\211\222\274\201,%\265\331\204\226j5M\326u\177\"\210\341\314\2204Y\244\267\253\310\275&\032\"\375\341=\311\340\006\245\nC&dj(HC\026\352\006_\r#\202\223\270\324\005\001\277\262&\340\237\274\255\030\002\017\210\303\300\261\343\226D\327\370\230+\032\037\225\232?\200y\337\320\205\272\332m\371\336\346x{Kl\006W\264Ec\223\033\032""\tj\367\240\256|\342[i'\207\202\223\t\366\352\232\312\357\321\r\261\331FT\200Z\020\336\311\006\376\013A\010\273&n\343\223.0\007\226d\203\203-Y\333\265\220?\237\030\03452?\311\232*\264U(\0033\236\"\306f0R\\t\255\242\212\212\216B\315Q3\203\025H\337\267\202\032Q\364,\207\330_\240\337\242\374\016\317l\005\263\247\252\256\370\263\340\300\356r\340\230\334A\335\323\277\311\267\203-\004\361X\327\212\016\"\024Cn\352\357\021?u)d\311k\223c\301\331W\264\206Zo\250zC\357\010BS\204\262\360\273-\004-\n\2747\325Z\027\340\tM\330\004?~Q\257\341\206\226Zo\251:\032:\357\000j\033}O'\022\333j\273\035D\333\326d\210]\016O\2645*2\241\323\025\033\376u\032gG\333\200b\273\rC\227:\341\333AF`*4\225ZhA\n\241\271+\225\320C\254\204\227\204\tK\320\235\021NH\374\223H\370\334\207\n\360\365'\311\210}\\\344\023K\272\334\252\355\367\343f\316FAOK\2243\246\005}\334U\371\214Z*\014\032hg`V\302\\\215]J\005<a\004X\303\252\311u\221\200Q\353\201*\203\201\320\330\022x\003\331\323\217\002_\010\306\204\233Z\231\326\234\360\200}\016\337\204\313\377.\357\2771\360\356\273S\020P\372\340\222\212\301\320x\3733\250\3317\025\203\354n\233z\213\177\025H\014\246\264Y\330\022\033]\231\377\350\273\365\305\016\334u\305\321\3247\237\365\336M+>\234>\332+\365\304\321t\334\214\233\327-qt$\306b?Xb\340\377r\370\300\2219s\305\216\333\327\035\370\342\346\005{\312\31698\026g\361\224M\243\371=\355N\361-\262{\307;\350-zi:w\014\027H&\266|\327\273\335\373\200\247b\307{\272y\023\207f\346\314\222)\016\343\t\226\370\321\026\203\351(F!\244xxC\204g\340\024\342\2323\313\346\266\325\261#\303\351\323\026~\022fz8\035\353-\303\216\2354?\340\331\324\220\237\274j-\322\013\333\246n\245F3I\034\2309o=\264d\373\027g\321y\310C\213x\347\373\245\021\334+N\334I\321z\301\256\372\346\254\2718J\314\333\351Q\342\214\025\267\256\333\242\335\031&Rv\302.\331\033\316!g\315M\271\277y\377\035\244\206\211\013\326'g\326I\017\023\247\314\035;j\337p47><\215\243\303D\222%\177r#\356)/\326_fO_\261W\357\331{\343\313\201\003\335\310\303(\206\207\321Lt\230\370\336*Y\037\200\340L|4}""\302\274b\315#\304\305\000\356\341\364Y\314[N\332\251\272\t\367\031\220\314\367\347\373\265\301eV*\263\362[\366\366\035{\2679\336K\247S4 u\353\261\235u\246\330\365\373\336f_\032\234e\225*Qs\026\013\200\353X\357\275\025\261f\255<\373\307-\367\252w\267\037\322\316\016\334\363\342\303\2519s\335\252\331)\2041\365m\357\252\271dv\200\356\324\261^\335\\\266#\366\0057B|t\206\340\342\255\275\210D\247g\315{V\026K\301=u3=\002\313w\314\2038\333\305\213>\225\020\301\321\023\346\234)[wY\n\254\272\235a\354\204y\321'\233\264p\303\352\214\200\374\022(\233\247\000F\211\313v\307\211\2719o\316\023\207sg\020r\026z\003)\377tR\316on\327\313!\364x\302\374\217\325\031N\036\034&\2568\021\347\274\273\346]\362:#l(\332\251}\033\256A\005\313\336!o\255\237\032\221\360\210\260\275o\337pJN\003\027t\373iz\003\242\377\362\355\201c\263\010\270j\315A\343~R4\360\224\010\0270\037f4\244\252\261\376p\356\270\207\020F\352\3134\345\216\375\237'\220\214\0078\2360\257A\004`\360x\317 \264\211!q\002^\377\246\333\216\202\214\237\364\305\317\221q= \242\377S\217\337\365\026G\2613V\302*\003\033\240\373'\264\377\001B-\270\245\260\300f\316\241Df\316XgH\006\001>\035\0224\300<k]\261\347m\331\301\206Kv\225]\275\357\211\236\321_\352o\rJ\203:\253\276`/^\263\327\033lCb\222\302\224&kvXg\233m\357@\326\237\"\031Rw&Z\246\241\034}E\303\253\350\353\250\177k\212\206\253H\354\261\223u\247\334tP\347\237#\243\257\024\371\010H\004=\343\276\025\247.2\273[\"\t3k\035Ce\032\316\222\263\345\226\334\272\227\355O\365\363\203\324\340.+\255\261\265u\266.0\341w\366;\202\254\355+\217<\262\2539D\313\344\215\274\217\214b\247\255\250u\311\352\332i\37351:n+\276\177\033\232D\2639c\235\260\356\330Gx\273\330;\031+\340xo\307:h\375j\227m.\317_\255\022\3714\350\245n\2451\201\357\001\224\026;J\332\216[\327\354uG\034%.\331\350I\263l\366\"\"\332\325X\034Q^\265\357\273q\367\206\267\335\337aOQ\375\224\3350v\3124\3309\022k\315\235\007\006i\357e\337\030,\r>\262g\317\331\363\027\303\205[\201\273\322\377\246\377'\253\2027\231\311:\323\rft)\271M\322\362IS\001\336""\207\201\311\274#~\211\355A\345k\300Mjp?+c9r\r\022\0101\373!\332\346Agq\304\245\327\002\262\317\321\324\326\321\331\303\316\\\260\003]J\274\337*\016 ;i6\241\223\025\367\204{\317C;\275h\337\303\2417^\312{0X`/^\262\227\310\345\r{\363\226\226\226\330\345\237\335\216w\330\253\365\177\034D\006'\007\006\253 \177Zfok\254\266\3116\033\254\2411\r\231o\261\255\217\320\344v\3441I\363qt\205\206\225h\021\335\370\007k\023_ \014\nX\236\202B#C\"\004:\211\237\333-\t\377{\205\370\020l\330\261 i\377c\221\242O\301\037\200\"A:\377\227\033\231p\377M\227s\371\003\265\370%;\313\256\344\372%t\364y\252*h\026\037\t\260\352W\025\276\026m\326\006M(\254\277\330_\177#\310\177G\203\332zB\303\023\204\214\241\030V\332\013\032^D\327iX\217\276\334_p\370 \340;\345\007?\301\337h\342c\035\371\037\246\217p\r";
+    PyObject *data = __Pyx_DecompressString(cstring, 2390, 1);
     if (unlikely(!data)) __PYX_ERR(0, 1, __pyx_L1_error)
     const char* const bytes = __Pyx_PyBytes_AsString(data);
     #if !CYTHON_ASSUME_SAFE_MACROS
     if (likely(bytes)); else { Py_DECREF(data); __PYX_ERR(0, 1, __pyx_L1_error) }
     #endif
-    #else /* compression: none (4224 bytes) */
-const char* const bytes = " / CALL DIRECTORYCONFIRM FILE/SECTIONCalled file timerFILE CHS ERRORFILE TRANSMITING SUCCESS FOR TRANSFERFile not selected errorOPEN FILE  SECTION ...SECTION CHS ERRORSECTION TRANSMITING SUCCESSSEND LAST SECTION CALLTIME INFOTRANSFERING TRANSMITING DONETRANSMITING ERRORUnexpected type.?c104f/handlers/file_handlers.pylast section of fileno such sectionwill be next sectionACTIVATION_CONACTIVATION_TERMINATIONAFQCHSCotDirectoryCallFILE_TRANSFERF_AF_NA_1F_DR_TA_1F_FR_NA_1F_LS_NA_1F_SC_NA_1F_SG_NA_1F_SR_NA_1FileDirectoryCallFileLastSegmentOrSectionCallFileReadyCallFileSectionReadyCallFileSegmentCallFileTransferInfoInt16LSQ__Pyx_PyDict_NextRefREQUESTSCQSECTION_SIZESEGMENT_SIZESERVER_DIRSOFSPONTANEOUSTypeUInt7Uint32Uint8ack_file_decodeadd_timerafqasyncio.coroutinesbytes_to_int_listc104c104f.configc104f.handlers.file_handlersc104f.mek_types.enumsc104f.utils.functionsc104f.utils.parserscall_directory_decodecallablecausecheck_fileschscline_in_tracebackcommonAddresscommon_addresscotcreationTimedatadata_dictdata_listdatetimedelete_ftdictdirectoryelements__enter____exit__filefile_bytesfile_ctimefile_dirfile_idfile_infofile_is_foundfile_mtimefile_namesfile_pathfile_ready_infofile_sizefilenamefiles_timeoutfromtimestamp__func__getget_file_idget_file_infoget_full_chsget_serverget_server_ftget_stationget_zero_pointgetctimegetmtimegetsizeinfoioaisCHSErrorisCallFileisCallSectionisFileNegativeisFilePositiveisSectionNegativeisSectionPositiveisSelectFileisSelectSection_is_coroutineisdiritemsjoinlast_segment_infolistdirlofloslsq__main__max_sections__module__ms__name__next_sectionnofnosnotReadyopenospathpoppositiveprepare_sectionprint__qualname__r_filerbresultscqsectionsection_chssection_idsection_lensection_ready_infosection_sizesectionssegment_countsegment_datasegment_infoserverserver_file_receive_handlerserver_file_send_handlerserver_ftsetFileIsActivesetIsDirectorysetIsLastsetLastFilesetLastSectionsetSelectFile__set_name__setdefaultsofstationstation_idsv_call_file_handlersv_call_section_h""andlersv_confirm_handlersv_dir_read_handlersv_select_file_handlersv_select_section_handler__test__timetr_typetransmittypeupdate_file_chsupdate_time_valuevalueszero_point\320\0006\260a\340\004\007\200s\210/\230\021\330\010\r\210Q\210a\340\010\021\220\021\220,\230a\340\t\014\320\014\036\230a\330\010\r\210Q\210a\360\006\000\t\025\220M\240\021\240,\250a\330\010\021\220\037\240\004\240E\250\021\330\010\021\320\021!\240\021\330\010\021\220\035\230a\330\010!\240\021\240,\250e\2605\270\003\2701\270A\360\006\000\t\016\210Q\210c\220\021\330\010\013\2103\210k\230\021\330\014\017\210s\220/\240\021\330\020\025\220Q\220a\330\021\024\320\024&\240a\330\020\025\220Q\220a\340\014\021\220\021\220!\320\0006\260a\330\004\007\200t\2103\210a\340\010\025\220R\220x\230q\240\001\330\010\030\230\001\330\010\024\220A\330\010\014\210L\230\001\330\014\026\220k\240\021\240!\330\014\021\220\021\220)\2301\330\014\017\210x\220s\230!\340\020 \240\001\330\020\034\230B\230e\2408\2501\250B\250e\2605\270\001\270\034\300Q\340\020\034\230M\250\021\250!\330\020\034\230I\240T\250\021\250!\330\020\023\2201\340\024$\240A\340\024\031\230\021\230,\240a\240q\330\024!\240\024\240Q\240b\250\005\250U\260!\260<\270{\310!\330\024\037\230z\250\023\250A\330\024\027\220y\240\002\240-\250r\260\021\330\030$\240A\330\024 \320 0\260\001\260\027\270\014\300L\320P[\320[j\320jt\360\000\000u\001B\002\360\000\000B\002C\002\330\024\035\230Q\230k\250\021\330\020\021\340\010\022\220(\230$\230e\2401\330\010\r\210Q\210a\330\010\032\230$\230n\250A\250T\260\024\260V\2701\270F\300$\300d\310'\320QR\320R^\320^g\320gh\330\010\r\210Q\210a\330\010\022\220(\230!\330\010\022\220)\2301\230H\240D\250\004\320,>\270h\300c\310\032\320ST\330\010\021\220\032\2301\230A\330\010\016\210j\230\001\230\023\230F\320\"2\260)\2706\300\021\330\010\r\210Q\210a\320\0009\270\021\330\004\025\220Y\230d\240!\2401\330\004\n\210)\2204\220q\230\001\330\004\016\210f\220L\240\001\240\037\260\001\330\004\007\200q\330\010\025\220^\2401\240A\330\010\023\2209\230D\240\001""\240\021\330\010\r\210Q\210f\220A\340\010\013\2105\220\003\2204\220u\230A\330\014\021\220\021\220!\360\006\000\r\022\220\025\220e\2306\320!6\260a\260q\330\014\022\220#\220Q\220a\340\014\017\210s\220-\230q\340\020\023\2204\220s\230$\230d\240!\340\024'\240q\250\014\260E\270\025\270a\330\025\031\230\023\230D\240\004\240A\340\024*\250!\250<\260u\270E\300\021\330\021\024\220K\230q\330\020\023\2204\220s\230$\230d\240!\330\024(\250\001\250\034\260U\270%\270q\340\021\024\220N\240!\330\020\023\2204\220s\230$\230d\240!\330\024+\2501\250L\270\005\270U\300!\340\021\024\320\024$\240A\330\020\023\2204\220s\230$\230d\240!\340\024-\250Q\250l\270%\270u\300A\360\010\000\016\023\220#\220T\230\025\230a\330\014\021\220\021\220!\330\014\021\220\025\220e\2306\240\037\260\001\260\021\330\014\022\220#\220Q\220a\330\014\036\230a\230|\2505\260\005\260U\270!\360\010\000\r\022\220\021\220!\200\001\330\004\016\210f\220L\240\001\240\021\330\004\007\200q\330\010\022\220+\230Q\230a\330\010\017\210t\2204\220q\330\010\016\210a\330\010\025\220^\2401\240A\330\010\036\230a\230|\2503\250i\260u\270J\300a\200\001\330\004\007\200t\2103\210a\360\n\000\t\025\220M\240\021\240,\250a\330\010\021\220\037\240\004\240E\250\021\330\010\013\2101\340\014\031\230\024\230R\230q\330\014\017\210}\230B\230k\250\023\250I\260Q\330\020\025\220Q\220a\340\020\033\2301\330\020\031\230\031\320\"2\260!\330\020\023\2204\220q\330\024\037\230q\330\020\032\230(\240$\240e\2501\330\020%\240T\320)>\270a\270t\3004\300v\310Q\310f\320TX\320X\\\320\\b\320bc\320ci\320im\320mq\320qx\320xy\360\000\000z\001C\002\360\000\000C\002R\002\360\000\000R\002[\002\360\000\000[\002\\\002\330\020\032\230(\240!\330\020\032\230)\2401\240H\250D\260\004\260A\340\014\021\220\021\220!\200\001\340\004\007\200t\2103\210a\340\010\025\220R\220x\230q\240\001\340\010\016\210c\220\021\330\010\013\210>\230\021\360\006\000\t\023\220(\230$\230e\2401\330\010\024\220D\230\016\240a\240t\2504\250v\260Q\260f\270D\300\004\300F\310!\3106\320QU\320UY\320Y_\320_`\320`c\320cd\330""\010\022\220(\230!\330\010\022\220)\2301\230F\240$\240d\250!\360\010\000\t\023\220(\230$\230e\2401\330\010\014\210L\230\001\340\014\030\230\002\230%\230u\240A\240\\\260\021\330\014\026\220k\240\021\240!\330\014\030\230\002\230%\230x\240q\250\001\330\014\031\230\022\2305\240\t\250\021\250!\330\014\031\230\022\2305\240\t\250\021\250!\330\014\022\220#\220Q\220a\330\014\017\210y\230\003\230:\240R\240q\330\020\023\220:\230Q\330\014\017\210r\220\025\220f\230A\230Q\330\020\023\220?\240!\340\014\r\330\025\031\230\021\230+\240Y\250a\340\024%\240Q\340\020\023\320\023#\2401\330\014\021\220\021\220!\330\014\021\220\021\220(\230)\240>\260\021\260-\270x\300y\320P^\320^_\320_`\330\014\027\220t\320\033-\250Q\250d\260$\260f\270A\270Z\300t\3104\310w\320VW\320WX\330.2\260$\260f\270A\270S\300\007\300}\320T\\\320\\e\320es\320st\320tu\330\014\026\220h\230a\330\014\026\220i\230q\240\006\240d\250$\250a\360\014\000\t\023\220(\230$\230e\2401\330\010\022\220(\230!\330\010\022\220)\2301\230F\240$\240d\250!\200\001\330\004\007\200t\2103\210a\360\006\000\t\023\220(\230$\230e\2401\330\010\024\220M\240\021\240,\250a\330\010\013\2101\340\014\017\210y\230\014\240B\240b\250\003\2501\340\020\025\220Q\220n\240A\240W\250A\250Y\260a\330\020 \240\001\330\020\034\230I\240Q\330\020\025\220Q\220c\230\021\230,\240i\250q\330\020\026\220m\2401\240M\260\022\2609\270A\330\024#\2409\250A\250]\270!\270?\310.\320XZ\320Z\\\320\\]\320]^\330\024#\2404\320'7\260q\270\006\270d\300&\310\001\310\026\310t\320SW\320W]\320]^\320^d\320dh\320hl\320lr\320rs\320sv\320vw\360\000\000x\001H\002\360\000\000H\002M\002\360\000\000M\002N\002\330\024\036\230h\240a\330\024\036\230i\240q\250\004\250D\260\001\330\024%\240Q\360\010\000\021\033\230(\240$\240e\2501\330\020\025\220Q\220a\330\020\026\220c\230\021\340\020\023\2204\220s\230)\2401\340\024\031\230\021\230!\330\024\027\220|\2401\330\024\032\230)\240=\260\001\340\024\031\230\021\230!\330\024\027\220\177\240a\330\024\032\230)\2401\360\006\000\021%\240D\320(E\300Q\300d\310$\310f\320TU""\320U[\320[_\320_c\320ci\320ij\320jp\320pt\320tx\320x~\320~\177\360\000\000@\002C\002\360\000\000C\002J\002\360\000\000J\002N\002\360\000\000N\002R\002\360\000\000R\002X\002\360\000\000X\002Y\002\360\000\000Y\002Z\002\330\020\032\230(\240!\330\020\032\230)\2401\240D\250\004\250A\330\020\025\220Q\220a\200\001\330\004\007\200t\2103\210a\340\010!\240\021\240,\250e\2605\270\001";
+    #else /* compression: none (4243 bytes) */
+const char* const bytes = " / CALL DIRECTORYCONFIRM FILE/SECTIONCalled file timerFILE CHS ERRORFILE TRANSMITING SUCCESS FOR TRANSFERFile not selected errorOPEN FILE  SECTION ...SECTION CHS ERRORSECTION TRANSMITING SUCCESSSEND LAST SECTION CALLTIME INFOTRANSFERING TRANSMITING DONETRANSMITING ERRORUnexpected type.?c104f/handlers/file_handlers.pylast section of fileno such sectionwill be next sectionACTIVATION_CONACTIVATION_TERMINATIONAFQCHSCotDirectoryCallFILE_TRANSFERF_AF_NA_1F_DR_TA_1F_FR_NA_1F_LS_NA_1F_SC_NA_1F_SG_NA_1F_SR_NA_1FileDirectoryCallFileLastSegmentOrSectionCallFileReadyCallFileSectionReadyCallFileSegmentCallFileTransferInfoInt16LSQ__Pyx_PyDict_NextRefREQUESTSCQSECTION_SIZESEGMENT_SIZESERVER_DIRSOFSPONTANEOUSTypeUInt7Uint32Uint8ack_file_decodeadd_timerafqasyncio.coroutinesbytes_to_int_listc104c104f.configc104f.handlers.file_handlersc104f.mek_types.enumsc104f.utils.functionsc104f.utils.parserscall_directory_decodecallablecausecheck_fileschscline_in_tracebackcommonAddresscommon_addresscotcreationTimedatadata_dictdata_listdatetimedelete_ftdictdirectoryelements__enter____exit__filefile_bytesfile_ctimefile_dirfile_idfile_infofile_is_foundfile_mtimefile_namesfile_pathfile_ready_infofile_sizefilenamefiles_timeoutfromtimestamp__func__getget_file_idget_file_infoget_full_chsget_serverget_server_ftget_stationget_zero_pointgetctimegetmtimegetsizeinfoioaisCHSErrorisCallFileisCallSectionisDeleteFileisFileNegativeisFilePositiveisSectionNegativeisSectionPositiveisSelectFileisSelectSection_is_coroutineisdiritemsjoinlast_segment_infolistdirlofloslsq__main__max_sections__module__ms__name__next_sectionnofnosnotReadyopenospathpoppositiveprepare_sectionprint__qualname__r_filerbresultscqsectionsection_chssection_idsection_lensection_ready_infosection_sizesectionssegment_countsegment_datasegment_infoserverserver_file_receive_handlerserver_file_send_handlerserver_ftsetFileIsActivesetIsDirectorysetIsLastsetLastFilesetLastSectionsetSelectFile__set_name__setdefaultsofstationstation_idsv_call_file_handlersv_ca""ll_section_handlersv_confirm_handlersv_dir_read_handlersv_select_file_handlersv_select_section_handler__test__timetr_typetransmittypeupdate_file_chsupdate_time_valuevalueszero_point\320\0006\260a\340\004\007\200s\210/\230\021\330\010\r\210Q\210a\340\010\021\220\021\220,\230a\340\t\014\320\014\036\230a\330\010\r\210Q\210a\360\006\000\t\025\220M\240\021\240,\250a\330\010\021\220\037\240\004\240E\250\021\330\010\021\320\021!\240\021\330\010\021\220\035\230a\330\010!\240\021\240,\250e\2605\270\003\2701\270A\360\006\000\t\016\210Q\210c\220\021\330\010\013\2103\210k\230\021\330\014\017\210s\220/\240\021\330\020\025\220Q\220a\330\021\024\320\024&\240a\330\020\025\220Q\220a\340\014\021\220\021\220!\320\0006\260a\330\004\007\200t\2103\210a\340\010\025\220R\220x\230q\240\001\330\010\030\230\001\330\010\024\220A\330\010\014\210L\230\001\330\014\026\220k\240\021\240!\330\014\021\220\021\220)\2301\330\014\017\210x\220s\230!\340\020 \240\001\330\020\034\230B\230e\2408\2501\250B\250e\2605\270\001\270\034\300Q\340\020\034\230M\250\021\250!\330\020\034\230I\240T\250\021\250!\330\020\023\2201\340\024$\240A\340\024\031\230\021\230,\240a\240q\330\024!\240\024\240Q\240b\250\005\250U\260!\260<\270{\310!\330\024\037\230z\250\023\250A\330\024\027\220y\240\002\240-\250r\260\021\330\030$\240A\330\024 \320 0\260\001\260\027\270\014\300L\320P[\320[j\320jt\360\000\000u\001B\002\360\000\000B\002C\002\330\024\035\230Q\230k\250\021\330\020\021\340\010\022\220(\230$\230e\2401\330\010\r\210Q\210a\330\010\032\230$\230n\250A\250T\260\024\260V\2701\270F\300$\300d\310'\320QR\320R^\320^g\320gh\330\010\r\210Q\210a\330\010\022\220(\230!\330\010\022\220)\2301\230H\240D\250\004\320,>\270h\300c\310\032\320ST\330\010\021\220\032\2301\230A\330\010\016\210j\230\001\230\023\230F\320\"2\260)\2706\300\021\330\010\r\210Q\210a\320\0009\270\021\330\004\025\220Y\230d\240!\2401\330\004\n\210)\2204\220q\230\001\330\004\016\210f\220L\240\001\240\037\260\001\330\004\007\200q\330\010\025\220^\2401\240A\330\010\023\2209\230D""\240\001\240\021\330\010\r\210Q\210f\220A\340\010\013\2105\220\003\2204\220u\230A\330\014\021\220\021\220!\360\006\000\r\022\220\025\220e\2306\320!6\260a\260q\330\014\022\220#\220Q\220a\340\014\017\210s\220-\230q\340\020\023\2204\220s\230$\230d\240!\340\024'\240q\250\014\260E\270\025\270a\330\025\031\230\023\230D\240\004\240A\340\024*\250!\250<\260u\270E\300\021\330\021\024\220K\230q\330\020\023\2204\220s\230$\230d\240!\330\024(\250\001\250\034\260U\270%\270q\340\021\024\220N\240!\330\020\023\2204\220s\230$\230d\240!\330\024+\2501\250L\270\005\270U\300!\340\021\024\320\024$\240A\330\020\023\2204\220s\230$\230d\240!\340\024-\250Q\250l\270%\270u\300A\330\021\024\220M\240\021\360\n\000\016\023\220#\220T\230\025\230a\330\014\021\220\021\220!\330\014\021\220\025\220e\2306\240\037\260\001\260\021\330\014\022\220#\220Q\220a\330\014\036\230a\230|\2505\260\005\260U\270!\360\010\000\r\022\220\021\220!\200\001\330\004\016\210f\220L\240\001\240\021\330\004\007\200q\330\010\022\220+\230Q\230a\330\010\017\210t\2204\220q\330\010\016\210a\330\010\025\220^\2401\240A\330\010\036\230a\230|\2503\250i\260u\270J\300a\200\001\330\004\007\200t\2103\210a\360\n\000\t\025\220M\240\021\240,\250a\330\010\021\220\037\240\004\240E\250\021\330\010\013\2101\340\014\031\230\024\230R\230q\330\014\017\210}\230B\230k\250\023\250I\260Q\330\020\025\220Q\220a\340\020\033\2301\330\020\031\230\031\320\"2\260!\330\020\023\2204\220q\330\024\037\230q\330\020\032\230(\240$\240e\2501\330\020%\240T\320)>\270a\270t\3004\300v\310Q\310f\320TX\320X\\\320\\b\320bc\320ci\320im\320mq\320qx\320xy\360\000\000z\001C\002\360\000\000C\002R\002\360\000\000R\002[\002\360\000\000[\002\\\002\330\020\032\230(\240!\330\020\032\230)\2401\240H\250D\260\004\260A\340\014\021\220\021\220!\200\001\340\004\007\200t\2103\210a\340\010\025\220R\220x\230q\240\001\340\010\016\210c\220\021\330\010\013\210>\230\021\360\006\000\t\023\220(\230$\230e\2401\330\010\024\220D\230\016\240a\240t\2504\250v\260Q\260f\270D\300\004\300F\310!\3106\320QU\320U""Y\320Y_\320_`\320`c\320cd\330\010\022\220(\230!\330\010\022\220)\2301\230F\240$\240d\250!\360\010\000\t\023\220(\230$\230e\2401\330\010\014\210L\230\001\340\014\030\230\002\230%\230u\240A\240\\\260\021\330\014\026\220k\240\021\240!\330\014\030\230\002\230%\230x\240q\250\001\330\014\031\230\022\2305\240\t\250\021\250!\330\014\031\230\022\2305\240\t\250\021\250!\330\014\022\220#\220Q\220a\330\014\017\210y\230\003\230:\240R\240q\330\020\023\220:\230Q\330\014\017\210r\220\025\220f\230A\230Q\330\020\023\220?\240!\340\014\r\330\025\031\230\021\230+\240Y\250a\340\024%\240Q\340\020\023\320\023#\2401\330\014\021\220\021\220!\330\014\021\220\021\220(\230)\240>\260\021\260-\270x\300y\320P^\320^_\320_`\330\014\027\220t\320\033-\250Q\250d\260$\260f\270A\270Z\300t\3104\310w\320VW\320WX\330.2\260$\260f\270A\270S\300\007\300}\320T\\\320\\e\320es\320st\320tu\330\014\026\220h\230a\330\014\026\220i\230q\240\006\240d\250$\250a\360\014\000\t\023\220(\230$\230e\2401\330\010\022\220(\230!\330\010\022\220)\2301\230F\240$\240d\250!\200\001\330\004\007\200t\2103\210a\360\006\000\t\023\220(\230$\230e\2401\330\010\024\220M\240\021\240,\250a\330\010\013\2101\340\014\017\210y\230\014\240B\240b\250\003\2501\340\020\025\220Q\220n\240A\240W\250A\250Y\260a\330\020 \240\001\330\020\034\230I\240Q\330\020\025\220Q\220c\230\021\230,\240i\250q\330\020\026\220m\2401\240M\260\022\2609\270A\330\024#\2409\250A\250]\270!\270?\310.\320XZ\320Z\\\320\\]\320]^\330\024#\2404\320'7\260q\270\006\270d\300&\310\001\310\026\310t\320SW\320W]\320]^\320^d\320dh\320hl\320lr\320rs\320sv\320vw\360\000\000x\001H\002\360\000\000H\002M\002\360\000\000M\002N\002\330\024\036\230h\240a\330\024\036\230i\240q\250\004\250D\260\001\330\024%\240Q\360\010\000\021\033\230(\240$\240e\2501\330\020\025\220Q\220a\330\020\026\220c\230\021\340\020\023\2204\220s\230)\2401\340\024\031\230\021\230!\330\024\027\220|\2401\330\024\032\230)\240=\260\001\340\024\031\230\021\230!\330\024\027\220\177\240a\330\024\032\230)\2401\360\006\000\021%\240D\320(""E\300Q\300d\310$\310f\320TU\320U[\320[_\320_c\320ci\320ij\320jp\320pt\320tx\320x~\320~\177\360\000\000@\002C\002\360\000\000C\002J\002\360\000\000J\002N\002\360\000\000N\002R\002\360\000\000R\002X\002\360\000\000X\002Y\002\360\000\000Y\002Z\002\330\020\032\230(\240!\330\020\032\230)\2401\240D\250\004\250A\330\020\025\220Q\220a\200\001\330\004\007\200t\2103\210a\340\010!\240\021\240,\250e\2605\270\001";
     PyObject *data = NULL;
     CYTHON_UNUSED_VAR(__Pyx_DecompressString);
     #endif
     PyObject **stringtab = __pyx_mstate->__pyx_string_tab;
     Py_ssize_t pos = 0;
-    for (int i = 0; i < 198; i++) {
+    for (int i = 0; i < 199; i++) {
       Py_ssize_t bytes_length = index[i].length;
       PyObject *string = PyUnicode_DecodeUTF8(bytes + pos, bytes_length, NULL);
       if (likely(string) && i >= 24) PyUnicode_InternInPlace(&string);
@@ -9883,7 +9907,7 @@ const char* const bytes = " / CALL DIRECTORYCONFIRM FILE/SECTIONCalled file time
       stringtab[i] = string;
       pos += bytes_length;
     }
-    for (int i = 198; i < 206; i++) {
+    for (int i = 199; i < 207; i++) {
       Py_ssize_t bytes_length = index[i].length;
       PyObject *string = PyBytes_FromStringAndSize(bytes + pos, bytes_length);
       stringtab[i] = string;
@@ -9894,14 +9918,14 @@ const char* const bytes = " / CALL DIRECTORYCONFIRM FILE/SECTIONCalled file time
       }
     }
     Py_XDECREF(data);
-    for (Py_ssize_t i = 0; i < 206; i++) {
+    for (Py_ssize_t i = 0; i < 207; i++) {
       if (unlikely(PyObject_Hash(stringtab[i]) == -1)) {
         __PYX_ERR(0, 1, __pyx_L1_error)
       }
     }
     #if CYTHON_IMMORTAL_CONSTANTS
     {
-      PyObject **table = stringtab + 198;
+      PyObject **table = stringtab + 199;
       for (Py_ssize_t i=0; i<8; ++i) {
         #if CYTHON_COMPILING_IN_CPYTHON_FREETHREADING
         #if PY_VERSION_HEX < 0x030E0000
@@ -9979,37 +10003,37 @@ static int __Pyx_CreateCodeObjects(__pyx_mstatetype *__pyx_mstate) {
     __pyx_mstate_global->__pyx_codeobj_tab[0] = __Pyx_PyCode_New(descr, varnames, __pyx_mstate->__pyx_kp_u_c104f_handlers_file_handlers_py, __pyx_mstate->__pyx_n_u_server_file_receive_handler, __pyx_mstate->__pyx_kp_b_iso88591_9_Yd_1_4q_fL_q_1A_9D_QfA_5_4uA, tuple_dedup_map); if (unlikely(!__pyx_mstate_global->__pyx_codeobj_tab[0])) goto bad;
   }
   {
-    const __Pyx_PyCode_New_function_description descr = {3, 0, 0, 8, (unsigned int)(CO_OPTIMIZED|CO_NEWLOCALS), 60};
+    const __Pyx_PyCode_New_function_description descr = {3, 0, 0, 8, (unsigned int)(CO_OPTIMIZED|CO_NEWLOCALS), 62};
     PyObject* const varnames[] = {__pyx_mstate->__pyx_n_u_server, __pyx_mstate->__pyx_n_u_filename, __pyx_mstate->__pyx_n_u_station_id, __pyx_mstate->__pyx_n_u_station, __pyx_mstate->__pyx_n_u_file_id, __pyx_mstate->__pyx_n_u_type, __pyx_mstate->__pyx_n_u_nos, __pyx_mstate->__pyx_n_u_zero_point};
     __pyx_mstate_global->__pyx_codeobj_tab[1] = __Pyx_PyCode_New(descr, varnames, __pyx_mstate->__pyx_kp_u_c104f_handlers_file_handlers_py, __pyx_mstate->__pyx_n_u_server_file_send_handler, __pyx_mstate->__pyx_kp_b_iso88591_fL_q_Qa_t4q_a_1A_a_3iuJa, tuple_dedup_map); if (unlikely(!__pyx_mstate_global->__pyx_codeobj_tab[1])) goto bad;
   }
   {
-    const __Pyx_PyCode_New_function_description descr = {4, 0, 0, 12, (unsigned int)(CO_OPTIMIZED|CO_NEWLOCALS), 69};
+    const __Pyx_PyCode_New_function_description descr = {4, 0, 0, 12, (unsigned int)(CO_OPTIMIZED|CO_NEWLOCALS), 71};
     PyObject* const varnames[] = {__pyx_mstate->__pyx_n_u_zero_point, __pyx_mstate->__pyx_n_u_ioa, __pyx_mstate->__pyx_n_u_nof, __pyx_mstate->__pyx_n_u_nos, __pyx_mstate->__pyx_n_u_file_info, __pyx_mstate->__pyx_n_u_segment_count, __pyx_mstate->__pyx_n_u_data_list, __pyx_mstate->__pyx_n_u_segment_data, __pyx_mstate->__pyx_n_u_segment_info, __pyx_mstate->__pyx_n_u_lsq, __pyx_mstate->__pyx_n_u_chs, __pyx_mstate->__pyx_n_u_last_segment_info};
     __pyx_mstate_global->__pyx_codeobj_tab[2] = __Pyx_PyCode_New(descr, varnames, __pyx_mstate->__pyx_kp_u_c104f_handlers_file_handlers_py, __pyx_mstate->__pyx_n_u_sv_call_section_handler, __pyx_mstate->__pyx_kp_b_iso88591_t3a_e1_M_a_1_y_Bb_1_QnAWAYa_IQ, tuple_dedup_map); if (unlikely(!__pyx_mstate_global->__pyx_codeobj_tab[2])) goto bad;
   }
   {
-    const __Pyx_PyCode_New_function_description descr = {5, 0, 0, 16, (unsigned int)(CO_OPTIMIZED|CO_NEWLOCALS), 112};
+    const __Pyx_PyCode_New_function_description descr = {5, 0, 0, 16, (unsigned int)(CO_OPTIMIZED|CO_NEWLOCALS), 114};
     PyObject* const varnames[] = {__pyx_mstate->__pyx_n_u_zero_point, __pyx_mstate->__pyx_n_u_ioa, __pyx_mstate->__pyx_n_u_nof, __pyx_mstate->__pyx_n_u_nos, __pyx_mstate->__pyx_n_u_tr_type, __pyx_mstate->__pyx_n_u_file_names, __pyx_mstate->__pyx_n_u_file_is_found, __pyx_mstate->__pyx_n_u_file_size, __pyx_mstate->__pyx_n_u_filename, __pyx_mstate->__pyx_n_u_file_id, __pyx_mstate->__pyx_n_u_server_ft, __pyx_mstate->__pyx_n_u_file_info, __pyx_mstate->__pyx_n_u_file_bytes, __pyx_mstate->__pyx_n_u_sections, __pyx_mstate->__pyx_n_u_file_ready_info, __pyx_mstate->__pyx_n_u_server};
     __pyx_mstate_global->__pyx_codeobj_tab[3] = __Pyx_PyCode_New(descr, varnames, __pyx_mstate->__pyx_kp_u_c104f_handlers_file_handlers_py, __pyx_mstate->__pyx_n_u_sv_select_file_handler, __pyx_mstate->__pyx_kp_b_iso88591_6a_t3a_Rxq_A_L_k_1_xs_Be81Be5_Q, tuple_dedup_map); if (unlikely(!__pyx_mstate_global->__pyx_codeobj_tab[3])) goto bad;
   }
   {
-    const __Pyx_PyCode_New_function_description descr = {4, 0, 0, 9, (unsigned int)(CO_OPTIMIZED|CO_NEWLOCALS), 152};
+    const __Pyx_PyCode_New_function_description descr = {4, 0, 0, 9, (unsigned int)(CO_OPTIMIZED|CO_NEWLOCALS), 154};
     PyObject* const varnames[] = {__pyx_mstate->__pyx_n_u_zero_point, __pyx_mstate->__pyx_n_u_ioa, __pyx_mstate->__pyx_n_u_nof, __pyx_mstate->__pyx_n_u_nos, __pyx_mstate->__pyx_n_u_file_info, __pyx_mstate->__pyx_n_u_section_id, __pyx_mstate->__pyx_n_u_notReady, __pyx_mstate->__pyx_n_u_result, __pyx_mstate->__pyx_n_u_section_ready_info};
     __pyx_mstate_global->__pyx_codeobj_tab[4] = __Pyx_PyCode_New(descr, varnames, __pyx_mstate->__pyx_kp_u_c104f_handlers_file_handlers_py, __pyx_mstate->__pyx_n_u_sv_select_section_handler, __pyx_mstate->__pyx_kp_b_iso88591_t3a_M_a_E_1_Rq_Bk_IQ_Qa_1_2_4q, tuple_dedup_map); if (unlikely(!__pyx_mstate_global->__pyx_codeobj_tab[4])) goto bad;
   }
   {
-    const __Pyx_PyCode_New_function_description descr = {5, 0, 0, 6, (unsigned int)(CO_OPTIMIZED|CO_NEWLOCALS), 177};
+    const __Pyx_PyCode_New_function_description descr = {5, 0, 0, 6, (unsigned int)(CO_OPTIMIZED|CO_NEWLOCALS), 179};
     PyObject* const varnames[] = {__pyx_mstate->__pyx_n_u_zero_point, __pyx_mstate->__pyx_n_u_ioa, __pyx_mstate->__pyx_n_u_nof, __pyx_mstate->__pyx_n_u_nos, __pyx_mstate->__pyx_n_u_afq, __pyx_mstate->__pyx_n_u_file_info};
     __pyx_mstate_global->__pyx_codeobj_tab[5] = __Pyx_PyCode_New(descr, varnames, __pyx_mstate->__pyx_kp_u_c104f_handlers_file_handlers_py, __pyx_mstate->__pyx_n_u_sv_confirm_handler, __pyx_mstate->__pyx_kp_b_iso88591_6a_s_Qa_a_a_Qa_M_a_E_a_e5_1A_Qc, tuple_dedup_map); if (unlikely(!__pyx_mstate_global->__pyx_codeobj_tab[5])) goto bad;
   }
   {
-    const __Pyx_PyCode_New_function_description descr = {4, 0, 0, 16, (unsigned int)(CO_OPTIMIZED|CO_NEWLOCALS), 204};
+    const __Pyx_PyCode_New_function_description descr = {4, 0, 0, 16, (unsigned int)(CO_OPTIMIZED|CO_NEWLOCALS), 206};
     PyObject* const varnames[] = {__pyx_mstate->__pyx_n_u_zero_point, __pyx_mstate->__pyx_n_u_ioa, __pyx_mstate->__pyx_n_u_nof, __pyx_mstate->__pyx_n_u_nos, __pyx_mstate->__pyx_n_u_file_names, __pyx_mstate->__pyx_n_u_scq, __pyx_mstate->__pyx_n_u_directory, __pyx_mstate->__pyx_n_u_filename, __pyx_mstate->__pyx_n_u_file_path, __pyx_mstate->__pyx_n_u_file_id, __pyx_mstate->__pyx_n_u_file_size, __pyx_mstate->__pyx_n_u_file_ctime, __pyx_mstate->__pyx_n_u_file_mtime, __pyx_mstate->__pyx_n_u_sof, __pyx_mstate->__pyx_n_u_r_file, __pyx_mstate->__pyx_n_u_file_dir};
     __pyx_mstate_global->__pyx_codeobj_tab[6] = __Pyx_PyCode_New(descr, varnames, __pyx_mstate->__pyx_kp_u_c104f_handlers_file_handlers_py, __pyx_mstate->__pyx_n_u_sv_dir_read_handler, __pyx_mstate->__pyx_kp_b_iso88591_t3a_Rxq_c_e1_D_at4vQfD_F_6QUUYY, tuple_dedup_map); if (unlikely(!__pyx_mstate_global->__pyx_codeobj_tab[6])) goto bad;
   }
   {
-    const __Pyx_PyCode_New_function_description descr = {4, 0, 0, 4, (unsigned int)(CO_OPTIMIZED|CO_NEWLOCALS), 256};
+    const __Pyx_PyCode_New_function_description descr = {4, 0, 0, 4, (unsigned int)(CO_OPTIMIZED|CO_NEWLOCALS), 258};
     PyObject* const varnames[] = {__pyx_mstate->__pyx_n_u_zero_point, __pyx_mstate->__pyx_n_u_ioa, __pyx_mstate->__pyx_n_u_nof, __pyx_mstate->__pyx_n_u_nos};
     __pyx_mstate_global->__pyx_codeobj_tab[7] = __Pyx_PyCode_New(descr, varnames, __pyx_mstate->__pyx_kp_u_c104f_handlers_file_handlers_py, __pyx_mstate->__pyx_n_u_sv_call_file_handler, __pyx_mstate->__pyx_kp_b_iso88591_t3a_e5, tuple_dedup_map); if (unlikely(!__pyx_mstate_global->__pyx_codeobj_tab[7])) goto bad;
   }

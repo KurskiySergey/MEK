@@ -19,3 +19,6 @@ def on_recieve_raw(connection:c104.Connection,data:bytes)->None:
         print(sof)
     print(c104.explain_bytes_dict(data))
     print(c104.explain_bytes(data))
+
+def on_send_raw(connection:c104.Connection,data:bytes)->None:
+    pass

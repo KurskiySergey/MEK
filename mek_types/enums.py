@@ -1,6 +1,15 @@
-import time
+from __future__ import annotations
 
-from utils.functions import bytes_to_int_list
+import io
+import os
+
+from numpy.ma.core import filled
+
+from config import SERVER_DIR, SECTION_SIZE
+import time
+import typing
+from utils.functions import bytes_to_int_list, get_file_id
+
 
 class InformationSize:
     IOA_SIZE = 3
@@ -431,3 +440,108 @@ class FileTransferInfo:
 
     def next_section(self):
         self.section_id += 1
+
+class FileInfo:
+    search_callback = None
+    def __init__(self, filename, file_id, file_size, creation_time, is_active = False, is_directory = False, file_path = None, file_bytes: bytes = None):
+        self.filename = filename
+        self.file_path = file_path
+        self.file_id = file_id
+        self.file_size = file_size
+        self.ctime = creation_time
+        self.is_active = is_active
+        self.is_directory = is_directory
+        self.file_bytes = file_bytes
+
+    def get_file_transfer_info(self):
+        if self.file_bytes is None:
+            # default file read
+            try:
+                if self.file_path is None:
+                    io_buffer = open(os.path.join(SERVER_DIR, self.filename), "rb")
+                else:
+                    io_buffer = open(self.file_path, "rb")
+
+            except (FileNotFoundError, FileExistsError):
+                print("No such file")
+                io_buffer = None
+
+        else:
+            io_buffer = io.BytesIO(self.file_bytes)
+        sections = self.file_size // SECTION_SIZE
+        if sections * SECTION_SIZE < self.file_size:
+            sections += 1
+
+        ft_info = None
+        if io_buffer is not None:
+            ft_info = FileTransferInfo(file=io_buffer, file_size=self.file_size, max_sections=sections, section_size=SECTION_SIZE)
+
+        return ft_info
+
+    @classmethod
+    def from_nof(cls, nof):
+        if FileInfo.search_callback is None:
+            dir_info = DirectoryInfo()
+            file_info = dir_info.get_by_nof(nof)
+        else:
+            file_info = FileInfo.search_callback(nof)
+        return file_info
+
+    def file_check(self):
+        try:
+            if self.file_path is None:
+                self.file_path = os.path.join(SERVER_DIR, self.filename)
+
+            if os.path.isdir(self.file_path):
+                self.is_directory = True
+            try:
+                with open(self.file_path, "rb"):
+                    ...
+            except (PermissionError, OSError):
+                self.is_active = True
+
+        except (OSError, FileNotFoundError):
+            print(
+                "No such file in system check files directory"
+            )
+            print("Using default settings")
+
+    def __eq__(self, other):
+        return self.filename == other.filename
+
+    def get_file_info(self):
+        return self.file_id, self.file_size, self.ctime, self.is_active, self.is_directory
+
+
+
+class DirectoryInfo:
+    def __init__(self, file_info_list: typing.List[FileInfo] | None = None):
+        self.file_info_list = file_info_list
+        if self.file_info_list is None:
+            # default call from os
+            self.file_info_list = []
+            self.__default_call()
+
+    def __iter__(self):
+        return iter(self.file_info_list)
+
+    def get_by_nof(self, nof):
+        for file_info in self.file_info_list:
+            if file_info.file_id == nof:
+                return file_info
+        return None
+
+    def __default_call(self):
+        file_names = os.listdir(SERVER_DIR)
+        for filename in file_names:
+            # transmit files
+            file_path = os.path.join(SERVER_DIR, filename)
+            file_info = FileInfo(filename, file_id=get_file_id(filename),
+                                 file_size=os.path.getsize(file_path), creation_time=os.path.getctime(file_path),
+                                 file_path=file_path)
+            file_info.file_check()
+            self.file_info_list.append(file_info)
+
+    def __getitem__(self, index):
+        return self.file_info_list[index]
+

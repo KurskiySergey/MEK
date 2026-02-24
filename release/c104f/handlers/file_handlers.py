@@ -44,6 +44,8 @@ def server_file_receive_handler(server, type, data_dict: dict):
                 if cot == c104.Cot.FILE_TRANSFER:
                     # file section select here
                     sv_select_section_handler(zero_point, ioa, nof, nos)
+            elif scq.isDeleteFile():
+                pass
 
 
 

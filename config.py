@@ -6,6 +6,10 @@ protocol_fieldnames = (
     "message_timeout",
     "confirm_interval",
     "keep_alive_interval",
+    # add file send settings here
+    # add k_window and s_window size
+    # self.protocol_parameters.send_window_size = 1
+    # self.protocol_parameters.receive_window_size = 1
 )
 PROTOCOL_CONFIG = namedtuple(typename="protocol_config",
                              field_names=protocol_fieldnames)
@@ -16,12 +20,14 @@ PROTOCOL_CONFIG.confirm_interval = 10
 PROTOCOL_CONFIG.keep_alive_interval = 20
 
 
+# need custom config or by user only
 SERVERS = [
     ("10.10.17.105", 2404, 10) # ip , port, max_connections
 ]
 
 BASE_DIR = os.path.abspath(os.path.dirname(__file__))
 
+# better add user only
 FILES_FOLDER = "files"
 SERVER_FOLDER = "server_side"
 CLIENT_FOLDER = "client_side"
@@ -31,4 +37,5 @@ CLIENT_DIR = os.path.join(FILES_DIR, CLIENT_FOLDER)
 
 SEGMENT_SIZE = 230
 SECTION_SIZE = 10000
+MAX_FILES_ROTATION = 10
 

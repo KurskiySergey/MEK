@@ -1,5 +1,7 @@
 import numpy as np
 import c104
+from config import SERVER_DIR
+import os
 
 def signal_function(size, mean, ampl = 50, std = 20, T = 1000):
     x = np.linspace(start=0, stop=size, num=size)
@@ -52,11 +54,11 @@ def array_to_int(data):
     return value
 
 def get_file_id(filename):
-    file_enc = int.from_bytes(filename.encode("utf-8"), byteorder="big")
-    file_len = len(filename)
-    enc_id = ((file_enc // file_len) % 2**16) % file_len
-    file_id = enc_id + file_len
-    return file_id
+    files = os.listdir(SERVER_DIR)
+    for file_id, sv_filename in enumerate(files):
+        if filename == sv_filename:
+            return file_id
+    return -1
 
 def get_elements_data(elements:str):
     return elements.split(" ")[:-1]

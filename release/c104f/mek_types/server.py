@@ -1,7 +1,7 @@
 import time
 
-from c104f.config import PROTOCOL_CONFIG, SERVER_DIR, FILES_DIR
-from c104f.handlers.server_handlers import server_file_send_handler
+from c104f.config import PROTOCOL_CONFIG, SERVER_DIR, FILES_DIR, MAX_FILES_ROTATION
+from c104f.handlers.server_handlers import server_file_send_handler, sv_on_recieve_raw
 import c104
 import os
 import typing
@@ -21,6 +21,14 @@ class MEKServer(c104.Server):
         # file_id: open file,  selected section data, if exists then file is transmiting and active
         # on close need ro be removed
 
+    def on_receive_raw(self, call: typing.Any = None)->None:
+        if call is None:
+            super().on_receive_raw(callable=sv_on_recieve_raw)
+        else:
+            super().on_receive_raw(callable=call)
+            super().on_receive_raw(callable=sv_on_recieve_raw)
+            
+
     def __check_dir(self):
         if not os.path.exists(SERVER_DIR):
             try:
@@ -31,9 +39,27 @@ class MEKServer(c104.Server):
             print("creating server folder")
             os.mkdir(SERVER_DIR)
 
+    def __rotate_files(self):
+        files = os.listdir(SERVER_DIR)
+        if len(files) >= MAX_FILES_ROTATION:
+            last_ctime = None
+            remove_filename = None
+            for file in files:
+                file_path = os.path.join(SERVER_DIR, file)
+                ctime = os.path.getctime(file_path)
+                if last_ctime is None:
+                    last_ctime = ctime
+                else:
+                    if ctime < last_ctime:
+                        last_ctime = ctime
+                        remove_filename = file_path
+            os.remove(remove_filename)
+
+
     def save_data(self, filename, file_data: bytes):
         file_path = os.path.join(SERVER_DIR, filename)
         self.__check_dir()
+        self.__rotate_files()
         if not os.path.exists(file_path):
             with open(file_path, 'wb') as w_file:
                 w_file.write(file_data)
@@ -43,10 +69,8 @@ class MEKServer(c104.Server):
     def send_file(self, filename, station_id = 1):
         file_path = os.path.join(SERVER_DIR, filename)
         self.__check_dir()
-
         if os.path.exists(file_path):
             server_file_send_handler(self, filename, station_id)
-            pass
 
     def set_files_timeout(self, ms):
         self.files_timeout = ms
